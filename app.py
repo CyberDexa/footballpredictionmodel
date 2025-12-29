@@ -23,6 +23,8 @@ from src.openfootball_fetcher import OpenFootballFetcher
 from src.feature_engineering import FeatureEngineer
 from src.models import EPLPredictor
 from src.upcoming_fixtures import UpcomingFixturesFetcher, FixturesManager
+from src.database import get_database
+from src.value_bets import get_value_calculator
 
 # Page configuration
 st.set_page_config(
@@ -152,6 +154,8 @@ class FootballPredictorApp:
         self.predictor = EPLPredictor(models_dir="models")
         self.fixtures_fetcher = UpcomingFixturesFetcher()
         self.fixtures_manager = FixturesManager()
+        self.db = get_database()
+        self.value_calculator = get_value_calculator()
     
     def check_auto_refresh(self, league: str, max_age_days: int = 7):
         """Check if data needs auto-refresh and refresh if needed."""
@@ -407,7 +411,7 @@ class FootballPredictorApp:
             st.info("📥 Click 'Refresh Data' in the sidebar to fetch match data.")
         
         # Tabs for different functionality
-        tab1, tab2, tab3 = st.tabs(["🔮 Predict Match", "📅 Upcoming Matches", "📊 Stats"])
+        tab1, tab2, tab3, tab4 = st.tabs(["🔮 Predict Match", "📅 Upcoming Matches", "📊 Stats", "📈 Track Record"])
         
         with tab1:
             self.render_prediction_tab(league)
@@ -417,6 +421,9 @@ class FootballPredictorApp:
         
         with tab3:
             self.render_stats_tab(league)
+        
+        with tab4:
+            self.render_accuracy_tab(league)
     
     def render_prediction_tab(self, league: str):
         """Render the prediction selection tab"""
@@ -683,17 +690,69 @@ class FootballPredictorApp:
         with col3:
             st.metric("4+ Goals", f"{goals_4p:.1f}%")
         
+        # ========== VALUE BETS ==========
+        st.markdown("### 💰 Value Bet Analysis")
+        
+        # Analyze value
+        value_analysis = self.value_calculator.analyze_value(predictions)
+        best_value = self.value_calculator.get_best_value_bets(value_analysis, top_n=3)
+        
+        if best_value:
+            st.markdown("**🎯 Potential Value Bets** (Edge vs typical market odds)")
+            
+            cols = st.columns(len(best_value))
+            for i, (market, details) in enumerate(best_value):
+                market_name = self.value_calculator.format_market_name(market)
+                with cols[i]:
+                    st.markdown(f"""
+                    <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); 
+                                padding: 1rem; border-radius: 10px; color: white; text-align: center;">
+                        <h4 style="margin:0; font-size:0.9rem;">{market_name}</h4>
+                        <h2 style="margin:0.5rem 0;">+{details['edge']:.1f}%</h2>
+                        <p style="margin:0; font-size:0.8rem; opacity:0.9;">
+                            Our: {details['model_prob']:.0f}% vs Market: {details['market_prob']:.0f}%
+                        </p>
+                        <p style="margin:0.3rem 0 0 0; font-size:0.8rem;">
+                            📊 Odds: {details['decimal_odds']:.2f}
+                        </p>
+                    </div>
+                    """, unsafe_allow_html=True)
+        else:
+            st.info("📊 No significant value detected vs typical market odds for this match.")
+        
         # ========== SUMMARY ==========
         st.markdown("### 💡 Prediction Summary")
         
         result_pred = match_pred.get('prediction', ['Draw'])[0] if match_pred else 'Draw'
         confidence = match_pred.get('confidence', [0.5])[0] * 100 if match_pred else 50.0
         
+        # Calculate overall confidence
+        overall_confidence = max(home_prob, draw_prob, away_prob) * 100
+        
         goals_pred = "Over 2.5 Goals" if over25_prob > 50 else "Under 2.5 Goals"
         btts_pred_text = "Yes" if btts_yes > 50 else "No"
         
+        # Confidence badge
+        if overall_confidence >= 60:
+            confidence_badge = "🟢 HIGH CONFIDENCE"
+            confidence_color = "green"
+        elif overall_confidence >= 50:
+            confidence_badge = "🟡 MEDIUM CONFIDENCE"
+            confidence_color = "orange"
+        else:
+            confidence_badge = "🔴 LOW CONFIDENCE"
+            confidence_color = "red"
+        
+        st.markdown(f"""
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+                    padding: 1rem; border-radius: 10px; color: white; margin-bottom: 1rem;">
+            <h4 style="margin:0;">Confidence Level: {confidence_badge}</h4>
+            <p style="margin:0.5rem 0 0 0; opacity: 0.9;">Model confidence: {overall_confidence:.1f}%</p>
+        </div>
+        """, unsafe_allow_html=True)
+        
         st.success(f"""
-        **🏆 Match Outcome:** {result_pred} (Confidence: {confidence:.1f}%)
+        **🏆 Match Outcome:** {result_pred} (Confidence: {overall_confidence:.1f}%)
         
         **⚽ Goals:** {goals_pred} ({over25_prob:.1f}%)
         
@@ -706,6 +765,34 @@ class FootballPredictorApp:
         
         # Disclaimer
         st.caption("⚠️ These predictions are for informational purposes only. Past performance does not guarantee future results.")
+        
+        # Save prediction to database
+        try:
+            prediction_data = {
+                'league': league,
+                'home_team': home_team,
+                'away_team': away_team,
+                'home_win_prob': home_prob,
+                'draw_prob': draw_prob,
+                'away_win_prob': away_prob,
+                'over_1_5_prob': over15_prob / 100,
+                'over_2_5_prob': over25_prob / 100,
+                'over_3_5_prob': over35_prob / 100,
+                'btts_prob': btts_yes / 100,
+                'home_over_0_5_prob': home_o05 / 100,
+                'home_over_1_5_prob': home_o15 / 100,
+                'away_over_0_5_prob': away_o05 / 100,
+                'away_over_1_5_prob': away_o15 / 100,
+                'ht_over_0_5_prob': ht_o05 / 100,
+                'ht_over_1_5_prob': ht_o15 / 100,
+                'goals_0_1_prob': goals_01 / 100,
+                'goals_2_3_prob': goals_23 / 100,
+                'goals_4_plus_prob': goals_4p / 100,
+            }
+            prediction_id = self.db.save_prediction(prediction_data)
+            st.caption(f"📝 Prediction saved (ID: {prediction_id})")
+        except Exception as e:
+            pass  # Silently fail if DB save fails
     
     def render_upcoming_matches_tab(self, league: str):
         """Render the upcoming matches tab with auto-predictions"""
@@ -795,6 +882,213 @@ class FootballPredictorApp:
         except Exception as e:
             st.warning(f"Could not load statistics: {e}")
             st.info("Click 'Refresh Data' in the sidebar to fetch match data.")
+    
+    def render_accuracy_tab(self, league: str):
+        """Render the prediction accuracy tracking tab"""
+        st.markdown("### 📈 Prediction Track Record")
+        st.markdown("View our prediction accuracy and performance metrics")
+        
+        # Get overall stats
+        total_stats = self.db.get_total_stats()
+        accuracy_stats = self.db.get_accuracy_stats(league=league)
+        
+        # Header metrics
+        col1, col2, col3, col4 = st.columns(4)
+        
+        with col1:
+            st.metric(
+                "📊 Total Predictions",
+                total_stats['total_predictions'],
+                help="Total predictions made"
+            )
+        
+        with col2:
+            st.metric(
+                "✅ Verified Results",
+                total_stats['verified'],
+                help="Predictions with known outcomes"
+            )
+        
+        with col3:
+            st.metric(
+                "🎯 Correct Predictions",
+                total_stats['correct'],
+                help="Number of correct match result predictions"
+            )
+        
+        with col4:
+            accuracy = total_stats['accuracy'] if total_stats['verified'] > 0 else 0
+            st.metric(
+                "📈 Overall Accuracy",
+                f"{accuracy:.1f}%",
+                help="Match result prediction accuracy"
+            )
+        
+        st.divider()
+        
+        # Accuracy by market
+        st.markdown("#### 🎯 Accuracy by Market")
+        
+        if accuracy_stats['total_predictions'] > 0:
+            col1, col2, col3 = st.columns(3)
+            
+            with col1:
+                st.markdown("""
+                <div class="stat-card">
+                    <h4>🏆 Match Result</h4>
+                    <h2>{:.1f}%</h2>
+                    <p>Win/Draw/Loss predictions</p>
+                </div>
+                """.format(accuracy_stats['result_accuracy']), unsafe_allow_html=True)
+            
+            with col2:
+                st.markdown("""
+                <div class="stat-card">
+                    <h4>⚽ Over 2.5 Goals</h4>
+                    <h2>{:.1f}%</h2>
+                    <p>Goals predictions</p>
+                </div>
+                """.format(accuracy_stats['over_2_5_accuracy']), unsafe_allow_html=True)
+            
+            with col3:
+                st.markdown("""
+                <div class="stat-card">
+                    <h4>🔄 BTTS</h4>
+                    <h2>{:.1f}%</h2>
+                    <p>Both teams to score</p>
+                </div>
+                """.format(accuracy_stats['btts_accuracy']), unsafe_allow_html=True)
+        else:
+            st.info("📭 No verified predictions yet. Start making predictions and check back after matches are played!")
+        
+        st.divider()
+        
+        # Accuracy by confidence tier
+        st.markdown("#### 📊 Accuracy by Confidence Level")
+        
+        confidence_tiers = self.db.get_predictions_by_confidence_tier()
+        
+        if any(t['total'] > 0 for t in confidence_tiers):
+            tier_data = pd.DataFrame(confidence_tiers)
+            
+            col1, col2 = st.columns([2, 1])
+            
+            with col1:
+                # Create a simple bar chart
+                chart_data = tier_data[tier_data['total'] > 0][['tier', 'accuracy']].set_index('tier')
+                st.bar_chart(chart_data)
+            
+            with col2:
+                st.markdown("**Performance by Tier**")
+                for tier in confidence_tiers:
+                    if tier['total'] > 0:
+                        emoji = "🟢" if tier['accuracy'] >= 55 else "🟡" if tier['accuracy'] >= 45 else "🔴"
+                        st.markdown(f"{emoji} **{tier['tier']}**: {tier['accuracy']:.1f}% ({tier['correct']}/{tier['total']})")
+        else:
+            st.info("Make predictions to see accuracy by confidence level")
+        
+        st.divider()
+        
+        # League performance comparison
+        st.markdown("#### 🌍 Performance by League")
+        
+        league_perf = self.db.get_league_performance()
+        
+        if league_perf:
+            league_df = pd.DataFrame(league_perf)
+            st.dataframe(
+                league_df,
+                column_config={
+                    "league": "League",
+                    "total": st.column_config.NumberColumn("Predictions"),
+                    "correct": st.column_config.NumberColumn("Correct"),
+                    "accuracy": st.column_config.NumberColumn("Accuracy %", format="%.1f%%"),
+                    "avg_confidence": st.column_config.NumberColumn("Avg Confidence %", format="%.1f%%")
+                },
+                hide_index=True,
+                use_container_width=True
+            )
+        else:
+            st.info("No league performance data yet")
+        
+        st.divider()
+        
+        # High confidence predictions performance
+        st.markdown("#### 🎯 High Confidence Predictions (>60%)")
+        
+        high_conf = self.db.get_high_confidence_accuracy(min_confidence=0.6)
+        
+        if high_conf['total'] > 0:
+            col1, col2, col3 = st.columns(3)
+            
+            with col1:
+                st.metric("Total High-Confidence", high_conf['total'])
+            with col2:
+                st.metric("Correct", high_conf['correct'])
+            with col3:
+                st.metric("Accuracy", f"{high_conf['accuracy']:.1f}%")
+            
+            if high_conf['accuracy'] >= 55:
+                st.success(f"✅ High confidence predictions are performing above baseline ({high_conf['accuracy']:.1f}% vs 33% random)")
+            else:
+                st.warning(f"⚠️ Model needs more training data for better high-confidence predictions")
+        else:
+            st.info("No high-confidence predictions verified yet")
+        
+        st.divider()
+        
+        # Recent predictions
+        st.markdown("#### 📋 Recent Predictions")
+        
+        recent = self.db.get_recent_predictions(limit=20, league=league)
+        
+        if recent:
+            recent_df = pd.DataFrame(recent)
+            
+            # Format for display
+            display_cols = ['created_at', 'home_team', 'away_team', 'predicted_result', 
+                           'result_confidence', 'actual_result', 'result_correct']
+            
+            available_cols = [c for c in display_cols if c in recent_df.columns]
+            display_df = recent_df[available_cols].copy()
+            
+            # Rename columns
+            col_names = {
+                'created_at': 'Date',
+                'home_team': 'Home',
+                'away_team': 'Away',
+                'predicted_result': 'Prediction',
+                'result_confidence': 'Confidence',
+                'actual_result': 'Actual',
+                'result_correct': 'Correct'
+            }
+            display_df = display_df.rename(columns=col_names)
+            
+            # Format confidence as percentage
+            if 'Confidence' in display_df.columns:
+                display_df['Confidence'] = display_df['Confidence'].apply(
+                    lambda x: f"{x*100:.0f}%" if pd.notna(x) else "-"
+                )
+            
+            # Format correct column
+            if 'Correct' in display_df.columns:
+                display_df['Correct'] = display_df['Correct'].apply(
+                    lambda x: "✅" if x == True else "❌" if x == False else "⏳"
+                )
+            
+            st.dataframe(display_df, hide_index=True, use_container_width=True)
+        else:
+            st.info("No predictions made yet. Start predicting matches to build your track record!")
+        
+        # Tips for users
+        st.divider()
+        st.markdown("#### 💡 Tips")
+        st.markdown("""
+        - **Higher confidence = better accuracy**: Focus on predictions above 60%
+        - **Track record matters**: We log every prediction for transparency
+        - **Verified results**: Results are verified after matches are played
+        - **Multiple markets**: Don't rely on just match result - check goals and BTTS too
+        """)
     
     def run(self):
         """Run the application"""
