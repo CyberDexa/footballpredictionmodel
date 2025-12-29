@@ -85,12 +85,6 @@ st.markdown("""
     .stProgress > div > div > div > div {
         background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
     }
-    div[data-testid="stMetric"] {
-        background-color: #f8f9fa;
-        padding: 1rem;
-        border-radius: 10px;
-        border: 1px solid #e9ecef;
-    }
     .api-key-box {
         background: #fff3cd;
         border: 1px solid #ffc107;
