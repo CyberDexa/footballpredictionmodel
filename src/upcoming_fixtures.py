@@ -48,6 +48,24 @@ class UpcomingFixturesFetcher:
             'User-Agent': 'FootballPredictionModel/1.0'
         })
     
+    def normalize_team_name(self, name: str) -> str:
+        """
+        Normalize team name to match historical data format.
+        OpenFootball uses 'Arsenal FC' but historical data uses 'Arsenal'.
+        """
+        if not name:
+            return name
+        
+        # Remove common suffixes
+        suffixes = [' FC', ' AFC', ' SC', ' CF', ' AC']
+        result = name
+        for suffix in suffixes:
+            if result.endswith(suffix):
+                result = result[:-len(suffix)]
+                break
+        
+        return result.strip()
+    
     def get_current_season(self) -> str:
         """Get current season string (e.g., '2025-26')"""
         today = datetime.now()
@@ -114,6 +132,10 @@ class UpcomingFixturesFetcher:
                         home_team = team1 if isinstance(team1, str) else team1.get('name', 'Unknown')
                         away_team = team2 if isinstance(team2, str) else team2.get('name', 'Unknown')
                         
+                        # Normalize team names to match historical data
+                        home_team = self.normalize_team_name(home_team)
+                        away_team = self.normalize_team_name(away_team)
+                        
                         fixtures.append({
                             'Date': match_date_str,
                             'Round': match.get('round', 'Unknown Round'),
@@ -148,6 +170,10 @@ class UpcomingFixturesFetcher:
                             team2 = match.get('team2')
                             home_team = team1 if isinstance(team1, str) else team1.get('name', 'Unknown')
                             away_team = team2 if isinstance(team2, str) else team2.get('name', 'Unknown')
+                            
+                            # Normalize team names to match historical data
+                            home_team = self.normalize_team_name(home_team)
+                            away_team = self.normalize_team_name(away_team)
                             
                             fixtures.append({
                                 'Date': match_date_str,
