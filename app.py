@@ -15,6 +15,7 @@ import numpy as np
 import sys
 import os
 from datetime import datetime, timedelta
+from typing import Tuple
 
 # Add src to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
@@ -25,6 +26,8 @@ from src.models import EPLPredictor
 from src.upcoming_fixtures import UpcomingFixturesFetcher, FixturesManager
 from src.database import get_database
 from src.value_bets import get_value_calculator
+from src.auth import get_auth_manager
+from src.payments import get_payment_manager
 
 # Page configuration
 st.set_page_config(
@@ -148,6 +151,14 @@ class FootballPredictorApp:
         if 'active_tab' not in st.session_state:
             st.session_state.active_tab = "predict"
         
+        # Auth session state
+        if 'session_token' not in st.session_state:
+            st.session_state.session_token = None
+        if 'user' not in st.session_state:
+            st.session_state.user = None
+        if 'auth_mode' not in st.session_state:
+            st.session_state.auth_mode = 'login'  # 'login' or 'register'
+        
         # Initialize fetcher (no API key needed for OpenFootball!)
         self.fetcher = OpenFootballFetcher(data_dir="data")
         self.engineer = FeatureEngineer(n_last_matches=5)
@@ -156,6 +167,8 @@ class FootballPredictorApp:
         self.fixtures_manager = FixturesManager()
         self.db = get_database()
         self.value_calculator = get_value_calculator()
+        self.auth = get_auth_manager()
+        self.payments = get_payment_manager()
     
     def check_auto_refresh(self, league: str, max_age_days: int = 7):
         """Check if data needs auto-refresh and refresh if needed."""
@@ -250,6 +263,11 @@ class FootballPredictorApp:
     def render_sidebar(self):
         """Render the sidebar"""
         with st.sidebar:
+            # User menu at top
+            self.render_user_menu()
+            
+            st.divider()
+            
             st.markdown("## ⚙️ Settings")
             
             # Data source info
@@ -264,10 +282,25 @@ class FootballPredictorApp:
             
             st.divider()
             
-            # League selection
+            # League selection - filter by user access
             leagues = self.fetcher.get_available_leagues()
+            
+            # Filter leagues based on user tier
+            accessible_leagues = {
+                code: info for code, info in leagues.items() 
+                if self.check_league_access(code)
+            }
+            
+            if not accessible_leagues:
+                accessible_leagues = {'EPL': leagues['EPL']}  # Fallback to EPL
+            
             league_options = {f"{info['flag']} {info['name']}": code 
-                           for code, info in leagues.items()}
+                           for code, info in accessible_leagues.items()}
+            
+            # Show upgrade hint if limited leagues
+            if len(accessible_leagues) < len(leagues):
+                st.caption(f"📊 {len(accessible_leagues)}/{len(leagues)} leagues available")
+                st.caption("💎 Upgrade for all leagues")
             
             selected_display = st.selectbox(
                 "🏆 Select League",
@@ -504,7 +537,14 @@ class FootballPredictorApp:
             )
         
         if predict_clicked:
-            self.render_prediction(league, home_team, away_team)
+            # Check prediction limit
+            can_predict, limit_msg = self.check_prediction_limit()
+            if not can_predict:
+                st.warning(f"⚠️ {limit_msg}")
+                st.info("💎 Upgrade your plan for more predictions!")
+            else:
+                self.render_prediction(league, home_team, away_team)
+                self.record_prediction_usage()
     
     def render_prediction(self, league: str, home_team: str, away_team: str):
         """Render the prediction results with all 17 prediction targets"""
@@ -834,7 +874,12 @@ class FootballPredictorApp:
                     
                     # Get prediction for this fixture
                     if st.button(f"🔮 Predict", key=f"pred_{home_team}_{away_team}_{idx}"):
-                        self.render_prediction(league, home_team, away_team)
+                        can_predict, limit_msg = self.check_prediction_limit()
+                        if not can_predict:
+                            st.warning(f"⚠️ {limit_msg}")
+                        else:
+                            self.render_prediction(league, home_team, away_team)
+                            self.record_prediction_usage()
         
         except Exception as e:
             st.warning(f"Could not load upcoming fixtures: {e}")
@@ -1090,8 +1135,207 @@ class FootballPredictorApp:
         - **Multiple markets**: Don't rely on just match result - check goals and BTTS too
         """)
     
+    def render_auth_page(self):
+        """Render the authentication page (login/register)"""
+        st.markdown('<h1 class="main-header">⚽ Football Match Predictor</h1>', unsafe_allow_html=True)
+        st.markdown('<p class="sub-header">AI-powered predictions using real football data</p>', unsafe_allow_html=True)
+        
+        col1, col2, col3 = st.columns([1, 2, 1])
+        
+        with col2:
+            # Auth mode tabs
+            tab1, tab2 = st.tabs(["🔐 Login", "📝 Register"])
+            
+            with tab1:
+                st.markdown("### Welcome Back!")
+                
+                login_email = st.text_input("Email", key="login_email", placeholder="your@email.com")
+                login_password = st.text_input("Password", type="password", key="login_password")
+                
+                if st.button("🔐 Login", type="primary", use_container_width=True):
+                    if login_email and login_password:
+                        success, message, token = self.auth.login(login_email, login_password)
+                        if success:
+                            st.session_state.session_token = token
+                            user = self.auth.validate_session(token)
+                            st.session_state.user = user
+                            st.success(message)
+                            st.rerun()
+                        else:
+                            st.error(message)
+                    else:
+                        st.warning("Please enter email and password")
+                
+                st.markdown("---")
+                st.markdown("**Or continue as guest** (limited to 3 predictions/day, EPL only)")
+                
+                if st.button("👤 Continue as Guest", use_container_width=True):
+                    # Create a guest session
+                    st.session_state.user = {
+                        'id': None,
+                        'email': 'guest',
+                        'subscription_tier': 'free',
+                        'tier_info': self.auth.SUBSCRIPTION_TIERS['free'],
+                        'predictions_today': 0,
+                        'is_guest': True
+                    }
+                    st.rerun()
+            
+            with tab2:
+                st.markdown("### Create Your Account")
+                st.markdown("Get started with **3 free predictions per day**!")
+                
+                reg_email = st.text_input("Email", key="reg_email", placeholder="your@email.com")
+                reg_password = st.text_input("Password", type="password", key="reg_password", 
+                                            help="Min 8 chars, 1 uppercase, 1 lowercase, 1 number")
+                reg_password2 = st.text_input("Confirm Password", type="password", key="reg_password2")
+                
+                if st.button("📝 Create Account", type="primary", use_container_width=True):
+                    if not reg_email or not reg_password:
+                        st.warning("Please fill in all fields")
+                    elif reg_password != reg_password2:
+                        st.error("Passwords do not match")
+                    else:
+                        success, message, user_id = self.auth.register(reg_email, reg_password)
+                        if success:
+                            st.success(message)
+                            # Auto-login after registration
+                            success, _, token = self.auth.login(reg_email, reg_password)
+                            if success:
+                                st.session_state.session_token = token
+                                st.session_state.user = self.auth.validate_session(token)
+                                st.rerun()
+                        else:
+                            st.error(message)
+            
+            # Pricing info
+            st.markdown("---")
+            st.markdown("### 💎 Upgrade for More")
+            
+            pricing = self.payments.get_pricing_display()
+            
+            cols = st.columns(3)
+            for i, (tier, info) in enumerate(pricing.items()):
+                with cols[i]:
+                    popular_badge = "⭐ POPULAR" if info.get('popular') else ""
+                    st.markdown(f"""
+                    <div style="background: {'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' if info.get('popular') else '#f8f9fa'}; 
+                                padding: 1rem; border-radius: 10px; text-align: center;
+                                color: {'white' if info.get('popular') else 'black'};">
+                        <small>{popular_badge}</small>
+                        <h4 style="margin:0;">{info['name']}</h4>
+                        <h2 style="margin:0.5rem 0;">${info['monthly']}/mo</h2>
+                        <small>or ${info['yearly']}/year (save {info['savings']}%)</small>
+                    </div>
+                    """, unsafe_allow_html=True)
+    
+    def render_user_menu(self):
+        """Render user menu in sidebar"""
+        user = st.session_state.user
+        
+        if user:
+            tier = user.get('subscription_tier', 'free')
+            tier_info = user.get('tier_info', self.auth.SUBSCRIPTION_TIERS['free'])
+            
+            st.markdown("### 👤 Account")
+            
+            if user.get('is_guest'):
+                st.info("👤 Guest Mode")
+                st.caption("Limited features")
+                if st.button("🔐 Login / Register", use_container_width=True):
+                    st.session_state.user = None
+                    st.rerun()
+            else:
+                st.markdown(f"**{user['email'][:20]}...**" if len(user.get('email', '')) > 20 else f"**{user.get('email', '')}**")
+                
+                # Tier badge
+                tier_colors = {
+                    'free': '🆓', 'basic': '🥉', 'pro': '🥈', 'unlimited': '🥇'
+                }
+                st.markdown(f"{tier_colors.get(tier, '🆓')} **{tier_info['name']}** Plan")
+                
+                # Usage
+                can_predict, msg, remaining = self.auth.can_make_prediction(user['id'])
+                if remaining == -1:
+                    st.caption("♾️ Unlimited predictions")
+                else:
+                    st.caption(f"📊 {remaining} predictions left today")
+                    st.progress(remaining / tier_info['predictions_per_day'])
+                
+                # Upgrade button (if not unlimited)
+                if tier != 'unlimited':
+                    if st.button("💎 Upgrade Plan", use_container_width=True):
+                        st.session_state.show_pricing = True
+                
+                st.divider()
+                
+                if st.button("🚪 Logout", use_container_width=True):
+                    if st.session_state.session_token:
+                        self.auth.logout(st.session_state.session_token)
+                    st.session_state.session_token = None
+                    st.session_state.user = None
+                    st.rerun()
+    
+    def check_prediction_limit(self) -> Tuple[bool, str]:
+        """Check if user can make a prediction"""
+        user = st.session_state.user
+        
+        if not user:
+            return False, "Please login to make predictions"
+        
+        if user.get('is_guest'):
+            # Track guest predictions in session
+            guest_predictions = st.session_state.get('guest_predictions', 0)
+            if guest_predictions >= 3:
+                return False, "Guest limit reached (3/day). Please register for more!"
+            return True, f"{3 - guest_predictions} predictions remaining"
+        
+        # Logged in user
+        can_predict, msg, remaining = self.auth.can_make_prediction(user['id'])
+        return can_predict, msg
+    
+    def record_prediction_usage(self):
+        """Record that a prediction was made"""
+        user = st.session_state.user
+        
+        if not user:
+            return
+        
+        if user.get('is_guest'):
+            st.session_state.guest_predictions = st.session_state.get('guest_predictions', 0) + 1
+        else:
+            self.auth.record_prediction(user['id'])
+    
+    def check_league_access(self, league: str) -> bool:
+        """Check if user can access a league"""
+        user = st.session_state.user
+        
+        if not user:
+            return league == 'EPL'  # Guests only get EPL
+        
+        if user.get('is_guest'):
+            return league == 'EPL'
+        
+        return self.auth.can_access_league(user['id'], league)
+    
     def run(self):
         """Run the application"""
+        # Check for valid session
+        if st.session_state.session_token:
+            user = self.auth.validate_session(st.session_state.session_token)
+            if user:
+                st.session_state.user = user
+            else:
+                # Session expired
+                st.session_state.session_token = None
+                st.session_state.user = None
+        
+        # Show auth page if not logged in
+        if not st.session_state.user:
+            self.render_auth_page()
+            return
+        
+        # Normal app flow
         league = self.render_sidebar()
         self.render_main_content(league)
 
