@@ -1,0 +1,737 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,Season,League,Round
+2025-08-08,Birmingham City,Ipswich Town,1,1,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 1
+2025-08-09,Charlton Athletic,Watford,1,0,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 1
+2025-08-09,Coventry City,Hull City,0,0,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 1
+2025-08-09,Southampton,Wrexham,2,1,H,0,1,A,2025-26,CHAMPIONSHIP,Matchday 1
+2025-08-09,Middlesbrough,Swansea City,1,0,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 1
+2025-08-09,Norwich City,Millwall,1,2,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 1
+2025-08-09,Oxford United,Portsmouth,0,1,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 1
+2025-08-09,Queens Park Rangers,Preston North End,1,1,D,1,0,H,2025-26,CHAMPIONSHIP,Matchday 1
+2025-08-09,Stoke City,Derby County,3,1,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 1
+2025-08-09,West Bromwich Albion,Blackburn Rovers,1,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 1
+2025-08-09,Sheffield United,Bristol City,1,4,A,1,2,A,2025-26,CHAMPIONSHIP,Matchday 1
+2025-08-10,Leicester City,Sheffield Wednesday,2,1,H,0,1,A,2025-26,CHAMPIONSHIP,Matchday 1
+2025-08-16,Derby County,Coventry City,3,5,A,2,2,D,2025-26,CHAMPIONSHIP,Matchday 2
+2025-08-16,Portsmouth,Norwich City,1,2,A,0,2,A,2025-26,CHAMPIONSHIP,Matchday 2
+2025-08-16,Wrexham,West Bromwich Albion,2,3,A,1,1,D,2025-26,CHAMPIONSHIP,Matchday 2
+2025-08-16,Blackburn Rovers,Birmingham City,1,2,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 2
+2025-08-16,Bristol City,Charlton Athletic,0,0,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 2
+2025-08-16,Millwall,Middlesbrough,0,3,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 2
+2025-08-16,Preston North End,Leicester City,2,1,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 2
+2025-08-16,Sheffield Wednesday,Stoke City,0,3,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 2
+2025-08-16,Swansea City,Sheffield United,1,0,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 2
+2025-08-16,Watford,Queens Park Rangers,2,1,H,2,1,H,2025-26,CHAMPIONSHIP,Matchday 2
+2025-08-17,Ipswich Town,Southampton,1,1,D,1,1,D,2025-26,CHAMPIONSHIP,Matchday 2
+2025-08-17,Hull City,Oxford United,3,2,H,2,2,D,2025-26,CHAMPIONSHIP,Matchday 2
+2025-08-22,Derby County,Bristol City,1,1,D,0,1,A,2025-26,CHAMPIONSHIP,Matchday 3
+2025-08-23,Charlton Athletic,Leicester City,0,1,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 3
+2025-08-23,Hull City,Blackburn Rovers,0,3,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 3
+2025-08-23,Swansea City,Watford,1,1,D,0,1,A,2025-26,CHAMPIONSHIP,Matchday 3
+2025-08-23,Birmingham City,Oxford United,1,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 3
+2025-08-23,Coventry City,Queens Park Rangers,7,1,H,5,0,H,2025-26,CHAMPIONSHIP,Matchday 3
+2025-08-23,Norwich City,Middlesbrough,1,2,A,0,2,A,2025-26,CHAMPIONSHIP,Matchday 3
+2025-08-23,Preston North End,Ipswich Town,1,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 3
+2025-08-23,Sheffield United,Millwall,0,1,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 3
+2025-08-23,Southampton,Stoke City,1,2,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 3
+2025-08-23,West Bromwich Albion,Portsmouth,1,1,D,1,0,H,2025-26,CHAMPIONSHIP,Matchday 3
+2025-08-23,Wrexham,Sheffield Wednesday,2,2,D,2,0,H,2025-26,CHAMPIONSHIP,Matchday 3
+2025-08-29,Leicester City,Birmingham City,2,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 4
+2025-08-30,Middlesbrough,Sheffield United,1,0,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 4
+2025-08-30,Queens Park Rangers,Charlton Athletic,3,1,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 4
+2025-08-30,Stoke City,West Bromwich Albion,0,1,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 4
+2025-08-30,Blackburn Rovers,Norwich City,0,2,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 4
+2025-08-30,Bristol City,Hull City,4,2,H,3,1,H,2025-26,CHAMPIONSHIP,Matchday 4
+2025-08-30,Ipswich Town,Derby County,2,2,D,1,0,H,2025-26,CHAMPIONSHIP,Matchday 4
+2025-08-30,Millwall,Wrexham,0,2,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 4
+2025-08-30,Oxford United,Coventry City,2,2,D,1,2,A,2025-26,CHAMPIONSHIP,Matchday 4
+2025-08-30,Portsmouth,Preston North End,1,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 4
+2025-08-30,Sheffield Wednesday,Swansea City,0,2,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 4
+2025-08-30,Watford,Southampton,2,2,D,0,1,A,2025-26,CHAMPIONSHIP,Matchday 4
+2025-09-12,Ipswich Town,Sheffield United,5,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 5
+2025-09-13,Charlton Athletic,Millwall,1,1,D,1,0,H,2025-26,CHAMPIONSHIP,Matchday 5
+2025-09-13,Oxford United,Leicester City,2,2,D,2,1,H,2025-26,CHAMPIONSHIP,Matchday 5
+2025-09-13,Preston North End,Middlesbrough,2,2,D,1,0,H,2025-26,CHAMPIONSHIP,Matchday 5
+2025-09-13,Coventry City,Norwich City,1,1,D,0,1,A,2025-26,CHAMPIONSHIP,Matchday 5
+2025-09-13,Sheffield Wednesday,Bristol City,0,3,A,0,3,A,2025-26,CHAMPIONSHIP,Matchday 5
+2025-09-13,Stoke City,Birmingham City,1,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 5
+2025-09-13,Swansea City,Hull City,2,2,D,1,1,D,2025-26,CHAMPIONSHIP,Matchday 5
+2025-09-13,Watford,Blackburn Rovers,0,1,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 5
+2025-09-13,West Bromwich Albion,Derby County,0,1,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 5
+2025-09-13,Wrexham,Queens Park Rangers,1,3,A,0,2,A,2025-26,CHAMPIONSHIP,Matchday 5
+2025-09-14,Southampton,Portsmouth,0,0,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 5
+2025-09-19,Middlesbrough,West Bromwich Albion,2,1,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 6
+2025-09-20,Birmingham City,Swansea City,1,0,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 6
+2025-09-20,Leicester City,Coventry City,0,0,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 6
+2025-09-20,Queens Park Rangers,Stoke City,1,0,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 6
+2025-09-20,Derby County,Preston North End,0,1,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 6
+2025-09-20,Hull City,Southampton,3,1,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 6
+2025-09-20,Norwich City,Wrexham,2,3,A,1,0,H,2025-26,CHAMPIONSHIP,Matchday 6
+2025-09-20,Portsmouth,Sheffield Wednesday,0,2,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 6
+2025-09-20,Sheffield United,Charlton Athletic,0,1,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 6
+2025-09-21,Bristol City,Oxford United,1,3,A,0,2,A,2025-26,CHAMPIONSHIP,Matchday 6
+2025-09-22,Millwall,Watford,1,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 6
+2025-09-26,West Bromwich Albion,Leicester City,1,1,D,1,0,H,2025-26,CHAMPIONSHIP,Matchday 7
+2025-09-27,Coventry City,Birmingham City,3,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 7
+2025-09-27,Swansea City,Millwall,1,1,D,1,1,D,2025-26,CHAMPIONSHIP,Matchday 7
+2025-09-27,Wrexham,Derby County,1,1,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 7
+2025-09-27,Charlton Athletic,Blackburn Rovers,3,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 7
+2025-09-27,Ipswich Town,Portsmouth,2,1,H,2,0,H,2025-26,CHAMPIONSHIP,Matchday 7
+2025-09-27,Oxford United,Sheffield United,0,1,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 7
+2025-09-27,Preston North End,Bristol City,0,0,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 7
+2025-09-27,Sheffield Wednesday,Queens Park Rangers,1,1,D,1,0,H,2025-26,CHAMPIONSHIP,Matchday 7
+2025-09-27,Southampton,Middlesbrough,1,1,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 7
+2025-09-27,Stoke City,Norwich City,1,1,D,0,1,A,2025-26,CHAMPIONSHIP,Matchday 7
+2025-09-27,Watford,Hull City,2,1,H,0,1,A,2025-26,CHAMPIONSHIP,Matchday 7
+2025-09-30,Birmingham City,Sheffield Wednesday,2,2,D,1,1,D,2025-26,CHAMPIONSHIP,Matchday 8
+2025-09-30,Blackburn Rovers,Swansea City,1,2,A,1,1,D,2025-26,CHAMPIONSHIP,Matchday 8
+2025-09-30,Bristol City,Ipswich Town,1,1,D,1,0,H,2025-26,CHAMPIONSHIP,Matchday 8
+2025-09-30,Hull City,Preston North End,2,2,D,0,2,A,2025-26,CHAMPIONSHIP,Matchday 8
+2025-09-30,Leicester City,Wrexham,1,1,D,1,0,H,2025-26,CHAMPIONSHIP,Matchday 8
+2025-09-30,Middlesbrough,Stoke City,0,0,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 8
+2025-09-30,Sheffield United,Southampton,1,2,A,1,0,H,2025-26,CHAMPIONSHIP,Matchday 8
+2025-09-30,Derby County,Charlton Athletic,1,1,D,0,1,A,2025-26,CHAMPIONSHIP,Matchday 8
+2025-10-01,Millwall,Coventry City,0,4,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 8
+2025-10-01,Norwich City,West Bromwich Albion,0,1,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 8
+2025-10-01,Portsmouth,Watford,2,2,D,1,0,H,2025-26,CHAMPIONSHIP,Matchday 8
+2025-10-01,Queens Park Rangers,Oxford United,0,0,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 8
+2025-10-03,Wrexham,Birmingham City,1,1,D,1,0,H,2025-26,CHAMPIONSHIP,Matchday 9
+2025-10-04,Blackburn Rovers,Stoke City,1,1,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 9
+2025-10-04,Hull City,Sheffield United,1,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 9
+2025-10-04,Sheffield Wednesday,Coventry City,0,5,A,0,3,A,2025-26,CHAMPIONSHIP,Matchday 9
+2025-10-04,Bristol City,Queens Park Rangers,1,2,A,1,0,H,2025-26,CHAMPIONSHIP,Matchday 9
+2025-10-04,Derby County,Southampton,1,1,D,1,1,D,2025-26,CHAMPIONSHIP,Matchday 9
+2025-10-04,Millwall,West Bromwich Albion,3,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 9
+2025-10-04,Portsmouth,Middlesbrough,1,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 9
+2025-10-04,Preston North End,Charlton Athletic,2,0,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 9
+2025-10-04,Swansea City,Leicester City,1,3,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 9
+2025-10-04,Watford,Oxford United,2,1,H,2,1,H,2025-26,CHAMPIONSHIP,Matchday 9
+2025-10-05,Ipswich Town,Norwich City,3,1,H,2,1,H,2025-26,CHAMPIONSHIP,Matchday 9
+2025-10-17,Middlesbrough,Ipswich Town,2,1,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 10
+2025-10-18,Oxford United,Derby County,1,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 10
+2025-10-18,Queens Park Rangers,Millwall,1,2,A,0,2,A,2025-26,CHAMPIONSHIP,Matchday 10
+2025-10-18,Southampton,Swansea City,0,0,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 10
+2025-10-18,Birmingham City,Hull City,2,3,A,1,2,A,2025-26,CHAMPIONSHIP,Matchday 10
+2025-10-18,Charlton Athletic,Sheffield Wednesday,2,1,H,2,0,H,2025-26,CHAMPIONSHIP,Matchday 10
+2025-10-18,Coventry City,Blackburn Rovers,2,0,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 10
+2025-10-18,Norwich City,Bristol City,0,1,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 10
+2025-10-18,Sheffield United,Watford,1,0,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 10
+2025-10-18,Stoke City,Wrexham,1,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 10
+2025-10-18,West Bromwich Albion,Preston North End,2,1,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 10
+2025-10-18,Leicester City,Portsmouth,1,1,D,1,0,H,2025-26,CHAMPIONSHIP,Matchday 10
+2025-10-21,Blackburn Rovers,Sheffield United,1,3,A,1,0,H,2025-26,CHAMPIONSHIP,Matchday 11
+2025-10-21,Derby County,Norwich City,1,0,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 11
+2025-10-21,Hull City,Leicester City,2,1,H,2,0,H,2025-26,CHAMPIONSHIP,Matchday 11
+2025-10-21,Ipswich Town,Charlton Athletic,0,3,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 11
+2025-10-21,Millwall,Stoke City,2,0,H,2,0,H,2025-26,CHAMPIONSHIP,Matchday 11
+2025-10-21,Portsmouth,Coventry City,1,2,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 11
+2025-10-21,Preston North End,Birmingham City,0,1,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 11
+2025-10-21,Bristol City,Southampton,3,1,H,1,1,D,2025-26,CHAMPIONSHIP,Matchday 11
+2025-10-22,Swansea City,Queens Park Rangers,0,1,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 11
+2025-10-22,Watford,West Bromwich Albion,2,1,H,1,1,D,2025-26,CHAMPIONSHIP,Matchday 11
+2025-10-22,Wrexham,Oxford United,1,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 11
+2025-10-22,Sheffield Wednesday,Middlesbrough,0,1,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 11
+2025-10-24,Preston North End,Sheffield United,3,2,H,1,2,A,2025-26,CHAMPIONSHIP,Matchday 12
+2025-10-25,Coventry City,Watford,3,1,H,3,0,H,2025-26,CHAMPIONSHIP,Matchday 12
+2025-10-25,Ipswich Town,West Bromwich Albion,1,0,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 12
+2025-10-25,Portsmouth,Stoke City,0,1,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 12
+2025-10-25,Blackburn Rovers,Southampton,2,1,H,0,1,A,2025-26,CHAMPIONSHIP,Matchday 12
+2025-10-25,Bristol City,Birmingham City,1,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 12
+2025-10-25,Derby County,Queens Park Rangers,1,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 12
+2025-10-25,Hull City,Charlton Athletic,1,1,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 12
+2025-10-25,Middlesbrough,Wrexham,1,1,D,0,1,A,2025-26,CHAMPIONSHIP,Matchday 12
+2025-10-25,Millwall,Leicester City,1,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 12
+2025-10-25,Sheffield Wednesday,Oxford United,1,2,A,0,2,A,2025-26,CHAMPIONSHIP,Matchday 12
+2025-10-25,Swansea City,Norwich City,2,1,H,1,1,D,2025-26,CHAMPIONSHIP,Matchday 12
+2025-10-31,Wrexham,Coventry City,3,2,H,0,1,A,2025-26,CHAMPIONSHIP,Matchday 13
+2025-11-01,Leicester City,Blackburn Rovers,0,2,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 13
+2025-11-01,Norwich City,Hull City,0,2,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 13
+2025-11-01,West Bromwich Albion,Sheffield Wednesday,0,0,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 13
+2025-11-01,Birmingham City,Portsmouth,4,0,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 13
+2025-11-01,Charlton Athletic,Swansea City,1,1,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 13
+2025-11-01,Oxford United,Millwall,2,2,D,1,1,D,2025-26,CHAMPIONSHIP,Matchday 13
+2025-11-01,Queens Park Rangers,Ipswich Town,1,4,A,1,1,D,2025-26,CHAMPIONSHIP,Matchday 13
+2025-11-01,Sheffield United,Derby County,1,3,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 13
+2025-11-01,Southampton,Preston North End,0,2,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 13
+2025-11-01,Stoke City,Bristol City,5,1,H,3,0,H,2025-26,CHAMPIONSHIP,Matchday 13
+2025-11-01,Watford,Middlesbrough,3,0,H,2,0,H,2025-26,CHAMPIONSHIP,Matchday 13
+2025-11-04,Birmingham City,Millwall,4,0,H,2,0,H,2025-26,CHAMPIONSHIP,Matchday 14
+2025-11-04,Bristol City,Blackburn Rovers,0,1,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 14
+2025-11-04,Charlton Athletic,West Bromwich Albion,1,0,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 14
+2025-11-04,Derby County,Hull City,2,1,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 14
+2025-11-04,Ipswich Town,Watford,1,1,D,1,1,D,2025-26,CHAMPIONSHIP,Matchday 14
+2025-11-04,Leicester City,Middlesbrough,1,1,D,1,0,H,2025-26,CHAMPIONSHIP,Matchday 14
+2025-11-04,Oxford United,Stoke City,0,3,A,0,2,A,2025-26,CHAMPIONSHIP,Matchday 14
+2025-11-04,Coventry City,Sheffield United,3,1,H,0,1,A,2025-26,CHAMPIONSHIP,Matchday 14
+2025-11-05,Preston North End,Swansea City,2,1,H,1,0,H,2025-26,CHAMPIONSHIP,Matchday 14
+2025-11-05,Queens Park Rangers,Southampton,1,2,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 14
+2025-11-05,Sheffield Wednesday,Norwich City,1,1,D,1,0,H,2025-26,CHAMPIONSHIP,Matchday 14
+2025-11-05,Portsmouth,Wrexham,0,0,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 14
+2025-11-07,Watford,Bristol City,1,1,D,1,1,D,2025-26,CHAMPIONSHIP,Matchday 15
+2025-11-08,Blackburn Rovers,Derby County,1,2,A,0,2,A,2025-26,CHAMPIONSHIP,Matchday 15
+2025-11-08,Hull City,Portsmouth,3,2,H,2,2,D,2025-26,CHAMPIONSHIP,Matchday 15
+2025-11-08,Millwall,Preston North End,1,1,D,1,1,D,2025-26,CHAMPIONSHIP,Matchday 15
+2025-11-08,Middlesbrough,Birmingham City,2,1,H,2,1,H,2025-26,CHAMPIONSHIP,Matchday 15
+2025-11-08,Norwich City,Leicester City,1,2,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 15
+2025-11-08,Sheffield United,Queens Park Rangers,0,0,D,0,0,D,2025-26,CHAMPIONSHIP,Matchday 15
+2025-11-08,Southampton,Sheffield Wednesday,3,1,H,2,1,H,2025-26,CHAMPIONSHIP,Matchday 15
+2025-11-08,Stoke City,Coventry City,0,1,A,0,0,D,2025-26,CHAMPIONSHIP,Matchday 15
+2025-11-08,Swansea City,Ipswich Town,1,4,A,0,1,A,2025-26,CHAMPIONSHIP,Matchday 15
+2025-11-08,West Bromwich Albion,Oxford United,2,1,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 15
+2025-11-08,Wrexham,Charlton Athletic,1,0,H,0,0,D,2025-26,CHAMPIONSHIP,Matchday 15
+2024-08-09,Blackburn Rovers,Derby County,4,2,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 1"
+2024-08-09,Preston North End,Sheffield United,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 1"
+2024-08-10,Cardiff City,Sunderland,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 1"
+2024-08-10,Hull City,Bristol City,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 1"
+2024-08-10,Leeds United,Portsmouth,3,3,D,1,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 1"
+2024-08-10,Middlesbrough,Swansea City,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 1"
+2024-08-10,Millwall,Watford,2,3,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 1"
+2024-08-10,Oxford United,Norwich City,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 1"
+2024-08-10,Queens Park Rangers,West Bromwich Albion,1,3,A,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 1"
+2024-08-10,Stoke City,Coventry City,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 1"
+2024-08-11,Sheffield Wednesday,Plymouth Argyle,4,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 1"
+2024-08-12,Luton Town,Burnley,1,4,A,0,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 1"
+2024-08-16,Coventry City,Oxford United,3,2,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 2"
+2024-08-17,Derby County,Middlesbrough,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 2"
+2024-08-17,Portsmouth,Luton Town,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 2"
+2024-08-17,West Bromwich Albion,Leeds United,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 2"
+2024-08-17,Bristol City,Millwall,4,3,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 2"
+2024-08-17,Burnley,Cardiff City,5,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 2"
+2024-08-17,Norwich City,Blackburn Rovers,2,2,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 2"
+2024-08-17,Plymouth Argyle,Hull City,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 2"
+2024-08-17,Sheffield United,Queens Park Rangers,2,2,D,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 2"
+2024-08-17,Swansea City,Preston North End,3,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 2"
+2024-08-17,Watford,Stoke City,3,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 2"
+2024-08-18,Sunderland,Sheffield Wednesday,4,0,H,3,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 2"
+2024-08-23,Sheffield Wednesday,Leeds United,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 3"
+2024-08-24,Bristol City,Coventry City,1,1,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 3"
+2024-08-24,Hull City,Millwall,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 3"
+2024-08-24,Queens Park Rangers,Plymouth Argyle,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 3"
+2024-08-24,Watford,Derby County,2,1,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 3"
+2024-08-24,Blackburn Rovers,Oxford United,2,1,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 3"
+2024-08-24,Middlesbrough,Portsmouth,2,2,D,1,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 3"
+2024-08-24,Norwich City,Sheffield United,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 3"
+2024-08-24,Preston North End,Luton Town,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 3"
+2024-08-24,Stoke City,West Bromwich Albion,1,2,A,1,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 3"
+2024-08-24,Sunderland,Burnley,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 3"
+2024-08-25,Swansea City,Cardiff City,1,1,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 3"
+2024-08-30,Luton Town,Queens Park Rangers,1,2,A,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 4"
+2024-08-31,Burnley,Blackburn Rovers,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 4"
+2024-08-31,Cardiff City,Middlesbrough,0,2,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 4"
+2024-08-31,Coventry City,Norwich City,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 4"
+2024-08-31,Derby County,Bristol City,3,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 4"
+2024-08-31,Leeds United,Hull City,2,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 4"
+2024-08-31,Millwall,Sheffield Wednesday,3,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 4"
+2024-08-31,Oxford United,Preston North End,3,1,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 4"
+2024-08-31,Plymouth Argyle,Stoke City,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 4"
+2024-08-31,Portsmouth,Sunderland,1,3,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 4"
+2024-08-31,West Bromwich Albion,Swansea City,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 4"
+2024-09-01,Sheffield United,Watford,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 4"
+2024-09-13,Hull City,Sheffield United,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 5"
+2024-09-14,Leeds United,Burnley,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 5"
+2024-09-14,Millwall,Luton Town,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 5"
+2024-09-14,Oxford United,Stoke City,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 5"
+2024-09-14,Blackburn Rovers,Bristol City,3,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 5"
+2024-09-14,Derby County,Cardiff City,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 5"
+2024-09-14,Middlesbrough,Preston North End,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 5"
+2024-09-14,Plymouth Argyle,Sunderland,3,2,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 5"
+2024-09-14,Sheffield Wednesday,Queens Park Rangers,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 5"
+2024-09-14,Swansea City,Norwich City,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 5"
+2024-09-14,Watford,Coventry City,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 5"
+2024-09-15,Portsmouth,West Bromwich Albion,0,3,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 5"
+2024-09-20,Stoke City,Hull City,1,3,A,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 6"
+2024-09-21,Norwich City,Watford,4,1,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 6"
+2024-09-21,Queens Park Rangers,Millwall,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 6"
+2024-09-21,Sunderland,Middlesbrough,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 6"
+2024-09-21,Bristol City,Oxford United,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 6"
+2024-09-21,Burnley,Portsmouth,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 6"
+2024-09-21,Cardiff City,Leeds United,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 6"
+2024-09-21,Coventry City,Swansea City,1,2,A,1,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 6"
+2024-09-21,Luton Town,Sheffield Wednesday,2,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 6"
+2024-09-21,Sheffield United,Derby County,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 6"
+2024-09-21,West Bromwich Albion,Plymouth Argyle,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 6"
+2024-09-22,Preston North End,Blackburn Rovers,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 6"
+2024-09-27,Plymouth Argyle,Luton Town,3,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 7"
+2024-09-28,Blackburn Rovers,Queens Park Rangers,2,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 7"
+2024-09-28,Derby County,Norwich City,2,3,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 7"
+2024-09-28,Sheffield Wednesday,West Bromwich Albion,3,2,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 7"
+2024-09-28,Hull City,Cardiff City,4,1,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 7"
+2024-09-28,Leeds United,Coventry City,3,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 7"
+2024-09-28,Middlesbrough,Stoke City,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 7"
+2024-09-28,Millwall,Preston North End,3,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 7"
+2024-09-28,Oxford United,Burnley,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 7"
+2024-09-28,Portsmouth,Sheffield United,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 7"
+2024-09-28,Watford,Sunderland,2,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 7"
+2024-09-29,Swansea City,Bristol City,1,1,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 7"
+2024-10-01,Burnley,Plymouth Argyle,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 8"
+2024-10-01,Cardiff City,Millwall,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 8"
+2024-10-01,Coventry City,Blackburn Rovers,3,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 8"
+2024-10-01,Luton Town,Oxford United,2,2,D,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 8"
+2024-10-01,Queens Park Rangers,Hull City,1,3,A,1,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 8"
+2024-10-01,Sunderland,Derby County,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 8"
+2024-10-01,Norwich City,Leeds United,1,1,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 8"
+2024-10-01,West Bromwich Albion,Middlesbrough,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 8"
+2024-10-02,Sheffield United,Swansea City,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 8"
+2024-10-02,Preston North End,Watford,3,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 8"
+2024-10-02,Stoke City,Portsmouth,6,1,H,3,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 8"
+2024-10-02,Bristol City,Sheffield Wednesday,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 8"
+2024-10-04,Sunderland,Leeds United,2,2,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 9"
+2024-10-05,Burnley,Preston North End,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 9"
+2024-10-05,Norwich City,Hull City,4,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 9"
+2024-10-05,Portsmouth,Oxford United,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 9"
+2024-10-05,Coventry City,Sheffield Wednesday,1,2,A,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 9"
+2024-10-05,Derby County,Queens Park Rangers,2,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 9"
+2024-10-05,Plymouth Argyle,Blackburn Rovers,2,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 9"
+2024-10-05,Sheffield United,Luton Town,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 9"
+2024-10-05,Swansea City,Stoke City,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 9"
+2024-10-05,Watford,Middlesbrough,2,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 9"
+2024-10-05,West Bromwich Albion,Millwall,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 9"
+2024-10-06,Bristol City,Cardiff City,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 9"
+2024-10-18,Leeds United,Sheffield United,2,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 10"
+2024-10-19,Cardiff City,Plymouth Argyle,5,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 10"
+2024-10-19,Luton Town,Watford,3,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 10"
+2024-10-19,Oxford United,West Bromwich Albion,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 10"
+2024-10-19,Preston North End,Coventry City,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 10"
+2024-10-19,Blackburn Rovers,Swansea City,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 10"
+2024-10-19,Middlesbrough,Bristol City,0,2,A,0,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 10"
+2024-10-19,Millwall,Derby County,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 10"
+2024-10-19,Queens Park Rangers,Portsmouth,1,2,A,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 10"
+2024-10-19,Sheffield Wednesday,Burnley,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 10"
+2024-10-19,Stoke City,Norwich City,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 10"
+2024-10-20,Hull City,Sunderland,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 10"
+2024-10-22,Cardiff City,Portsmouth,2,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 11"
+2024-10-22,Leeds United,Watford,2,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 11"
+2024-10-22,Oxford United,Derby County,1,1,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 11"
+2024-10-22,Preston North End,Norwich City,2,2,D,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 11"
+2024-10-22,Sheffield Wednesday,Swansea City,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 11"
+2024-10-22,Stoke City,Bristol City,2,2,D,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 11"
+2024-10-22,Queens Park Rangers,Coventry City,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 11"
+2024-10-23,Hull City,Burnley,1,1,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 11"
+2024-10-23,Blackburn Rovers,West Bromwich Albion,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 11"
+2024-10-23,Luton Town,Sunderland,1,2,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 11"
+2024-10-23,Millwall,Plymouth Argyle,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 11"
+2024-10-23,Middlesbrough,Sheffield United,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 11"
+2024-10-25,Portsmouth,Sheffield Wednesday,1,2,A,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 12"
+2024-10-26,Bristol City,Leeds United,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 12"
+2024-10-26,Coventry City,Luton Town,3,2,H,0,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 12"
+2024-10-26,Watford,Blackburn Rovers,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 12"
+2024-10-26,Burnley,Queens Park Rangers,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 12"
+2024-10-26,Derby County,Hull City,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 12"
+2024-10-26,Plymouth Argyle,Preston North End,3,3,D,0,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 12"
+2024-10-26,Sheffield United,Stoke City,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 12"
+2024-10-26,Sunderland,Oxford United,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 12"
+2024-10-26,Swansea City,Millwall,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 12"
+2024-10-26,West Bromwich Albion,Cardiff City,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 12"
+2024-10-27,Norwich City,Middlesbrough,3,3,D,1,3,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 12"
+2024-11-01,Luton Town,West Bromwich Albion,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 13"
+2024-11-02,Blackburn Rovers,Sheffield United,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 13"
+2024-11-02,Oxford United,Swansea City,1,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 13"
+2024-11-02,Stoke City,Derby County,2,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 13"
+2024-11-02,Cardiff City,Norwich City,2,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 13"
+2024-11-02,Hull City,Portsmouth,1,1,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 13"
+2024-11-02,Leeds United,Plymouth Argyle,3,0,H,3,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 13"
+2024-11-02,Middlesbrough,Coventry City,0,3,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 13"
+2024-11-02,Preston North End,Bristol City,1,3,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 13"
+2024-11-02,Queens Park Rangers,Sunderland,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 13"
+2024-11-02,Sheffield Wednesday,Watford,2,6,A,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 13"
+2024-11-03,Millwall,Burnley,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 13"
+2024-11-05,Bristol City,Sheffield United,1,2,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 14"
+2024-11-05,Oxford United,Hull City,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 14"
+2024-11-05,Queens Park Rangers,Middlesbrough,1,4,A,0,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 14"
+2024-11-05,Sheffield Wednesday,Norwich City,2,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 14"
+2024-11-05,Plymouth Argyle,Portsmouth,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 14"
+2024-11-05,Swansea City,Watford,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 14"
+2024-11-06,Millwall,Leeds United,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 14"
+2024-11-06,Blackburn Rovers,Stoke City,0,2,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 14"
+2024-11-06,Coventry City,Derby County,1,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 14"
+2024-11-06,Luton Town,Cardiff City,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 14"
+2024-11-06,Preston North End,Sunderland,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 14"
+2024-11-07,West Bromwich Albion,Burnley,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 14"
+2024-11-08,Watford,Oxford United,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 15"
+2024-11-09,Cardiff City,Blackburn Rovers,1,3,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 15"
+2024-11-09,Middlesbrough,Luton Town,5,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 15"
+2024-11-09,Stoke City,Millwall,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 15"
+2024-11-09,Derby County,Plymouth Argyle,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 15"
+2024-11-09,Leeds United,Queens Park Rangers,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 15"
+2024-11-09,Norwich City,Bristol City,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 15"
+2024-11-09,Portsmouth,Preston North End,3,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 15"
+2024-11-09,Sunderland,Coventry City,2,2,D,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 15"
+2024-11-10,Sheffield United,Sheffield Wednesday,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 15"
+2024-11-10,Hull City,West Bromwich Albion,1,2,A,1,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 15"
+2024-11-10,Burnley,Swansea City,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 15"
+2024-11-22,Plymouth Argyle,Watford,2,2,D,1,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 16"
+2024-11-23,Bristol City,Burnley,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 16"
+2024-11-23,Coventry City,Sheffield United,2,2,D,1,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 16"
+2024-11-23,Sheffield Wednesday,Cardiff City,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 16"
+2024-11-23,Luton Town,Hull City,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 16"
+2024-11-23,Millwall,Sunderland,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 16"
+2024-11-23,Oxford United,Middlesbrough,2,6,A,1,3,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 16"
+2024-11-23,Preston North End,Derby County,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 16"
+2024-11-23,Queens Park Rangers,Stoke City,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 16"
+2024-11-23,West Bromwich Albion,Norwich City,2,2,D,2,2,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 16"
+2024-11-24,Swansea City,Leeds United,3,4,A,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 16"
+2024-11-26,Burnley,Coventry City,2,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 17"
+2024-11-26,Hull City,Sheffield Wednesday,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 17"
+2024-11-26,Norwich City,Plymouth Argyle,6,1,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 17"
+2024-11-26,Sheffield United,Oxford United,3,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 17"
+2024-11-26,Stoke City,Preston North End,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 17"
+2024-11-26,Watford,Bristol City,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 17"
+2024-11-26,Sunderland,West Bromwich Albion,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 17"
+2024-11-27,Leeds United,Luton Town,3,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 17"
+2024-11-27,Cardiff City,Queens Park Rangers,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 17"
+2024-11-27,Middlesbrough,Blackburn Rovers,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 17"
+2024-11-27,Derby County,Swansea City,1,2,A,0,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 17"
+2024-11-29,Sheffield United,Sunderland,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 18"
+2024-11-30,Middlesbrough,Hull City,3,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 18"
+2024-11-30,Oxford United,Millwall,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 18"
+2024-11-30,Watford,Queens Park Rangers,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 18"
+2024-11-30,Blackburn Rovers,Leeds United,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 18"
+2024-11-30,Bristol City,Plymouth Argyle,4,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 18"
+2024-11-30,Coventry City,Cardiff City,2,2,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 18"
+2024-11-30,Norwich City,Luton Town,4,2,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 18"
+2024-11-30,Preston North End,West Bromwich Albion,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 18"
+2024-11-30,Stoke City,Burnley,0,2,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 18"
+2024-11-30,Swansea City,Portsmouth,2,2,D,1,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 18"
+2024-12-01,Derby County,Sheffield Wednesday,1,2,A,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 18"
+2024-12-06,Burnley,Middlesbrough,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 19"
+2024-12-07,Leeds United,Derby County,2,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 19"
+2024-12-07,Sheffield Wednesday,Preston North End,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 19"
+2024-12-07,Sunderland,Stoke City,2,1,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 19"
+2024-12-07,Hull City,Blackburn Rovers,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 19"
+2024-12-07,Luton Town,Swansea City,1,1,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 19"
+2024-12-07,Millwall,Coventry City,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 19"
+2024-12-07,Portsmouth,Bristol City,3,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 19"
+2024-12-07,Queens Park Rangers,Norwich City,3,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 19"
+2024-12-08,West Bromwich Albion,Sheffield United,2,2,D,1,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 19"
+2024-12-10,Burnley,Derby County,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 20"
+2024-12-10,Luton Town,Stoke City,2,1,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 20"
+2024-12-10,Plymouth Argyle,Swansea City,1,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 20"
+2024-12-10,Portsmouth,Norwich City,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 20"
+2024-12-10,Sheffield Wednesday,Blackburn Rovers,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 20"
+2024-12-10,Sunderland,Bristol City,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 20"
+2024-12-10,Leeds United,Middlesbrough,3,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 20"
+2024-12-11,Millwall,Sheffield United,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 20"
+2024-12-11,Cardiff City,Preston North End,0,2,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 20"
+2024-12-11,Hull City,Watford,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 20"
+2024-12-11,Queens Park Rangers,Oxford United,2,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 20"
+2024-12-11,West Bromwich Albion,Coventry City,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 20"
+2024-12-13,Derby County,Portsmouth,4,0,H,3,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 21"
+2024-12-14,Bristol City,Queens Park Rangers,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 21"
+2024-12-14,Coventry City,Hull City,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 21"
+2024-12-14,Preston North End,Leeds United,1,1,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 21"
+2024-12-14,Blackburn Rovers,Luton Town,2,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 21"
+2024-12-14,Middlesbrough,Millwall,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 21"
+2024-12-14,Oxford United,Sheffield Wednesday,1,3,A,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 21"
+2024-12-14,Sheffield United,Plymouth Argyle,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 21"
+2024-12-14,Stoke City,Cardiff City,2,2,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 21"
+2024-12-14,Swansea City,Sunderland,2,3,A,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 21"
+2024-12-15,Watford,West Bromwich Albion,2,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 21"
+2024-12-15,Norwich City,Burnley,1,2,A,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 21"
+2024-12-20,Luton Town,Derby County,2,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 22"
+2024-12-21,Hull City,Swansea City,2,1,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 22"
+2024-12-21,Portsmouth,Coventry City,4,1,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 22"
+2024-12-21,Sheffield Wednesday,Stoke City,2,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 22"
+2024-12-21,Burnley,Watford,2,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 22"
+2024-12-21,Cardiff City,Sheffield United,0,2,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 22"
+2024-12-21,Leeds United,Oxford United,4,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 22"
+2024-12-21,Millwall,Blackburn Rovers,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 22"
+2024-12-21,Plymouth Argyle,Middlesbrough,3,3,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 22"
+2024-12-21,Queens Park Rangers,Preston North End,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 22"
+2024-12-21,Sunderland,Norwich City,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 22"
+2024-12-22,West Bromwich Albion,Bristol City,2,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 22"
+2024-12-26,Blackburn Rovers,Sunderland,2,2,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 23"
+2024-12-26,Bristol City,Luton Town,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 23"
+2024-12-26,Coventry City,Plymouth Argyle,4,0,H,4,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 23"
+2024-12-26,Middlesbrough,Sheffield Wednesday,3,3,D,3,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 23"
+2024-12-26,Norwich City,Millwall,2,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 23"
+2024-12-26,Oxford United,Cardiff City,3,2,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 23"
+2024-12-26,Preston North End,Hull City,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 23"
+2024-12-26,Sheffield United,Burnley,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 23"
+2024-12-26,Swansea City,Queens Park Rangers,3,0,H,3,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 23"
+2024-12-26,Watford,Portsmouth,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 23"
+2024-12-26,Derby County,West Bromwich Albion,2,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 23"
+2024-12-26,Stoke City,Leeds United,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 23"
+2024-12-29,Norwich City,Queens Park Rangers,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 24"
+2024-12-29,Preston North End,Sheffield Wednesday,3,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 24"
+2024-12-29,Sheffield United,West Bromwich Albion,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 24"
+2024-12-29,Blackburn Rovers,Hull City,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 24"
+2024-12-29,Bristol City,Portsmouth,3,0,H,3,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 24"
+2024-12-29,Coventry City,Millwall,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 24"
+2024-12-29,Oxford United,Plymouth Argyle,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 24"
+2024-12-29,Stoke City,Sunderland,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 24"
+2024-12-29,Swansea City,Luton Town,2,1,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 24"
+2024-12-29,Watford,Cardiff City,1,2,A,1,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 24"
+2024-12-29,Derby County,Leeds United,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 24"
+2024-12-29,Middlesbrough,Burnley,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 24"
+2025-01-01,Plymouth Argyle,Bristol City,2,2,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 25"
+2025-01-01,Queens Park Rangers,Watford,3,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 25"
+2025-01-01,Millwall,Oxford United,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 25"
+2025-01-01,Leeds United,Blackburn Rovers,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 25"
+2025-01-01,Luton Town,Norwich City,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 25"
+2025-01-01,Portsmouth,Swansea City,4,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 25"
+2025-01-01,Sheffield Wednesday,Derby County,4,2,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 25"
+2025-01-01,West Bromwich Albion,Preston North End,3,1,H,3,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 25"
+2025-01-01,Burnley,Stoke City,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 25"
+2025-01-01,Cardiff City,Coventry City,1,1,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 25"
+2025-01-01,Hull City,Middlesbrough,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 25"
+2025-01-01,Sunderland,Sheffield United,2,1,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 25"
+2025-01-04,Blackburn Rovers,Burnley,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 26"
+2025-01-04,Stoke City,Plymouth Argyle,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 26"
+2025-01-04,Swansea City,West Bromwich Albion,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 26"
+2025-01-04,Bristol City,Derby County,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 26"
+2025-01-04,Hull City,Leeds United,3,3,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 26"
+2025-01-04,Middlesbrough,Cardiff City,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 26"
+2025-01-04,Norwich City,Coventry City,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 26"
+2025-01-04,Preston North End,Oxford United,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 26"
+2025-01-04,Sheffield Wednesday,Millwall,2,2,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 26"
+2025-01-04,Watford,Sheffield United,1,2,A,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 26"
+2025-01-05,Sunderland,Portsmouth,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 26"
+2025-01-06,Queens Park Rangers,Luton Town,2,1,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 26"
+2025-01-14,Cardiff City,Watford,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 19"
+2025-01-14,Plymouth Argyle,Oxford United,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 19"
+2025-01-15,Blackburn Rovers,Portsmouth,3,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 16"
+2025-01-17,Burnley,Sunderland,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 27"
+2025-01-18,Cardiff City,Swansea City,3,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 27"
+2025-01-18,Millwall,Hull City,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 27"
+2025-01-18,Plymouth Argyle,Queens Park Rangers,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 27"
+2025-01-18,Coventry City,Bristol City,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 27"
+2025-01-18,Derby County,Watford,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 27"
+2025-01-18,Luton Town,Preston North End,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 27"
+2025-01-18,Oxford United,Blackburn Rovers,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 27"
+2025-01-18,Portsmouth,Middlesbrough,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 27"
+2025-01-18,Sheffield United,Norwich City,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 27"
+2025-01-18,West Bromwich Albion,Stoke City,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 27"
+2025-01-19,Leeds United,Sheffield Wednesday,3,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 27"
+2025-01-21,Blackburn Rovers,Coventry City,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 28"
+2025-01-21,Derby County,Sunderland,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 28"
+2025-01-21,Hull City,Queens Park Rangers,1,2,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 28"
+2025-01-21,Middlesbrough,West Bromwich Albion,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 28"
+2025-01-21,Oxford United,Luton Town,3,2,H,1,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 28"
+2025-01-21,Swansea City,Sheffield United,1,2,A,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 28"
+2025-01-21,Watford,Preston North End,1,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 28"
+2025-01-21,Millwall,Cardiff City,2,2,D,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 28"
+2025-01-22,Leeds United,Norwich City,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 28"
+2025-01-22,Portsmouth,Stoke City,3,1,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 28"
+2025-01-22,Sheffield Wednesday,Bristol City,2,2,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 28"
+2025-01-22,Plymouth Argyle,Burnley,0,5,A,0,5,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 28"
+2025-01-24,Sheffield United,Hull City,0,3,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 29"
+2025-01-25,Luton Town,Millwall,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 29"
+2025-01-25,Norwich City,Swansea City,5,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 29"
+2025-01-25,Stoke City,Oxford United,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 29"
+2025-01-25,Bristol City,Blackburn Rovers,2,1,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 29"
+2025-01-25,Cardiff City,Derby County,2,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 29"
+2025-01-25,Coventry City,Watford,2,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 29"
+2025-01-25,Preston North End,Middlesbrough,2,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 29"
+2025-01-25,Queens Park Rangers,Sheffield Wednesday,0,2,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 29"
+2025-01-25,Sunderland,Plymouth Argyle,2,2,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 29"
+2025-01-25,West Bromwich Albion,Portsmouth,5,1,H,4,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 29"
+2025-01-27,Burnley,Leeds United,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 29"
+2025-01-28,Portsmouth,Millwall,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 17"
+2025-01-31,Blackburn Rovers,Preston North End,2,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 30"
+2025-02-01,Oxford United,Bristol City,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 30"
+2025-02-01,Plymouth Argyle,West Bromwich Albion,2,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 30"
+2025-02-01,Watford,Norwich City,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 30"
+2025-02-01,Derby County,Sheffield United,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 30"
+2025-02-01,Hull City,Stoke City,1,2,A,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 30"
+2025-02-01,Leeds United,Cardiff City,7,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 30"
+2025-02-01,Millwall,Queens Park Rangers,2,1,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 30"
+2025-02-01,Portsmouth,Burnley,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 30"
+2025-02-01,Sheffield Wednesday,Luton Town,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 30"
+2025-02-01,Swansea City,Coventry City,0,2,A,0,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 30"
+2025-02-03,Middlesbrough,Sunderland,2,3,A,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 30"
+2025-02-04,Burnley,Oxford United,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 31"
+2025-02-04,Queens Park Rangers,Blackburn Rovers,2,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 31"
+2025-02-05,Coventry City,Leeds United,0,2,A,0,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 31"
+2025-02-08,Sunderland,Watford,2,2,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 31"
+2025-02-08,West Bromwich Albion,Sheffield Wednesday,2,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 31"
+2025-02-08,Norwich City,Derby County,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 31"
+2025-02-08,Sheffield United,Portsmouth,2,1,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 31"
+2025-02-09,Bristol City,Swansea City,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 31"
+2025-02-11,Coventry City,Queens Park Rangers,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 32"
+2025-02-11,Derby County,Oxford United,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 32"
+2025-02-11,Portsmouth,Cardiff City,2,1,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 32"
+2025-02-11,Watford,Leeds United,0,4,A,0,3,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 32"
+2025-02-11,Norwich City,Preston North End,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 32"
+2025-02-12,Bristol City,Stoke City,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 32"
+2025-02-12,Plymouth Argyle,Millwall,5,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 32"
+2025-02-12,Swansea City,Sheffield Wednesday,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 32"
+2025-02-12,Burnley,Hull City,2,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 32"
+2025-02-12,Sunderland,Luton Town,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 32"
+2025-02-12,Sheffield United,Middlesbrough,3,1,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 32"
+2025-02-12,West Bromwich Albion,Blackburn Rovers,0,2,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 32"
+2025-02-14,Queens Park Rangers,Derby County,4,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 33"
+2025-02-15,Cardiff City,Bristol City,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 33"
+2025-02-15,Oxford United,Portsmouth,0,2,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 33"
+2025-02-15,Preston North End,Burnley,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 33"
+2025-02-15,Blackburn Rovers,Plymouth Argyle,2,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 33"
+2025-02-15,Hull City,Norwich City,1,1,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 33"
+2025-02-15,Luton Town,Sheffield United,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 33"
+2025-02-15,Middlesbrough,Watford,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 33"
+2025-02-15,Millwall,West Bromwich Albion,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 33"
+2025-02-15,Sheffield Wednesday,Coventry City,1,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 33"
+2025-02-15,Stoke City,Swansea City,3,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 33"
+2025-02-17,Leeds United,Sunderland,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 33"
+2025-02-18,Preston North End,Millwall,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 31"
+2025-02-19,Luton Town,Plymouth Argyle,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 31"
+2025-02-21,Bristol City,Middlesbrough,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 34"
+2025-02-21,Burnley,Sheffield Wednesday,4,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 34"
+2025-02-22,Derby County,Millwall,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 34"
+2025-02-22,Plymouth Argyle,Cardiff City,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 34"
+2025-02-22,Sunderland,Hull City,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 34"
+2025-02-22,Coventry City,Preston North End,2,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 34"
+2025-02-22,Norwich City,Stoke City,4,2,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 34"
+2025-02-22,Portsmouth,Queens Park Rangers,2,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 34"
+2025-02-22,Swansea City,Blackburn Rovers,3,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 34"
+2025-02-22,West Bromwich Albion,Oxford United,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 34"
+2025-02-23,Watford,Luton Town,2,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 34"
+2025-02-24,Sheffield United,Leeds United,1,3,A,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 34"
+2025-02-25,Cardiff City,Hull City,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 31"
+2025-02-25,Stoke City,Middlesbrough,1,3,A,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 31"
+2025-02-28,Sheffield Wednesday,Sunderland,1,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 35"
+2025-03-01,Blackburn Rovers,Norwich City,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 35"
+2025-03-01,Leeds United,West Bromwich Albion,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 35"
+2025-03-01,Oxford United,Coventry City,2,3,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 35"
+2025-03-01,Luton Town,Portsmouth,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 35"
+2025-03-01,Middlesbrough,Derby County,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 35"
+2025-03-01,Queens Park Rangers,Sheffield United,1,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 35"
+2025-03-01,Stoke City,Watford,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 35"
+2025-03-04,Cardiff City,Burnley,1,2,A,1,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 35"
+2025-03-04,Hull City,Plymouth Argyle,2,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 35"
+2025-03-04,Millwall,Bristol City,0,2,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 35"
+2025-03-04,Preston North End,Swansea City,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 35"
+2025-03-07,Norwich City,Oxford United,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 36"
+2025-03-08,Coventry City,Stoke City,3,2,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 36"
+2025-03-08,Watford,Millwall,1,2,A,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 36"
+2025-03-08,Bristol City,Hull City,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 36"
+2025-03-08,Burnley,Luton Town,4,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 36"
+2025-03-08,Derby County,Blackburn Rovers,2,1,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 36"
+2025-03-08,Plymouth Argyle,Sheffield Wednesday,0,3,A,0,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 36"
+2025-03-08,Sheffield United,Preston North End,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 36"
+2025-03-08,Sunderland,Cardiff City,2,1,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 36"
+2025-03-08,Swansea City,Middlesbrough,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 36"
+2025-03-08,West Bromwich Albion,Queens Park Rangers,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 36"
+2025-03-09,Portsmouth,Leeds United,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 36"
+2025-03-11,Burnley,West Bromwich Albion,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 37"
+2025-03-11,Cardiff City,Luton Town,1,2,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 37"
+2025-03-11,Derby County,Coventry City,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 37"
+2025-03-11,Middlesbrough,Queens Park Rangers,2,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 37"
+2025-03-11,Sunderland,Preston North End,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 37"
+2025-03-11,Norwich City,Sheffield Wednesday,2,3,A,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 37"
+2025-03-11,Sheffield United,Bristol City,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 37"
+2025-03-12,Portsmouth,Plymouth Argyle,1,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 37"
+2025-03-12,Hull City,Oxford United,2,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 37"
+2025-03-12,Leeds United,Millwall,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 37"
+2025-03-12,Watford,Swansea City,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 37"
+2025-03-12,Stoke City,Blackburn Rovers,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 37"
+2025-03-14,Bristol City,Norwich City,2,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 38"
+2025-03-15,Millwall,Stoke City,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 38"
+2025-03-15,Queens Park Rangers,Leeds United,2,2,D,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 38"
+2025-03-15,Blackburn Rovers,Cardiff City,1,2,A,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 38"
+2025-03-15,Coventry City,Sunderland,3,0,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 38"
+2025-03-15,Luton Town,Middlesbrough,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 38"
+2025-03-15,Oxford United,Watford,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 38"
+2025-03-15,Plymouth Argyle,Derby County,2,3,A,1,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 38"
+2025-03-15,Preston North End,Portsmouth,2,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 38"
+2025-03-15,Swansea City,Burnley,0,2,A,0,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 38"
+2025-03-15,West Bromwich Albion,Hull City,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 38"
+2025-03-16,Sheffield Wednesday,Sheffield United,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 38"
+2025-03-28,Sheffield United,Coventry City,3,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 39"
+2025-03-29,Watford,Plymouth Argyle,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 39"
+2025-03-29,Hull City,Luton Town,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 39"
+2025-03-29,Sunderland,Millwall,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 39"
+2025-03-29,Cardiff City,Sheffield Wednesday,1,1,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 39"
+2025-03-29,Burnley,Bristol City,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 39"
+2025-03-29,Middlesbrough,Oxford United,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 39"
+2025-03-29,Leeds United,Swansea City,2,2,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 39"
+2025-03-29,Norwich City,West Bromwich Albion,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 39"
+2025-03-29,Portsmouth,Blackburn Rovers,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 39"
+2025-03-29,Stoke City,Queens Park Rangers,3,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 39"
+2025-04-02,Derby County,Preston North End,2,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 39"
+2025-04-04,Blackburn Rovers,Middlesbrough,0,2,A,0,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 40"
+2025-04-05,Coventry City,Burnley,1,2,A,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 40"
+2025-04-05,Luton Town,Leeds United,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 40"
+2025-04-05,West Bromwich Albion,Sunderland,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 40"
+2025-04-05,Bristol City,Watford,2,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 40"
+2025-04-05,Millwall,Portsmouth,2,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 40"
+2025-04-05,Oxford United,Sheffield United,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 40"
+2025-04-05,Plymouth Argyle,Norwich City,2,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 40"
+2025-04-05,Preston North End,Stoke City,1,1,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 40"
+2025-04-05,Queens Park Rangers,Cardiff City,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 40"
+2025-04-05,Sheffield Wednesday,Hull City,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 40"
+2025-04-05,Swansea City,Derby County,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 40"
+2025-04-08,Blackburn Rovers,Sheffield Wednesday,2,2,D,0,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 41"
+2025-04-08,Bristol City,West Bromwich Albion,2,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 41"
+2025-04-08,Norwich City,Sunderland,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 41"
+2025-04-08,Preston North End,Cardiff City,2,2,D,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 41"
+2025-04-08,Sheffield United,Millwall,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 41"
+2025-04-08,Stoke City,Luton Town,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 41"
+2025-04-08,Watford,Hull City,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 41"
+2025-04-08,Derby County,Burnley,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 41"
+2025-04-08,Middlesbrough,Leeds United,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 41"
+2025-04-09,Oxford United,Queens Park Rangers,1,3,A,0,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 41"
+2025-04-09,Swansea City,Plymouth Argyle,3,0,H,3,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 41"
+2025-04-09,Coventry City,Portsmouth,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 41"
+2025-04-11,Burnley,Norwich City,2,1,H,2,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 42"
+2025-04-12,Leeds United,Preston North End,2,1,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 42"
+2025-04-12,Plymouth Argyle,Sheffield United,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 42"
+2025-04-12,Cardiff City,Stoke City,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 42"
+2025-04-12,Luton Town,Blackburn Rovers,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 42"
+2025-04-12,Millwall,Middlesbrough,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 42"
+2025-04-12,Portsmouth,Derby County,2,2,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 42"
+2025-04-12,Queens Park Rangers,Bristol City,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 42"
+2025-04-12,Sheffield Wednesday,Oxford United,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 42"
+2025-04-12,Sunderland,Swansea City,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 42"
+2025-04-12,West Bromwich Albion,Watford,2,1,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 42"
+2025-04-14,Hull City,Coventry City,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 42"
+2025-04-18,Derby County,Luton Town,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 43"
+2025-04-18,Blackburn Rovers,Millwall,4,1,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 43"
+2025-04-18,Bristol City,Sunderland,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 43"
+2025-04-18,Coventry City,West Bromwich Albion,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 43"
+2025-04-18,Middlesbrough,Plymouth Argyle,2,1,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 43"
+2025-04-18,Watford,Burnley,1,2,A,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 43"
+2025-04-18,Norwich City,Portsmouth,3,5,A,1,3,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 43"
+2025-04-18,Preston North End,Queens Park Rangers,1,2,A,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 43"
+2025-04-18,Stoke City,Sheffield Wednesday,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 43"
+2025-04-18,Swansea City,Hull City,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 43"
+2025-04-18,Sheffield United,Cardiff City,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 43"
+2025-04-18,Oxford United,Leeds United,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 43"
+2025-04-21,Cardiff City,Oxford United,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 44"
+2025-04-21,Hull City,Preston North End,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 44"
+2025-04-21,Leeds United,Stoke City,6,0,H,5,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 44"
+2025-04-21,Luton Town,Bristol City,3,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 44"
+2025-04-21,Millwall,Norwich City,3,1,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 44"
+2025-04-21,Plymouth Argyle,Coventry City,3,1,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 44"
+2025-04-21,Portsmouth,Watford,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 44"
+2025-04-21,Queens Park Rangers,Swansea City,1,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 44"
+2025-04-21,Sheffield Wednesday,Middlesbrough,2,1,H,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 44"
+2025-04-21,Sunderland,Blackburn Rovers,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 44"
+2025-04-21,West Bromwich Albion,Derby County,1,3,A,0,2,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 44"
+2025-04-21,Burnley,Sheffield United,2,1,H,2,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 44"
+2025-04-25,Stoke City,Sheffield United,0,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 45"
+2025-04-26,Luton Town,Coventry City,1,0,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 45"
+2025-04-26,Queens Park Rangers,Burnley,0,5,A,0,3,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 45"
+2025-04-26,Blackburn Rovers,Watford,2,1,H,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 45"
+2025-04-26,Cardiff City,West Bromwich Albion,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 45"
+2025-04-26,Hull City,Derby County,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 45"
+2025-04-26,Middlesbrough,Norwich City,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 45"
+2025-04-26,Millwall,Swansea City,1,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 45"
+2025-04-26,Oxford United,Sunderland,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 45"
+2025-04-26,Preston North End,Plymouth Argyle,1,2,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 45"
+2025-04-26,Sheffield Wednesday,Portsmouth,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 45"
+2025-04-28,Leeds United,Bristol City,4,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 45"
+2025-05-03,Bristol City,Preston North End,2,2,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 46"
+2025-05-03,Burnley,Millwall,3,1,H,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 46"
+2025-05-03,Coventry City,Middlesbrough,2,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 46"
+2025-05-03,Derby County,Stoke City,0,0,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 46"
+2025-05-03,Norwich City,Cardiff City,4,2,H,3,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 46"
+2025-05-03,Plymouth Argyle,Leeds United,1,2,A,1,0,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 46"
+2025-05-03,Portsmouth,Hull City,1,1,D,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 46"
+2025-05-03,Sheffield United,Blackburn Rovers,1,1,D,0,0,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 46"
+2025-05-03,Sunderland,Queens Park Rangers,0,1,A,0,1,A,2024-25,CHAMPIONSHIP,"Regular, Matchday 46"
+2025-05-03,Swansea City,Oxford United,3,3,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 46"
+2025-05-03,Watford,Sheffield Wednesday,1,1,D,1,1,D,2024-25,CHAMPIONSHIP,"Regular, Matchday 46"
+2025-05-03,West Bromwich Albion,Luton Town,5,3,H,3,1,H,2024-25,CHAMPIONSHIP,"Regular, Matchday 46"
+2025-05-08,Bristol City,Sheffield United,0,3,A,0,1,A,2024-25,CHAMPIONSHIP,"Finals, Semifinals"
+2025-05-09,Coventry City,Sunderland,1,2,A,0,0,D,2024-25,CHAMPIONSHIP,"Finals, Semifinals"
+2025-05-12,Sheffield United,Bristol City,3,0,H,1,0,H,2024-25,CHAMPIONSHIP,"Finals, Semifinals"
+2025-05-13,Sunderland,Coventry City,0,1,A,0,0,D,2024-25,CHAMPIONSHIP,"Finals, Semifinals"
+2025-05-24,Sheffield United,Sunderland,1,2,A,1,0,H,2024-25,CHAMPIONSHIP,"Finals, Final"
