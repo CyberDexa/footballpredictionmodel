@@ -7,7 +7,7 @@ import sys
 import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
-from src.data_fetcher import EPLDataFetcher
+from src.openfootball_fetcher import OpenFootballFetcher
 from src.feature_engineering import FeatureEngineer
 from src.models import EPLPredictor
 import pandas as pd
@@ -17,11 +17,12 @@ import argparse
 class EPLPredictionSystem:
     """Main system for EPL match predictions"""
     
-    def __init__(self, data_dir: str = "data", models_dir: str = "models"):
+    def __init__(self, data_dir: str = "data", models_dir: str = "models", league: str = "EPL"):
         self.data_dir = data_dir
         self.models_dir = models_dir
+        self.league = league
         
-        self.fetcher = EPLDataFetcher(data_dir=data_dir)
+        self.fetcher = OpenFootballFetcher(data_dir=data_dir)
         self.engineer = FeatureEngineer(n_last_matches=5)
         self.predictor = EPLPredictor(models_dir=models_dir)
         
@@ -29,11 +30,11 @@ class EPLPredictionSystem:
         self.is_trained = False
     
     def fetch_data(self, force_refresh: bool = False) -> pd.DataFrame:
-        """Fetch EPL historical data"""
+        """Fetch league historical data"""
         print("\n" + "="*60)
         print("STEP 1: FETCHING DATA")
         print("="*60)
-        return self.fetcher.get_or_fetch_data(force_refresh=force_refresh)
+        return self.fetcher.get_or_fetch_league_data(self.league, force_refresh=force_refresh)
     
     def engineer_features(self, df: pd.DataFrame) -> pd.DataFrame:
         """Create features for prediction"""
@@ -69,7 +70,7 @@ class EPLPredictionSystem:
     
     def load_trained_models(self):
         """Load previously trained models"""
-        self.predictor.load_models()
+        self.predictor.load_models(prefix=self.league.lower())
         self.is_trained = True
     
     def predict_upcoming_match(self, home_team: str, away_team: str) -> dict:
