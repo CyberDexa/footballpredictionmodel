@@ -86,10 +86,16 @@ class UpcomingFixturesFetcher:
         cutoff_date = today + timedelta(days=days_ahead)
         
         fixtures = []
-        for match_round in data.get('rounds', []):
-            round_name = match_round.get('name', 'Unknown Round')
-            
-            for match in match_round.get('matches', []):
+        
+        # OpenFootball has two possible structures:
+        # 1. Flat 'matches' array with 'round' as property
+        # 2. Nested 'rounds' array with 'matches' inside
+        
+        matches_list = data.get('matches', [])
+        
+        if matches_list:
+            # Flat structure - matches at top level
+            for match in matches_list:
                 try:
                     match_date_str = match.get('date')
                     if not match_date_str:
@@ -97,16 +103,22 @@ class UpcomingFixturesFetcher:
                     
                     match_date = datetime.strptime(match_date_str, '%Y-%m-%d').date()
                     
-                    # Check if match is upcoming (no score yet or date in future)
+                    # Check if match is upcoming (no score yet)
                     score = match.get('score', {})
                     has_score = score and score.get('ft') is not None
                     
                     if match_date >= today and match_date <= cutoff_date and not has_score:
+                        # Team names can be strings or dicts
+                        team1 = match.get('team1')
+                        team2 = match.get('team2')
+                        home_team = team1 if isinstance(team1, str) else team1.get('name', 'Unknown')
+                        away_team = team2 if isinstance(team2, str) else team2.get('name', 'Unknown')
+                        
                         fixtures.append({
                             'Date': match_date_str,
-                            'Round': round_name,
-                            'HomeTeam': match['team1']['name'],
-                            'AwayTeam': match['team2']['name'],
+                            'Round': match.get('round', 'Unknown Round'),
+                            'HomeTeam': home_team,
+                            'AwayTeam': away_team,
                             'Time': match.get('time', 'TBD'),
                             'League': league,
                             'LeagueName': self.LEAGUES[league]['name'],
@@ -114,6 +126,41 @@ class UpcomingFixturesFetcher:
                         })
                 except Exception:
                     continue
+        else:
+            # Nested structure - rounds with matches inside
+            for match_round in data.get('rounds', []):
+                round_name = match_round.get('name', 'Unknown Round')
+                
+                for match in match_round.get('matches', []):
+                    try:
+                        match_date_str = match.get('date')
+                        if not match_date_str:
+                            continue
+                        
+                        match_date = datetime.strptime(match_date_str, '%Y-%m-%d').date()
+                        
+                        # Check if match is upcoming (no score yet)
+                        score = match.get('score', {})
+                        has_score = score and score.get('ft') is not None
+                        
+                        if match_date >= today and match_date <= cutoff_date and not has_score:
+                            team1 = match.get('team1')
+                            team2 = match.get('team2')
+                            home_team = team1 if isinstance(team1, str) else team1.get('name', 'Unknown')
+                            away_team = team2 if isinstance(team2, str) else team2.get('name', 'Unknown')
+                            
+                            fixtures.append({
+                                'Date': match_date_str,
+                                'Round': round_name,
+                                'HomeTeam': home_team,
+                                'AwayTeam': away_team,
+                                'Time': match.get('time', 'TBD'),
+                                'League': league,
+                                'LeagueName': self.LEAGUES[league]['name'],
+                                'Flag': self.LEAGUES[league]['flag']
+                            })
+                    except Exception:
+                        continue
         
         df = pd.DataFrame(fixtures)
         if len(df) > 0:
