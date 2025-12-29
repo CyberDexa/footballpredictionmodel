@@ -1,0 +1,539 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,Season,League,Round
+2025-08-23,Aris Saloniki,Volos NFC,2,0,H,0,0,D,2025-26,GREEK_SL,1. Round
+2025-08-23,Olympiakos Piraeus,Asteras Tripolis,2,0,H,0,0,D,2025-26,GREEK_SL,1. Round
+2025-08-23,Panetolikos,Atromitos,0,2,A,0,1,A,2025-26,GREEK_SL,1. Round
+2025-08-24,AEK Athen,Panserraikos,2,0,H,2,0,H,2025-26,GREEK_SL,1. Round
+2025-08-24,PAOK Saloniki,AE Lárissa,1,0,H,0,0,D,2025-26,GREEK_SL,1. Round
+2025-08-25,Levadiakos,AE Kifisias,3,2,H,2,2,D,2025-26,GREEK_SL,1. Round
+2025-08-30,Volos NFC,Olympiakos Piraeus,0,2,A,0,0,D,2025-26,GREEK_SL,2. Round
+2025-08-30,Panserraikos,OFI Heraklion,0,1,A,0,0,D,2025-26,GREEK_SL,2. Round
+2025-08-30,Aris Saloniki,Panetolikos,0,2,A,0,0,D,2025-26,GREEK_SL,2. Round
+2025-08-30,AE Lárissa,AE Kifisias,1,1,D,0,0,D,2025-26,GREEK_SL,2. Round
+2025-08-31,AEK Athen,Asteras Tripolis,1,0,H,1,0,H,2025-26,GREEK_SL,2. Round
+2025-08-31,PAOK Saloniki,Atromitos,1,0,H,0,0,D,2025-26,GREEK_SL,2. Round
+2025-08-31,Panathinaikos,Levadiakos,1,1,D,1,0,H,2025-26,GREEK_SL,2. Round
+2025-09-13,Olympiakos Piraeus,Panserraikos,5,0,H,0,0,D,2025-26,GREEK_SL,3. Round
+2025-09-13,Atromitos,Aris Saloniki,1,2,A,1,1,D,2025-26,GREEK_SL,3. Round
+2025-09-13,Panetolikos,Volos NFC,1,2,A,1,2,A,2025-26,GREEK_SL,3. Round
+2025-09-14,Asteras Tripolis,AE Lárissa,2,2,D,2,0,H,2025-26,GREEK_SL,3. Round
+2025-09-14,AE Kifisias,Panathinaikos,3,2,H,1,1,D,2025-26,GREEK_SL,3. Round
+2025-09-14,Levadiakos,AEK Athen,0,1,A,0,0,D,2025-26,GREEK_SL,3. Round
+2025-09-14,OFI Heraklion,PAOK Saloniki,1,2,A,0,2,A,2025-26,GREEK_SL,3. Round
+2025-09-20,AE Kifisias,Aris Saloniki,0,1,A,0,0,D,2025-26,GREEK_SL,4. Round
+2025-09-20,Panserraikos,Atromitos,1,1,D,0,1,A,2025-26,GREEK_SL,4. Round
+2025-09-20,Volos NFC,Asteras Tripolis,2,1,H,1,0,H,2025-26,GREEK_SL,4. Round
+2025-09-20,PAOK Saloniki,Panetolikos,0,0,D,0,0,D,2025-26,GREEK_SL,4. Round
+2025-09-21,AE Lárissa,AEK Athen,1,1,D,0,0,D,2025-26,GREEK_SL,4. Round
+2025-09-21,Levadiakos,OFI Heraklion,4,0,H,1,0,H,2025-26,GREEK_SL,4. Round
+2025-09-21,Panathinaikos,Olympiakos Piraeus,1,1,D,0,0,D,2025-26,GREEK_SL,4. Round
+2025-09-27,Olympiakos Piraeus,Levadiakos,3,2,H,1,0,H,2025-26,GREEK_SL,5. Round
+2025-09-27,Aris Saloniki,Panserraikos,1,1,D,1,0,H,2025-26,GREEK_SL,5. Round
+2025-09-28,AEK Athen,Volos NFC,1,0,H,0,0,D,2025-26,GREEK_SL,5. Round
+2025-09-28,OFI Heraklion,AE Kifisias,1,3,A,0,1,A,2025-26,GREEK_SL,5. Round
+2025-09-28,Asteras Tripolis,PAOK Saloniki,3,3,D,2,3,A,2025-26,GREEK_SL,5. Round
+2025-09-28,Panetolikos,Panathinaikos,1,2,A,1,0,H,2025-26,GREEK_SL,5. Round
+2025-09-29,Atromitos,AE Lárissa,1,1,D,1,0,H,2025-26,GREEK_SL,5. Round
+2025-10-04,OFI Heraklion,Aris Saloniki,3,0,H,1,0,H,2025-26,GREEK_SL,6. Round
+2025-10-04,Panserraikos,Asteras Tripolis,2,1,H,1,0,H,2025-26,GREEK_SL,6. Round
+2025-10-04,AE Lárissa,Volos NFC,2,5,A,1,2,A,2025-26,GREEK_SL,6. Round
+2025-10-05,AE Kifisias,AEK Athen,2,3,A,2,1,H,2025-26,GREEK_SL,6. Round
+2025-10-05,Levadiakos,Panetolikos,6,0,H,4,0,H,2025-26,GREEK_SL,6. Round
+2025-10-05,PAOK Saloniki,Olympiakos Piraeus,2,1,H,0,1,A,2025-26,GREEK_SL,6. Round
+2025-10-05,Panathinaikos,Atromitos,1,0,H,0,0,D,2025-26,GREEK_SL,6. Round
+2025-10-18,AE Lárissa,Olympiakos Piraeus,0,2,A,0,2,A,2025-26,GREEK_SL,7. Round
+2025-10-18,Atromitos,Levadiakos,2,2,D,2,1,H,2025-26,GREEK_SL,7. Round
+2025-10-18,Panetolikos,OFI Heraklion,4,2,H,0,0,D,2025-26,GREEK_SL,7. Round
+2025-10-19,Asteras Tripolis,AE Kifisias,2,2,D,0,1,A,2025-26,GREEK_SL,7. Round
+2025-10-19,Volos NFC,Panserraikos,2,1,H,1,0,H,2025-26,GREEK_SL,7. Round
+2025-10-19,Aris Saloniki,Panathinaikos,1,1,D,0,1,A,2025-26,GREEK_SL,7. Round
+2025-10-19,AEK Athen,PAOK Saloniki,0,2,A,0,1,A,2025-26,GREEK_SL,7. Round
+2025-10-25,AE Kifisias,Panetolikos,1,1,D,1,1,D,2025-26,GREEK_SL,8. Round
+2025-10-25,Panserraikos,AE Lárissa,0,2,A,0,2,A,2025-26,GREEK_SL,8. Round
+2025-10-25,OFI Heraklion,Atromitos,1,3,A,1,1,D,2025-26,GREEK_SL,8. Round
+2025-10-26,Levadiakos,Aris Saloniki,1,1,D,0,1,A,2025-26,GREEK_SL,8. Round
+2025-10-26,Panathinaikos,Asteras Tripolis,2,0,H,1,0,H,2025-26,GREEK_SL,8. Round
+2025-10-26,PAOK Saloniki,Volos NFC,3,0,H,0,0,D,2025-26,GREEK_SL,8. Round
+2025-10-26,Olympiakos Piraeus,AEK Athen,2,0,H,1,0,H,2025-26,GREEK_SL,8. Round
+2025-11-01,Volos NFC,Panathinaikos,1,0,H,1,0,H,2025-26,GREEK_SL,9. Round
+2025-11-01,Atromitos,AE Kifisias,1,2,A,0,0,D,2025-26,GREEK_SL,9. Round
+2025-11-01,Olympiakos Piraeus,Aris Saloniki,2,1,H,0,0,D,2025-26,GREEK_SL,9. Round
+2025-11-02,AE Lárissa,Levadiakos,0,2,A,0,1,A,2025-26,GREEK_SL,9. Round
+2025-11-02,Panserraikos,PAOK Saloniki,0,5,A,0,2,A,2025-26,GREEK_SL,9. Round
+2025-11-02,AEK Athen,Panetolikos,1,0,H,0,0,D,2025-26,GREEK_SL,9. Round
+2025-11-03,Asteras Tripolis,OFI Heraklion,3,0,H,1,0,H,2025-26,GREEK_SL,9. Round
+2024-08-17,Volos NFC,Olympiakos Piraeus,0,2,A,0,1,A,2024-25,GREEK_SL,Matchday 1
+2024-08-17,PAOK Saloniki,Panserraikos,3,2,H,2,1,H,2024-25,GREEK_SL,Matchday 1
+2024-08-18,Levadiakos,GS Kallithea,0,0,D,0,0,D,2024-25,GREEK_SL,Matchday 1
+2024-08-18,Panathinaikos,Asteras Tripolis,0,1,A,0,0,D,2024-25,GREEK_SL,Matchday 1
+2024-08-18,Atromitos,Aris Saloniki,1,1,D,0,0,D,2024-25,GREEK_SL,Matchday 1
+2024-08-18,AEK Athen,OFI Heraklion,3,0,H,2,0,H,2024-25,GREEK_SL,Matchday 1
+2024-08-19,Panetolikos,Lamia,0,1,A,0,0,D,2024-25,GREEK_SL,Matchday 1
+2024-08-24,OFI Heraklion,Atromitos,1,1,D,1,0,H,2024-25,GREEK_SL,Matchday 2
+2024-08-24,Panserraikos,Aris Saloniki,0,1,A,0,1,A,2024-25,GREEK_SL,Matchday 2
+2024-08-24,AEK Athen,Lamia,1,1,D,0,1,A,2024-25,GREEK_SL,Matchday 2
+2024-08-25,Asteras Tripolis,Volos NFC,0,1,A,0,1,A,2024-25,GREEK_SL,Matchday 2
+2024-08-25,PAOK Saloniki,Panetolikos,2,0,H,0,0,D,2024-25,GREEK_SL,Matchday 2
+2024-08-25,Panathinaikos,Levadiakos,1,0,H,0,0,D,2024-25,GREEK_SL,Matchday 2
+2024-08-26,Olympiakos Piraeus,GS Kallithea,2,1,H,1,0,H,2024-25,GREEK_SL,Matchday 2
+2024-08-31,Lamia,Olympiakos Piraeus,0,3,A,0,1,A,2024-25,GREEK_SL,Matchday 3
+2024-08-31,Aris Saloniki,Asteras Tripolis,1,1,D,0,0,D,2024-25,GREEK_SL,Matchday 3
+2024-08-31,Panetolikos,Panserraikos,3,0,H,1,0,H,2024-25,GREEK_SL,Matchday 3
+2024-09-01,Levadiakos,AEK Athen,0,3,A,0,1,A,2024-25,GREEK_SL,Matchday 3
+2024-09-01,Volos NFC,OFI Heraklion,1,3,A,0,1,A,2024-25,GREEK_SL,Matchday 3
+2024-09-01,Atromitos,PAOK Saloniki,1,2,A,0,1,A,2024-25,GREEK_SL,Matchday 3
+2024-09-01,GS Kallithea,Panathinaikos,2,2,D,1,1,D,2024-25,GREEK_SL,Matchday 3
+2024-09-14,Lamia,GS Kallithea,0,0,D,0,0,D,2024-25,GREEK_SL,Matchday 4
+2024-09-14,Asteras Tripolis,Atromitos,1,2,A,1,2,A,2024-25,GREEK_SL,Matchday 4
+2024-09-15,Panserraikos,Levadiakos,2,2,D,2,0,H,2024-25,GREEK_SL,Matchday 4
+2024-09-15,Olympiakos Piraeus,Panetolikos,0,0,D,0,0,D,2024-25,GREEK_SL,Matchday 4
+2024-09-15,OFI Heraklion,Aris Saloniki,3,2,H,1,0,H,2024-25,GREEK_SL,Matchday 4
+2024-09-15,PAOK Saloniki,Panathinaikos,0,0,D,0,0,D,2024-25,GREEK_SL,Matchday 4
+2024-09-16,AEK Athen,Volos NFC,2,0,H,1,0,H,2024-25,GREEK_SL,Matchday 4
+2024-09-21,Volos NFC,PAOK Saloniki,1,4,A,0,1,A,2024-25,GREEK_SL,Matchday 5
+2024-09-21,Aris Saloniki,Olympiakos Piraeus,2,1,H,2,0,H,2024-25,GREEK_SL,Matchday 5
+2024-09-21,Panetolikos,Asteras Tripolis,1,1,D,1,1,D,2024-25,GREEK_SL,Matchday 5
+2024-09-22,Levadiakos,OFI Heraklion,1,1,D,0,0,D,2024-25,GREEK_SL,Matchday 5
+2024-09-22,Panathinaikos,Panserraikos,3,1,H,1,1,D,2024-25,GREEK_SL,Matchday 5
+2024-09-22,Atromitos,Lamia,4,2,H,1,1,D,2024-25,GREEK_SL,Matchday 5
+2024-09-22,GS Kallithea,AEK Athen,0,0,D,0,0,D,2024-25,GREEK_SL,Matchday 5
+2024-09-28,Volos NFC,GS Kallithea,1,1,D,1,1,D,2024-25,GREEK_SL,Matchday 6
+2024-09-28,Asteras Tripolis,Levadiakos,1,1,D,1,1,D,2024-25,GREEK_SL,Matchday 6
+2024-09-29,OFI Heraklion,Panetolikos,1,2,A,1,0,H,2024-25,GREEK_SL,Matchday 6
+2024-09-29,Olympiakos Piraeus,Atromitos,2,0,H,1,0,H,2024-25,GREEK_SL,Matchday 6
+2024-09-29,PAOK Saloniki,Aris Saloniki,0,1,A,0,0,D,2024-25,GREEK_SL,Matchday 6
+2024-09-29,AEK Athen,Panathinaikos,2,0,H,1,0,H,2024-25,GREEK_SL,Matchday 6
+2024-09-30,Lamia,Panserraikos,1,2,A,0,1,A,2024-25,GREEK_SL,Matchday 6
+2024-10-05,Atromitos,Volos NFC,1,2,A,1,0,H,2024-25,GREEK_SL,Matchday 7
+2024-10-05,Panetolikos,AEK Athen,1,0,H,0,0,D,2024-25,GREEK_SL,Matchday 7
+2024-10-05,Aris Saloniki,Lamia,2,0,H,2,0,H,2024-25,GREEK_SL,Matchday 7
+2024-10-06,Panserraikos,OFI Heraklion,2,3,A,2,2,D,2024-25,GREEK_SL,Matchday 7
+2024-10-06,GS Kallithea,Asteras Tripolis,1,3,A,1,1,D,2024-25,GREEK_SL,Matchday 7
+2024-10-06,Levadiakos,PAOK Saloniki,0,2,A,0,0,D,2024-25,GREEK_SL,Matchday 7
+2024-10-06,Panathinaikos,Olympiakos Piraeus,0,0,D,0,0,D,2024-25,GREEK_SL,Matchday 7
+2024-10-19,Volos NFC,Panserraikos,0,1,A,0,0,D,2024-25,GREEK_SL,Matchday 8
+2024-10-19,Atromitos,Panetolikos,0,2,A,0,2,A,2024-25,GREEK_SL,Matchday 8
+2024-10-19,Lamia,Asteras Tripolis,0,0,D,0,0,D,2024-25,GREEK_SL,Matchday 8
+2024-10-20,Olympiakos Piraeus,Levadiakos,2,2,D,2,1,H,2024-25,GREEK_SL,Matchday 8
+2024-10-20,OFI Heraklion,Panathinaikos,0,1,A,0,1,A,2024-25,GREEK_SL,Matchday 8
+2024-10-20,Aris Saloniki,GS Kallithea,2,0,H,0,0,D,2024-25,GREEK_SL,Matchday 8
+2024-10-20,AEK Athen,PAOK Saloniki,1,1,D,1,1,D,2024-25,GREEK_SL,Matchday 8
+2024-10-26,Panetolikos,Volos NFC,0,1,A,0,0,D,2024-25,GREEK_SL,Matchday 9
+2024-10-26,Levadiakos,Lamia,2,2,D,1,1,D,2024-25,GREEK_SL,Matchday 9
+2024-10-26,Panserraikos,AEK Athen,1,0,H,1,0,H,2024-25,GREEK_SL,Matchday 9
+2024-10-27,Asteras Tripolis,Olympiakos Piraeus,1,0,H,1,0,H,2024-25,GREEK_SL,Matchday 9
+2024-10-27,Panathinaikos,Aris Saloniki,1,1,D,1,0,H,2024-25,GREEK_SL,Matchday 9
+2024-10-27,PAOK Saloniki,OFI Heraklion,1,2,A,1,0,H,2024-25,GREEK_SL,Matchday 9
+2024-10-27,GS Kallithea,Atromitos,0,3,A,0,1,A,2024-25,GREEK_SL,Matchday 9
+2024-11-02,Olympiakos Piraeus,Panserraikos,2,1,H,1,0,H,2024-25,GREEK_SL,Matchday 10
+2024-11-02,GS Kallithea,Panetolikos,1,1,D,1,1,D,2024-25,GREEK_SL,Matchday 10
+2024-11-03,Aris Saloniki,Levadiakos,3,1,H,2,1,H,2024-25,GREEK_SL,Matchday 10
+2024-11-03,Volos NFC,Panathinaikos,0,1,A,0,1,A,2024-25,GREEK_SL,Matchday 10
+2024-11-03,Atromitos,AEK Athen,0,1,A,0,1,A,2024-25,GREEK_SL,Matchday 10
+2024-11-03,Lamia,PAOK Saloniki,1,2,A,1,0,H,2024-25,GREEK_SL,Matchday 10
+2024-11-04,Asteras Tripolis,OFI Heraklion,3,0,H,0,0,D,2024-25,GREEK_SL,Matchday 10
+2024-11-09,Panetolikos,Aris Saloniki,2,1,H,1,1,D,2024-25,GREEK_SL,Matchday 11
+2024-11-09,Panserraikos,Atromitos,2,3,A,1,3,A,2024-25,GREEK_SL,Matchday 11
+2024-11-09,AEK Athen,Asteras Tripolis,3,0,H,2,0,H,2024-25,GREEK_SL,Matchday 11
+2024-11-10,OFI Heraklion,GS Kallithea,2,2,D,2,0,H,2024-25,GREEK_SL,Matchday 11
+2024-11-10,Levadiakos,Volos NFC,3,2,H,1,1,D,2024-25,GREEK_SL,Matchday 11
+2024-11-10,Panathinaikos,Lamia,1,0,H,0,0,D,2024-25,GREEK_SL,Matchday 11
+2024-11-10,PAOK Saloniki,Olympiakos Piraeus,2,3,A,0,1,A,2024-25,GREEK_SL,Matchday 11
+2024-11-22,GS Kallithea,Panserraikos,1,2,A,0,1,A,2024-25,GREEK_SL,Matchday 12
+2024-11-23,Lamia,OFI Heraklion,1,1,D,1,1,D,2024-25,GREEK_SL,Matchday 12
+2024-11-23,Aris Saloniki,Volos NFC,0,1,A,0,1,A,2024-25,GREEK_SL,Matchday 12
+2024-11-24,Panetolikos,Panathinaikos,1,2,A,0,1,A,2024-25,GREEK_SL,Matchday 12
+2024-11-24,Asteras Tripolis,PAOK Saloniki,1,2,A,0,0,D,2024-25,GREEK_SL,Matchday 12
+2024-11-24,Olympiakos Piraeus,AEK Athen,4,1,H,1,1,D,2024-25,GREEK_SL,Matchday 12
+2024-11-25,Atromitos,Levadiakos,2,1,H,0,1,A,2024-25,GREEK_SL,Matchday 12
+2024-11-30,Volos NFC,Lamia,0,0,D,0,0,D,2024-25,GREEK_SL,Matchday 13
+2024-11-30,Levadiakos,Panetolikos,1,1,D,1,0,H,2024-25,GREEK_SL,Matchday 13
+2024-11-30,AEK Athen,Aris Saloniki,4,0,H,2,0,H,2024-25,GREEK_SL,Matchday 13
+2024-12-01,Panserraikos,Asteras Tripolis,2,1,H,1,1,D,2024-25,GREEK_SL,Matchday 13
+2024-12-01,OFI Heraklion,Olympiakos Piraeus,0,2,A,0,0,D,2024-25,GREEK_SL,Matchday 13
+2024-12-01,PAOK Saloniki,GS Kallithea,2,2,D,1,0,H,2024-25,GREEK_SL,Matchday 13
+2024-12-01,Panathinaikos,Atromitos,1,1,D,1,0,H,2024-25,GREEK_SL,Matchday 13
+2024-12-07,Olympiakos Piraeus,Volos NFC,3,0,H,2,0,H,2024-25,GREEK_SL,Matchday 14
+2024-12-07,Aris Saloniki,Atromitos,2,1,H,2,0,H,2024-25,GREEK_SL,Matchday 14
+2024-12-08,Panserraikos,PAOK Saloniki,1,4,A,0,2,A,2024-25,GREEK_SL,Matchday 14
+2024-12-08,OFI Heraklion,AEK Athen,1,2,A,1,1,D,2024-25,GREEK_SL,Matchday 14
+2024-12-08,Asteras Tripolis,Panathinaikos,0,1,A,0,0,D,2024-25,GREEK_SL,Matchday 14
+2024-12-08,Lamia,Panetolikos,0,1,A,0,1,A,2024-25,GREEK_SL,Matchday 14
+2024-12-09,GS Kallithea,Levadiakos,2,4,A,1,0,H,2024-25,GREEK_SL,Matchday 14
+2024-12-14,Lamia,AEK Athen,0,1,A,0,0,D,2024-25,GREEK_SL,Matchday 15
+2024-12-14,Atromitos,OFI Heraklion,0,0,D,0,0,D,2024-25,GREEK_SL,Matchday 15
+2024-12-14,Volos NFC,Asteras Tripolis,2,1,H,0,0,D,2024-25,GREEK_SL,Matchday 15
+2024-12-15,Aris Saloniki,Panserraikos,1,0,H,0,0,D,2024-25,GREEK_SL,Matchday 15
+2024-12-15,Levadiakos,Panathinaikos,0,1,A,0,0,D,2024-25,GREEK_SL,Matchday 15
+2024-12-15,Panetolikos,PAOK Saloniki,0,1,A,0,0,D,2024-25,GREEK_SL,Matchday 15
+2024-12-16,GS Kallithea,Olympiakos Piraeus,1,1,D,0,0,D,2024-25,GREEK_SL,Matchday 15
+2024-12-21,Olympiakos Piraeus,Lamia,1,0,H,0,0,D,2024-25,GREEK_SL,Matchday 16
+2024-12-22,Panserraikos,Panetolikos,0,0,D,0,0,D,2024-25,GREEK_SL,Matchday 16
+2024-12-22,Panathinaikos,GS Kallithea,1,0,H,0,0,D,2024-25,GREEK_SL,Matchday 16
+2024-12-22,PAOK Saloniki,Atromitos,3,0,H,1,0,H,2024-25,GREEK_SL,Matchday 16
+2024-12-22,AEK Athen,Levadiakos,1,1,D,0,0,D,2024-25,GREEK_SL,Matchday 16
+2024-12-23,Asteras Tripolis,Aris Saloniki,2,1,H,0,1,A,2024-25,GREEK_SL,Matchday 16
+2024-12-23,OFI Heraklion,Volos NFC,4,0,H,2,0,H,2024-25,GREEK_SL,Matchday 16
+2025-01-04,GS Kallithea,Lamia,2,1,H,1,0,H,2024-25,GREEK_SL,Matchday 17
+2025-01-05,Levadiakos,Panserraikos,1,0,H,0,0,D,2024-25,GREEK_SL,Matchday 17
+2025-01-05,Aris Saloniki,OFI Heraklion,0,2,A,0,0,D,2024-25,GREEK_SL,Matchday 17
+2025-01-05,Volos NFC,AEK Athen,2,4,A,0,1,A,2024-25,GREEK_SL,Matchday 17
+2025-01-05,Atromitos,Asteras Tripolis,0,1,A,0,0,D,2024-25,GREEK_SL,Matchday 17
+2025-01-05,Panathinaikos,PAOK Saloniki,2,1,H,1,1,D,2024-25,GREEK_SL,Matchday 17
+2025-01-06,Panetolikos,Olympiakos Piraeus,0,2,A,0,1,A,2024-25,GREEK_SL,Matchday 17
+2025-01-11,Olympiakos Piraeus,Aris Saloniki,2,1,H,0,1,A,2024-25,GREEK_SL,Matchday 18
+2025-01-12,Panserraikos,Panathinaikos,2,2,D,0,1,A,2024-25,GREEK_SL,Matchday 18
+2025-01-12,Lamia,Atromitos,0,3,A,0,2,A,2024-25,GREEK_SL,Matchday 18
+2025-01-12,PAOK Saloniki,Volos NFC,1,2,A,0,0,D,2024-25,GREEK_SL,Matchday 18
+2025-01-12,AEK Athen,GS Kallithea,2,0,H,1,0,H,2024-25,GREEK_SL,Matchday 18
+2025-01-13,Asteras Tripolis,Panetolikos,2,0,H,0,0,D,2024-25,GREEK_SL,Matchday 18
+2025-01-13,OFI Heraklion,Levadiakos,0,0,D,0,0,D,2024-25,GREEK_SL,Matchday 18
+2025-01-18,GS Kallithea,Volos NFC,2,0,H,0,0,D,2024-25,GREEK_SL,Matchday 19
+2025-01-19,Atromitos,Olympiakos Piraeus,1,2,A,1,2,A,2024-25,GREEK_SL,Matchday 19
+2025-01-19,Levadiakos,Asteras Tripolis,1,2,A,1,0,H,2024-25,GREEK_SL,Matchday 19
+2025-01-19,Panetolikos,OFI Heraklion,1,0,H,1,0,H,2024-25,GREEK_SL,Matchday 19
+2025-01-19,Aris Saloniki,PAOK Saloniki,0,0,D,0,0,D,2024-25,GREEK_SL,Matchday 19
+2025-01-19,Panathinaikos,AEK Athen,1,0,H,1,0,H,2024-25,GREEK_SL,Matchday 19
+2025-01-20,Panserraikos,Lamia,2,0,H,1,0,H,2024-25,GREEK_SL,Matchday 19
+2025-01-24,Volos NFC,Atromitos,0,1,A,0,0,D,2024-25,GREEK_SL,Matchday 20
+2025-01-25,Asteras Tripolis,GS Kallithea,1,0,H,1,0,H,2024-25,GREEK_SL,Matchday 20
+2025-01-25,OFI Heraklion,Panserraikos,3,2,H,2,1,H,2024-25,GREEK_SL,Matchday 20
+2025-01-25,AEK Athen,Panetolikos,1,0,H,0,0,D,2024-25,GREEK_SL,Matchday 20
+2025-01-26,Lamia,Aris Saloniki,0,2,A,0,0,D,2024-25,GREEK_SL,Matchday 20
+2025-01-26,PAOK Saloniki,Levadiakos,1,0,H,0,0,D,2024-25,GREEK_SL,Matchday 20
+2025-01-26,Olympiakos Piraeus,Panathinaikos,1,1,D,1,0,H,2024-25,GREEK_SL,Matchday 20
+2025-02-01,Panathinaikos,OFI Heraklion,3,2,H,0,2,A,2024-25,GREEK_SL,Matchday 21
+2025-02-01,Panserraikos,Volos NFC,1,1,D,1,0,H,2024-25,GREEK_SL,Matchday 21
+2025-02-02,Levadiakos,Olympiakos Piraeus,0,1,A,0,0,D,2024-25,GREEK_SL,Matchday 21
+2025-02-02,GS Kallithea,Aris Saloniki,0,1,A,0,1,A,2024-25,GREEK_SL,Matchday 21
+2025-02-02,PAOK Saloniki,AEK Athen,1,2,A,0,1,A,2024-25,GREEK_SL,Matchday 21
+2025-02-02,Panetolikos,Atromitos,0,1,A,0,1,A,2024-25,GREEK_SL,Matchday 21
+2025-02-03,Asteras Tripolis,Lamia,1,0,H,1,0,H,2024-25,GREEK_SL,Matchday 21
+2025-02-08,Volos NFC,Panetolikos,0,1,A,0,0,D,2024-25,GREEK_SL,Matchday 22
+2025-02-08,OFI Heraklion,PAOK Saloniki,0,5,A,0,3,A,2024-25,GREEK_SL,Matchday 22
+2025-02-09,Olympiakos Piraeus,Asteras Tripolis,1,1,D,1,1,D,2024-25,GREEK_SL,Matchday 22
+2025-02-09,Aris Saloniki,Panathinaikos,2,0,H,1,0,H,2024-25,GREEK_SL,Matchday 22
+2025-02-09,AEK Athen,Panserraikos,5,0,H,2,0,H,2024-25,GREEK_SL,Matchday 22
+2025-02-10,Atromitos,GS Kallithea,1,2,A,0,2,A,2024-25,GREEK_SL,Matchday 22
+2025-02-10,Lamia,Levadiakos,0,2,A,0,2,A,2024-25,GREEK_SL,Matchday 22
+2025-02-15,OFI Heraklion,Asteras Tripolis,2,1,H,0,0,D,2024-25,GREEK_SL,Matchday 23
+2025-02-15,AEK Athen,Atromitos,2,1,H,1,1,D,2024-25,GREEK_SL,Matchday 23
+2025-02-16,Levadiakos,Aris Saloniki,4,1,H,1,1,D,2024-25,GREEK_SL,Matchday 23
+2025-02-16,Panathinaikos,Volos NFC,2,1,H,1,0,H,2024-25,GREEK_SL,Matchday 23
+2025-02-16,Panserraikos,Olympiakos Piraeus,0,4,A,0,2,A,2024-25,GREEK_SL,Matchday 23
+2025-02-16,PAOK Saloniki,Lamia,7,0,H,2,0,H,2024-25,GREEK_SL,Matchday 23
+2025-02-16,Panetolikos,GS Kallithea,2,0,H,0,0,D,2024-25,GREEK_SL,Matchday 23
+2025-02-22,GS Kallithea,OFI Heraklion,1,3,A,0,3,A,2024-25,GREEK_SL,Matchday 24
+2025-02-22,Atromitos,Panserraikos,1,0,H,0,0,D,2024-25,GREEK_SL,Matchday 24
+2025-02-22,Volos NFC,Levadiakos,1,2,A,1,0,H,2024-25,GREEK_SL,Matchday 24
+2025-02-23,Aris Saloniki,Panetolikos,2,1,H,2,0,H,2024-25,GREEK_SL,Matchday 24
+2025-02-23,Lamia,Panathinaikos,3,1,H,1,0,H,2024-25,GREEK_SL,Matchday 24
+2025-02-23,Asteras Tripolis,AEK Athen,0,3,A,0,0,D,2024-25,GREEK_SL,Matchday 24
+2025-02-23,Olympiakos Piraeus,PAOK Saloniki,2,1,H,2,1,H,2024-25,GREEK_SL,Matchday 24
+2025-03-01,Volos NFC,Aris Saloniki,1,1,D,0,0,D,2024-25,GREEK_SL,Matchday 25
+2025-03-01,Panserraikos,GS Kallithea,2,1,H,1,0,H,2024-25,GREEK_SL,Matchday 25
+2025-03-01,Panathinaikos,Panetolikos,2,0,H,1,0,H,2024-25,GREEK_SL,Matchday 25
+2025-03-02,Levadiakos,Atromitos,1,2,A,1,1,D,2024-25,GREEK_SL,Matchday 25
+2025-03-02,OFI Heraklion,Lamia,3,0,H,1,0,H,2024-25,GREEK_SL,Matchday 25
+2025-03-02,PAOK Saloniki,Asteras Tripolis,2,0,H,1,0,H,2024-25,GREEK_SL,Matchday 25
+2025-03-02,AEK Athen,Olympiakos Piraeus,0,1,A,0,0,D,2024-25,GREEK_SL,Matchday 25
+2025-03-09,Asteras Tripolis,Panserraikos,1,2,A,0,0,D,2024-25,GREEK_SL,Matchday 26
+2025-03-09,GS Kallithea,PAOK Saloniki,2,1,H,1,1,D,2024-25,GREEK_SL,Matchday 26
+2025-03-09,Aris Saloniki,AEK Athen,0,0,D,0,0,D,2024-25,GREEK_SL,Matchday 26
+2025-03-09,Atromitos,Panathinaikos,1,1,D,0,0,D,2024-25,GREEK_SL,Matchday 26
+2025-03-09,Olympiakos Piraeus,OFI Heraklion,1,0,H,1,0,H,2024-25,GREEK_SL,Matchday 26
+2025-03-09,Panetolikos,Levadiakos,0,0,D,0,0,D,2024-25,GREEK_SL,Matchday 26
+2025-03-09,Lamia,Volos NFC,1,0,H,1,0,H,2024-25,GREEK_SL,Matchday 26
+2025-03-30,AEK Athen,PAOK Saloniki,2,3,A,1,0,H,2024-25,GREEK_SL,"Championship, Matchday 1"
+2025-03-30,Olympiakos Piraeus,Panathinaikos,4,2,H,2,1,H,2024-25,GREEK_SL,"Championship, Matchday 1"
+2025-04-06,PAOK Saloniki,Olympiakos Piraeus,2,1,H,2,0,H,2024-25,GREEK_SL,"Championship, Matchday 2"
+2025-04-06,Panathinaikos,AEK Athen,3,1,H,1,0,H,2024-25,GREEK_SL,"Championship, Matchday 2"
+2025-04-13,Panathinaikos,PAOK Saloniki,3,1,H,2,0,H,2024-25,GREEK_SL,"Championship, Matchday 3"
+2025-04-13,Olympiakos Piraeus,AEK Athen,1,0,H,0,0,D,2024-25,GREEK_SL,"Championship, Matchday 3"
+2025-04-27,AEK Athen,Olympiakos Piraeus,0,2,A,0,1,A,2024-25,GREEK_SL,"Championship, Matchday 4"
+2025-04-27,PAOK Saloniki,Panathinaikos,2,1,H,1,1,D,2024-25,GREEK_SL,"Championship, Matchday 4"
+2025-05-04,AEK Athen,Panathinaikos,1,2,A,1,0,H,2024-25,GREEK_SL,"Championship, Matchday 5"
+2025-05-04,Olympiakos Piraeus,PAOK Saloniki,4,2,H,2,2,D,2024-25,GREEK_SL,"Championship, Matchday 5"
+2025-05-11,PAOK Saloniki,AEK Athen,1,0,H,1,0,H,2024-25,GREEK_SL,"Championship, Matchday 6"
+2025-05-11,Panathinaikos,Olympiakos Piraeus,0,1,A,0,0,D,2024-25,GREEK_SL,"Championship, Matchday 6"
+2025-03-29,OFI Heraklion,Atromitos,1,2,A,1,1,D,2024-25,GREEK_SL,"ECL Playoffs, Matchday 1"
+2025-03-29,Asteras Tripolis,Aris Saloniki,0,2,A,0,1,A,2024-25,GREEK_SL,"ECL Playoffs, Matchday 1"
+2025-04-05,Aris Saloniki,OFI Heraklion,2,0,H,0,0,D,2024-25,GREEK_SL,"ECL Playoffs, Matchday 2"
+2025-04-07,Atromitos,Asteras Tripolis,0,1,A,0,0,D,2024-25,GREEK_SL,"ECL Playoffs, Matchday 2"
+2025-04-13,Asteras Tripolis,OFI Heraklion,2,1,H,1,1,D,2024-25,GREEK_SL,"ECL Playoffs, Matchday 3"
+2025-04-13,Aris Saloniki,Atromitos,1,0,H,0,0,D,2024-25,GREEK_SL,"ECL Playoffs, Matchday 3"
+2025-04-26,Atromitos,Aris Saloniki,1,1,D,0,1,A,2024-25,GREEK_SL,"ECL Playoffs, Matchday 4"
+2025-04-26,OFI Heraklion,Asteras Tripolis,0,2,A,0,0,D,2024-25,GREEK_SL,"ECL Playoffs, Matchday 4"
+2025-05-03,OFI Heraklion,Aris Saloniki,1,1,D,1,0,H,2024-25,GREEK_SL,"ECL Playoffs, Matchday 5"
+2025-05-03,Asteras Tripolis,Atromitos,1,4,A,0,4,A,2024-25,GREEK_SL,"ECL Playoffs, Matchday 5"
+2025-05-10,Aris Saloniki,Asteras Tripolis,4,2,H,2,0,H,2024-25,GREEK_SL,"ECL Playoffs, Matchday 6"
+2025-05-10,Atromitos,OFI Heraklion,0,0,D,0,0,D,2024-25,GREEK_SL,"ECL Playoffs, Matchday 6"
+2025-03-29,GS Kallithea,Volos NFC,1,1,D,0,0,D,2024-25,GREEK_SL,"Relegation, Matchday 1"
+2025-03-29,Panetolikos,Levadiakos,1,2,A,1,0,H,2024-25,GREEK_SL,"Relegation, Matchday 1"
+2025-03-30,Panserraikos,Lamia,1,1,D,0,0,D,2024-25,GREEK_SL,"Relegation, Matchday 1"
+2025-04-05,Levadiakos,Panserraikos,3,0,H,2,0,H,2024-25,GREEK_SL,"Relegation, Matchday 2"
+2025-04-05,Lamia,GS Kallithea,0,2,A,0,1,A,2024-25,GREEK_SL,"Relegation, Matchday 2"
+2025-04-06,Volos NFC,Panetolikos,0,0,D,0,0,D,2024-25,GREEK_SL,"Relegation, Matchday 2"
+2025-04-12,Panetolikos,Lamia,1,0,H,1,0,H,2024-25,GREEK_SL,"Relegation, Matchday 3"
+2025-04-12,Panserraikos,GS Kallithea,3,1,H,1,1,D,2024-25,GREEK_SL,"Relegation, Matchday 3"
+2025-04-12,Volos NFC,Levadiakos,1,0,H,1,0,H,2024-25,GREEK_SL,"Relegation, Matchday 3"
+2025-04-23,Panserraikos,Panetolikos,1,1,D,1,0,H,2024-25,GREEK_SL,"Relegation, Matchday 4"
+2025-04-23,Lamia,Volos NFC,1,3,A,1,2,A,2024-25,GREEK_SL,"Relegation, Matchday 4"
+2025-04-23,GS Kallithea,Levadiakos,0,3,A,0,1,A,2024-25,GREEK_SL,"Relegation, Matchday 4"
+2025-04-28,Levadiakos,Lamia,0,0,D,0,0,D,2024-25,GREEK_SL,"Relegation, Matchday 5"
+2025-04-28,Panetolikos,GS Kallithea,0,1,A,0,1,A,2024-25,GREEK_SL,"Relegation, Matchday 5"
+2025-04-28,Volos NFC,Panserraikos,3,0,H,2,0,H,2024-25,GREEK_SL,"Relegation, Matchday 5"
+2025-05-05,Panserraikos,Volos NFC,3,0,H,1,0,H,2024-25,GREEK_SL,"Relegation, Matchday 6"
+2025-05-05,GS Kallithea,Panetolikos,0,0,D,0,0,D,2024-25,GREEK_SL,"Relegation, Matchday 6"
+2025-05-05,Lamia,Levadiakos,2,3,A,1,3,A,2024-25,GREEK_SL,"Relegation, Matchday 6"
+2025-05-10,Levadiakos,GS Kallithea,4,1,H,1,0,H,2024-25,GREEK_SL,"Relegation, Matchday 7"
+2025-05-10,Lamia,Panserraikos,2,1,H,0,1,A,2024-25,GREEK_SL,"Relegation, Matchday 7"
+2025-05-10,Panetolikos,Volos NFC,0,3,A,0,2,A,2024-25,GREEK_SL,"Relegation, Matchday 7"
+2025-05-14,Levadiakos,Panetolikos,1,2,A,1,2,A,2024-25,GREEK_SL,"Relegation, Matchday 8"
+2025-05-14,GS Kallithea,Panserraikos,1,1,D,1,0,H,2024-25,GREEK_SL,"Relegation, Matchday 8"
+2025-05-14,Volos NFC,Lamia,3,0,H,3,0,H,2024-25,GREEK_SL,"Relegation, Matchday 8"
+2025-05-18,Panserraikos,Levadiakos,0,1,A,0,1,A,2024-25,GREEK_SL,"Relegation, Matchday 9"
+2025-05-18,Lamia,Panetolikos,1,3,A,1,1,D,2024-25,GREEK_SL,"Relegation, Matchday 9"
+2025-05-18,Volos NFC,GS Kallithea,0,2,A,0,1,A,2024-25,GREEK_SL,"Relegation, Matchday 9"
+2025-05-22,Levadiakos,Volos NFC,3,2,H,1,1,D,2024-25,GREEK_SL,"Relegation, Matchday 10"
+2025-05-22,Panetolikos,Panserraikos,1,0,H,1,0,H,2024-25,GREEK_SL,"Relegation, Matchday 10"
+2025-05-22,GS Kallithea,Lamia,3,0,H,1,0,H,2024-25,GREEK_SL,"Relegation, Matchday 10"
+2020-09-11,Aris Saloniki,Lamia,3,1,H,0,1,A,2020-21,GREEK_SL,Matchday 1
+2020-09-11,PAOK Saloniki,AE Lárissa,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 1
+2020-09-12,OFI Heraklion,Panetolikos,1,1,D,0,1,A,2020-21,GREEK_SL,Matchday 1
+2020-09-13,Atromitos,Volos NFC,0,2,A,0,0,D,2020-21,GREEK_SL,Matchday 1
+2020-09-13,Asteras Tripolis,Panathinaikos,1,0,H,0,0,D,2020-21,GREEK_SL,Matchday 1
+2020-10-21,Apollon Smyrnis,PAS Giannina,1,2,A,0,2,A,2020-21,GREEK_SL,Matchday 1
+2020-12-16,AEK Athen,Olympiakos Piraeus,1,1,D,0,0,D,2020-21,GREEK_SL,Matchday 1
+2020-09-18,PAOK Saloniki,Atromitos,1,1,D,0,0,D,2020-21,GREEK_SL,Matchday 2
+2020-09-18,Olympiakos Piraeus,Asteras Tripolis,3,0,H,0,0,D,2020-21,GREEK_SL,Matchday 2
+2020-09-19,Panetolikos,AEK Athen,0,2,A,0,0,D,2020-21,GREEK_SL,Matchday 2
+2020-09-20,Lamia,OFI Heraklion,1,2,A,0,1,A,2020-21,GREEK_SL,Matchday 2
+2020-09-20,Volos NFC,Aris Saloniki,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 2
+2020-11-03,Panathinaikos,Apollon Smyrnis,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 2
+2020-11-04,PAS Giannina,AE Lárissa,1,2,A,0,0,D,2020-21,GREEK_SL,Matchday 2
+2020-09-26,Volos NFC,PAOK Saloniki,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 3
+2020-09-26,Olympiakos Piraeus,Panetolikos,2,0,H,0,0,D,2020-21,GREEK_SL,Matchday 3
+2020-09-27,Aris Saloniki,PAS Giannina,2,2,D,0,2,A,2020-21,GREEK_SL,Matchday 3
+2020-09-27,OFI Heraklion,Atromitos,2,2,D,0,1,A,2020-21,GREEK_SL,Matchday 3
+2020-09-27,AEK Athen,Lamia,3,0,H,1,0,H,2020-21,GREEK_SL,Matchday 3
+2020-09-28,AE Lárissa,Panathinaikos,1,1,D,0,1,A,2020-21,GREEK_SL,Matchday 3
+2020-11-25,Asteras Tripolis,Apollon Smyrnis,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 3
+2020-10-03,Panetolikos,Asteras Tripolis,1,1,D,0,1,A,2020-21,GREEK_SL,Matchday 4
+2020-10-04,Panathinaikos,Aris Saloniki,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 4
+2020-10-04,Apollon Smyrnis,AE Lárissa,1,0,H,0,0,D,2020-21,GREEK_SL,Matchday 4
+2020-10-04,PAOK Saloniki,OFI Heraklion,3,0,H,1,0,H,2020-21,GREEK_SL,Matchday 4
+2020-10-04,PAS Giannina,Olympiakos Piraeus,1,1,D,1,0,H,2020-21,GREEK_SL,Matchday 4
+2020-10-04,Atromitos,AEK Athen,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 4
+2020-10-05,Lamia,Volos NFC,1,2,A,0,1,A,2020-21,GREEK_SL,Matchday 4
+2020-10-17,Volos NFC,PAS Giannina,2,1,H,0,1,A,2020-21,GREEK_SL,Matchday 5
+2020-10-17,Aris Saloniki,Apollon Smyrnis,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 5
+2020-10-17,Olympiakos Piraeus,Atromitos,4,0,H,0,0,D,2020-21,GREEK_SL,Matchday 5
+2020-10-18,OFI Heraklion,Panathinaikos,2,2,D,1,0,H,2020-21,GREEK_SL,Matchday 5
+2020-10-18,AE Lárissa,Asteras Tripolis,1,3,A,0,1,A,2020-21,GREEK_SL,Matchday 5
+2020-10-18,AEK Athen,PAOK Saloniki,1,1,D,1,0,H,2020-21,GREEK_SL,Matchday 5
+2020-10-19,Lamia,Panetolikos,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 5
+2020-10-24,Panathinaikos,Volos NFC,1,1,D,0,0,D,2020-21,GREEK_SL,Matchday 6
+2020-10-25,Asteras Tripolis,OFI Heraklion,1,0,H,0,0,D,2020-21,GREEK_SL,Matchday 6
+2020-10-25,PAS Giannina,AEK Athen,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 6
+2020-10-26,Atromitos,Panetolikos,2,0,H,1,0,H,2020-21,GREEK_SL,Matchday 6
+2020-12-02,AE Lárissa,Aris Saloniki,0,3,A,0,1,A,2020-21,GREEK_SL,Matchday 6
+2021-01-13,PAOK Saloniki,Olympiakos Piraeus,1,1,D,0,0,D,2020-21,GREEK_SL,Matchday 6
+2021-02-18,Apollon Smyrnis,Lamia,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 6
+2020-10-31,Olympiakos Piraeus,Apollon Smyrnis,2,0,H,0,0,D,2020-21,GREEK_SL,Matchday 7
+2020-10-31,Atromitos,PAS Giannina,0,2,A,0,1,A,2020-21,GREEK_SL,Matchday 7
+2020-10-31,Volos NFC,AE Lárissa,1,1,D,0,0,D,2020-21,GREEK_SL,Matchday 7
+2020-10-31,Lamia,Panathinaikos,0,2,A,0,1,A,2020-21,GREEK_SL,Matchday 7
+2020-11-01,Aris Saloniki,Asteras Tripolis,1,0,H,0,0,D,2020-21,GREEK_SL,Matchday 7
+2020-11-01,Panetolikos,PAOK Saloniki,1,3,A,0,1,A,2020-21,GREEK_SL,Matchday 7
+2020-11-01,AEK Athen,OFI Heraklion,2,1,H,1,1,D,2020-21,GREEK_SL,Matchday 7
+2020-11-07,PAS Giannina,Panetolikos,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 8
+2020-11-07,Panathinaikos,Atromitos,0,1,A,0,0,D,2020-21,GREEK_SL,Matchday 8
+2020-11-08,OFI Heraklion,Olympiakos Piraeus,0,2,A,0,0,D,2020-21,GREEK_SL,Matchday 8
+2020-11-08,Apollon Smyrnis,PAOK Saloniki,1,3,A,0,1,A,2020-21,GREEK_SL,Matchday 8
+2020-12-09,Asteras Tripolis,Volos NFC,1,1,D,1,0,H,2020-21,GREEK_SL,Matchday 8
+2021-01-14,Aris Saloniki,AEK Athen,0,1,A,0,0,D,2020-21,GREEK_SL,Matchday 8
+2021-02-24,AE Lárissa,Lamia,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 8
+2020-11-21,Lamia,Asteras Tripolis,2,2,D,0,1,A,2020-21,GREEK_SL,Matchday 9
+2020-11-21,Atromitos,Apollon Smyrnis,2,2,D,1,1,D,2020-21,GREEK_SL,Matchday 9
+2020-11-21,Olympiakos Piraeus,Panathinaikos,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 9
+2020-11-22,AEK Athen,AE Lárissa,4,1,H,0,0,D,2020-21,GREEK_SL,Matchday 9
+2020-11-22,Panetolikos,Aris Saloniki,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 9
+2020-11-22,PAOK Saloniki,PAS Giannina,2,1,H,0,1,A,2020-21,GREEK_SL,Matchday 9
+2020-11-23,Volos NFC,OFI Heraklion,1,4,A,0,1,A,2020-21,GREEK_SL,Matchday 9
+2020-11-28,AE Lárissa,Atromitos,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 10
+2020-11-28,Aris Saloniki,Olympiakos Piraeus,1,2,A,0,1,A,2020-21,GREEK_SL,Matchday 10
+2020-11-29,Panathinaikos,Panetolikos,2,1,H,2,0,H,2020-21,GREEK_SL,Matchday 10
+2020-11-29,OFI Heraklion,PAS Giannina,2,1,H,1,1,D,2020-21,GREEK_SL,Matchday 10
+2020-11-29,Lamia,PAOK Saloniki,0,2,A,0,1,A,2020-21,GREEK_SL,Matchday 10
+2020-11-29,Asteras Tripolis,AEK Athen,1,2,A,1,1,D,2020-21,GREEK_SL,Matchday 10
+2020-11-30,Apollon Smyrnis,Volos NFC,3,3,D,1,0,H,2020-21,GREEK_SL,Matchday 10
+2020-12-05,Atromitos,Aris Saloniki,2,2,D,1,0,H,2020-21,GREEK_SL,Matchday 11
+2020-12-05,Olympiakos Piraeus,Volos NFC,4,1,H,1,1,D,2020-21,GREEK_SL,Matchday 11
+2020-12-06,OFI Heraklion,Apollon Smyrnis,0,2,A,0,1,A,2020-21,GREEK_SL,Matchday 11
+2020-12-06,PAOK Saloniki,Asteras Tripolis,2,0,H,0,0,D,2020-21,GREEK_SL,Matchday 11
+2020-12-06,PAS Giannina,Lamia,2,0,H,1,0,H,2020-21,GREEK_SL,Matchday 11
+2020-12-06,AEK Athen,Panathinaikos,1,2,A,0,2,A,2020-21,GREEK_SL,Matchday 11
+2020-12-07,Panetolikos,AE Lárissa,2,1,H,1,0,H,2020-21,GREEK_SL,Matchday 11
+2020-12-12,AE Lárissa,OFI Heraklion,0,1,A,0,0,D,2020-21,GREEK_SL,Matchday 12
+2020-12-12,Panathinaikos,PAS Giannina,2,0,H,1,0,H,2020-21,GREEK_SL,Matchday 12
+2020-12-13,Lamia,Olympiakos Piraeus,0,6,A,0,3,A,2020-21,GREEK_SL,Matchday 12
+2020-12-13,Apollon Smyrnis,AEK Athen,3,4,A,1,3,A,2020-21,GREEK_SL,Matchday 12
+2020-12-13,Volos NFC,Panetolikos,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 12
+2020-12-13,Aris Saloniki,PAOK Saloniki,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 12
+2020-12-14,Asteras Tripolis,Atromitos,2,0,H,1,0,H,2020-21,GREEK_SL,Matchday 12
+2020-12-19,Panetolikos,Apollon Smyrnis,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 13
+2020-12-19,OFI Heraklion,Aris Saloniki,0,3,A,0,2,A,2020-21,GREEK_SL,Matchday 13
+2020-12-20,Olympiakos Piraeus,AE Lárissa,5,1,H,2,1,H,2020-21,GREEK_SL,Matchday 13
+2020-12-20,PAOK Saloniki,Panathinaikos,2,1,H,1,1,D,2020-21,GREEK_SL,Matchday 13
+2020-12-21,PAS Giannina,Asteras Tripolis,2,2,D,1,1,D,2020-21,GREEK_SL,Matchday 13
+2020-12-21,AEK Athen,Volos NFC,2,2,D,1,2,A,2020-21,GREEK_SL,Matchday 13
+2021-01-14,Atromitos,Lamia,2,1,H,1,1,D,2020-21,GREEK_SL,Matchday 13
+2021-01-03,Panathinaikos,Asteras Tripolis,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 14
+2021-01-03,Panetolikos,OFI Heraklion,2,1,H,0,0,D,2020-21,GREEK_SL,Matchday 14
+2021-01-03,AE Lárissa,PAOK Saloniki,1,1,D,0,0,D,2020-21,GREEK_SL,Matchday 14
+2021-01-03,PAS Giannina,Apollon Smyrnis,1,3,A,1,1,D,2020-21,GREEK_SL,Matchday 14
+2021-01-03,Olympiakos Piraeus,AEK Athen,3,0,H,1,0,H,2020-21,GREEK_SL,Matchday 14
+2021-01-04,Volos NFC,Atromitos,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 14
+2021-01-04,Lamia,Aris Saloniki,2,0,H,2,0,H,2020-21,GREEK_SL,Matchday 14
+2021-01-06,Apollon Smyrnis,Panathinaikos,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 15
+2021-01-06,AEK Athen,Panetolikos,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 15
+2021-01-06,AE Lárissa,PAS Giannina,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 15
+2021-01-06,Asteras Tripolis,Olympiakos Piraeus,0,4,A,0,2,A,2020-21,GREEK_SL,Matchday 15
+2021-01-07,Aris Saloniki,Volos NFC,2,0,H,1,0,H,2020-21,GREEK_SL,Matchday 15
+2021-01-07,OFI Heraklion,Lamia,2,0,H,1,0,H,2020-21,GREEK_SL,Matchday 15
+2021-01-07,Atromitos,PAOK Saloniki,3,2,H,0,1,A,2020-21,GREEK_SL,Matchday 15
+2021-01-09,Panetolikos,Olympiakos Piraeus,1,2,A,0,1,A,2020-21,GREEK_SL,Matchday 16
+2021-01-10,PAOK Saloniki,Volos NFC,3,1,H,1,1,D,2020-21,GREEK_SL,Matchday 16
+2021-01-10,Apollon Smyrnis,Asteras Tripolis,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 16
+2021-01-10,Atromitos,OFI Heraklion,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 16
+2021-01-10,Panathinaikos,AE Lárissa,2,0,H,1,0,H,2020-21,GREEK_SL,Matchday 16
+2021-01-11,PAS Giannina,Aris Saloniki,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 16
+2021-01-11,Lamia,AEK Athen,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 16
+2021-01-16,Asteras Tripolis,Panetolikos,2,0,H,1,0,H,2020-21,GREEK_SL,Matchday 17
+2021-01-16,AE Lárissa,Apollon Smyrnis,0,1,A,0,0,D,2020-21,GREEK_SL,Matchday 17
+2021-01-17,Olympiakos Piraeus,PAS Giannina,1,0,H,0,0,D,2020-21,GREEK_SL,Matchday 17
+2021-01-17,Volos NFC,Lamia,1,1,D,0,0,D,2020-21,GREEK_SL,Matchday 17
+2021-01-17,OFI Heraklion,PAOK Saloniki,0,3,A,0,0,D,2020-21,GREEK_SL,Matchday 17
+2021-01-17,Aris Saloniki,Panathinaikos,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 17
+2021-01-17,AEK Athen,Atromitos,2,1,H,0,0,D,2020-21,GREEK_SL,Matchday 17
+2021-01-23,Asteras Tripolis,AE Lárissa,1,0,H,0,0,D,2020-21,GREEK_SL,Matchday 18
+2021-01-23,Apollon Smyrnis,Aris Saloniki,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 18
+2021-01-23,Panathinaikos,OFI Heraklion,2,0,H,1,0,H,2020-21,GREEK_SL,Matchday 18
+2021-01-24,Atromitos,Olympiakos Piraeus,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 18
+2021-01-24,Panetolikos,Lamia,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 18
+2021-01-24,PAS Giannina,Volos NFC,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 18
+2021-01-24,PAOK Saloniki,AEK Athen,2,2,D,1,1,D,2020-21,GREEK_SL,Matchday 18
+2021-01-26,OFI Heraklion,Asteras Tripolis,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 19
+2021-01-26,Aris Saloniki,AE Lárissa,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 19
+2021-01-27,Volos NFC,Panathinaikos,0,2,A,0,1,A,2020-21,GREEK_SL,Matchday 19
+2021-01-27,AEK Athen,PAS Giannina,0,2,A,0,1,A,2020-21,GREEK_SL,Matchday 19
+2021-01-27,Lamia,Apollon Smyrnis,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 19
+2021-01-27,Olympiakos Piraeus,PAOK Saloniki,3,0,H,0,0,D,2020-21,GREEK_SL,Matchday 19
+2021-01-28,Panetolikos,Atromitos,1,1,D,0,0,D,2020-21,GREEK_SL,Matchday 19
+2021-01-30,AE Lárissa,Volos NFC,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 20
+2021-01-30,Asteras Tripolis,Aris Saloniki,2,1,H,0,1,A,2020-21,GREEK_SL,Matchday 20
+2021-01-30,Panathinaikos,Lamia,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 20
+2021-01-31,OFI Heraklion,AEK Athen,0,2,A,0,1,A,2020-21,GREEK_SL,Matchday 20
+2021-01-31,PAOK Saloniki,Panetolikos,5,0,H,1,0,H,2020-21,GREEK_SL,Matchday 20
+2021-01-31,PAS Giannina,Atromitos,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 20
+2021-01-31,Apollon Smyrnis,Olympiakos Piraeus,1,3,A,0,1,A,2020-21,GREEK_SL,Matchday 20
+2021-02-06,Atromitos,Panathinaikos,2,3,A,1,1,D,2020-21,GREEK_SL,Matchday 21
+2021-02-07,PAOK Saloniki,Apollon Smyrnis,2,2,D,1,0,H,2020-21,GREEK_SL,Matchday 21
+2021-02-07,Volos NFC,Asteras Tripolis,0,1,A,0,1,A,2020-21,GREEK_SL,Matchday 21
+2021-02-07,Olympiakos Piraeus,OFI Heraklion,3,0,H,2,0,H,2020-21,GREEK_SL,Matchday 21
+2021-02-07,AEK Athen,Aris Saloniki,0,2,A,0,1,A,2020-21,GREEK_SL,Matchday 21
+2021-02-08,Panetolikos,PAS Giannina,1,2,A,1,0,H,2020-21,GREEK_SL,Matchday 21
+2021-03-10,Lamia,AE Lárissa,2,1,H,1,1,D,2020-21,GREEK_SL,Matchday 21
+2021-02-13,Asteras Tripolis,Lamia,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 22
+2021-02-13,Apollon Smyrnis,Atromitos,2,1,H,1,0,H,2020-21,GREEK_SL,Matchday 22
+2021-02-14,Aris Saloniki,Panetolikos,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 22
+2021-02-14,OFI Heraklion,Volos NFC,1,2,A,0,2,A,2020-21,GREEK_SL,Matchday 22
+2021-02-14,Panathinaikos,Olympiakos Piraeus,2,1,H,1,0,H,2020-21,GREEK_SL,Matchday 22
+2021-02-15,AE Lárissa,AEK Athen,2,4,A,0,2,A,2020-21,GREEK_SL,Matchday 22
+2021-02-15,PAS Giannina,PAOK Saloniki,0,2,A,0,0,D,2020-21,GREEK_SL,Matchday 22
+2021-02-20,Atromitos,AE Lárissa,1,1,D,0,1,A,2020-21,GREEK_SL,Matchday 23
+2021-02-20,AEK Athen,Asteras Tripolis,2,2,D,1,2,A,2020-21,GREEK_SL,Matchday 23
+2021-02-21,Volos NFC,Apollon Smyrnis,2,0,H,1,0,H,2020-21,GREEK_SL,Matchday 23
+2021-02-21,PAOK Saloniki,Lamia,4,0,H,1,0,H,2020-21,GREEK_SL,Matchday 23
+2021-02-21,PAS Giannina,OFI Heraklion,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 23
+2021-02-21,Olympiakos Piraeus,Aris Saloniki,1,1,D,1,0,H,2020-21,GREEK_SL,Matchday 23
+2021-02-22,Panetolikos,Panathinaikos,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 23
+2021-02-27,Apollon Smyrnis,OFI Heraklion,2,1,H,1,1,D,2020-21,GREEK_SL,Matchday 24
+2021-02-27,Asteras Tripolis,PAOK Saloniki,2,1,H,1,0,H,2020-21,GREEK_SL,Matchday 24
+2021-02-28,Aris Saloniki,Atromitos,3,0,H,1,0,H,2020-21,GREEK_SL,Matchday 24
+2021-02-28,AE Lárissa,Panetolikos,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 24
+2021-02-28,Lamia,PAS Giannina,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 24
+2021-02-28,Panathinaikos,AEK Athen,1,1,D,0,0,D,2020-21,GREEK_SL,Matchday 24
+2021-03-01,Volos NFC,Olympiakos Piraeus,1,2,A,1,1,D,2020-21,GREEK_SL,Matchday 24
+2021-03-06,OFI Heraklion,AE Lárissa,2,3,A,1,1,D,2020-21,GREEK_SL,Matchday 25
+2021-03-06,Atromitos,Asteras Tripolis,1,1,D,1,0,H,2020-21,GREEK_SL,Matchday 25
+2021-03-06,PAS Giannina,Panathinaikos,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 25
+2021-03-07,Olympiakos Piraeus,Lamia,3,0,H,3,0,H,2020-21,GREEK_SL,Matchday 25
+2021-03-07,Panetolikos,Volos NFC,1,0,H,0,0,D,2020-21,GREEK_SL,Matchday 25
+2021-03-07,PAOK Saloniki,Aris Saloniki,2,2,D,0,1,A,2020-21,GREEK_SL,Matchday 25
+2021-03-08,AEK Athen,Apollon Smyrnis,2,0,H,2,0,H,2020-21,GREEK_SL,Matchday 25
+2021-03-14,AE Lárissa,Olympiakos Piraeus,1,3,A,0,1,A,2020-21,GREEK_SL,Matchday 26
+2021-03-14,Apollon Smyrnis,Panetolikos,1,0,H,0,0,D,2020-21,GREEK_SL,Matchday 26
+2021-03-14,Aris Saloniki,OFI Heraklion,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 26
+2021-03-14,Asteras Tripolis,PAS Giannina,0,1,A,0,0,D,2020-21,GREEK_SL,Matchday 26
+2021-03-14,Volos NFC,AEK Athen,1,0,H,1,0,H,2020-21,GREEK_SL,Matchday 26
+2021-03-14,Panathinaikos,PAOK Saloniki,2,1,H,1,0,H,2020-21,GREEK_SL,Matchday 26
+2021-03-14,Lamia,Atromitos,0,0,D,0,0,D,2020-21,GREEK_SL,Matchday 26
+2021-03-20,Apollon Smyrnis,AE Lárissa,0,2,A,0,0,D,2020-21,GREEK_SL,"Relegation, Matchday 1"
+2021-03-20,Volos NFC,OFI Heraklion,0,0,D,0,0,D,2020-21,GREEK_SL,"Relegation, Matchday 1"
+2021-03-20,PAS Giannina,Atromitos,1,0,H,1,0,H,2020-21,GREEK_SL,"Relegation, Matchday 1"
+2021-03-20,Panetolikos,Lamia,0,3,A,0,3,A,2020-21,GREEK_SL,"Relegation, Matchday 1"
+2021-04-03,Atromitos,Apollon Smyrnis,1,1,D,0,0,D,2020-21,GREEK_SL,"Relegation, Matchday 2"
+2021-04-03,OFI Heraklion,PAS Giannina,2,1,H,0,1,A,2020-21,GREEK_SL,"Relegation, Matchday 2"
+2021-04-03,AE Lárissa,Panetolikos,1,1,D,1,0,H,2020-21,GREEK_SL,"Relegation, Matchday 2"
+2021-04-03,Lamia,Volos NFC,1,1,D,0,0,D,2020-21,GREEK_SL,"Relegation, Matchday 2"
+2021-04-10,Volos NFC,Panetolikos,3,1,H,3,1,H,2020-21,GREEK_SL,"Relegation, Matchday 3"
+2021-04-10,Apollon Smyrnis,OFI Heraklion,0,0,D,0,0,D,2020-21,GREEK_SL,"Relegation, Matchday 3"
+2021-04-10,Atromitos,AE Lárissa,0,1,A,0,1,A,2020-21,GREEK_SL,"Relegation, Matchday 3"
+2021-04-12,PAS Giannina,Lamia,1,2,A,1,0,H,2020-21,GREEK_SL,"Relegation, Matchday 3"
+2021-04-17,OFI Heraklion,Atromitos,1,1,D,0,0,D,2020-21,GREEK_SL,"Relegation, Matchday 4"
+2021-04-17,Panetolikos,Apollon Smyrnis,1,0,H,0,0,D,2020-21,GREEK_SL,"Relegation, Matchday 4"
+2021-04-17,Volos NFC,PAS Giannina,1,1,D,1,1,D,2020-21,GREEK_SL,"Relegation, Matchday 4"
+2021-04-19,Lamia,AE Lárissa,0,0,D,0,0,D,2020-21,GREEK_SL,"Relegation, Matchday 4"
+2021-04-24,PAS Giannina,Panetolikos,0,1,A,0,1,A,2020-21,GREEK_SL,"Relegation, Matchday 5"
+2021-04-24,AE Lárissa,OFI Heraklion,0,1,A,0,1,A,2020-21,GREEK_SL,"Relegation, Matchday 5"
+2021-04-24,Atromitos,Lamia,0,0,D,0,0,D,2020-21,GREEK_SL,"Relegation, Matchday 5"
+2021-04-26,Apollon Smyrnis,Volos NFC,0,0,D,0,0,D,2020-21,GREEK_SL,"Relegation, Matchday 5"
+2021-05-08,Panetolikos,Atromitos,1,3,A,0,2,A,2020-21,GREEK_SL,"Relegation, Matchday 6"
+2021-05-08,Lamia,OFI Heraklion,0,2,A,0,1,A,2020-21,GREEK_SL,"Relegation, Matchday 6"
+2021-05-08,Volos NFC,AE Lárissa,3,1,H,2,0,H,2020-21,GREEK_SL,"Relegation, Matchday 6"
+2021-05-19,PAS Giannina,Apollon Smyrnis,0,2,A,0,1,A,2020-21,GREEK_SL,"Relegation, Matchday 6"
+2021-05-15,OFI Heraklion,Panetolikos,2,2,D,1,0,H,2020-21,GREEK_SL,"Relegation, Matchday 7"
+2021-05-15,AE Lárissa,PAS Giannina,2,0,H,2,0,H,2020-21,GREEK_SL,"Relegation, Matchday 7"
+2021-05-15,Apollon Smyrnis,Lamia,0,1,A,0,1,A,2020-21,GREEK_SL,"Relegation, Matchday 7"
+2021-05-15,Atromitos,Volos NFC,1,0,H,0,0,D,2020-21,GREEK_SL,"Relegation, Matchday 7"
+2021-03-21,Asteras Tripolis,Panathinaikos,2,2,D,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 1"
+2021-03-21,Olympiakos Piraeus,Aris Saloniki,1,0,H,1,0,H,2020-21,GREEK_SL,"Championship, Matchday 1"
+2021-03-21,PAOK Saloniki,AEK Athen,3,1,H,1,1,D,2020-21,GREEK_SL,"Championship, Matchday 1"
+2021-04-04,Panathinaikos,PAOK Saloniki,3,0,H,1,0,H,2020-21,GREEK_SL,"Championship, Matchday 2"
+2021-04-04,Aris Saloniki,Asteras Tripolis,2,0,H,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 2"
+2021-04-04,AEK Athen,Olympiakos Piraeus,1,5,A,0,4,A,2020-21,GREEK_SL,"Championship, Matchday 2"
+2021-04-11,Aris Saloniki,AEK Athen,1,3,A,0,3,A,2020-21,GREEK_SL,"Championship, Matchday 3"
+2021-04-11,Asteras Tripolis,PAOK Saloniki,1,1,D,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 3"
+2021-04-11,Olympiakos Piraeus,Panathinaikos,3,1,H,1,1,D,2020-21,GREEK_SL,"Championship, Matchday 3"
+2021-04-18,Panathinaikos,Aris Saloniki,1,2,A,1,0,H,2020-21,GREEK_SL,"Championship, Matchday 4"
+2021-04-18,AEK Athen,Asteras Tripolis,3,1,H,1,1,D,2020-21,GREEK_SL,"Championship, Matchday 4"
+2021-04-18,PAOK Saloniki,Olympiakos Piraeus,2,0,H,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 4"
+2021-04-21,Olympiakos Piraeus,Asteras Tripolis,1,0,H,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 5"
+2021-04-21,Aris Saloniki,PAOK Saloniki,0,1,A,0,1,A,2020-21,GREEK_SL,"Championship, Matchday 5"
+2021-04-21,AEK Athen,Panathinaikos,1,1,D,0,1,A,2020-21,GREEK_SL,"Championship, Matchday 5"
+2021-04-25,PAOK Saloniki,Panathinaikos,0,0,D,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 6"
+2021-04-25,Asteras Tripolis,Aris Saloniki,1,1,D,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 6"
+2021-04-25,Olympiakos Piraeus,AEK Athen,2,0,H,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 6"
+2021-05-05,Aris Saloniki,Olympiakos Piraeus,1,1,D,1,0,H,2020-21,GREEK_SL,"Championship, Matchday 7"
+2021-05-05,Panathinaikos,Asteras Tripolis,2,2,D,1,2,A,2020-21,GREEK_SL,"Championship, Matchday 7"
+2021-05-05,AEK Athen,PAOK Saloniki,1,2,A,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 7"
+2021-05-09,PAOK Saloniki,Aris Saloniki,2,0,H,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 8"
+2021-05-09,Asteras Tripolis,Olympiakos Piraeus,0,0,D,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 8"
+2021-05-09,Panathinaikos,AEK Athen,0,1,A,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 8"
+2021-05-12,Aris Saloniki,Panathinaikos,0,0,D,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 9"
+2021-05-12,Asteras Tripolis,AEK Athen,1,1,D,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 9"
+2021-05-12,Olympiakos Piraeus,PAOK Saloniki,1,0,H,1,0,H,2020-21,GREEK_SL,"Championship, Matchday 9"
+2021-05-16,AEK Athen,Aris Saloniki,0,0,D,0,0,D,2020-21,GREEK_SL,"Championship, Matchday 10"
+2021-05-16,Panathinaikos,Olympiakos Piraeus,1,4,A,0,3,A,2020-21,GREEK_SL,"Championship, Matchday 10"
+2021-05-16,PAOK Saloniki,Asteras Tripolis,0,1,A,0,1,A,2020-21,GREEK_SL,"Championship, Matchday 10"

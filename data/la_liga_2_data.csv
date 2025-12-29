@@ -1,0 +1,585 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,Season,League,Round
+2025-08-15,Burgos,Cultural Leonesa,5,1,H,3,0,H,2025-26,LA_LIGA_2,1. Round
+2025-08-15,Real Valladolid,AD Ceuta,3,0,H,2,0,H,2025-26,LA_LIGA_2,1. Round
+2025-08-16,Racing Santander,CD Castellón,3,1,H,2,1,H,2025-26,LA_LIGA_2,1. Round
+2025-08-16,Málaga,SD Eibar,1,1,D,0,0,D,2025-26,LA_LIGA_2,1. Round
+2025-08-16,Granada,Deportivo La Coruña,1,3,A,0,1,A,2025-26,LA_LIGA_2,1. Round
+2025-08-17,Real Sociedad B,Real Zaragoza,1,0,H,1,0,H,2025-26,LA_LIGA_2,1. Round
+2025-08-17,Cádiz,CD Mirandés,1,0,H,1,0,H,2025-26,LA_LIGA_2,1. Round
+2025-08-17,SD Huesca,CD Leganés,1,1,D,0,0,D,2025-26,LA_LIGA_2,1. Round
+2025-08-17,UD Las Palmas,FC Andorra,1,1,D,1,0,H,2025-26,LA_LIGA_2,1. Round
+2025-08-18,Sporting Gijón,Córdoba,2,1,H,1,1,D,2025-26,LA_LIGA_2,1. Round
+2025-08-18,UD Almería,Albacete,4,4,D,1,1,D,2025-26,LA_LIGA_2,1. Round
+2025-08-22,SD Eibar,Granada,3,0,H,1,0,H,2025-26,LA_LIGA_2,2. Round
+2025-08-22,CD Castellón,Real Valladolid,0,1,A,0,1,A,2025-26,LA_LIGA_2,2. Round
+2025-08-22,CD Leganés,Cádiz,1,1,D,1,0,H,2025-26,LA_LIGA_2,2. Round
+2025-08-23,CD Mirandés,SD Huesca,0,1,A,0,1,A,2025-26,LA_LIGA_2,2. Round
+2025-08-23,AD Ceuta,Sporting Gijón,0,1,A,0,1,A,2025-26,LA_LIGA_2,2. Round
+2025-08-23,Real Zaragoza,FC Andorra,1,3,A,0,1,A,2025-26,LA_LIGA_2,2. Round
+2025-08-24,Deportivo La Coruña,Burgos,0,0,D,0,0,D,2025-26,LA_LIGA_2,2. Round
+2025-08-24,Cultural Leonesa,UD Almería,0,1,A,0,0,D,2025-26,LA_LIGA_2,2. Round
+2025-08-24,Málaga,Real Sociedad B,1,0,H,0,0,D,2025-26,LA_LIGA_2,2. Round
+2025-08-25,Albacete,Racing Santander,2,3,A,0,0,D,2025-26,LA_LIGA_2,2. Round
+2025-08-25,Córdoba,UD Las Palmas,1,3,A,0,1,A,2025-26,LA_LIGA_2,2. Round
+2025-08-29,Real Sociedad B,UD Almería,2,2,D,1,1,D,2025-26,LA_LIGA_2,3. Round
+2025-08-29,Sporting Gijón,Cultural Leonesa,1,0,H,0,0,D,2025-26,LA_LIGA_2,3. Round
+2025-08-30,Racing Santander,AD Ceuta,4,1,H,2,1,H,2025-26,LA_LIGA_2,3. Round
+2025-08-30,Real Valladolid,Córdoba,0,0,D,0,0,D,2025-26,LA_LIGA_2,3. Round
+2025-08-30,CD Castellón,Real Zaragoza,1,1,D,0,0,D,2025-26,LA_LIGA_2,3. Round
+2025-08-31,FC Andorra,Burgos,2,1,H,1,0,H,2025-26,LA_LIGA_2,3. Round
+2025-08-31,Cádiz,Albacete,2,1,H,1,0,H,2025-26,LA_LIGA_2,3. Round
+2025-08-31,UD Las Palmas,Málaga,0,1,A,0,1,A,2025-26,LA_LIGA_2,3. Round
+2025-08-31,Granada,CD Mirandés,1,2,A,0,0,D,2025-26,LA_LIGA_2,3. Round
+2025-09-01,SD Huesca,SD Eibar,2,1,H,1,1,D,2025-26,LA_LIGA_2,3. Round
+2025-09-01,CD Leganés,Deportivo La Coruña,2,2,D,2,0,H,2025-26,LA_LIGA_2,3. Round
+2025-09-05,Albacete,CD Mirandés,1,4,A,0,1,A,2025-26,LA_LIGA_2,4. Round
+2025-09-05,Córdoba,CD Castellón,2,1,H,0,1,A,2025-26,LA_LIGA_2,4. Round
+2025-09-06,Deportivo La Coruña,Sporting Gijón,1,0,H,0,0,D,2025-26,LA_LIGA_2,4. Round
+2025-09-06,Real Zaragoza,Real Valladolid,1,1,D,0,0,D,2025-26,LA_LIGA_2,4. Round
+2025-09-06,Málaga,Granada,2,2,D,2,1,H,2025-26,LA_LIGA_2,4. Round
+2025-09-07,AD Ceuta,SD Huesca,2,1,H,1,0,H,2025-26,LA_LIGA_2,4. Round
+2025-09-07,Burgos,UD Las Palmas,0,0,D,0,0,D,2025-26,LA_LIGA_2,4. Round
+2025-09-07,Real Sociedad B,Cádiz,3,3,D,1,1,D,2025-26,LA_LIGA_2,4. Round
+2025-09-07,UD Almería,Racing Santander,2,3,A,2,0,H,2025-26,LA_LIGA_2,4. Round
+2025-09-07,Cultural Leonesa,CD Leganés,0,0,D,0,0,D,2025-26,LA_LIGA_2,4. Round
+2025-09-08,SD Eibar,FC Andorra,2,0,H,0,0,D,2025-26,LA_LIGA_2,4. Round
+2025-09-12,UD Las Palmas,Real Sociedad B,2,1,H,1,0,H,2025-26,LA_LIGA_2,5. Round
+2025-09-13,Cádiz,SD Eibar,1,0,H,0,0,D,2025-26,LA_LIGA_2,5. Round
+2025-09-13,CD Mirandés,Deportivo La Coruña,1,5,A,0,2,A,2025-26,LA_LIGA_2,5. Round
+2025-09-13,SD Huesca,Málaga,1,0,H,0,0,D,2025-26,LA_LIGA_2,5. Round
+2025-09-13,Real Valladolid,UD Almería,3,1,H,1,0,H,2025-26,LA_LIGA_2,5. Round
+2025-09-14,FC Andorra,Córdoba,3,1,H,2,1,H,2025-26,LA_LIGA_2,5. Round
+2025-09-14,Racing Santander,Cultural Leonesa,2,4,A,0,3,A,2025-26,LA_LIGA_2,5. Round
+2025-09-14,CD Castellón,AD Ceuta,3,3,D,2,1,H,2025-26,LA_LIGA_2,5. Round
+2025-09-14,Sporting Gijón,Burgos,2,3,A,0,2,A,2025-26,LA_LIGA_2,5. Round
+2025-09-14,Granada,CD Leganés,0,2,A,0,1,A,2025-26,LA_LIGA_2,5. Round
+2025-09-15,Real Zaragoza,Albacete,0,0,D,0,0,D,2025-26,LA_LIGA_2,5. Round
+2025-09-19,Deportivo La Coruña,SD Huesca,4,0,H,3,0,H,2025-26,LA_LIGA_2,6. Round
+2025-09-20,Cultural Leonesa,CD Castellón,1,3,A,0,2,A,2025-26,LA_LIGA_2,6. Round
+2025-09-20,CD Leganés,UD Las Palmas,0,1,A,0,0,D,2025-26,LA_LIGA_2,6. Round
+2025-09-20,FC Andorra,CD Mirandés,1,1,D,1,1,D,2025-26,LA_LIGA_2,6. Round
+2025-09-20,UD Almería,Sporting Gijón,2,1,H,0,1,A,2025-26,LA_LIGA_2,6. Round
+2025-09-21,AD Ceuta,Real Zaragoza,1,0,H,0,0,D,2025-26,LA_LIGA_2,6. Round
+2025-09-21,Albacete,Real Valladolid,2,0,H,0,0,D,2025-26,LA_LIGA_2,6. Round
+2025-09-21,SD Eibar,Real Sociedad B,2,1,H,1,0,H,2025-26,LA_LIGA_2,6. Round
+2025-09-21,Málaga,Cádiz,0,1,A,0,1,A,2025-26,LA_LIGA_2,6. Round
+2025-09-21,Córdoba,Racing Santander,2,2,D,0,0,D,2025-26,LA_LIGA_2,6. Round
+2025-09-22,Burgos,Granada,1,1,D,0,0,D,2025-26,LA_LIGA_2,6. Round
+2025-09-26,CD Mirandés,Real Zaragoza,0,1,A,0,1,A,2025-26,LA_LIGA_2,7. Round
+2025-09-27,SD Eibar,Deportivo La Coruña,1,1,D,0,1,A,2025-26,LA_LIGA_2,7. Round
+2025-09-27,Racing Santander,FC Andorra,1,2,A,0,0,D,2025-26,LA_LIGA_2,7. Round
+2025-09-27,UD Las Palmas,UD Almería,0,1,A,0,1,A,2025-26,LA_LIGA_2,7. Round
+2025-09-28,Real Sociedad B,Córdoba,1,1,D,1,0,H,2025-26,LA_LIGA_2,7. Round
+2025-09-28,Burgos,Málaga,2,1,H,1,1,D,2025-26,LA_LIGA_2,7. Round
+2025-09-28,Cádiz,AD Ceuta,0,0,D,0,0,D,2025-26,LA_LIGA_2,7. Round
+2025-09-28,Sporting Gijón,Albacete,3,4,A,3,1,H,2025-26,LA_LIGA_2,7. Round
+2025-09-28,Real Valladolid,Cultural Leonesa,0,1,A,0,1,A,2025-26,LA_LIGA_2,7. Round
+2025-09-28,SD Huesca,Granada,0,1,A,0,1,A,2025-26,LA_LIGA_2,7. Round
+2025-09-29,CD Leganés,CD Castellón,0,1,A,0,1,A,2025-26,LA_LIGA_2,7. Round
+2025-10-03,AD Ceuta,SD Eibar,1,0,H,1,0,H,2025-26,LA_LIGA_2,8. Round
+2025-10-04,Deportivo La Coruña,UD Almería,1,1,D,0,1,A,2025-26,LA_LIGA_2,8. Round
+2025-10-04,FC Andorra,CD Leganés,1,2,A,0,0,D,2025-26,LA_LIGA_2,8. Round
+2025-10-04,SD Huesca,Burgos,2,1,H,1,0,H,2025-26,LA_LIGA_2,8. Round
+2025-10-04,Granada,Real Sociedad B,5,2,H,5,1,H,2025-26,LA_LIGA_2,8. Round
+2025-10-05,Real Zaragoza,Córdoba,0,1,A,0,0,D,2025-26,LA_LIGA_2,8. Round
+2025-10-05,CD Castellón,Sporting Gijón,3,1,H,2,1,H,2025-26,LA_LIGA_2,8. Round
+2025-10-05,Racing Santander,Málaga,3,0,H,0,0,D,2025-26,LA_LIGA_2,8. Round
+2025-10-05,Real Valladolid,CD Mirandés,1,1,D,0,1,A,2025-26,LA_LIGA_2,8. Round
+2025-10-05,UD Las Palmas,Cádiz,1,0,H,0,0,D,2025-26,LA_LIGA_2,8. Round
+2025-10-06,Cultural Leonesa,Albacete,0,0,D,0,0,D,2025-26,LA_LIGA_2,8. Round
+2025-10-10,Granada,UD Las Palmas,0,0,D,0,0,D,2025-26,LA_LIGA_2,9. Round
+2025-10-11,CD Mirandés,CD Leganés,0,0,D,0,0,D,2025-26,LA_LIGA_2,9. Round
+2025-10-11,UD Almería,Real Zaragoza,4,2,H,0,0,D,2025-26,LA_LIGA_2,9. Round
+2025-10-11,Real Sociedad B,FC Andorra,3,0,H,1,0,H,2025-26,LA_LIGA_2,9. Round
+2025-10-12,Albacete,AD Ceuta,0,0,D,0,0,D,2025-26,LA_LIGA_2,9. Round
+2025-10-12,SD Eibar,CD Castellón,0,0,D,0,0,D,2025-26,LA_LIGA_2,9. Round
+2025-10-12,Sporting Gijón,Racing Santander,2,1,H,1,0,H,2025-26,LA_LIGA_2,9. Round
+2025-10-12,Burgos,Real Valladolid,0,1,A,0,0,D,2025-26,LA_LIGA_2,9. Round
+2025-10-12,Cádiz,SD Huesca,1,0,H,0,0,D,2025-26,LA_LIGA_2,9. Round
+2025-10-12,Málaga,Deportivo La Coruña,3,0,H,2,0,H,2025-26,LA_LIGA_2,9. Round
+2025-10-13,Córdoba,Cultural Leonesa,1,0,H,1,0,H,2025-26,LA_LIGA_2,9. Round
+2025-10-17,FC Andorra,Granada,0,0,D,0,0,D,2025-26,LA_LIGA_2,10. Round
+2025-10-18,AD Ceuta,CD Mirandés,2,0,H,2,0,H,2025-26,LA_LIGA_2,10. Round
+2025-10-18,Real Zaragoza,Cultural Leonesa,0,5,A,0,2,A,2025-26,LA_LIGA_2,10. Round
+2025-10-19,CD Leganés,Málaga,2,0,H,1,0,H,2025-26,LA_LIGA_2,10. Round
+2025-10-19,CD Castellón,Albacete,0,1,A,0,1,A,2025-26,LA_LIGA_2,10. Round
+2025-10-19,Real Valladolid,Sporting Gijón,2,3,A,1,1,D,2025-26,LA_LIGA_2,10. Round
+2025-10-19,Racing Santander,Deportivo La Coruña,2,1,H,1,1,D,2025-26,LA_LIGA_2,10. Round
+2025-10-19,Córdoba,UD Almería,1,1,D,1,1,D,2025-26,LA_LIGA_2,10. Round
+2025-10-19,UD Las Palmas,SD Eibar,3,1,H,1,0,H,2025-26,LA_LIGA_2,10. Round
+2025-10-20,Cádiz,Burgos,1,3,A,1,2,A,2025-26,LA_LIGA_2,10. Round
+2025-10-24,SD Huesca,UD Las Palmas,1,1,D,1,0,H,2025-26,LA_LIGA_2,11. Round
+2025-10-25,Cultural Leonesa,AD Ceuta,0,1,A,0,1,A,2025-26,LA_LIGA_2,11. Round
+2025-10-25,Albacete,Córdoba,1,3,A,0,2,A,2025-26,LA_LIGA_2,11. Round
+2025-10-25,SD Eibar,CD Leganés,0,0,D,0,0,D,2025-26,LA_LIGA_2,11. Round
+2025-10-25,Burgos,Real Sociedad B,1,0,H,0,0,D,2025-26,LA_LIGA_2,11. Round
+2025-10-25,Granada,Cádiz,0,0,D,0,0,D,2025-26,LA_LIGA_2,11. Round
+2025-10-25,CD Mirandés,Racing Santander,1,3,A,1,1,D,2025-26,LA_LIGA_2,11. Round
+2025-10-26,Málaga,FC Andorra,4,1,H,1,0,H,2025-26,LA_LIGA_2,11. Round
+2025-10-26,Sporting Gijón,Real Zaragoza,1,0,H,1,0,H,2025-26,LA_LIGA_2,11. Round
+2025-10-26,UD Almería,CD Castellón,1,0,H,0,0,D,2025-26,LA_LIGA_2,11. Round
+2025-10-26,Deportivo La Coruña,Real Valladolid,1,1,D,0,1,A,2025-26,LA_LIGA_2,11. Round
+2025-10-31,Racing Santander,Real Sociedad B,1,0,H,1,0,H,2025-26,LA_LIGA_2,12. Round
+2025-11-01,Cultural Leonesa,CD Mirandés,3,2,H,1,1,D,2025-26,LA_LIGA_2,12. Round
+2025-11-01,Albacete,SD Huesca,2,1,H,0,1,A,2025-26,LA_LIGA_2,12. Round
+2025-11-01,CD Leganés,Burgos,1,2,A,1,2,A,2025-26,LA_LIGA_2,12. Round
+2025-11-01,UD Almería,SD Eibar,3,1,H,3,0,H,2025-26,LA_LIGA_2,12. Round
+2025-11-02,FC Andorra,Cádiz,0,0,D,0,0,D,2025-26,LA_LIGA_2,12. Round
+2025-11-02,Córdoba,AD Ceuta,2,0,H,2,0,H,2025-26,LA_LIGA_2,12. Round
+2025-11-02,Sporting Gijón,UD Las Palmas,0,0,D,0,0,D,2025-26,LA_LIGA_2,12. Round
+2025-11-02,CD Castellón,Málaga,2,1,H,0,0,D,2025-26,LA_LIGA_2,12. Round
+2025-11-02,Real Zaragoza,Deportivo La Coruña,0,2,A,0,0,D,2025-26,LA_LIGA_2,12. Round
+2025-11-03,Real Valladolid,Granada,2,1,H,0,1,A,2025-26,LA_LIGA_2,12. Round
+2024-08-15,Granada,Albacete,1,2,A,1,2,A,2024-25,LA_LIGA_2,Matchday 1
+2024-08-16,CD Mirandés,Córdoba,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 1
+2024-08-16,Cádiz,Real Zaragoza,0,4,A,0,2,A,2024-25,LA_LIGA_2,Matchday 1
+2024-08-17,Racing Ferrol,Málaga,2,2,D,0,1,A,2024-25,LA_LIGA_2,Matchday 1
+2024-08-17,SD Eibar,CD Castellón,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 1
+2024-08-17,Deportivo La Coruña,Real Oviedo,0,1,A,0,1,A,2024-25,LA_LIGA_2,Matchday 1
+2024-08-18,Racing Santander,UD Almería,2,2,D,2,0,H,2024-25,LA_LIGA_2,Matchday 1
+2024-08-18,Sporting Gijón,Levante UD,1,2,A,0,2,A,2024-25,LA_LIGA_2,Matchday 1
+2024-08-18,Burgos,FC Cartagena,3,1,H,2,1,H,2024-25,LA_LIGA_2,Matchday 1
+2024-08-18,Elche,SD Huesca,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 1
+2024-08-19,CD Eldense,CD Tenerife,2,1,H,0,0,D,2024-25,LA_LIGA_2,Matchday 1
+2024-08-23,Racing Santander,SD Eibar,2,2,D,0,1,A,2024-25,LA_LIGA_2,Matchday 2
+2024-08-23,SD Huesca,Deportivo La Coruña,2,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 2
+2024-08-24,Racing Ferrol,Granada,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 2
+2024-08-24,Sporting Gijón,CD Eldense,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 2
+2024-08-24,Levante UD,Cádiz,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 2
+2024-08-24,Málaga,CD Mirandés,1,1,D,0,1,A,2024-25,LA_LIGA_2,Matchday 2
+2024-08-24,CD Tenerife,UD Almería,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 2
+2024-08-25,Albacete,Elche,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 2
+2024-08-25,CD Castellón,Real Oviedo,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 2
+2024-08-26,FC Cartagena,Real Zaragoza,1,2,A,1,0,H,2024-25,LA_LIGA_2,Matchday 2
+2024-08-26,Córdoba,Burgos,2,2,D,0,0,D,2024-25,LA_LIGA_2,Matchday 2
+2024-08-30,Granada,SD Huesca,1,3,A,0,1,A,2024-25,LA_LIGA_2,Matchday 3
+2024-08-30,Real Oviedo,Racing Santander,1,3,A,1,2,A,2024-25,LA_LIGA_2,Matchday 3
+2024-08-31,Cádiz,CD Tenerife,2,2,D,0,1,A,2024-25,LA_LIGA_2,Matchday 3
+2024-08-31,UD Almería,Sporting Gijón,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 3
+2024-08-31,Málaga,Albacete,2,1,H,1,1,D,2024-25,LA_LIGA_2,Matchday 3
+2024-09-01,Burgos,CD Castellón,0,2,A,0,0,D,2024-25,LA_LIGA_2,Matchday 3
+2024-09-01,Deportivo La Coruña,Racing Ferrol,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 3
+2024-09-01,CD Mirandés,Real Zaragoza,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 3
+2024-09-01,CD Eldense,FC Cartagena,1,2,A,1,0,H,2024-25,LA_LIGA_2,Matchday 3
+2024-09-02,SD Eibar,Levante UD,2,2,D,0,1,A,2024-25,LA_LIGA_2,Matchday 3
+2024-09-02,Elche,Córdoba,3,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 3
+2024-09-06,CD Tenerife,Racing Santander,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 4
+2024-09-07,Granada,Deportivo La Coruña,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 4
+2024-09-07,SD Huesca,Burgos,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 4
+2024-09-07,Sporting Gijón,Real Oviedo,3,1,H,2,0,H,2024-25,LA_LIGA_2,Matchday 4
+2024-09-07,Córdoba,Málaga,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 4
+2024-09-08,Racing Ferrol,CD Mirandés,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 4
+2024-09-08,FC Cartagena,Levante UD,0,1,A,0,1,A,2024-25,LA_LIGA_2,Matchday 4
+2024-09-08,CD Eldense,UD Almería,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 4
+2024-09-08,Real Zaragoza,Elche,3,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 4
+2024-09-09,Albacete,SD Eibar,0,1,A,0,1,A,2024-25,LA_LIGA_2,Matchday 4
+2024-09-09,CD Castellón,Cádiz,1,3,A,0,0,D,2024-25,LA_LIGA_2,Matchday 4
+2024-09-13,Córdoba,Deportivo La Coruña,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 5
+2024-09-14,SD Eibar,CD Tenerife,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 5
+2024-09-14,Levante UD,CD Eldense,3,1,H,1,1,D,2024-25,LA_LIGA_2,Matchday 5
+2024-09-14,Racing Santander,Sporting Gijón,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 5
+2024-09-14,Málaga,SD Huesca,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 5
+2024-09-15,CD Mirandés,Albacete,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 5
+2024-09-15,Real Oviedo,FC Cartagena,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 5
+2024-09-15,Burgos,Real Zaragoza,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 5
+2024-09-15,Cádiz,Racing Ferrol,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 5
+2024-09-15,Elche,Granada,2,2,D,1,0,H,2024-25,LA_LIGA_2,Matchday 5
+2024-09-16,UD Almería,CD Castellón,2,5,A,0,1,A,2024-25,LA_LIGA_2,Matchday 5
+2024-09-20,Granada,Málaga,2,2,D,0,0,D,2024-25,LA_LIGA_2,Matchday 6
+2024-09-21,Racing Ferrol,Albacete,1,4,A,0,0,D,2024-25,LA_LIGA_2,Matchday 6
+2024-09-21,CD Eldense,Real Oviedo,1,1,D,1,1,D,2024-25,LA_LIGA_2,Matchday 6
+2024-09-21,Deportivo La Coruña,Burgos,0,2,A,0,0,D,2024-25,LA_LIGA_2,Matchday 6
+2024-09-21,Real Zaragoza,Levante UD,2,1,H,1,1,D,2024-25,LA_LIGA_2,Matchday 6
+2024-09-22,CD Tenerife,Sporting Gijón,1,1,D,0,1,A,2024-25,LA_LIGA_2,Matchday 6
+2024-09-22,CD Castellón,Racing Santander,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 6
+2024-09-22,FC Cartagena,Cádiz,1,2,A,0,1,A,2024-25,LA_LIGA_2,Matchday 6
+2024-09-22,Elche,CD Mirandés,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 6
+2024-09-22,UD Almería,SD Eibar,2,2,D,0,1,A,2024-25,LA_LIGA_2,Matchday 6
+2024-09-23,SD Huesca,Córdoba,4,1,H,3,1,H,2024-25,LA_LIGA_2,Matchday 6
+2024-09-27,Albacete,Deportivo La Coruña,2,5,A,1,2,A,2024-25,LA_LIGA_2,Matchday 7
+2024-09-28,Cádiz,CD Eldense,1,2,A,0,1,A,2024-25,LA_LIGA_2,Matchday 7
+2024-09-28,CD Mirandés,SD Huesca,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 7
+2024-09-28,Sporting Gijón,Real Zaragoza,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 7
+2024-09-28,Málaga,Elche,0,3,A,0,1,A,2024-25,LA_LIGA_2,Matchday 7
+2024-09-29,Levante UD,UD Almería,4,2,H,2,2,D,2024-25,LA_LIGA_2,Matchday 7
+2024-09-29,Burgos,Granada,2,2,D,0,0,D,2024-25,LA_LIGA_2,Matchday 7
+2024-09-29,CD Castellón,CD Tenerife,2,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 7
+2024-09-29,Córdoba,Racing Ferrol,3,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 7
+2024-09-29,Real Oviedo,SD Eibar,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 7
+2024-09-30,Racing Santander,FC Cartagena,1,2,A,0,1,A,2024-25,LA_LIGA_2,Matchday 7
+2024-10-04,SD Huesca,Cádiz,3,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 8
+2024-10-05,Racing Ferrol,Elche,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 8
+2024-10-05,SD Eibar,Sporting Gijón,1,3,A,1,2,A,2024-25,LA_LIGA_2,Matchday 8
+2024-10-05,CD Mirandés,Granada,0,1,A,0,1,A,2024-25,LA_LIGA_2,Matchday 8
+2024-10-05,UD Almería,Burgos,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 8
+2024-10-05,Real Zaragoza,Racing Santander,2,3,A,0,2,A,2024-25,LA_LIGA_2,Matchday 8
+2024-10-05,CD Tenerife,FC Cartagena,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 8
+2024-10-06,Deportivo La Coruña,Málaga,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 8
+2024-10-06,CD Eldense,CD Castellón,2,3,A,2,3,A,2024-25,LA_LIGA_2,Matchday 8
+2024-10-06,Levante UD,Real Oviedo,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 8
+2024-10-06,Albacete,Córdoba,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 8
+2024-10-11,CD Tenerife,Real Zaragoza,2,3,A,1,0,H,2024-25,LA_LIGA_2,Matchday 9
+2024-10-12,FC Cartagena,Racing Ferrol,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 9
+2024-10-12,Cádiz,Málaga,2,2,D,2,0,H,2024-25,LA_LIGA_2,Matchday 9
+2024-10-12,SD Eibar,CD Eldense,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 9
+2024-10-13,SD Huesca,Albacete,2,2,D,1,2,A,2024-25,LA_LIGA_2,Matchday 9
+2024-10-13,Real Oviedo,UD Almería,3,2,H,2,1,H,2024-25,LA_LIGA_2,Matchday 9
+2024-10-13,Racing Santander,Levante UD,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 9
+2024-10-13,Burgos,CD Mirandés,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 9
+2024-10-13,Granada,Córdoba,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 9
+2024-10-13,Elche,Deportivo La Coruña,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 9
+2024-10-14,Sporting Gijón,CD Castellón,2,1,H,0,1,A,2024-25,LA_LIGA_2,Matchday 9
+2024-10-18,Córdoba,FC Cartagena,2,1,H,0,0,D,2024-25,LA_LIGA_2,Matchday 10
+2024-10-19,Deportivo La Coruña,CD Eldense,1,1,D,1,1,D,2024-25,LA_LIGA_2,Matchday 10
+2024-10-19,Málaga,Real Oviedo,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 10
+2024-10-19,CD Castellón,Levante UD,2,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 10
+2024-10-19,Granada,CD Tenerife,4,0,H,2,0,H,2024-25,LA_LIGA_2,Matchday 10
+2024-10-19,CD Mirandés,SD Eibar,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 10
+2024-10-20,Cádiz,Racing Santander,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 10
+2024-10-20,Racing Ferrol,SD Huesca,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 10
+2024-10-20,Elche,Sporting Gijón,2,1,H,0,0,D,2024-25,LA_LIGA_2,Matchday 10
+2024-10-20,Real Zaragoza,UD Almería,1,2,A,1,1,D,2024-25,LA_LIGA_2,Matchday 10
+2024-10-21,Albacete,Burgos,2,0,H,2,0,H,2024-25,LA_LIGA_2,Matchday 10
+2024-10-22,Real Oviedo,CD Mirandés,4,1,H,2,0,H,2024-25,LA_LIGA_2,Matchday 11
+2024-10-22,CD Castellón,Granada,2,3,A,2,1,H,2024-25,LA_LIGA_2,Matchday 11
+2024-10-23,CD Eldense,Real Zaragoza,2,3,A,1,2,A,2024-25,LA_LIGA_2,Matchday 11
+2024-10-23,SD Eibar,Cádiz,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 11
+2024-10-23,FC Cartagena,Elche,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 11
+2024-10-23,Racing Santander,Córdoba,2,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 11
+2024-10-24,UD Almería,Albacete,3,1,H,1,1,D,2024-25,LA_LIGA_2,Matchday 11
+2024-10-24,Levante UD,Deportivo La Coruña,2,1,H,2,0,H,2024-25,LA_LIGA_2,Matchday 11
+2024-10-24,Burgos,Racing Ferrol,1,1,D,1,1,D,2024-25,LA_LIGA_2,Matchday 11
+2024-10-24,Sporting Gijón,SD Huesca,2,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 11
+2024-10-24,CD Tenerife,Málaga,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 11
+2024-10-26,Cádiz,Real Oviedo,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 12
+2024-10-26,CD Mirandés,FC Cartagena,3,1,H,2,0,H,2024-25,LA_LIGA_2,Matchday 12
+2024-10-26,Córdoba,CD Eldense,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 12
+2024-10-26,Real Zaragoza,CD Castellón,1,2,A,1,1,D,2024-25,LA_LIGA_2,Matchday 12
+2024-10-27,Málaga,SD Eibar,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 12
+2024-10-27,Deportivo La Coruña,Racing Santander,1,2,A,0,2,A,2024-25,LA_LIGA_2,Matchday 12
+2024-10-27,Elche,Burgos,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 12
+2024-10-27,Albacete,Sporting Gijón,3,3,D,1,2,A,2024-25,LA_LIGA_2,Matchday 12
+2024-10-27,SD Huesca,UD Almería,2,2,D,1,0,H,2024-25,LA_LIGA_2,Matchday 12
+2024-10-27,Granada,Levante UD,1,2,A,0,2,A,2024-25,LA_LIGA_2,Matchday 12
+2024-10-28,Racing Ferrol,CD Tenerife,1,1,D,1,1,D,2024-25,LA_LIGA_2,Matchday 12
+2024-11-02,SD Eibar,Elche,0,2,A,0,2,A,2024-25,LA_LIGA_2,Matchday 13
+2024-11-02,FC Cartagena,Deportivo La Coruña,1,5,A,0,2,A,2024-25,LA_LIGA_2,Matchday 13
+2024-11-02,Sporting Gijón,Cádiz,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 13
+2024-11-02,Racing Santander,Albacete,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 13
+2024-11-02,Real Zaragoza,Granada,2,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 13
+2024-11-03,Real Oviedo,Burgos,3,1,H,1,1,D,2024-25,LA_LIGA_2,Matchday 13
+2024-11-03,CD Tenerife,CD Mirandés,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 13
+2024-11-20,CD Eldense,SD Huesca,2,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 13
+2024-11-26,UD Almería,Córdoba,4,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 13
+2024-11-27,CD Castellón,Racing Ferrol,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 13
+2024-11-27,Levante UD,Málaga,4,2,H,2,2,D,2024-25,LA_LIGA_2,Matchday 13
+2024-11-08,Elche,UD Almería,1,2,A,1,1,D,2024-25,LA_LIGA_2,Matchday 14
+2024-11-09,CD Mirandés,Cádiz,2,2,D,1,1,D,2024-25,LA_LIGA_2,Matchday 14
+2024-11-09,SD Huesca,Real Zaragoza,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 14
+2024-11-09,Granada,CD Eldense,3,2,H,2,0,H,2024-25,LA_LIGA_2,Matchday 14
+2024-11-09,Málaga,FC Cartagena,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 14
+2024-11-10,Córdoba,CD Castellón,2,2,D,0,2,A,2024-25,LA_LIGA_2,Matchday 14
+2024-11-10,Burgos,Sporting Gijón,0,2,A,0,1,A,2024-25,LA_LIGA_2,Matchday 14
+2024-11-10,Racing Ferrol,Racing Santander,1,2,A,0,2,A,2024-25,LA_LIGA_2,Matchday 14
+2024-11-10,Albacete,Real Oviedo,2,2,D,1,1,D,2024-25,LA_LIGA_2,Matchday 14
+2024-11-11,Deportivo La Coruña,SD Eibar,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 14
+2025-01-07,CD Tenerife,Levante UD,0,3,A,0,0,D,2024-25,LA_LIGA_2,Matchday 14
+2024-11-16,SD Eibar,Racing Ferrol,2,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 15
+2024-11-16,CD Castellón,CD Mirandés,1,3,A,0,3,A,2024-25,LA_LIGA_2,Matchday 15
+2024-11-16,CD Eldense,Albacete,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 15
+2024-11-16,Racing Santander,Burgos,2,0,H,2,0,H,2024-25,LA_LIGA_2,Matchday 15
+2024-11-16,Levante UD,Elche,1,1,D,0,1,A,2024-25,LA_LIGA_2,Matchday 15
+2024-11-16,Sporting Gijón,Granada,1,2,A,0,0,D,2024-25,LA_LIGA_2,Matchday 15
+2024-11-17,Cádiz,Córdoba,2,0,H,2,0,H,2024-25,LA_LIGA_2,Matchday 15
+2024-11-17,Real Oviedo,CD Tenerife,3,1,H,2,0,H,2024-25,LA_LIGA_2,Matchday 15
+2024-11-17,UD Almería,Deportivo La Coruña,2,1,H,2,1,H,2024-25,LA_LIGA_2,Matchday 15
+2024-11-17,FC Cartagena,SD Huesca,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 15
+2024-11-17,Real Zaragoza,Málaga,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 15
+2024-11-22,Racing Ferrol,Levante UD,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 16
+2024-11-23,FC Cartagena,UD Almería,1,2,A,1,1,D,2024-25,LA_LIGA_2,Matchday 16
+2024-11-23,Granada,Cádiz,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 16
+2024-11-23,Burgos,SD Eibar,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 16
+2024-11-23,Córdoba,Real Zaragoza,2,2,D,1,1,D,2024-25,LA_LIGA_2,Matchday 16
+2024-11-23,Málaga,Racing Santander,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 16
+2024-11-24,Albacete,CD Tenerife,2,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 16
+2024-11-24,Deportivo La Coruña,Sporting Gijón,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 16
+2024-11-24,CD Mirandés,CD Eldense,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 16
+2024-11-24,SD Huesca,CD Castellón,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 16
+2024-11-24,Elche,Real Oviedo,4,0,H,2,0,H,2024-25,LA_LIGA_2,Matchday 16
+2024-11-29,Real Oviedo,SD Huesca,0,3,A,0,1,A,2024-25,LA_LIGA_2,Matchday 17
+2024-11-30,UD Almería,Granada,2,1,H,0,1,A,2024-25,LA_LIGA_2,Matchday 17
+2024-11-30,Real Zaragoza,Albacete,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 17
+2024-11-30,Cádiz,Deportivo La Coruña,2,4,A,1,1,D,2024-25,LA_LIGA_2,Matchday 17
+2024-11-30,Racing Santander,CD Mirandés,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 17
+2024-11-30,CD Tenerife,Elche,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 17
+2024-12-01,CD Castellón,Málaga,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 17
+2024-12-01,CD Eldense,Racing Ferrol,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 17
+2024-12-01,Levante UD,Burgos,3,1,H,1,1,D,2024-25,LA_LIGA_2,Matchday 17
+2024-12-01,Sporting Gijón,Córdoba,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 17
+2024-12-02,SD Eibar,FC Cartagena,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 17
+2024-12-06,CD Mirandés,Levante UD,2,1,H,0,0,D,2024-25,LA_LIGA_2,Matchday 18
+2024-12-07,Elche,Cádiz,2,1,H,0,1,A,2024-25,LA_LIGA_2,Matchday 18
+2024-12-07,Granada,Racing Santander,3,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 18
+2024-12-07,Deportivo La Coruña,Real Zaragoza,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 18
+2024-12-07,SD Huesca,SD Eibar,2,1,H,1,1,D,2024-25,LA_LIGA_2,Matchday 18
+2024-12-08,Racing Ferrol,Real Oviedo,1,5,A,0,1,A,2024-25,LA_LIGA_2,Matchday 18
+2024-12-08,Málaga,UD Almería,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 18
+2024-12-08,Albacete,CD Castellón,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 18
+2024-12-08,Burgos,CD Eldense,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 18
+2024-12-08,Córdoba,CD Tenerife,3,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 18
+2024-12-09,FC Cartagena,Sporting Gijón,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 18
+2024-12-13,UD Almería,CD Mirandés,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 19
+2024-12-14,Levante UD,Córdoba,2,2,D,0,0,D,2024-25,LA_LIGA_2,Matchday 19
+2024-12-14,Cádiz,Albacete,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 19
+2024-12-14,CD Castellón,FC Cartagena,4,1,H,2,0,H,2024-25,LA_LIGA_2,Matchday 19
+2024-12-14,SD Eibar,Real Zaragoza,2,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 19
+2024-12-14,CD Eldense,Elche,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 19
+2024-12-14,Real Oviedo,Granada,2,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 19
+2024-12-15,Sporting Gijón,Racing Ferrol,1,3,A,1,3,A,2024-25,LA_LIGA_2,Matchday 19
+2024-12-15,Burgos,Málaga,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 19
+2024-12-15,Racing Santander,SD Huesca,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 19
+2025-01-29,CD Tenerife,Deportivo La Coruña,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 19
+2024-12-17,Albacete,Levante UD,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 20
+2024-12-17,Granada,FC Cartagena,4,1,H,3,1,H,2024-25,LA_LIGA_2,Matchday 20
+2024-12-17,Córdoba,SD Eibar,2,1,H,1,1,D,2024-25,LA_LIGA_2,Matchday 20
+2024-12-17,Real Zaragoza,Real Oviedo,2,3,A,2,0,H,2024-25,LA_LIGA_2,Matchday 20
+2024-12-18,Racing Ferrol,UD Almería,1,4,A,0,1,A,2024-25,LA_LIGA_2,Matchday 20
+2024-12-18,CD Mirandés,Sporting Gijón,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 20
+2024-12-18,Málaga,CD Eldense,3,0,H,2,0,H,2024-25,LA_LIGA_2,Matchday 20
+2024-12-19,Elche,Racing Santander,3,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 20
+2024-12-19,Cádiz,Burgos,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 20
+2024-12-19,SD Huesca,CD Tenerife,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 20
+2024-12-19,Deportivo La Coruña,CD Castellón,5,1,H,3,1,H,2024-25,LA_LIGA_2,Matchday 20
+2024-12-20,FC Cartagena,Albacete,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 21
+2024-12-21,SD Eibar,Granada,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 21
+2024-12-21,Real Oviedo,Córdoba,2,3,A,1,3,A,2024-25,LA_LIGA_2,Matchday 21
+2024-12-21,Real Zaragoza,Racing Ferrol,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 21
+2024-12-21,Sporting Gijón,Málaga,1,3,A,0,0,D,2024-25,LA_LIGA_2,Matchday 21
+2024-12-22,Burgos,CD Tenerife,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 21
+2024-12-22,CD Castellón,Elche,0,2,A,0,2,A,2024-25,LA_LIGA_2,Matchday 21
+2024-12-22,UD Almería,Cádiz,1,1,D,0,1,A,2024-25,LA_LIGA_2,Matchday 21
+2024-12-22,Racing Santander,CD Eldense,2,2,D,0,0,D,2024-25,LA_LIGA_2,Matchday 21
+2024-12-22,Deportivo La Coruña,CD Mirandés,0,4,A,0,2,A,2024-25,LA_LIGA_2,Matchday 21
+2024-12-22,Levante UD,SD Huesca,1,1,D,0,1,A,2024-25,LA_LIGA_2,Matchday 21
+2025-01-10,Granada,Burgos,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 22
+2025-01-11,Racing Ferrol,FC Cartagena,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 22
+2025-01-11,Albacete,Racing Santander,2,2,D,1,0,H,2024-25,LA_LIGA_2,Matchday 22
+2025-01-11,SD Huesca,CD Mirandés,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 22
+2025-01-11,CD Tenerife,CD Castellón,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 22
+2025-01-11,Málaga,Deportivo La Coruña,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 22
+2025-01-11,Real Oviedo,Sporting Gijón,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 22
+2025-01-12,Córdoba,UD Almería,0,3,A,0,1,A,2024-25,LA_LIGA_2,Matchday 22
+2025-01-12,Cádiz,Levante UD,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 22
+2025-01-12,Elche,Real Zaragoza,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 22
+2025-01-13,CD Eldense,SD Eibar,1,3,A,1,0,H,2024-25,LA_LIGA_2,Matchday 22
+2025-01-17,FC Cartagena,Real Oviedo,0,1,A,0,1,A,2024-25,LA_LIGA_2,Matchday 23
+2025-01-18,CD Eldense,Cádiz,1,4,A,0,3,A,2024-25,LA_LIGA_2,Matchday 23
+2025-01-18,SD Eibar,Albacete,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 23
+2025-01-18,Sporting Gijón,Elche,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 23
+2025-01-18,Levante UD,Granada,3,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 23
+2025-01-19,Burgos,Deportivo La Coruña,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 23
+2025-01-19,Racing Santander,Racing Ferrol,6,0,H,3,0,H,2024-25,LA_LIGA_2,Matchday 23
+2025-01-19,CD Castellón,Córdoba,1,2,A,1,0,H,2024-25,LA_LIGA_2,Matchday 23
+2025-01-19,Real Zaragoza,CD Tenerife,2,2,D,0,1,A,2024-25,LA_LIGA_2,Matchday 23
+2025-01-19,UD Almería,SD Huesca,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 23
+2025-01-20,CD Mirandés,Málaga,3,2,H,0,1,A,2024-25,LA_LIGA_2,Matchday 23
+2025-01-24,Elche,SD Eibar,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 24
+2025-01-25,Córdoba,Racing Santander,1,2,A,1,1,D,2024-25,LA_LIGA_2,Matchday 24
+2025-01-25,Deportivo La Coruña,Levante UD,1,2,A,0,0,D,2024-25,LA_LIGA_2,Matchday 24
+2025-01-25,SD Huesca,FC Cartagena,4,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 24
+2025-01-25,CD Tenerife,CD Eldense,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 24
+2025-01-26,Granada,Sporting Gijón,3,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 24
+2025-01-26,Albacete,UD Almería,2,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 24
+2025-01-26,Real Oviedo,CD Castellón,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 24
+2025-01-26,Málaga,Real Zaragoza,1,2,A,0,0,D,2024-25,LA_LIGA_2,Matchday 24
+2025-01-27,Cádiz,CD Mirandés,3,1,H,2,1,H,2024-25,LA_LIGA_2,Matchday 24
+2025-03-05,Racing Ferrol,Burgos,0,1,A,0,1,A,2024-25,LA_LIGA_2,Matchday 24
+2025-01-31,CD Eldense,Granada,0,3,A,0,1,A,2024-25,LA_LIGA_2,Matchday 25
+2025-02-01,CD Mirandés,Elche,3,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 25
+2025-02-01,Sporting Gijón,Burgos,2,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 25
+2025-02-01,UD Almería,Real Oviedo,1,1,D,0,1,A,2024-25,LA_LIGA_2,Matchday 25
+2025-02-01,Racing Santander,Málaga,2,1,H,2,1,H,2024-25,LA_LIGA_2,Matchday 25
+2025-02-02,CD Castellón,SD Huesca,0,1,A,0,1,A,2024-25,LA_LIGA_2,Matchday 25
+2025-02-02,SD Eibar,Deportivo La Coruña,0,1,A,0,1,A,2024-25,LA_LIGA_2,Matchday 25
+2025-02-02,FC Cartagena,Córdoba,0,1,A,0,1,A,2024-25,LA_LIGA_2,Matchday 25
+2025-02-02,Real Zaragoza,Cádiz,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 25
+2025-02-02,CD Tenerife,Albacete,3,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 25
+2025-02-03,Levante UD,Racing Ferrol,0,1,A,0,1,A,2024-25,LA_LIGA_2,Matchday 25
+2025-02-07,Albacete,Real Zaragoza,2,1,H,0,0,D,2024-25,LA_LIGA_2,Matchday 26
+2025-02-08,Racing Ferrol,CD Castellón,1,3,A,0,2,A,2024-25,LA_LIGA_2,Matchday 26
+2025-02-08,Granada,CD Mirandés,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 26
+2025-02-08,Sporting Gijón,SD Eibar,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 26
+2025-02-08,Málaga,Levante UD,1,1,D,0,1,A,2024-25,LA_LIGA_2,Matchday 26
+2025-02-09,Elche,CD Tenerife,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 26
+2025-02-09,Burgos,Racing Santander,2,1,H,0,0,D,2024-25,LA_LIGA_2,Matchday 26
+2025-02-09,Córdoba,SD Huesca,1,2,A,1,0,H,2024-25,LA_LIGA_2,Matchday 26
+2025-02-09,Cádiz,FC Cartagena,5,2,H,3,1,H,2024-25,LA_LIGA_2,Matchday 26
+2025-02-09,Deportivo La Coruña,UD Almería,3,1,H,3,0,H,2024-25,LA_LIGA_2,Matchday 26
+2025-02-10,Real Oviedo,CD Eldense,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 26
+2025-02-14,CD Mirandés,Racing Ferrol,4,1,H,2,1,H,2024-25,LA_LIGA_2,Matchday 27
+2025-02-15,CD Castellón,SD Eibar,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 27
+2025-02-15,FC Cartagena,Málaga,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 27
+2025-02-15,Racing Santander,Cádiz,2,3,A,0,1,A,2024-25,LA_LIGA_2,Matchday 27
+2025-02-15,CD Tenerife,Córdoba,2,3,A,2,2,D,2024-25,LA_LIGA_2,Matchday 27
+2025-02-16,Levante UD,Sporting Gijón,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 27
+2025-02-16,CD Eldense,Deportivo La Coruña,2,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 27
+2025-02-16,SD Huesca,Granada,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 27
+2025-02-16,Real Zaragoza,Burgos,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 27
+2025-02-16,Real Oviedo,Albacete,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 27
+2025-02-17,UD Almería,Elche,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 27
+2025-02-21,Málaga,CD Tenerife,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 28
+2025-02-22,Racing Ferrol,Córdoba,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 28
+2025-02-22,Burgos,Real Oviedo,1,2,A,1,1,D,2024-25,LA_LIGA_2,Matchday 28
+2025-02-22,SD Eibar,Racing Santander,2,2,D,1,1,D,2024-25,LA_LIGA_2,Matchday 28
+2025-02-22,Granada,Real Zaragoza,2,2,D,1,0,H,2024-25,LA_LIGA_2,Matchday 28
+2025-02-22,Sporting Gijón,UD Almería,1,1,D,0,1,A,2024-25,LA_LIGA_2,Matchday 28
+2025-02-23,Deportivo La Coruña,SD Huesca,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 28
+2025-02-23,Elche,FC Cartagena,2,1,H,0,0,D,2024-25,LA_LIGA_2,Matchday 28
+2025-02-23,Albacete,CD Eldense,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 28
+2025-02-23,Levante UD,CD Mirandés,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 28
+2025-02-23,Cádiz,CD Castellón,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 28
+2025-02-28,FC Cartagena,SD Eibar,0,2,A,0,2,A,2024-25,LA_LIGA_2,Matchday 29
+2025-03-01,CD Castellón,Burgos,2,1,H,1,1,D,2024-25,LA_LIGA_2,Matchday 29
+2025-03-01,SD Huesca,Racing Ferrol,3,1,H,2,1,H,2024-25,LA_LIGA_2,Matchday 29
+2025-03-01,Real Zaragoza,Sporting Gijón,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 29
+2025-03-01,UD Almería,Málaga,2,2,D,1,0,H,2024-25,LA_LIGA_2,Matchday 29
+2025-03-02,Córdoba,Granada,5,0,H,2,0,H,2024-25,LA_LIGA_2,Matchday 29
+2025-03-02,Real Oviedo,Deportivo La Coruña,1,2,A,1,1,D,2024-25,LA_LIGA_2,Matchday 29
+2025-03-02,Albacete,Cádiz,3,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 29
+2025-03-02,CD Eldense,Levante UD,1,2,A,1,0,H,2024-25,LA_LIGA_2,Matchday 29
+2025-03-02,Racing Santander,Elche,2,0,H,2,0,H,2024-25,LA_LIGA_2,Matchday 29
+2025-03-03,CD Mirandés,CD Tenerife,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 29
+2025-03-07,SD Eibar,UD Almería,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 30
+2025-03-07,Deportivo La Coruña,Córdoba,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 30
+2025-03-08,CD Mirandés,Real Oviedo,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 30
+2025-03-08,Elche,CD Castellón,3,1,H,2,0,H,2024-25,LA_LIGA_2,Matchday 30
+2025-03-08,Sporting Gijón,Racing Santander,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 30
+2025-03-08,Real Zaragoza,CD Eldense,2,4,A,2,2,D,2024-25,LA_LIGA_2,Matchday 30
+2025-03-09,CD Tenerife,SD Huesca,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 30
+2025-03-09,Málaga,Cádiz,0,2,A,0,0,D,2024-25,LA_LIGA_2,Matchday 30
+2025-03-09,Levante UD,FC Cartagena,3,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 30
+2025-03-09,Granada,Racing Ferrol,3,0,H,2,0,H,2024-25,LA_LIGA_2,Matchday 30
+2025-03-10,Burgos,Albacete,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 30
+2025-03-14,Real Oviedo,Elche,1,1,D,0,1,A,2024-25,LA_LIGA_2,Matchday 31
+2025-03-15,Racing Ferrol,SD Eibar,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 31
+2025-03-15,Albacete,Málaga,2,0,H,2,0,H,2024-25,LA_LIGA_2,Matchday 31
+2025-03-15,FC Cartagena,Burgos,0,1,A,0,1,A,2024-25,LA_LIGA_2,Matchday 31
+2025-03-15,UD Almería,Real Zaragoza,4,1,H,3,1,H,2024-25,LA_LIGA_2,Matchday 31
+2025-03-15,Córdoba,Sporting Gijón,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 31
+2025-03-16,CD Eldense,CD Mirandés,2,2,D,0,0,D,2024-25,LA_LIGA_2,Matchday 31
+2025-03-16,SD Huesca,Levante UD,1,2,A,0,0,D,2024-25,LA_LIGA_2,Matchday 31
+2025-03-16,Racing Santander,CD Tenerife,2,1,H,0,0,D,2024-25,LA_LIGA_2,Matchday 31
+2025-03-16,Cádiz,Granada,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 31
+2025-03-17,CD Castellón,Deportivo La Coruña,2,2,D,1,1,D,2024-25,LA_LIGA_2,Matchday 31
+2025-03-21,Burgos,UD Almería,3,1,H,1,1,D,2024-25,LA_LIGA_2,Matchday 32
+2025-03-22,Elche,CD Eldense,2,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 32
+2025-03-22,CD Mirandés,Racing Santander,2,1,H,0,1,A,2024-25,LA_LIGA_2,Matchday 32
+2025-03-22,Málaga,Racing Ferrol,2,0,H,2,0,H,2024-25,LA_LIGA_2,Matchday 32
+2025-03-22,Granada,Real Oviedo,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 32
+2025-03-23,Levante UD,CD Castellón,3,2,H,2,1,H,2024-25,LA_LIGA_2,Matchday 32
+2025-03-23,SD Eibar,SD Huesca,2,1,H,0,0,D,2024-25,LA_LIGA_2,Matchday 32
+2025-03-23,Sporting Gijón,Albacete,0,2,A,0,1,A,2024-25,LA_LIGA_2,Matchday 32
+2025-03-23,CD Tenerife,Cádiz,2,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 32
+2025-03-23,Deportivo La Coruña,FC Cartagena,2,2,D,0,0,D,2024-25,LA_LIGA_2,Matchday 32
+2025-03-24,Real Zaragoza,Córdoba,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 32
+2025-03-28,CD Tenerife,Granada,2,1,H,0,1,A,2024-25,LA_LIGA_2,Matchday 33
+2025-03-29,CD Eldense,Burgos,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 33
+2025-03-29,Racing Ferrol,Deportivo La Coruña,0,1,A,0,1,A,2024-25,LA_LIGA_2,Matchday 33
+2025-03-29,FC Cartagena,CD Castellón,2,2,D,2,0,H,2024-25,LA_LIGA_2,Matchday 33
+2025-03-29,Racing Santander,Real Zaragoza,2,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 33
+2025-03-29,UD Almería,Levante UD,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 33
+2025-03-30,Córdoba,Elche,1,2,A,1,1,D,2024-25,LA_LIGA_2,Matchday 33
+2025-03-30,Real Oviedo,Málaga,2,1,H,0,0,D,2024-25,LA_LIGA_2,Matchday 33
+2025-03-30,Albacete,CD Mirandés,3,2,H,1,1,D,2024-25,LA_LIGA_2,Matchday 33
+2025-03-30,SD Huesca,Sporting Gijón,3,2,H,2,1,H,2024-25,LA_LIGA_2,Matchday 33
+2025-03-31,Cádiz,SD Eibar,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 33
+2025-04-04,CD Castellón,Albacete,2,2,D,1,2,A,2024-25,LA_LIGA_2,Matchday 34
+2025-04-05,SD Eibar,Real Oviedo,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 34
+2025-04-05,FC Cartagena,CD Eldense,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 34
+2025-04-05,Granada,UD Almería,3,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 34
+2025-04-05,Sporting Gijón,CD Tenerife,1,3,A,0,0,D,2024-25,LA_LIGA_2,Matchday 34
+2025-04-06,Real Zaragoza,CD Mirandés,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 34
+2025-04-06,Levante UD,Racing Santander,3,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 34
+2025-04-06,Burgos,SD Huesca,2,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 34
+2025-04-06,Málaga,Córdoba,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 34
+2025-04-06,Deportivo La Coruña,Cádiz,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 34
+2025-04-07,Elche,Racing Ferrol,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 34
+2025-04-11,Córdoba,Levante UD,2,2,D,0,1,A,2024-25,LA_LIGA_2,Matchday 35
+2025-04-12,Real Zaragoza,SD Eibar,2,2,D,0,2,A,2024-25,LA_LIGA_2,Matchday 35
+2025-04-12,Cádiz,Elche,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 35
+2025-04-12,CD Tenerife,Burgos,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 35
+2025-04-12,Real Oviedo,Racing Ferrol,3,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 35
+2025-04-13,Albacete,Granada,0,2,A,0,0,D,2024-25,LA_LIGA_2,Matchday 35
+2025-04-13,Racing Santander,CD Castellón,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 35
+2025-04-13,CD Eldense,Sporting Gijón,1,2,A,0,1,A,2024-25,LA_LIGA_2,Matchday 35
+2025-04-13,CD Mirandés,Deportivo La Coruña,2,2,D,0,1,A,2024-25,LA_LIGA_2,Matchday 35
+2025-04-13,UD Almería,FC Cartagena,2,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 35
+2025-04-14,SD Huesca,Málaga,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 35
+2025-04-18,Sporting Gijón,CD Mirandés,3,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 36
+2025-04-18,CD Castellón,UD Almería,4,1,H,1,1,D,2024-25,LA_LIGA_2,Matchday 36
+2025-04-19,Racing Ferrol,CD Eldense,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 36
+2025-04-19,SD Huesca,Racing Santander,1,3,A,1,0,H,2024-25,LA_LIGA_2,Matchday 36
+2025-04-19,Levante UD,Real Zaragoza,5,2,H,2,0,H,2024-25,LA_LIGA_2,Matchday 36
+2025-04-19,Burgos,Cádiz,2,2,D,1,1,D,2024-25,LA_LIGA_2,Matchday 36
+2025-04-20,FC Cartagena,Granada,2,3,A,1,2,A,2024-25,LA_LIGA_2,Matchday 36
+2025-04-20,Córdoba,Real Oviedo,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 36
+2025-04-20,Elche,Albacete,2,2,D,2,2,D,2024-25,LA_LIGA_2,Matchday 36
+2025-04-20,Deportivo La Coruña,CD Tenerife,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 36
+2025-04-21,SD Eibar,Málaga,2,2,D,1,0,H,2024-25,LA_LIGA_2,Matchday 36
+2025-04-25,Cádiz,Sporting Gijón,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 37
+2025-04-26,Albacete,FC Cartagena,3,1,H,1,1,D,2024-25,LA_LIGA_2,Matchday 37
+2025-04-26,CD Eldense,Córdoba,1,1,D,1,0,H,2024-25,LA_LIGA_2,Matchday 37
+2025-04-26,Real Oviedo,Levante UD,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 37
+2025-04-26,CD Mirandés,Burgos,2,1,H,0,0,D,2024-25,LA_LIGA_2,Matchday 37
+2025-04-26,Granada,Elche,1,1,D,1,1,D,2024-25,LA_LIGA_2,Matchday 37
+2025-04-27,Racing Santander,Deportivo La Coruña,2,1,H,2,0,H,2024-25,LA_LIGA_2,Matchday 37
+2025-04-27,Málaga,CD Castellón,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 37
+2025-04-27,CD Tenerife,SD Eibar,1,1,D,0,1,A,2024-25,LA_LIGA_2,Matchday 37
+2025-04-27,Real Zaragoza,SD Huesca,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 37
+2025-04-29,UD Almería,Racing Ferrol,2,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 37
+2025-05-02,Córdoba,Cádiz,4,2,H,2,0,H,2024-25,LA_LIGA_2,Matchday 38
+2025-05-03,SD Huesca,Real Oviedo,1,2,A,0,1,A,2024-25,LA_LIGA_2,Matchday 38
+2025-05-03,SD Eibar,CD Mirandés,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 38
+2025-05-03,Málaga,Granada,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 38
+2025-05-03,Burgos,Elche,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 38
+2025-05-04,Levante UD,CD Tenerife,1,1,D,0,1,A,2024-25,LA_LIGA_2,Matchday 38
+2025-05-04,Racing Ferrol,Real Zaragoza,1,2,A,0,1,A,2024-25,LA_LIGA_2,Matchday 38
+2025-05-04,UD Almería,CD Eldense,5,0,H,2,0,H,2024-25,LA_LIGA_2,Matchday 38
+2025-05-04,FC Cartagena,Racing Santander,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 38
+2025-05-04,Deportivo La Coruña,Albacete,5,1,H,2,1,H,2024-25,LA_LIGA_2,Matchday 38
+2025-05-05,CD Castellón,Sporting Gijón,4,3,H,2,1,H,2024-25,LA_LIGA_2,Matchday 38
+2025-05-09,Cádiz,UD Almería,2,1,H,0,1,A,2024-25,LA_LIGA_2,Matchday 39
+2025-05-10,CD Mirandés,CD Castellón,3,2,H,1,1,D,2024-25,LA_LIGA_2,Matchday 39
+2025-05-10,Sporting Gijón,Deportivo La Coruña,2,1,H,2,0,H,2024-25,LA_LIGA_2,Matchday 39
+2025-05-10,Burgos,Córdoba,3,2,H,1,1,D,2024-25,LA_LIGA_2,Matchday 39
+2025-05-10,Elche,Levante UD,1,3,A,0,2,A,2024-25,LA_LIGA_2,Matchday 39
+2025-05-10,Real Zaragoza,FC Cartagena,3,2,H,1,2,A,2024-25,LA_LIGA_2,Matchday 39
+2025-05-11,Racing Santander,Real Oviedo,1,1,D,0,1,A,2024-25,LA_LIGA_2,Matchday 39
+2025-05-11,Albacete,SD Huesca,3,2,H,1,0,H,2024-25,LA_LIGA_2,Matchday 39
+2025-05-11,CD Eldense,Málaga,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 39
+2025-05-11,CD Tenerife,Racing Ferrol,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 39
+2025-05-12,Granada,SD Eibar,0,2,A,0,0,D,2024-25,LA_LIGA_2,Matchday 39
+2025-05-16,Levante UD,Albacete,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 40
+2025-05-17,Deportivo La Coruña,Granada,2,3,A,0,2,A,2024-25,LA_LIGA_2,Matchday 40
+2025-05-17,SD Eibar,Burgos,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 40
+2025-05-17,FC Cartagena,CD Tenerife,1,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 40
+2025-05-17,SD Huesca,Elche,2,1,H,0,1,A,2024-25,LA_LIGA_2,Matchday 40
+2025-05-17,Málaga,Sporting Gijón,2,1,H,0,0,D,2024-25,LA_LIGA_2,Matchday 40
+2025-05-18,Racing Ferrol,Cádiz,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 40
+2025-05-18,CD Castellón,CD Eldense,1,1,D,0,0,D,2024-25,LA_LIGA_2,Matchday 40
+2025-05-18,Real Oviedo,Real Zaragoza,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 40
+2025-05-18,UD Almería,Racing Santander,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 40
+2025-05-19,Córdoba,CD Mirandés,1,2,A,0,1,A,2024-25,LA_LIGA_2,Matchday 40
+2025-05-24,Albacete,Racing Ferrol,2,0,H,1,0,H,2024-25,LA_LIGA_2,Matchday 41
+2025-05-25,Burgos,Levante UD,2,3,A,2,1,H,2024-25,LA_LIGA_2,Matchday 41
+2025-05-25,Cádiz,SD Huesca,4,0,H,4,0,H,2024-25,LA_LIGA_2,Matchday 41
+2025-05-25,Elche,Málaga,2,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 41
+2025-05-25,CD Eldense,Racing Santander,3,3,D,1,1,D,2024-25,LA_LIGA_2,Matchday 41
+2025-05-25,CD Mirandés,UD Almería,0,0,D,0,0,D,2024-25,LA_LIGA_2,Matchday 41
+2025-05-25,Sporting Gijón,FC Cartagena,3,2,H,1,1,D,2024-25,LA_LIGA_2,Matchday 41
+2025-05-25,Granada,CD Castellón,2,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 41
+2025-05-25,SD Eibar,Córdoba,4,1,H,1,0,H,2024-25,LA_LIGA_2,Matchday 41
+2025-05-25,Real Zaragoza,Deportivo La Coruña,1,0,H,0,0,D,2024-25,LA_LIGA_2,Matchday 41
+2025-05-25,CD Tenerife,Real Oviedo,0,1,A,0,0,D,2024-25,LA_LIGA_2,Matchday 41
+2025-05-30,CD Castellón,Real Zaragoza,4,1,H,4,0,H,2024-25,LA_LIGA_2,Matchday 42
+2025-05-31,Racing Ferrol,Sporting Gijón,0,2,A,0,1,A,2024-25,LA_LIGA_2,Matchday 42

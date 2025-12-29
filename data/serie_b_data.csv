@@ -1,0 +1,497 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,Season,League,Round
+2025-08-22,Delfino Pescara,Cesena,1,3,A,1,1,D,2025-26,SERIE_B,1. Round
+2025-08-23,Empoli,Calcio Padova,3,1,H,2,1,H,2025-26,SERIE_B,1. Round
+2025-08-23,Virtus Entella,Juve Stabia,1,1,D,0,0,D,2025-26,SERIE_B,1. Round
+2025-08-23,AC Monza,Mantova 1911 SSD,1,0,H,0,0,D,2025-26,SERIE_B,1. Round
+2025-08-23,Palermo,AC Reggiana 1919,2,1,H,1,0,H,2025-26,SERIE_B,1. Round
+2025-08-24,Spezia Calcio,Carrarese Calcio,0,2,A,0,1,A,2025-26,SERIE_B,1. Round
+2025-08-24,Venezia,SSC Bari,2,1,H,2,1,H,2025-26,SERIE_B,1. Round
+2025-08-24,US Catanzaro,FC Südtirol,1,1,D,0,1,A,2025-26,SERIE_B,1. Round
+2025-08-24,Frosinone Calcio,US Avellino,2,0,H,2,0,H,2025-26,SERIE_B,1. Round
+2025-08-25,Sampdoria,Modena,0,2,A,0,0,D,2025-26,SERIE_B,1. Round
+2025-08-29,AC Reggiana 1919,Empoli,3,1,H,1,1,D,2025-26,SERIE_B,2. Round
+2025-08-30,Juve Stabia,Venezia,0,0,D,0,0,D,2025-26,SERIE_B,2. Round
+2025-08-30,Mantova 1911 SSD,Delfino Pescara,2,1,H,1,0,H,2025-26,SERIE_B,2. Round
+2025-08-30,Cesena,Virtus Entella,1,1,D,0,0,D,2025-26,SERIE_B,2. Round
+2025-08-30,Palermo,Frosinone Calcio,0,0,D,0,0,D,2025-26,SERIE_B,2. Round
+2025-08-30,Spezia Calcio,US Catanzaro,0,0,D,0,0,D,2025-26,SERIE_B,2. Round
+2025-08-31,Carrarese Calcio,Calcio Padova,0,0,D,0,0,D,2025-26,SERIE_B,2. Round
+2025-08-31,FC Südtirol,Sampdoria,3,1,H,3,0,H,2025-26,SERIE_B,2. Round
+2025-08-31,SSC Bari,AC Monza,1,1,D,1,1,D,2025-26,SERIE_B,2. Round
+2025-08-31,Modena,US Avellino,1,1,D,0,0,D,2025-26,SERIE_B,2. Round
+2025-09-12,US Avellino,AC Monza,2,1,H,1,0,H,2025-26,SERIE_B,3. Round
+2025-09-13,Juve Stabia,AC Reggiana 1919,0,0,D,0,0,D,2025-26,SERIE_B,3. Round
+2025-09-13,Modena,SSC Bari,3,0,H,1,0,H,2025-26,SERIE_B,3. Round
+2025-09-13,Calcio Padova,Frosinone Calcio,0,1,A,0,1,A,2025-26,SERIE_B,3. Round
+2025-09-13,Delfino Pescara,Venezia,2,2,D,0,1,A,2025-26,SERIE_B,3. Round
+2025-09-13,US Catanzaro,Carrarese Calcio,1,1,D,0,0,D,2025-26,SERIE_B,3. Round
+2025-09-13,Sampdoria,Cesena,1,2,A,0,1,A,2025-26,SERIE_B,3. Round
+2025-09-14,Virtus Entella,Mantova 1911 SSD,1,0,H,1,0,H,2025-26,SERIE_B,3. Round
+2025-09-14,FC Südtirol,Palermo,0,2,A,0,1,A,2025-26,SERIE_B,3. Round
+2025-09-14,Empoli,Spezia Calcio,1,1,D,0,1,A,2025-26,SERIE_B,3. Round
+2025-09-19,Frosinone Calcio,FC Südtirol,2,2,D,2,0,H,2025-26,SERIE_B,4. Round
+2025-09-19,Palermo,SSC Bari,2,0,H,0,0,D,2025-26,SERIE_B,4. Round
+2025-09-20,AC Reggiana 1919,US Catanzaro,2,2,D,1,1,D,2025-26,SERIE_B,4. Round
+2025-09-20,Spezia Calcio,Juve Stabia,1,3,A,0,2,A,2025-26,SERIE_B,4. Round
+2025-09-20,Venezia,Cesena,1,2,A,0,0,D,2025-26,SERIE_B,4. Round
+2025-09-20,AC Monza,Sampdoria,1,0,H,0,0,D,2025-26,SERIE_B,4. Round
+2025-09-20,Mantova 1911 SSD,Modena,1,3,A,1,2,A,2025-26,SERIE_B,4. Round
+2025-09-21,Carrarese Calcio,US Avellino,3,4,A,2,2,D,2025-26,SERIE_B,4. Round
+2025-09-21,Delfino Pescara,Empoli,4,0,H,0,0,D,2025-26,SERIE_B,4. Round
+2025-09-21,Calcio Padova,Virtus Entella,2,1,H,0,1,A,2025-26,SERIE_B,4. Round
+2025-09-26,US Catanzaro,Juve Stabia,2,2,D,0,2,A,2025-26,SERIE_B,5. Round
+2025-09-27,US Avellino,Virtus Entella,2,0,H,1,0,H,2025-26,SERIE_B,5. Round
+2025-09-27,Cesena,Palermo,1,1,D,1,0,H,2025-26,SERIE_B,5. Round
+2025-09-27,Mantova 1911 SSD,Frosinone Calcio,1,5,A,0,4,A,2025-26,SERIE_B,5. Round
+2025-09-27,FC Südtirol,AC Reggiana 1919,3,1,H,2,0,H,2025-26,SERIE_B,5. Round
+2025-09-27,Venezia,Spezia Calcio,2,0,H,1,0,H,2025-26,SERIE_B,5. Round
+2025-09-27,AC Monza,Calcio Padova,0,1,A,0,0,D,2025-26,SERIE_B,5. Round
+2025-09-27,SSC Bari,Sampdoria,1,1,D,1,1,D,2025-26,SERIE_B,5. Round
+2025-09-28,Modena,Delfino Pescara,2,1,H,0,1,A,2025-26,SERIE_B,5. Round
+2025-09-28,Empoli,Carrarese Calcio,2,2,D,1,1,D,2025-26,SERIE_B,5. Round
+2025-09-30,Virtus Entella,SSC Bari,2,2,D,0,1,A,2025-26,SERIE_B,6. Round
+2025-09-30,Frosinone Calcio,Cesena,3,1,H,0,0,D,2025-26,SERIE_B,6. Round
+2025-09-30,Juve Stabia,Mantova 1911 SSD,2,1,H,2,0,H,2025-26,SERIE_B,6. Round
+2025-09-30,Calcio Padova,US Avellino,2,2,D,2,2,D,2025-26,SERIE_B,6. Round
+2025-09-30,Palermo,Venezia,0,0,D,0,0,D,2025-26,SERIE_B,6. Round
+2025-09-30,AC Reggiana 1919,Spezia Calcio,1,1,D,0,1,A,2025-26,SERIE_B,6. Round
+2025-10-01,Carrarese Calcio,Modena,0,0,D,0,0,D,2025-26,SERIE_B,6. Round
+2025-10-01,Empoli,AC Monza,1,1,D,0,0,D,2025-26,SERIE_B,6. Round
+2025-10-01,Delfino Pescara,FC Südtirol,1,1,D,0,0,D,2025-26,SERIE_B,6. Round
+2025-10-01,Sampdoria,US Catanzaro,0,0,D,0,0,D,2025-26,SERIE_B,6. Round
+2025-10-04,US Avellino,Mantova 1911 SSD,0,0,D,0,0,D,2025-26,SERIE_B,7. Round
+2025-10-04,SSC Bari,Calcio Padova,2,1,H,0,0,D,2025-26,SERIE_B,7. Round
+2025-10-04,AC Monza,US Catanzaro,2,1,H,1,1,D,2025-26,SERIE_B,7. Round
+2025-10-04,Venezia,Frosinone Calcio,3,0,H,2,0,H,2025-26,SERIE_B,7. Round
+2025-10-04,Spezia Calcio,Palermo,1,2,A,0,1,A,2025-26,SERIE_B,7. Round
+2025-10-04,Cesena,AC Reggiana 1919,1,2,A,1,2,A,2025-26,SERIE_B,7. Round
+2025-10-05,Carrarese Calcio,Juve Stabia,3,0,H,1,0,H,2025-26,SERIE_B,7. Round
+2025-10-05,FC Südtirol,Empoli,1,2,A,1,0,H,2025-26,SERIE_B,7. Round
+2025-10-05,Sampdoria,Delfino Pescara,4,1,H,0,1,A,2025-26,SERIE_B,7. Round
+2025-10-05,Modena,Virtus Entella,2,0,H,0,0,D,2025-26,SERIE_B,7. Round
+2025-10-17,Virtus Entella,Sampdoria,3,1,H,2,0,H,2025-26,SERIE_B,8. Round
+2025-10-18,Frosinone Calcio,AC Monza,0,1,A,0,1,A,2025-26,SERIE_B,8. Round
+2025-10-18,Mantova 1911 SSD,FC Südtirol,1,1,D,0,1,A,2025-26,SERIE_B,8. Round
+2025-10-18,Delfino Pescara,Carrarese Calcio,2,2,D,0,1,A,2025-26,SERIE_B,8. Round
+2025-10-18,AC Reggiana 1919,SSC Bari,3,1,H,1,1,D,2025-26,SERIE_B,8. Round
+2025-10-18,Juve Stabia,US Avellino,2,0,H,2,0,H,2025-26,SERIE_B,8. Round
+2025-10-18,Spezia Calcio,Cesena,1,2,A,1,2,A,2025-26,SERIE_B,8. Round
+2025-10-19,Palermo,Modena,1,1,D,1,0,H,2025-26,SERIE_B,8. Round
+2025-10-19,Empoli,Venezia,1,1,D,1,1,D,2025-26,SERIE_B,8. Round
+2025-10-19,US Catanzaro,Calcio Padova,0,1,A,0,1,A,2025-26,SERIE_B,8. Round
+2025-10-24,Modena,Empoli,2,1,H,1,1,D,2025-26,SERIE_B,9. Round
+2025-10-25,US Avellino,Spezia Calcio,0,4,A,0,0,D,2025-26,SERIE_B,9. Round
+2025-10-25,Virtus Entella,Delfino Pescara,1,1,D,0,0,D,2025-26,SERIE_B,9. Round
+2025-10-25,AC Monza,AC Reggiana 1919,3,1,H,3,1,H,2025-26,SERIE_B,9. Round
+2025-10-25,Sampdoria,Frosinone Calcio,1,1,D,0,1,A,2025-26,SERIE_B,9. Round
+2025-10-25,FC Südtirol,Cesena,0,1,A,0,1,A,2025-26,SERIE_B,9. Round
+2025-10-25,Carrarese Calcio,Venezia,3,2,H,1,1,D,2025-26,SERIE_B,9. Round
+2025-10-25,US Catanzaro,Palermo,1,0,H,1,0,H,2025-26,SERIE_B,9. Round
+2025-10-26,Calcio Padova,Juve Stabia,2,2,D,1,1,D,2025-26,SERIE_B,9. Round
+2025-10-26,SSC Bari,Mantova 1911 SSD,1,0,H,0,0,D,2025-26,SERIE_B,9. Round
+2025-10-28,Cesena,Carrarese Calcio,2,1,H,1,0,H,2025-26,SERIE_B,10. Round
+2025-10-28,Empoli,Sampdoria,1,1,D,0,0,D,2025-26,SERIE_B,10. Round
+2025-10-28,Frosinone Calcio,Virtus Entella,4,0,H,1,0,H,2025-26,SERIE_B,10. Round
+2025-10-28,Palermo,AC Monza,0,3,A,0,1,A,2025-26,SERIE_B,10. Round
+2025-10-28,Delfino Pescara,US Avellino,1,1,D,1,1,D,2025-26,SERIE_B,10. Round
+2025-10-28,AC Reggiana 1919,Modena,1,0,H,1,0,H,2025-26,SERIE_B,10. Round
+2025-10-29,Mantova 1911 SSD,US Catanzaro,1,3,A,1,0,H,2025-26,SERIE_B,10. Round
+2025-10-29,Spezia Calcio,Calcio Padova,1,1,D,1,0,H,2025-26,SERIE_B,10. Round
+2025-10-29,Venezia,FC Südtirol,3,0,H,2,0,H,2025-26,SERIE_B,10. Round
+2025-11-01,US Avellino,AC Reggiana 1919,4,3,H,1,1,D,2025-26,SERIE_B,11. Round
+2025-11-01,Carrarese Calcio,Frosinone Calcio,0,2,A,0,1,A,2025-26,SERIE_B,11. Round
+2025-11-01,Calcio Padova,FC Südtirol,1,1,D,0,1,A,2025-26,SERIE_B,11. Round
+2025-11-01,Virtus Entella,Empoli,1,0,H,0,0,D,2025-26,SERIE_B,11. Round
+2025-11-01,Palermo,Delfino Pescara,5,0,H,1,0,H,2025-26,SERIE_B,11. Round
+2025-11-02,SSC Bari,Cesena,1,0,H,0,0,D,2025-26,SERIE_B,11. Round
+2025-11-02,US Catanzaro,Venezia,2,1,H,0,0,D,2025-26,SERIE_B,11. Round
+2025-11-02,Modena,Juve Stabia,3,0,H,1,0,H,2025-26,SERIE_B,11. Round
+2025-11-02,AC Monza,Spezia Calcio,1,0,H,0,0,D,2025-26,SERIE_B,11. Round
+2025-11-02,Sampdoria,Mantova 1911 SSD,0,1,A,0,0,D,2025-26,SERIE_B,11. Round
+2024-08-16,Brescia Calcio,Palermo,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 1
+2024-08-17,SSC Bari,Juve Stabia,1,3,A,0,2,A,2024-25,SERIE_B,Matchday 1
+2024-08-17,Pisa,Spezia Calcio,2,2,D,1,2,A,2024-25,SERIE_B,Matchday 1
+2024-08-17,US Salernitana 1919,AS Cittadella,2,1,H,0,1,A,2024-25,SERIE_B,Matchday 1
+2024-08-17,FC Südtirol,Modena,2,1,H,1,1,D,2024-25,SERIE_B,Matchday 1
+2024-08-18,US Catanzaro,Sassuolo Calcio,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 1
+2024-08-18,Cesena,Carrarese Calcio,2,1,H,2,0,H,2024-25,SERIE_B,Matchday 1
+2024-08-18,Cosenza Calcio,US Cremonese,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 1
+2024-08-18,Frosinone Calcio,Sampdoria,2,2,D,1,0,H,2024-25,SERIE_B,Matchday 1
+2024-08-18,AC Reggiana 1919,Mantova 1911 SSD,2,2,D,0,0,D,2024-25,SERIE_B,Matchday 1
+2024-08-23,Modena,SSC Bari,2,1,H,1,1,D,2024-25,SERIE_B,Matchday 2
+2024-08-24,FC Südtirol,US Salernitana 1919,3,2,H,2,1,H,2024-25,SERIE_B,Matchday 2
+2024-08-24,Brescia Calcio,AS Cittadella,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 2
+2024-08-24,US Cremonese,Carrarese Calcio,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 2
+2024-08-24,Pisa,Palermo,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 2
+2024-08-24,Sampdoria,AC Reggiana 1919,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 2
+2024-08-24,Sassuolo Calcio,Cesena,2,1,H,1,0,H,2024-25,SERIE_B,Matchday 2
+2024-08-24,Spezia Calcio,Frosinone Calcio,2,1,H,0,1,A,2024-25,SERIE_B,Matchday 2
+2024-08-25,US Catanzaro,Juve Stabia,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 2
+2024-08-25,Mantova 1911 SSD,Cosenza Calcio,3,2,H,2,0,H,2024-25,SERIE_B,Matchday 2
+2024-08-27,SSC Bari,Sassuolo Calcio,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 3
+2024-08-27,Carrarese Calcio,FC Südtirol,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 3
+2024-08-27,AS Cittadella,Pisa,0,3,A,0,0,D,2024-25,SERIE_B,Matchday 3
+2024-08-27,US Cremonese,Palermo,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 3
+2024-08-27,Frosinone Calcio,Modena,1,1,D,0,0,D,2024-25,SERIE_B,Matchday 3
+2024-08-27,AC Reggiana 1919,Brescia Calcio,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 3
+2024-08-27,US Salernitana 1919,Sampdoria,3,2,H,1,2,A,2024-25,SERIE_B,Matchday 3
+2024-08-28,Cesena,US Catanzaro,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 3
+2024-08-28,Cosenza Calcio,Spezia Calcio,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 3
+2024-08-28,Juve Stabia,Mantova 1911 SSD,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 3
+2024-08-31,Sampdoria,SSC Bari,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 4
+2024-08-31,Modena,AS Cittadella,0,1,A,0,1,A,2024-25,SERIE_B,Matchday 4
+2024-08-31,Pisa,AC Reggiana 1919,2,1,H,1,0,H,2024-25,SERIE_B,Matchday 4
+2024-08-31,Sassuolo Calcio,US Cremonese,1,4,A,1,3,A,2024-25,SERIE_B,Matchday 4
+2024-08-31,FC Südtirol,Brescia Calcio,1,2,A,0,1,A,2024-25,SERIE_B,Matchday 4
+2024-09-01,US Catanzaro,Carrarese Calcio,3,1,H,2,1,H,2024-25,SERIE_B,Matchday 4
+2024-09-01,Frosinone Calcio,Juve Stabia,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 4
+2024-09-01,Mantova 1911 SSD,US Salernitana 1919,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 4
+2024-09-01,Palermo,Cosenza Calcio,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 4
+2024-09-01,Spezia Calcio,Cesena,2,1,H,0,1,A,2024-25,SERIE_B,Matchday 4
+2024-09-13,Cesena,Modena,2,2,D,2,1,H,2024-25,SERIE_B,Matchday 5
+2024-09-14,SSC Bari,Mantova 1911 SSD,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 5
+2024-09-14,Brescia Calcio,Frosinone Calcio,4,0,H,3,0,H,2024-25,SERIE_B,Matchday 5
+2024-09-14,AS Cittadella,US Catanzaro,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 5
+2024-09-14,US Cremonese,Spezia Calcio,1,1,D,1,0,H,2024-25,SERIE_B,Matchday 5
+2024-09-14,Juve Stabia,Palermo,1,3,A,0,2,A,2024-25,SERIE_B,Matchday 5
+2024-09-15,Carrarese Calcio,Sassuolo Calcio,0,2,A,0,0,D,2024-25,SERIE_B,Matchday 5
+2024-09-15,Cosenza Calcio,Sampdoria,2,1,H,1,0,H,2024-25,SERIE_B,Matchday 5
+2024-09-15,AC Reggiana 1919,FC Südtirol,1,3,A,1,2,A,2024-25,SERIE_B,Matchday 5
+2024-09-15,US Salernitana 1919,Pisa,2,3,A,1,2,A,2024-25,SERIE_B,Matchday 5
+2024-09-20,US Catanzaro,US Cremonese,1,2,A,1,1,D,2024-25,SERIE_B,Matchday 6
+2024-09-21,Cosenza Calcio,Sassuolo Calcio,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 6
+2024-09-21,Palermo,Cesena,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 6
+2024-09-21,Pisa,Brescia Calcio,2,1,H,1,0,H,2024-25,SERIE_B,Matchday 6
+2024-09-21,AC Reggiana 1919,US Salernitana 1919,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 6
+2024-09-21,Sampdoria,FC Südtirol,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 6
+2024-09-21,Modena,Juve Stabia,3,0,H,2,0,H,2024-25,SERIE_B,Matchday 6
+2024-09-22,Frosinone Calcio,SSC Bari,0,3,A,0,1,A,2024-25,SERIE_B,Matchday 6
+2024-09-22,Mantova 1911 SSD,AS Cittadella,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 6
+2024-09-22,Spezia Calcio,Carrarese Calcio,4,2,H,1,1,D,2024-25,SERIE_B,Matchday 6
+2024-09-27,AS Cittadella,Frosinone Calcio,1,2,A,0,1,A,2024-25,SERIE_B,Matchday 7
+2024-09-28,SSC Bari,Cosenza Calcio,1,1,D,1,0,H,2024-25,SERIE_B,Matchday 7
+2024-09-28,Carrarese Calcio,AC Reggiana 1919,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 7
+2024-09-28,Sassuolo Calcio,Spezia Calcio,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 7
+2024-09-29,Cesena,Mantova 1911 SSD,4,2,H,3,0,H,2024-25,SERIE_B,Matchday 7
+2024-09-29,Juve Stabia,Pisa,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 7
+2024-09-29,Modena,Sampdoria,1,3,A,0,0,D,2024-25,SERIE_B,Matchday 7
+2024-09-29,US Salernitana 1919,US Catanzaro,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 7
+2024-09-30,FC Südtirol,Palermo,1,3,A,0,1,A,2024-25,SERIE_B,Matchday 7
+2024-09-30,Brescia Calcio,US Cremonese,3,2,H,3,0,H,2024-25,SERIE_B,Matchday 7
+2024-10-04,Sampdoria,Juve Stabia,1,2,A,1,0,H,2024-25,SERIE_B,Matchday 8
+2024-10-05,Frosinone Calcio,Carrarese Calcio,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 8
+2024-10-05,Pisa,Cesena,3,1,H,2,0,H,2024-25,SERIE_B,Matchday 8
+2024-10-05,Sassuolo Calcio,AS Cittadella,6,1,H,1,1,D,2024-25,SERIE_B,Matchday 8
+2024-10-05,Spezia Calcio,AC Reggiana 1919,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 8
+2024-10-06,US Catanzaro,Modena,2,2,D,1,1,D,2024-25,SERIE_B,Matchday 8
+2024-10-06,Cosenza Calcio,FC Südtirol,0,2,A,0,1,A,2024-25,SERIE_B,Matchday 8
+2024-10-06,US Cremonese,SSC Bari,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 8
+2024-10-06,Mantova 1911 SSD,Brescia Calcio,1,1,D,0,0,D,2024-25,SERIE_B,Matchday 8
+2024-10-06,Palermo,US Salernitana 1919,0,1,A,0,1,A,2024-25,SERIE_B,Matchday 8
+2024-10-18,SSC Bari,US Catanzaro,1,1,D,1,0,H,2024-25,SERIE_B,Matchday 9
+2024-10-19,AS Cittadella,Cosenza Calcio,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 9
+2024-10-19,Modena,Palermo,2,2,D,0,2,A,2024-25,SERIE_B,Matchday 9
+2024-10-19,US Salernitana 1919,Spezia Calcio,0,2,A,0,0,D,2024-25,SERIE_B,Matchday 9
+2024-10-19,FC Südtirol,Pisa,1,2,A,1,1,D,2024-25,SERIE_B,Matchday 9
+2024-10-19,Brescia Calcio,Sassuolo Calcio,2,5,A,1,1,D,2024-25,SERIE_B,Matchday 9
+2024-10-20,Carrarese Calcio,Mantova 1911 SSD,1,1,D,0,0,D,2024-25,SERIE_B,Matchday 9
+2024-10-20,Juve Stabia,US Cremonese,1,2,A,1,1,D,2024-25,SERIE_B,Matchday 9
+2024-10-20,AC Reggiana 1919,Frosinone Calcio,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 9
+2024-10-20,Cesena,Sampdoria,3,5,A,2,2,D,2024-25,SERIE_B,Matchday 9
+2024-10-25,Spezia Calcio,SSC Bari,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 10
+2024-10-26,Cesena,Brescia Calcio,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 10
+2024-10-26,Cosenza Calcio,Juve Stabia,1,1,D,1,1,D,2024-25,SERIE_B,Matchday 10
+2024-10-26,US Cremonese,US Salernitana 1919,2,1,H,2,0,H,2024-25,SERIE_B,Matchday 10
+2024-10-26,Palermo,AC Reggiana 1919,2,0,H,2,0,H,2024-25,SERIE_B,Matchday 10
+2024-10-26,Carrarese Calcio,AS Cittadella,3,0,H,3,0,H,2024-25,SERIE_B,Matchday 10
+2024-10-26,Sassuolo Calcio,Modena,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 10
+2024-10-27,US Catanzaro,FC Südtirol,3,0,H,3,0,H,2024-25,SERIE_B,Matchday 10
+2024-10-27,Frosinone Calcio,Pisa,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 10
+2024-10-27,Sampdoria,Mantova 1911 SSD,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 10
+2024-10-29,SSC Bari,Carrarese Calcio,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 11
+2024-10-29,Brescia Calcio,Spezia Calcio,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 11
+2024-10-29,Juve Stabia,Sassuolo Calcio,2,2,D,1,1,D,2024-25,SERIE_B,Matchday 11
+2024-10-29,Modena,US Cremonese,2,2,D,2,1,H,2024-25,SERIE_B,Matchday 11
+2024-10-29,AC Reggiana 1919,Cosenza Calcio,0,1,A,0,1,A,2024-25,SERIE_B,Matchday 11
+2024-10-29,US Salernitana 1919,Cesena,1,1,D,1,1,D,2024-25,SERIE_B,Matchday 11
+2024-10-30,FC Südtirol,Frosinone Calcio,1,1,D,0,0,D,2024-25,SERIE_B,Matchday 11
+2024-10-30,AS Cittadella,Sampdoria,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 11
+2024-10-30,Mantova 1911 SSD,Palermo,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 11
+2024-10-30,Pisa,US Catanzaro,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 11
+2024-11-02,SSC Bari,AC Reggiana 1919,2,2,D,0,0,D,2024-25,SERIE_B,Matchday 12
+2024-11-02,Carrarese Calcio,Juve Stabia,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 12
+2024-11-02,Spezia Calcio,Modena,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 12
+2024-11-03,US Catanzaro,Frosinone Calcio,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 12
+2024-11-03,Cesena,FC Südtirol,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 12
+2024-11-03,Cosenza Calcio,US Salernitana 1919,1,1,D,1,0,H,2024-25,SERIE_B,Matchday 12
+2024-11-03,US Cremonese,Pisa,1,3,A,1,2,A,2024-25,SERIE_B,Matchday 12
+2024-11-03,Palermo,AS Cittadella,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 12
+2024-11-03,Sampdoria,Brescia Calcio,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 12
+2024-11-03,Sassuolo Calcio,Mantova 1911 SSD,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 12
+2024-11-08,Frosinone Calcio,Palermo,1,1,D,1,1,D,2024-25,SERIE_B,Matchday 13
+2024-11-09,Brescia Calcio,Cosenza Calcio,2,3,A,0,2,A,2024-25,SERIE_B,Matchday 13
+2024-11-09,Modena,Carrarese Calcio,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 13
+2024-11-09,Pisa,Sampdoria,3,0,H,1,0,H,2024-25,SERIE_B,Matchday 13
+2024-11-09,FC Südtirol,Sassuolo Calcio,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 13
+2024-11-09,Mantova 1911 SSD,US Cremonese,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 13
+2024-11-10,AS Cittadella,Cesena,0,2,A,0,0,D,2024-25,SERIE_B,Matchday 13
+2024-11-10,Juve Stabia,Spezia Calcio,0,3,A,0,1,A,2024-25,SERIE_B,Matchday 13
+2024-11-10,AC Reggiana 1919,US Catanzaro,2,2,D,2,1,H,2024-25,SERIE_B,Matchday 13
+2024-11-10,US Salernitana 1919,SSC Bari,0,2,A,0,2,A,2024-25,SERIE_B,Matchday 13
+2024-11-22,Cosenza Calcio,Modena,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 14
+2024-11-23,Carrarese Calcio,Pisa,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 14
+2024-11-23,US Catanzaro,Mantova 1911 SSD,2,2,D,1,1,D,2024-25,SERIE_B,Matchday 14
+2024-11-23,Juve Stabia,Brescia Calcio,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 14
+2024-11-23,Sassuolo Calcio,US Salernitana 1919,4,0,H,0,0,D,2024-25,SERIE_B,Matchday 14
+2024-11-23,Cesena,AC Reggiana 1919,1,1,D,0,0,D,2024-25,SERIE_B,Matchday 14
+2024-11-24,SSC Bari,AS Cittadella,3,2,H,3,0,H,2024-25,SERIE_B,Matchday 14
+2024-11-24,US Cremonese,Frosinone Calcio,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 14
+2024-11-24,Spezia Calcio,FC Südtirol,3,0,H,2,0,H,2024-25,SERIE_B,Matchday 14
+2024-11-24,Palermo,Sampdoria,1,1,D,1,1,D,2024-25,SERIE_B,Matchday 14
+2024-11-29,AC Reggiana 1919,Sassuolo Calcio,0,2,A,0,1,A,2024-25,SERIE_B,Matchday 15
+2024-11-30,Brescia Calcio,SSC Bari,1,1,D,1,1,D,2024-25,SERIE_B,Matchday 15
+2024-11-30,AS Cittadella,Juve Stabia,2,2,D,2,2,D,2024-25,SERIE_B,Matchday 15
+2024-11-30,Sampdoria,US Catanzaro,3,3,D,1,0,H,2024-25,SERIE_B,Matchday 15
+2024-11-30,FC Südtirol,US Cremonese,0,4,A,0,1,A,2024-25,SERIE_B,Matchday 15
+2024-11-30,Mantova 1911 SSD,Modena,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 15
+2024-12-01,Frosinone Calcio,Cesena,3,2,H,2,1,H,2024-25,SERIE_B,Matchday 15
+2024-12-01,Palermo,Spezia Calcio,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 15
+2024-12-01,Pisa,Cosenza Calcio,2,2,D,2,0,H,2024-25,SERIE_B,Matchday 15
+2024-12-01,US Salernitana 1919,Carrarese Calcio,4,1,H,2,1,H,2024-25,SERIE_B,Matchday 15
+2024-12-06,Juve Stabia,FC Südtirol,2,1,H,1,0,H,2024-25,SERIE_B,Matchday 16
+2024-12-07,SSC Bari,Cesena,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 16
+2024-12-07,Carrarese Calcio,Palermo,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 16
+2024-12-07,Mantova 1911 SSD,Pisa,2,3,A,1,2,A,2024-25,SERIE_B,Matchday 16
+2024-12-07,Modena,US Salernitana 1919,1,1,D,0,0,D,2024-25,SERIE_B,Matchday 16
+2024-12-07,Cosenza Calcio,Frosinone Calcio,0,1,A,0,1,A,2024-25,SERIE_B,Matchday 16
+2024-12-08,US Catanzaro,Brescia Calcio,2,1,H,1,1,D,2024-25,SERIE_B,Matchday 16
+2024-12-08,US Cremonese,AC Reggiana 1919,0,2,A,0,1,A,2024-25,SERIE_B,Matchday 16
+2024-12-08,Spezia Calcio,AS Cittadella,5,0,H,3,0,H,2024-25,SERIE_B,Matchday 16
+2024-12-08,Sassuolo Calcio,Sampdoria,5,1,H,2,0,H,2024-25,SERIE_B,Matchday 16
+2024-12-13,Pisa,SSC Bari,2,0,H,0,0,D,2024-25,SERIE_B,Matchday 17
+2024-12-14,Cesena,Cosenza Calcio,2,1,H,1,0,H,2024-25,SERIE_B,Matchday 17
+2024-12-14,Frosinone Calcio,Sassuolo Calcio,1,2,A,1,1,D,2024-25,SERIE_B,Matchday 17
+2024-12-14,AC Reggiana 1919,Modena,0,1,A,0,1,A,2024-25,SERIE_B,Matchday 17
+2024-12-14,FC Südtirol,Mantova 1911 SSD,2,2,D,1,1,D,2024-25,SERIE_B,Matchday 17
+2024-12-14,Sampdoria,Spezia Calcio,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 17
+2024-12-15,Brescia Calcio,Carrarese Calcio,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 17
+2024-12-15,AS Cittadella,US Cremonese,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 17
+2024-12-15,Palermo,US Catanzaro,1,2,A,1,1,D,2024-25,SERIE_B,Matchday 17
+2024-12-15,US Salernitana 1919,Juve Stabia,1,2,A,1,1,D,2024-25,SERIE_B,Matchday 17
+2024-12-20,US Salernitana 1919,Brescia Calcio,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 18
+2024-12-21,SSC Bari,FC Südtirol,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 18
+2024-12-21,Carrarese Calcio,Cosenza Calcio,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 18
+2024-12-21,Mantova 1911 SSD,Frosinone Calcio,3,1,H,3,0,H,2024-25,SERIE_B,Matchday 18
+2024-12-21,Sassuolo Calcio,Palermo,2,1,H,1,1,D,2024-25,SERIE_B,Matchday 18
+2024-12-21,US Catanzaro,Spezia Calcio,0,1,A,0,1,A,2024-25,SERIE_B,Matchday 18
+2024-12-21,AS Cittadella,AC Reggiana 1919,3,1,H,0,0,D,2024-25,SERIE_B,Matchday 18
+2024-12-21,Modena,Pisa,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 18
+2024-12-22,Juve Stabia,Cesena,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 18
+2024-12-22,US Cremonese,Sampdoria,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 18
+2024-12-26,Pisa,Sassuolo Calcio,3,1,H,2,0,H,2024-25,SERIE_B,Matchday 19
+2024-12-26,Brescia Calcio,Modena,3,3,D,1,2,A,2024-25,SERIE_B,Matchday 19
+2024-12-26,Cesena,US Cremonese,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 19
+2024-12-26,Cosenza Calcio,US Catanzaro,1,1,D,0,0,D,2024-25,SERIE_B,Matchday 19
+2024-12-26,Frosinone Calcio,US Salernitana 1919,2,0,H,0,0,D,2024-25,SERIE_B,Matchday 19
+2024-12-26,AC Reggiana 1919,Juve Stabia,2,1,H,2,0,H,2024-25,SERIE_B,Matchday 19
+2024-12-26,Spezia Calcio,Mantova 1911 SSD,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 19
+2024-12-26,FC Südtirol,AS Cittadella,1,2,A,1,1,D,2024-25,SERIE_B,Matchday 19
+2024-12-26,Palermo,SSC Bari,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 19
+2024-12-26,Sampdoria,Carrarese Calcio,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 19
+2024-12-29,US Cremonese,Brescia Calcio,1,1,D,0,0,D,2024-25,SERIE_B,Matchday 20
+2024-12-29,SSC Bari,Spezia Calcio,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 20
+2024-12-29,Carrarese Calcio,Cesena,2,0,H,0,0,D,2024-25,SERIE_B,Matchday 20
+2024-12-29,Mantova 1911 SSD,AC Reggiana 1919,0,2,A,0,1,A,2024-25,SERIE_B,Matchday 20
+2024-12-29,Modena,FC Südtirol,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 20
+2024-12-29,Sassuolo Calcio,Cosenza Calcio,2,1,H,0,0,D,2024-25,SERIE_B,Matchday 20
+2024-12-29,US Catanzaro,US Salernitana 1919,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 20
+2024-12-29,AS Cittadella,Palermo,2,1,H,1,0,H,2024-25,SERIE_B,Matchday 20
+2024-12-29,Juve Stabia,Frosinone Calcio,1,1,D,1,0,H,2024-25,SERIE_B,Matchday 20
+2024-12-29,Sampdoria,Pisa,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 20
+2025-01-12,US Salernitana 1919,Sassuolo Calcio,1,2,A,0,2,A,2024-25,SERIE_B,Matchday 21
+2025-01-12,Cosenza Calcio,Mantova 1911 SSD,2,2,D,2,1,H,2024-25,SERIE_B,Matchday 21
+2025-01-12,Frosinone Calcio,US Cremonese,0,3,A,0,2,A,2024-25,SERIE_B,Matchday 21
+2025-01-12,Palermo,Modena,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 21
+2025-01-12,AC Reggiana 1919,SSC Bari,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 21
+2025-01-12,Spezia Calcio,Juve Stabia,1,1,D,1,0,H,2024-25,SERIE_B,Matchday 21
+2025-01-12,FC Südtirol,US Catanzaro,1,1,D,1,1,D,2024-25,SERIE_B,Matchday 21
+2025-01-12,Cesena,AS Cittadella,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 21
+2025-01-12,Brescia Calcio,Sampdoria,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 21
+2025-01-13,Pisa,Carrarese Calcio,2,1,H,1,0,H,2024-25,SERIE_B,Matchday 21
+2025-01-17,Sampdoria,Cesena,1,2,A,1,1,D,2024-25,SERIE_B,Matchday 22
+2025-01-18,AS Cittadella,Mantova 1911 SSD,1,2,A,0,1,A,2024-25,SERIE_B,Matchday 22
+2025-01-18,US Cremonese,Cosenza Calcio,3,1,H,1,1,D,2024-25,SERIE_B,Matchday 22
+2025-01-18,Modena,Frosinone Calcio,1,1,D,1,0,H,2024-25,SERIE_B,Matchday 22
+2025-01-18,US Salernitana 1919,AC Reggiana 1919,2,1,H,0,0,D,2024-25,SERIE_B,Matchday 22
+2025-01-18,SSC Bari,Brescia Calcio,2,2,D,2,1,H,2024-25,SERIE_B,Matchday 22
+2025-01-19,US Catanzaro,Pisa,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 22
+2025-01-19,Palermo,Juve Stabia,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 22
+2025-01-19,Sassuolo Calcio,FC Südtirol,5,3,H,1,2,A,2024-25,SERIE_B,Matchday 22
+2025-01-19,Carrarese Calcio,Spezia Calcio,0,4,A,0,2,A,2024-25,SERIE_B,Matchday 22
+2025-01-24,Spezia Calcio,Sassuolo Calcio,2,1,H,1,1,D,2024-25,SERIE_B,Matchday 23
+2025-01-25,Cesena,SSC Bari,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 23
+2025-01-25,Cosenza Calcio,AS Cittadella,0,1,A,0,1,A,2024-25,SERIE_B,Matchday 23
+2025-01-25,Frosinone Calcio,FC Südtirol,0,3,A,0,2,A,2024-25,SERIE_B,Matchday 23
+2025-01-25,Juve Stabia,Carrarese Calcio,2,1,H,2,0,H,2024-25,SERIE_B,Matchday 23
+2025-01-25,Mantova 1911 SSD,Sampdoria,2,2,D,0,2,A,2024-25,SERIE_B,Matchday 23
+2025-01-26,Brescia Calcio,US Catanzaro,2,3,A,1,1,D,2024-25,SERIE_B,Matchday 23
+2025-01-26,Pisa,US Salernitana 1919,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 23
+2025-01-26,AC Reggiana 1919,Palermo,2,1,H,1,1,D,2024-25,SERIE_B,Matchday 23
+2025-01-26,US Cremonese,Modena,2,2,D,1,2,A,2024-25,SERIE_B,Matchday 23
+2025-01-31,Palermo,Pisa,1,2,A,0,2,A,2024-25,SERIE_B,Matchday 24
+2025-02-01,US Catanzaro,Cesena,4,2,H,3,1,H,2024-25,SERIE_B,Matchday 24
+2025-02-01,AS Cittadella,Spezia Calcio,0,2,A,0,2,A,2024-25,SERIE_B,Matchday 24
+2025-02-01,Sampdoria,Cosenza Calcio,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 24
+2025-02-01,Sassuolo Calcio,Juve Stabia,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 24
+2025-02-01,Modena,Mantova 1911 SSD,3,1,H,2,1,H,2024-25,SERIE_B,Matchday 24
+2025-02-02,Carrarese Calcio,Brescia Calcio,1,2,A,0,2,A,2024-25,SERIE_B,Matchday 24
+2025-02-02,US Salernitana 1919,US Cremonese,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 24
+2025-02-02,FC Südtirol,AC Reggiana 1919,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 24
+2025-02-02,SSC Bari,Frosinone Calcio,2,1,H,1,0,H,2024-25,SERIE_B,Matchday 24
+2025-02-07,Brescia Calcio,US Salernitana 1919,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 25
+2025-02-08,Cosenza Calcio,Carrarese Calcio,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 25
+2025-02-08,Frosinone Calcio,US Catanzaro,1,1,D,1,0,H,2024-25,SERIE_B,Matchday 25
+2025-02-08,Mantova 1911 SSD,Sassuolo Calcio,0,3,A,0,1,A,2024-25,SERIE_B,Matchday 25
+2025-02-08,Pisa,AS Cittadella,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 25
+2025-02-08,Sampdoria,Modena,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 25
+2025-02-09,US Cremonese,FC Südtirol,3,1,H,1,0,H,2024-25,SERIE_B,Matchday 25
+2025-02-09,AC Reggiana 1919,Cesena,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 25
+2025-02-09,Spezia Calcio,Palermo,2,2,D,0,1,A,2024-25,SERIE_B,Matchday 25
+2025-02-09,Juve Stabia,SSC Bari,3,1,H,1,0,H,2024-25,SERIE_B,Matchday 25
+2025-02-14,US Catanzaro,AS Cittadella,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 26
+2025-02-15,Carrarese Calcio,US Salernitana 1919,3,2,H,2,0,H,2024-25,SERIE_B,Matchday 26
+2025-02-15,Modena,Spezia Calcio,1,1,D,1,1,D,2024-25,SERIE_B,Matchday 26
+2025-02-15,Sassuolo Calcio,Brescia Calcio,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 26
+2025-02-15,FC Südtirol,Sampdoria,2,1,H,1,1,D,2024-25,SERIE_B,Matchday 26
+2025-02-15,SSC Bari,US Cremonese,1,1,D,0,0,D,2024-25,SERIE_B,Matchday 26
+2025-02-16,Frosinone Calcio,AC Reggiana 1919,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 26
+2025-02-16,Juve Stabia,Cosenza Calcio,3,0,H,1,0,H,2024-25,SERIE_B,Matchday 26
+2025-02-16,Palermo,Mantova 1911 SSD,2,2,D,1,0,H,2024-25,SERIE_B,Matchday 26
+2025-02-16,Cesena,Pisa,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 26
+2025-02-21,Sampdoria,Sassuolo Calcio,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 27
+2025-02-22,AS Cittadella,Modena,0,2,A,0,1,A,2024-25,SERIE_B,Matchday 27
+2025-02-22,Mantova 1911 SSD,SSC Bari,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 27
+2025-02-22,Pisa,Juve Stabia,3,1,H,0,0,D,2024-25,SERIE_B,Matchday 27
+2025-02-22,AC Reggiana 1919,Carrarese Calcio,2,2,D,1,1,D,2024-25,SERIE_B,Matchday 27
+2025-02-22,US Cremonese,Cesena,1,2,A,1,1,D,2024-25,SERIE_B,Matchday 27
+2025-02-23,Brescia Calcio,FC Südtirol,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 27
+2025-02-23,Cosenza Calcio,Palermo,0,3,A,0,1,A,2024-25,SERIE_B,Matchday 27
+2025-02-23,Spezia Calcio,US Catanzaro,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 27
+2025-02-23,US Salernitana 1919,Frosinone Calcio,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 27
+2025-02-28,FC Südtirol,Spezia Calcio,1,1,D,1,1,D,2024-25,SERIE_B,Matchday 28
+2025-03-01,Carrarese Calcio,US Cremonese,2,2,D,2,1,H,2024-25,SERIE_B,Matchday 28
+2025-03-01,Cesena,US Salernitana 1919,2,0,H,0,0,D,2024-25,SERIE_B,Matchday 28
+2025-03-01,Frosinone Calcio,Mantova 1911 SSD,2,1,H,2,1,H,2024-25,SERIE_B,Matchday 28
+2025-03-01,Juve Stabia,AS Cittadella,0,1,A,0,1,A,2024-25,SERIE_B,Matchday 28
+2025-03-01,Sassuolo Calcio,Pisa,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 28
+2025-03-02,US Catanzaro,AC Reggiana 1919,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 28
+2025-03-02,Modena,Cosenza Calcio,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 28
+2025-03-02,Palermo,Brescia Calcio,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 28
+2025-03-02,SSC Bari,Sampdoria,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 28
+2025-03-07,Cosenza Calcio,AC Reggiana 1919,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 29
+2025-03-08,Carrarese Calcio,Frosinone Calcio,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 29
+2025-03-08,US Cremonese,US Catanzaro,4,0,H,1,0,H,2024-25,SERIE_B,Matchday 29
+2025-03-08,Mantova 1911 SSD,Juve Stabia,1,1,D,0,0,D,2024-25,SERIE_B,Matchday 29
+2025-03-08,US Salernitana 1919,Modena,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 29
+2025-03-08,Sampdoria,Palermo,1,1,D,1,1,D,2024-25,SERIE_B,Matchday 29
+2025-03-08,Brescia Calcio,Cesena,1,1,D,1,0,H,2024-25,SERIE_B,Matchday 29
+2025-03-09,Sassuolo Calcio,SSC Bari,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 29
+2025-03-09,Spezia Calcio,Pisa,3,2,H,1,1,D,2024-25,SERIE_B,Matchday 29
+2025-03-09,AS Cittadella,FC Südtirol,1,5,A,0,0,D,2024-25,SERIE_B,Matchday 29
+2025-03-14,Palermo,US Cremonese,2,3,A,0,0,D,2024-25,SERIE_B,Matchday 30
+2025-03-15,Cesena,Spezia Calcio,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 30
+2025-03-15,AS Cittadella,Sassuolo Calcio,1,2,A,0,1,A,2024-25,SERIE_B,Matchday 30
+2025-03-15,Frosinone Calcio,Brescia Calcio,2,1,H,1,1,D,2024-25,SERIE_B,Matchday 30
+2025-03-15,Juve Stabia,Modena,2,1,H,1,0,H,2024-25,SERIE_B,Matchday 30
+2025-03-15,SSC Bari,US Salernitana 1919,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 30
+2025-03-16,Pisa,Mantova 1911 SSD,3,1,H,1,1,D,2024-25,SERIE_B,Matchday 30
+2025-03-16,AC Reggiana 1919,Sampdoria,2,2,D,1,0,H,2024-25,SERIE_B,Matchday 30
+2025-03-16,FC Südtirol,Carrarese Calcio,2,2,D,0,1,A,2024-25,SERIE_B,Matchday 30
+2025-03-16,US Catanzaro,Cosenza Calcio,4,0,H,1,0,H,2024-25,SERIE_B,Matchday 30
+2025-03-28,Spezia Calcio,Brescia Calcio,0,1,A,0,1,A,2024-25,SERIE_B,Matchday 31
+2025-03-29,Cosenza Calcio,Pisa,0,3,A,0,3,A,2024-25,SERIE_B,Matchday 31
+2025-03-29,Mantova 1911 SSD,FC Südtirol,2,0,H,2,0,H,2024-25,SERIE_B,Matchday 31
+2025-03-29,Modena,US Catanzaro,2,1,H,1,0,H,2024-25,SERIE_B,Matchday 31
+2025-03-29,Sampdoria,Frosinone Calcio,0,3,A,0,0,D,2024-25,SERIE_B,Matchday 31
+2025-03-29,US Cremonese,AS Cittadella,2,2,D,0,1,A,2024-25,SERIE_B,Matchday 31
+2025-03-29,Sassuolo Calcio,AC Reggiana 1919,5,1,H,4,1,H,2024-25,SERIE_B,Matchday 31
+2025-03-30,Carrarese Calcio,SSC Bari,2,1,H,1,1,D,2024-25,SERIE_B,Matchday 31
+2025-03-30,Cesena,Juve Stabia,1,2,A,0,1,A,2024-25,SERIE_B,Matchday 31
+2025-03-30,US Salernitana 1919,Palermo,1,2,A,0,2,A,2024-25,SERIE_B,Matchday 31
+2025-04-04,AC Reggiana 1919,US Cremonese,1,2,A,1,1,D,2024-25,SERIE_B,Matchday 32
+2025-04-05,Brescia Calcio,Mantova 1911 SSD,1,2,A,1,0,H,2024-25,SERIE_B,Matchday 32
+2025-04-05,AS Cittadella,Carrarese Calcio,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 32
+2025-04-05,Frosinone Calcio,Cosenza Calcio,2,2,D,1,2,A,2024-25,SERIE_B,Matchday 32
+2025-04-05,FC Südtirol,Cesena,1,1,D,1,0,H,2024-25,SERIE_B,Matchday 32
+2025-04-05,Pisa,Modena,1,2,A,0,1,A,2024-25,SERIE_B,Matchday 32
+2025-04-05,Juve Stabia,US Salernitana 1919,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 32
+2025-04-06,US Catanzaro,SSC Bari,3,3,D,1,1,D,2024-25,SERIE_B,Matchday 32
+2025-04-06,Palermo,Sassuolo Calcio,5,3,H,3,0,H,2024-25,SERIE_B,Matchday 32
+2025-04-06,Spezia Calcio,Sampdoria,2,0,H,0,0,D,2024-25,SERIE_B,Matchday 32
+2025-04-11,SSC Bari,Palermo,2,1,H,1,1,D,2024-25,SERIE_B,Matchday 33
+2025-04-12,Carrarese Calcio,US Catanzaro,2,2,D,1,0,H,2024-25,SERIE_B,Matchday 33
+2025-04-12,Cosenza Calcio,Brescia Calcio,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 33
+2025-04-12,AC Reggiana 1919,Pisa,0,2,A,0,2,A,2024-25,SERIE_B,Matchday 33
+2025-04-12,US Salernitana 1919,FC Südtirol,2,1,H,0,0,D,2024-25,SERIE_B,Matchday 33
+2025-04-12,Sampdoria,AS Cittadella,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 33
+2025-04-12,Modena,Sassuolo Calcio,1,3,A,0,1,A,2024-25,SERIE_B,Matchday 33
+2025-04-13,Cesena,Frosinone Calcio,1,1,D,1,0,H,2024-25,SERIE_B,Matchday 33
+2025-04-13,US Cremonese,Juve Stabia,1,1,D,0,0,D,2024-25,SERIE_B,Matchday 33
+2025-04-13,Mantova 1911 SSD,Spezia Calcio,2,2,D,0,1,A,2024-25,SERIE_B,Matchday 33
+2025-05-13,Brescia Calcio,AC Reggiana 1919,2,1,H,1,1,D,2024-25,SERIE_B,Matchday 34
+2025-05-13,AS Cittadella,US Salernitana 1919,0,2,A,0,1,A,2024-25,SERIE_B,Matchday 34
+2025-05-13,Juve Stabia,Sampdoria,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 34
+2025-05-13,Mantova 1911 SSD,US Catanzaro,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 34
+2025-05-13,Modena,Cesena,0,1,A,0,0,D,2024-25,SERIE_B,Matchday 34
+2025-05-13,Palermo,Carrarese Calcio,1,1,D,0,1,A,2024-25,SERIE_B,Matchday 34
+2025-05-13,Pisa,US Cremonese,2,1,H,1,0,H,2024-25,SERIE_B,Matchday 34
+2025-05-13,Sassuolo Calcio,Frosinone Calcio,0,1,A,0,1,A,2024-25,SERIE_B,Matchday 34
+2025-05-13,Spezia Calcio,Cosenza Calcio,3,1,H,3,0,H,2024-25,SERIE_B,Matchday 34
+2025-05-13,FC Südtirol,SSC Bari,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 34
+2025-04-25,Frosinone Calcio,Spezia Calcio,2,2,D,2,1,H,2024-25,SERIE_B,Matchday 35
+2025-04-25,SSC Bari,Modena,1,2,A,1,2,A,2024-25,SERIE_B,Matchday 35
+2025-04-25,Brescia Calcio,Pisa,1,2,A,0,1,A,2024-25,SERIE_B,Matchday 35
+2025-04-25,Carrarese Calcio,Sampdoria,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 35
+2025-04-25,AC Reggiana 1919,AS Cittadella,2,1,H,0,0,D,2024-25,SERIE_B,Matchday 35
+2025-04-25,US Salernitana 1919,Cosenza Calcio,3,1,H,0,0,D,2024-25,SERIE_B,Matchday 35
+2025-04-25,US Cremonese,Mantova 1911 SSD,4,2,H,1,1,D,2024-25,SERIE_B,Matchday 35
+2025-04-25,Cesena,Sassuolo Calcio,0,2,A,0,1,A,2024-25,SERIE_B,Matchday 35
+2025-04-27,US Catanzaro,Palermo,1,3,A,0,2,A,2024-25,SERIE_B,Matchday 35
+2025-04-27,FC Südtirol,Juve Stabia,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 35
+2025-05-01,Juve Stabia,US Catanzaro,2,0,H,2,0,H,2024-25,SERIE_B,Matchday 36
+2025-05-01,Cosenza Calcio,SSC Bari,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 36
+2025-05-01,Mantova 1911 SSD,Cesena,3,0,H,1,0,H,2024-25,SERIE_B,Matchday 36
+2025-05-01,Modena,AC Reggiana 1919,2,3,A,2,1,H,2024-25,SERIE_B,Matchday 36
+2025-05-01,Palermo,FC Südtirol,1,2,A,1,0,H,2024-25,SERIE_B,Matchday 36
+2025-05-01,Pisa,Frosinone Calcio,1,0,H,0,0,D,2024-25,SERIE_B,Matchday 36
+2025-05-01,Sampdoria,US Cremonese,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 36
+2025-05-01,Spezia Calcio,US Salernitana 1919,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 36
+2025-05-01,AS Cittadella,Brescia Calcio,0,1,A,0,1,A,2024-25,SERIE_B,Matchday 36
+2025-05-01,Sassuolo Calcio,Carrarese Calcio,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 36
+2025-05-04,SSC Bari,Pisa,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 37
+2025-05-04,Brescia Calcio,Juve Stabia,0,0,D,0,0,D,2024-25,SERIE_B,Matchday 37
+2025-05-04,Carrarese Calcio,Modena,2,1,H,1,0,H,2024-25,SERIE_B,Matchday 37
+2025-05-04,US Catanzaro,Sampdoria,2,2,D,1,1,D,2024-25,SERIE_B,Matchday 37
+2025-05-04,Cesena,Palermo,2,1,H,1,1,D,2024-25,SERIE_B,Matchday 37
+2025-05-04,Frosinone Calcio,AS Cittadella,1,1,D,1,0,H,2024-25,SERIE_B,Matchday 37
+2025-05-04,AC Reggiana 1919,Spezia Calcio,2,1,H,1,1,D,2024-25,SERIE_B,Matchday 37
+2025-05-04,US Salernitana 1919,Mantova 1911 SSD,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 37
+2025-05-04,FC Südtirol,Cosenza Calcio,2,1,H,1,1,D,2024-25,SERIE_B,Matchday 37
+2025-05-04,US Cremonese,Sassuolo Calcio,1,1,D,1,1,D,2024-25,SERIE_B,Matchday 37
+2025-05-09,AS Cittadella,SSC Bari,3,1,H,0,1,A,2024-25,SERIE_B,Matchday 38
+2025-05-09,Cosenza Calcio,Cesena,0,1,A,0,1,A,2024-25,SERIE_B,Matchday 38
+2025-05-09,Juve Stabia,AC Reggiana 1919,1,2,A,0,2,A,2024-25,SERIE_B,Matchday 38
+2025-05-09,Mantova 1911 SSD,Carrarese Calcio,2,1,H,1,0,H,2024-25,SERIE_B,Matchday 38
+2025-05-09,Modena,Brescia Calcio,2,2,D,1,1,D,2024-25,SERIE_B,Matchday 38
+2025-05-09,Palermo,Frosinone Calcio,2,0,H,1,0,H,2024-25,SERIE_B,Matchday 38
+2025-05-09,Pisa,FC Südtirol,3,3,D,1,2,A,2024-25,SERIE_B,Matchday 38
+2025-05-09,Sampdoria,US Salernitana 1919,1,0,H,1,0,H,2024-25,SERIE_B,Matchday 38
+2025-05-09,Sassuolo Calcio,US Catanzaro,0,2,A,0,0,D,2024-25,SERIE_B,Matchday 38
+2025-05-09,Spezia Calcio,US Cremonese,2,3,A,0,3,A,2024-25,SERIE_B,Matchday 38
+2025-05-17,US Catanzaro,Cesena,1,0,H,0,0,D,2024-25,SERIE_B,"Playoff, Round 1"
+2025-05-17,Juve Stabia,Palermo,1,0,H,0,0,D,2024-25,SERIE_B,"Playoff, Round 1"
+2025-05-21,Juve Stabia,US Cremonese,2,1,H,1,0,H,2024-25,SERIE_B,"Playoff, Semifinals"
+2025-05-21,US Catanzaro,Spezia Calcio,0,2,A,0,0,D,2024-25,SERIE_B,"Playoff, Semifinals"
+2025-05-25,US Cremonese,Juve Stabia,3,0,H,1,0,H,2024-25,SERIE_B,"Playoff, Semifinals"
+2025-05-25,Spezia Calcio,US Catanzaro,2,1,H,1,1,D,2024-25,SERIE_B,"Playoff, Semifinals"
+2025-05-29,US Cremonese,Spezia Calcio,0,0,D,0,0,D,2024-25,SERIE_B,"Playoff, Final"

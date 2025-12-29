@@ -1,0 +1,461 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,Season,League,Round
+2025-08-01,LASK,Sturm Graz,0,2,A,0,2,A,2025-26,AUSTRIAN_BL,1. Round
+2025-08-02,Wolfsberger,SCR Altach,0,2,A,0,0,D,2025-26,AUSTRIAN_BL,1. Round
+2025-08-02,WSG Tirol,TSV Hartberg,4,2,H,2,2,D,2025-26,AUSTRIAN_BL,1. Round
+2025-08-02,SV Ried,RB Salzburg,2,2,D,1,1,D,2025-26,AUSTRIAN_BL,1. Round
+2025-08-03,Rapid Wien,FC Blau Weiß Linz,1,0,H,1,0,H,2025-26,AUSTRIAN_BL,1. Round
+2025-08-03,Grazer AK,Austria Wien,2,2,D,1,1,D,2025-26,AUSTRIAN_BL,1. Round
+2025-08-09,FC Blau Weiß Linz,TSV Hartberg,0,1,A,0,1,A,2025-26,AUSTRIAN_BL,2. Round
+2025-08-09,SCR Altach,SV Ried,1,0,H,0,0,D,2025-26,AUSTRIAN_BL,2. Round
+2025-08-09,RB Salzburg,Grazer AK,5,0,H,1,0,H,2025-26,AUSTRIAN_BL,2. Round
+2025-08-10,WSG Tirol,LASK,3,1,H,2,0,H,2025-26,AUSTRIAN_BL,2. Round
+2025-08-10,Sturm Graz,Rapid Wien,1,2,A,0,0,D,2025-26,AUSTRIAN_BL,2. Round
+2025-08-10,Austria Wien,Wolfsberger,0,2,A,0,2,A,2025-26,AUSTRIAN_BL,2. Round
+2025-08-16,TSV Hartberg,RB Salzburg,1,2,A,0,1,A,2025-26,AUSTRIAN_BL,3. Round
+2025-08-16,Grazer AK,WSG Tirol,1,1,D,0,1,A,2025-26,AUSTRIAN_BL,3. Round
+2025-08-16,SV Ried,Sturm Graz,1,3,A,1,3,A,2025-26,AUSTRIAN_BL,3. Round
+2025-08-17,LASK,Austria Wien,2,1,H,1,1,D,2025-26,AUSTRIAN_BL,3. Round
+2025-08-17,Rapid Wien,SCR Altach,0,0,D,0,0,D,2025-26,AUSTRIAN_BL,3. Round
+2025-08-17,Wolfsberger,FC Blau Weiß Linz,3,0,H,3,0,H,2025-26,AUSTRIAN_BL,3. Round
+2025-08-23,RB Salzburg,LASK,3,0,H,2,0,H,2025-26,AUSTRIAN_BL,4. Round
+2025-08-23,FC Blau Weiß Linz,SV Ried,0,2,A,0,0,D,2025-26,AUSTRIAN_BL,4. Round
+2025-08-24,SCR Altach,Grazer AK,1,1,D,1,1,D,2025-26,AUSTRIAN_BL,4. Round
+2025-08-24,Wolfsberger,Rapid Wien,1,2,A,0,2,A,2025-26,AUSTRIAN_BL,4. Round
+2025-08-24,Austria Wien,TSV Hartberg,1,3,A,0,1,A,2025-26,AUSTRIAN_BL,4. Round
+2025-08-30,RB Salzburg,FC Blau Weiß Linz,2,2,D,1,1,D,2025-26,AUSTRIAN_BL,5. Round
+2025-08-30,LASK,SV Ried,1,3,A,0,2,A,2025-26,AUSTRIAN_BL,5. Round
+2025-08-30,Grazer AK,Sturm Graz,0,3,A,0,1,A,2025-26,AUSTRIAN_BL,5. Round
+2025-08-31,TSV Hartberg,Rapid Wien,0,1,A,0,0,D,2025-26,AUSTRIAN_BL,5. Round
+2025-08-31,Austria Wien,SCR Altach,1,0,H,0,0,D,2025-26,AUSTRIAN_BL,5. Round
+2025-08-31,WSG Tirol,Wolfsberger,1,1,D,1,1,D,2025-26,AUSTRIAN_BL,5. Round
+2025-09-13,Wolfsberger,RB Salzburg,3,1,H,2,0,H,2025-26,AUSTRIAN_BL,6. Round
+2025-09-13,FC Blau Weiß Linz,Grazer AK,3,0,H,2,0,H,2025-26,AUSTRIAN_BL,6. Round
+2025-09-13,SCR Altach,LASK,1,0,H,1,0,H,2025-26,AUSTRIAN_BL,6. Round
+2025-09-14,Rapid Wien,WSG Tirol,4,1,H,2,0,H,2025-26,AUSTRIAN_BL,6. Round
+2025-09-14,SV Ried,TSV Hartberg,0,2,A,0,1,A,2025-26,AUSTRIAN_BL,6. Round
+2025-09-14,Sturm Graz,Austria Wien,0,1,A,0,1,A,2025-26,AUSTRIAN_BL,6. Round
+2025-09-20,RB Salzburg,Sturm Graz,0,2,A,0,1,A,2025-26,AUSTRIAN_BL,7. Round
+2025-09-20,TSV Hartberg,Wolfsberger,2,2,D,1,2,A,2025-26,AUSTRIAN_BL,7. Round
+2025-09-20,Austria Wien,SV Ried,3,2,H,0,2,A,2025-26,AUSTRIAN_BL,7. Round
+2025-09-21,LASK,FC Blau Weiß Linz,2,0,H,0,0,D,2025-26,AUSTRIAN_BL,7. Round
+2025-09-21,SCR Altach,WSG Tirol,1,1,D,0,1,A,2025-26,AUSTRIAN_BL,7. Round
+2025-09-21,Grazer AK,Rapid Wien,1,1,D,0,1,A,2025-26,AUSTRIAN_BL,7. Round
+2025-09-27,SV Ried,Grazer AK,0,0,D,0,0,D,2025-26,AUSTRIAN_BL,8. Round
+2025-09-27,Wolfsberger,LASK,1,0,H,0,0,D,2025-26,AUSTRIAN_BL,8. Round
+2025-09-27,FC Blau Weiß Linz,SCR Altach,1,0,H,1,0,H,2025-26,AUSTRIAN_BL,8. Round
+2025-09-28,Sturm Graz,TSV Hartberg,1,0,H,0,0,D,2025-26,AUSTRIAN_BL,8. Round
+2025-09-28,WSG Tirol,RB Salzburg,1,2,A,0,1,A,2025-26,AUSTRIAN_BL,8. Round
+2025-09-28,Rapid Wien,Austria Wien,1,3,A,0,1,A,2025-26,AUSTRIAN_BL,8. Round
+2025-10-04,SV Ried,WSG Tirol,2,0,H,1,0,H,2025-26,AUSTRIAN_BL,9. Round
+2025-10-04,Austria Wien,FC Blau Weiß Linz,0,1,A,0,0,D,2025-26,AUSTRIAN_BL,9. Round
+2025-10-04,Grazer AK,Wolfsberger,1,3,A,1,1,D,2025-26,AUSTRIAN_BL,9. Round
+2025-10-05,LASK,TSV Hartberg,3,3,D,0,1,A,2025-26,AUSTRIAN_BL,9. Round
+2025-10-05,SCR Altach,Sturm Graz,0,2,A,0,0,D,2025-26,AUSTRIAN_BL,9. Round
+2025-10-05,RB Salzburg,Rapid Wien,2,1,H,1,1,D,2025-26,AUSTRIAN_BL,9. Round
+2025-10-18,Wolfsberger,SV Ried,1,2,A,1,0,H,2025-26,AUSTRIAN_BL,10. Round
+2025-10-18,WSG Tirol,Austria Wien,2,3,A,1,2,A,2025-26,AUSTRIAN_BL,10. Round
+2025-10-18,Grazer AK,TSV Hartberg,0,0,D,0,0,D,2025-26,AUSTRIAN_BL,10. Round
+2025-10-19,RB Salzburg,SCR Altach,2,2,D,1,1,D,2025-26,AUSTRIAN_BL,10. Round
+2025-10-19,FC Blau Weiß Linz,Sturm Graz,3,4,A,1,1,D,2025-26,AUSTRIAN_BL,10. Round
+2025-10-19,Rapid Wien,LASK,0,2,A,0,2,A,2025-26,AUSTRIAN_BL,10. Round
+2025-10-25,LASK,Grazer AK,1,0,H,0,0,D,2025-26,AUSTRIAN_BL,11. Round
+2025-10-25,SCR Altach,TSV Hartberg,2,2,D,0,0,D,2025-26,AUSTRIAN_BL,11. Round
+2025-10-25,WSG Tirol,FC Blau Weiß Linz,2,0,H,1,0,H,2025-26,AUSTRIAN_BL,11. Round
+2025-10-26,Sturm Graz,Wolfsberger,1,3,A,0,3,A,2025-26,AUSTRIAN_BL,11. Round
+2025-10-26,SV Ried,Rapid Wien,0,2,A,0,2,A,2025-26,AUSTRIAN_BL,11. Round
+2025-10-26,Austria Wien,RB Salzburg,0,3,A,0,2,A,2025-26,AUSTRIAN_BL,11. Round
+2025-11-01,Grazer AK,SCR Altach,3,1,H,1,1,D,2025-26,AUSTRIAN_BL,12. Round
+2025-11-01,TSV Hartberg,Austria Wien,2,1,H,2,0,H,2025-26,AUSTRIAN_BL,12. Round
+2025-11-01,FC Blau Weiß Linz,LASK,0,1,A,0,0,D,2025-26,AUSTRIAN_BL,12. Round
+2025-11-02,RB Salzburg,SV Ried,4,1,H,2,1,H,2025-26,AUSTRIAN_BL,12. Round
+2025-11-02,Wolfsberger,WSG Tirol,0,0,D,0,0,D,2025-26,AUSTRIAN_BL,12. Round
+2025-11-02,Rapid Wien,Sturm Graz,2,1,H,0,1,A,2025-26,AUSTRIAN_BL,12. Round
+2024-08-02,Grazer AK,RB Salzburg,2,3,A,2,3,A,2024-25,AUSTRIAN_BL,Matchday 1
+2024-08-03,SCR Altach,WSG Tirol,1,2,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 1
+2024-08-03,TSV Hartberg,LASK,1,2,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 1
+2024-08-03,Wolfsberger,SK Austria Klagenfurt,4,1,H,3,0,H,2024-25,AUSTRIAN_BL,Matchday 1
+2024-08-04,Rapid Wien,Sturm Graz,1,0,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 1
+2024-08-04,FC Blau Weiß Linz,Austria Wien,1,0,H,0,0,D,2024-25,AUSTRIAN_BL,Matchday 1
+2024-08-10,LASK,SCR Altach,1,2,A,1,1,D,2024-25,AUSTRIAN_BL,Matchday 2
+2024-08-10,WSG Tirol,Grazer AK,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,Matchday 2
+2024-08-10,RB Salzburg,FC Blau Weiß Linz,5,1,H,2,1,H,2024-25,AUSTRIAN_BL,Matchday 2
+2024-08-11,Austria Wien,Wolfsberger,3,1,H,0,1,A,2024-25,AUSTRIAN_BL,Matchday 2
+2024-08-11,Sturm Graz,TSV Hartberg,2,0,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 2
+2024-08-11,SK Austria Klagenfurt,Rapid Wien,1,1,D,1,1,D,2024-25,AUSTRIAN_BL,Matchday 2
+2024-08-17,Grazer AK,FC Blau Weiß Linz,2,2,D,0,2,A,2024-25,AUSTRIAN_BL,Matchday 3
+2024-08-17,SK Austria Klagenfurt,Sturm Graz,0,2,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 3
+2024-08-17,LASK,RB Salzburg,0,1,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 3
+2024-08-18,Rapid Wien,WSG Tirol,2,0,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 3
+2024-08-18,SCR Altach,Wolfsberger,2,0,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 3
+2024-08-18,TSV Hartberg,Austria Wien,1,1,D,1,1,D,2024-25,AUSTRIAN_BL,Matchday 3
+2024-08-24,WSG Tirol,SK Austria Klagenfurt,0,1,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 4
+2024-08-24,Sturm Graz,SCR Altach,2,1,H,0,0,D,2024-25,AUSTRIAN_BL,Matchday 4
+2024-08-25,Wolfsberger,Grazer AK,4,2,H,0,0,D,2024-25,AUSTRIAN_BL,Matchday 4
+2024-08-25,Austria Wien,LASK,2,1,H,1,1,D,2024-25,AUSTRIAN_BL,Matchday 4
+2024-08-25,FC Blau Weiß Linz,Rapid Wien,3,0,H,2,0,H,2024-25,AUSTRIAN_BL,Matchday 4
+2024-12-04,RB Salzburg,TSV Hartberg,4,0,H,2,0,H,2024-25,AUSTRIAN_BL,Matchday 4
+2024-08-31,SK Austria Klagenfurt,FC Blau Weiß Linz,3,1,H,1,1,D,2024-25,AUSTRIAN_BL,Matchday 5
+2024-08-31,TSV Hartberg,Grazer AK,1,1,D,0,1,A,2024-25,AUSTRIAN_BL,Matchday 5
+2024-08-31,Sturm Graz,WSG Tirol,4,2,H,1,2,A,2024-25,AUSTRIAN_BL,Matchday 5
+2024-09-01,LASK,Wolfsberger,1,5,A,0,2,A,2024-25,AUSTRIAN_BL,Matchday 5
+2024-09-01,Rapid Wien,RB Salzburg,3,2,H,2,2,D,2024-25,AUSTRIAN_BL,Matchday 5
+2024-09-01,SCR Altach,Austria Wien,1,1,D,1,1,D,2024-25,AUSTRIAN_BL,Matchday 5
+2024-09-14,Wolfsberger,Rapid Wien,1,1,D,0,1,A,2024-25,AUSTRIAN_BL,Matchday 6
+2024-09-14,FC Blau Weiß Linz,LASK,1,0,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 6
+2024-09-15,Grazer AK,SCR Altach,1,1,D,1,1,D,2024-25,AUSTRIAN_BL,Matchday 6
+2024-09-25,Austria Wien,Sturm Graz,2,2,D,0,2,A,2024-25,AUSTRIAN_BL,Matchday 6
+2024-09-26,TSV Hartberg,WSG Tirol,1,0,H,0,0,D,2024-25,AUSTRIAN_BL,Matchday 6
+2024-12-14,RB Salzburg,SK Austria Klagenfurt,3,0,H,2,0,H,2024-25,AUSTRIAN_BL,Matchday 6
+2024-09-21,LASK,Grazer AK,4,2,H,2,1,H,2024-25,AUSTRIAN_BL,Matchday 7
+2024-09-21,SK Austria Klagenfurt,TSV Hartberg,2,2,D,0,1,A,2024-25,AUSTRIAN_BL,Matchday 7
+2024-09-21,SCR Altach,FC Blau Weiß Linz,0,1,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 7
+2024-09-22,Sturm Graz,Wolfsberger,0,3,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 7
+2024-09-22,WSG Tirol,RB Salzburg,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,Matchday 7
+2024-09-22,Rapid Wien,Austria Wien,2,1,H,1,1,D,2024-25,AUSTRIAN_BL,Matchday 7
+2024-09-28,RB Salzburg,Austria Wien,2,0,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 8
+2024-09-28,Rapid Wien,LASK,1,1,D,1,0,H,2024-25,AUSTRIAN_BL,Matchday 8
+2024-09-28,FC Blau Weiß Linz,Sturm Graz,1,2,A,1,1,D,2024-25,AUSTRIAN_BL,Matchday 8
+2024-09-29,Wolfsberger,WSG Tirol,1,3,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 8
+2024-09-29,TSV Hartberg,SCR Altach,2,0,H,0,0,D,2024-25,AUSTRIAN_BL,Matchday 8
+2024-09-29,Grazer AK,SK Austria Klagenfurt,0,1,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 8
+2024-10-05,Wolfsberger,TSV Hartberg,2,3,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 9
+2024-10-05,Austria Wien,Grazer AK,2,1,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 9
+2024-10-05,WSG Tirol,FC Blau Weiß Linz,1,1,D,0,1,A,2024-25,AUSTRIAN_BL,Matchday 9
+2024-10-06,LASK,SK Austria Klagenfurt,4,0,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 9
+2024-10-06,SCR Altach,Rapid Wien,0,1,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 9
+2024-10-06,Sturm Graz,RB Salzburg,5,0,H,2,0,H,2024-25,AUSTRIAN_BL,Matchday 9
+2024-10-19,RB Salzburg,SCR Altach,2,1,H,0,0,D,2024-25,AUSTRIAN_BL,Matchday 10
+2024-10-19,Sturm Graz,Grazer AK,5,2,H,2,0,H,2024-25,AUSTRIAN_BL,Matchday 10
+2024-10-19,FC Blau Weiß Linz,Wolfsberger,0,1,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 10
+2024-10-20,SK Austria Klagenfurt,Austria Wien,0,1,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 10
+2024-10-20,WSG Tirol,LASK,1,2,A,1,1,D,2024-25,AUSTRIAN_BL,Matchday 10
+2024-10-20,Rapid Wien,TSV Hartberg,2,1,H,1,1,D,2024-25,AUSTRIAN_BL,Matchday 10
+2024-10-26,Austria Wien,WSG Tirol,3,0,H,0,0,D,2024-25,AUSTRIAN_BL,Matchday 11
+2024-10-26,SCR Altach,SK Austria Klagenfurt,2,2,D,1,1,D,2024-25,AUSTRIAN_BL,Matchday 11
+2024-10-26,TSV Hartberg,FC Blau Weiß Linz,2,1,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 11
+2024-10-27,Wolfsberger,RB Salzburg,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,Matchday 11
+2024-10-27,Grazer AK,Rapid Wien,1,1,D,0,0,D,2024-25,AUSTRIAN_BL,Matchday 11
+2024-10-27,LASK,Sturm Graz,1,2,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 11
+2024-11-02,RB Salzburg,Grazer AK,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,Matchday 12
+2024-11-02,LASK,TSV Hartberg,1,1,D,0,1,A,2024-25,AUSTRIAN_BL,Matchday 12
+2024-11-02,Sturm Graz,Rapid Wien,1,1,D,0,0,D,2024-25,AUSTRIAN_BL,Matchday 12
+2024-11-03,WSG Tirol,SCR Altach,1,0,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 12
+2024-11-03,SK Austria Klagenfurt,Wolfsberger,2,1,H,2,0,H,2024-25,AUSTRIAN_BL,Matchday 12
+2024-11-03,Austria Wien,FC Blau Weiß Linz,2,1,H,0,1,A,2024-25,AUSTRIAN_BL,Matchday 12
+2024-11-09,Grazer AK,WSG Tirol,2,1,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 13
+2024-11-09,Wolfsberger,Austria Wien,0,1,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 13
+2024-11-09,TSV Hartberg,Sturm Graz,1,2,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 13
+2024-11-10,SCR Altach,LASK,1,2,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 13
+2024-11-10,FC Blau Weiß Linz,RB Salzburg,2,0,H,0,0,D,2024-25,AUSTRIAN_BL,Matchday 13
+2024-11-10,Rapid Wien,SK Austria Klagenfurt,2,0,H,2,0,H,2024-25,AUSTRIAN_BL,Matchday 13
+2024-11-23,Sturm Graz,SK Austria Klagenfurt,7,0,H,4,0,H,2024-25,AUSTRIAN_BL,Matchday 14
+2024-11-23,RB Salzburg,LASK,1,2,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 14
+2024-11-23,WSG Tirol,Rapid Wien,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,Matchday 14
+2024-11-24,FC Blau Weiß Linz,Grazer AK,1,2,A,1,1,D,2024-25,AUSTRIAN_BL,Matchday 14
+2024-11-24,Wolfsberger,SCR Altach,2,0,H,0,0,D,2024-25,AUSTRIAN_BL,Matchday 14
+2024-11-24,Austria Wien,TSV Hartberg,1,0,H,0,0,D,2024-25,AUSTRIAN_BL,Matchday 14
+2024-11-30,TSV Hartberg,RB Salzburg,1,1,D,0,1,A,2024-25,AUSTRIAN_BL,Matchday 15
+2024-11-30,SCR Altach,Sturm Graz,1,1,D,0,1,A,2024-25,AUSTRIAN_BL,Matchday 15
+2024-11-30,Grazer AK,Wolfsberger,3,4,A,3,0,H,2024-25,AUSTRIAN_BL,Matchday 15
+2024-12-01,SK Austria Klagenfurt,WSG Tirol,0,3,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 15
+2024-12-01,Rapid Wien,FC Blau Weiß Linz,0,1,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 15
+2024-12-01,LASK,Austria Wien,1,3,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 15
+2024-12-07,WSG Tirol,Sturm Graz,0,3,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 16
+2024-12-07,Wolfsberger,LASK,2,1,H,0,1,A,2024-25,AUSTRIAN_BL,Matchday 16
+2024-12-07,RB Salzburg,Rapid Wien,2,2,D,1,0,H,2024-25,AUSTRIAN_BL,Matchday 16
+2024-12-08,FC Blau Weiß Linz,SK Austria Klagenfurt,2,1,H,1,1,D,2024-25,AUSTRIAN_BL,Matchday 16
+2024-12-08,Grazer AK,TSV Hartberg,0,3,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 16
+2024-12-08,Austria Wien,SCR Altach,3,0,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 16
+2025-02-07,Sturm Graz,Austria Wien,2,2,D,1,1,D,2024-25,AUSTRIAN_BL,Matchday 17
+2025-02-08,Rapid Wien,Wolfsberger,1,3,A,1,0,H,2024-25,AUSTRIAN_BL,Matchday 17
+2025-02-08,SCR Altach,Grazer AK,1,2,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 17
+2025-02-09,SK Austria Klagenfurt,RB Salzburg,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,Matchday 17
+2025-02-09,WSG Tirol,TSV Hartberg,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,Matchday 17
+2025-02-09,LASK,FC Blau Weiß Linz,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,Matchday 17
+2025-02-15,Wolfsberger,Sturm Graz,3,0,H,2,0,H,2024-25,AUSTRIAN_BL,Matchday 18
+2025-02-15,FC Blau Weiß Linz,SCR Altach,1,3,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 18
+2025-02-15,RB Salzburg,WSG Tirol,1,1,D,0,1,A,2024-25,AUSTRIAN_BL,Matchday 18
+2025-02-16,Grazer AK,LASK,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,Matchday 18
+2025-02-16,TSV Hartberg,SK Austria Klagenfurt,1,1,D,0,0,D,2024-25,AUSTRIAN_BL,Matchday 18
+2025-02-16,Austria Wien,Rapid Wien,2,1,H,1,1,D,2024-25,AUSTRIAN_BL,Matchday 18
+2025-02-22,Austria Wien,RB Salzburg,0,1,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 19
+2025-02-22,WSG Tirol,Wolfsberger,3,3,D,1,1,D,2024-25,AUSTRIAN_BL,Matchday 19
+2025-02-22,SK Austria Klagenfurt,Grazer AK,4,2,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 19
+2025-02-23,Sturm Graz,FC Blau Weiß Linz,2,1,H,2,0,H,2024-25,AUSTRIAN_BL,Matchday 19
+2025-02-23,SCR Altach,TSV Hartberg,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,Matchday 19
+2025-02-23,LASK,Rapid Wien,2,1,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 19
+2025-03-01,TSV Hartberg,Wolfsberger,0,3,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 20
+2025-03-01,Grazer AK,Austria Wien,1,2,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 20
+2025-03-01,Rapid Wien,SCR Altach,5,0,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 20
+2025-03-02,SK Austria Klagenfurt,LASK,1,2,A,1,1,D,2024-25,AUSTRIAN_BL,Matchday 20
+2025-03-02,FC Blau Weiß Linz,WSG Tirol,2,1,H,1,1,D,2024-25,AUSTRIAN_BL,Matchday 20
+2025-03-02,RB Salzburg,Sturm Graz,3,1,H,0,1,A,2024-25,AUSTRIAN_BL,Matchday 20
+2025-03-09,SCR Altach,RB Salzburg,1,1,D,0,1,A,2024-25,AUSTRIAN_BL,Matchday 21
+2025-03-09,Grazer AK,Sturm Graz,1,2,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 21
+2025-03-09,Austria Wien,SK Austria Klagenfurt,2,0,H,2,0,H,2024-25,AUSTRIAN_BL,Matchday 21
+2025-03-09,TSV Hartberg,Rapid Wien,2,1,H,0,0,D,2024-25,AUSTRIAN_BL,Matchday 21
+2025-03-09,Wolfsberger,FC Blau Weiß Linz,1,2,A,0,1,A,2024-25,AUSTRIAN_BL,Matchday 21
+2025-03-09,LASK,WSG Tirol,2,1,H,1,1,D,2024-25,AUSTRIAN_BL,Matchday 21
+2025-03-16,RB Salzburg,Wolfsberger,1,0,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 22
+2025-03-16,Sturm Graz,LASK,4,2,H,1,0,H,2024-25,AUSTRIAN_BL,Matchday 22
+2025-03-16,SK Austria Klagenfurt,SCR Altach,2,2,D,1,2,A,2024-25,AUSTRIAN_BL,Matchday 22
+2025-03-16,Rapid Wien,Grazer AK,3,0,H,3,0,H,2024-25,AUSTRIAN_BL,Matchday 22
+2025-03-16,FC Blau Weiß Linz,TSV Hartberg,4,1,H,1,1,D,2024-25,AUSTRIAN_BL,Matchday 22
+2025-03-16,WSG Tirol,Austria Wien,0,2,A,0,0,D,2024-25,AUSTRIAN_BL,Matchday 22
+2025-03-30,Wolfsberger,Sturm Graz,1,1,D,1,0,H,2024-25,AUSTRIAN_BL,"Championship, Matchday 23"
+2025-03-30,FC Blau Weiß Linz,Austria Wien,0,2,A,0,2,A,2024-25,AUSTRIAN_BL,"Championship, Matchday 23"
+2025-03-30,Rapid Wien,RB Salzburg,0,2,A,0,1,A,2024-25,AUSTRIAN_BL,"Championship, Matchday 23"
+2025-04-04,Sturm Graz,Rapid Wien,2,0,H,1,0,H,2024-25,AUSTRIAN_BL,"Championship, Matchday 24"
+2025-04-06,RB Salzburg,FC Blau Weiß Linz,2,1,H,0,0,D,2024-25,AUSTRIAN_BL,"Championship, Matchday 24"
+2025-04-06,Austria Wien,Wolfsberger,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,"Championship, Matchday 24"
+2025-04-11,FC Blau Weiß Linz,Wolfsberger,1,2,A,0,1,A,2024-25,AUSTRIAN_BL,"Championship, Matchday 25"
+2025-04-13,RB Salzburg,Sturm Graz,1,2,A,1,0,H,2024-25,AUSTRIAN_BL,"Championship, Matchday 25"
+2025-04-13,Rapid Wien,Austria Wien,2,0,H,1,0,H,2024-25,AUSTRIAN_BL,"Championship, Matchday 25"
+2025-04-20,Wolfsberger,Rapid Wien,5,1,H,1,1,D,2024-25,AUSTRIAN_BL,"Championship, Matchday 26"
+2025-04-20,Sturm Graz,FC Blau Weiß Linz,2,0,H,1,0,H,2024-25,AUSTRIAN_BL,"Championship, Matchday 26"
+2025-04-20,Austria Wien,RB Salzburg,1,3,A,1,2,A,2024-25,AUSTRIAN_BL,"Championship, Matchday 26"
+2025-04-23,RB Salzburg,Wolfsberger,1,1,D,0,1,A,2024-25,AUSTRIAN_BL,"Championship, Matchday 27"
+2025-04-23,FC Blau Weiß Linz,Rapid Wien,2,1,H,1,0,H,2024-25,AUSTRIAN_BL,"Championship, Matchday 27"
+2025-04-23,Austria Wien,Sturm Graz,2,1,H,1,1,D,2024-25,AUSTRIAN_BL,"Championship, Matchday 27"
+2025-04-27,Wolfsberger,RB Salzburg,2,1,H,1,0,H,2024-25,AUSTRIAN_BL,"Championship, Matchday 28"
+2025-04-27,Rapid Wien,FC Blau Weiß Linz,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,"Championship, Matchday 28"
+2025-04-27,Sturm Graz,Austria Wien,0,1,A,0,0,D,2024-25,AUSTRIAN_BL,"Championship, Matchday 28"
+2025-05-04,Rapid Wien,Wolfsberger,0,1,A,0,0,D,2024-25,AUSTRIAN_BL,"Championship, Matchday 29"
+2025-05-04,FC Blau Weiß Linz,Sturm Graz,0,1,A,0,0,D,2024-25,AUSTRIAN_BL,"Championship, Matchday 29"
+2025-05-04,RB Salzburg,Austria Wien,2,0,H,0,0,D,2024-25,AUSTRIAN_BL,"Championship, Matchday 29"
+2025-05-09,Sturm Graz,RB Salzburg,4,2,H,2,1,H,2024-25,AUSTRIAN_BL,"Championship, Matchday 30"
+2025-05-11,Wolfsberger,FC Blau Weiß Linz,2,0,H,1,0,H,2024-25,AUSTRIAN_BL,"Championship, Matchday 30"
+2025-05-11,Austria Wien,Rapid Wien,1,2,A,0,1,A,2024-25,AUSTRIAN_BL,"Championship, Matchday 30"
+2025-05-18,FC Blau Weiß Linz,RB Salzburg,1,2,A,1,0,H,2024-25,AUSTRIAN_BL,"Championship, Matchday 31"
+2025-05-18,Wolfsberger,Austria Wien,1,2,A,0,0,D,2024-25,AUSTRIAN_BL,"Championship, Matchday 31"
+2025-05-18,Rapid Wien,Sturm Graz,3,1,H,2,0,H,2024-25,AUSTRIAN_BL,"Championship, Matchday 31"
+2025-05-24,Sturm Graz,Wolfsberger,1,1,D,1,0,H,2024-25,AUSTRIAN_BL,"Championship, Matchday 32"
+2025-05-24,Austria Wien,FC Blau Weiß Linz,2,2,D,1,0,H,2024-25,AUSTRIAN_BL,"Championship, Matchday 32"
+2025-05-24,RB Salzburg,Rapid Wien,4,2,H,3,1,H,2024-25,AUSTRIAN_BL,"Championship, Matchday 32"
+2025-05-26,LASK,TSV Hartberg,2,0,H,1,0,H,2024-25,AUSTRIAN_BL,"Europa League Finals, Semifinals"
+2025-05-29,LASK,Rapid Wien,3,1,H,1,1,D,2024-25,AUSTRIAN_BL,"Europa League Finals, Final"
+2025-03-28,SCR Altach,LASK,0,2,A,0,1,A,2024-25,AUSTRIAN_BL,"Relegation, Matchday 23"
+2025-03-29,Grazer AK,WSG Tirol,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 23"
+2025-03-29,TSV Hartberg,SK Austria Klagenfurt,2,3,A,1,1,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 23"
+2025-04-05,LASK,Grazer AK,1,0,H,0,0,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 24"
+2025-04-05,SK Austria Klagenfurt,SCR Altach,2,3,A,2,2,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 24"
+2025-04-05,WSG Tirol,TSV Hartberg,1,3,A,0,1,A,2024-25,AUSTRIAN_BL,"Relegation, Matchday 24"
+2025-04-12,Grazer AK,SCR Altach,1,0,H,1,0,H,2024-25,AUSTRIAN_BL,"Relegation, Matchday 25"
+2025-04-12,TSV Hartberg,LASK,0,1,A,0,1,A,2024-25,AUSTRIAN_BL,"Relegation, Matchday 25"
+2025-04-12,WSG Tirol,SK Austria Klagenfurt,5,3,H,2,0,H,2024-25,AUSTRIAN_BL,"Relegation, Matchday 25"
+2025-04-18,LASK,WSG Tirol,2,0,H,0,0,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 26"
+2025-04-19,SCR Altach,TSV Hartberg,1,1,D,0,0,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 26"
+2025-04-19,SK Austria Klagenfurt,Grazer AK,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 26"
+2025-04-22,WSG Tirol,SCR Altach,1,0,H,1,0,H,2024-25,AUSTRIAN_BL,"Relegation, Matchday 27"
+2025-04-22,Grazer AK,TSV Hartberg,0,3,A,0,0,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 27"
+2025-04-22,SK Austria Klagenfurt,LASK,1,4,A,1,2,A,2024-25,AUSTRIAN_BL,"Relegation, Matchday 27"
+2025-04-25,TSV Hartberg,Grazer AK,1,1,D,1,1,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 28"
+2025-04-26,SCR Altach,WSG Tirol,3,0,H,1,0,H,2024-25,AUSTRIAN_BL,"Relegation, Matchday 28"
+2025-04-26,LASK,SK Austria Klagenfurt,6,0,H,2,0,H,2024-25,AUSTRIAN_BL,"Relegation, Matchday 28"
+2025-05-02,Grazer AK,SK Austria Klagenfurt,1,1,D,1,1,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 29"
+2025-05-03,WSG Tirol,LASK,1,3,A,0,0,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 29"
+2025-05-04,TSV Hartberg,SCR Altach,2,0,H,0,0,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 29"
+2025-05-10,SCR Altach,Grazer AK,2,2,D,1,1,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 30"
+2025-05-10,LASK,TSV Hartberg,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 30"
+2025-05-10,SK Austria Klagenfurt,WSG Tirol,1,4,A,1,1,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 30"
+2025-05-17,Grazer AK,LASK,1,0,H,0,0,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 31"
+2025-05-17,SCR Altach,SK Austria Klagenfurt,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 31"
+2025-05-17,TSV Hartberg,WSG Tirol,3,2,H,0,1,A,2024-25,AUSTRIAN_BL,"Relegation, Matchday 31"
+2025-05-23,LASK,SCR Altach,0,0,D,0,0,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 32"
+2025-05-23,WSG Tirol,Grazer AK,1,1,D,1,1,D,2024-25,AUSTRIAN_BL,"Relegation, Matchday 32"
+2025-05-23,SK Austria Klagenfurt,TSV Hartberg,0,1,A,0,1,A,2024-25,AUSTRIAN_BL,"Relegation, Matchday 32"
+2023-07-28,LASK,Rapid Wien,1,1,D,0,1,A,2023-24,AUSTRIAN_BL,Matchday 1
+2023-07-29,TSV Hartberg,Austria Lustenau,2,2,D,1,0,H,2023-24,AUSTRIAN_BL,Matchday 1
+2023-07-29,WSG Tirol,SK Austria Klagenfurt,1,3,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 1
+2023-07-29,SCR Altach,RB Salzburg,0,2,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 1
+2023-07-29,Wolfsberger,FC Blau Weiß Linz,2,1,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 1
+2023-07-30,Austria Wien,Sturm Graz,0,3,A,0,2,A,2023-24,AUSTRIAN_BL,Matchday 1
+2023-08-05,Rapid Wien,SCR Altach,4,0,H,2,0,H,2023-24,AUSTRIAN_BL,Matchday 2
+2023-08-05,Sturm Graz,LASK,2,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 2
+2023-08-06,RB Salzburg,WSG Tirol,3,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 2
+2023-08-06,FC Blau Weiß Linz,TSV Hartberg,3,3,D,1,2,A,2023-24,AUSTRIAN_BL,Matchday 2
+2023-08-06,Austria Lustenau,Austria Wien,0,2,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 2
+2023-08-09,SK Austria Klagenfurt,Wolfsberger,2,2,D,1,0,H,2023-24,AUSTRIAN_BL,Matchday 2
+2023-08-12,Sturm Graz,SK Austria Klagenfurt,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 3
+2023-08-12,Wolfsberger,Austria Lustenau,1,1,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 3
+2023-08-12,LASK,FC Blau Weiß Linz,2,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 3
+2023-08-13,Rapid Wien,TSV Hartberg,0,1,A,0,0,D,2023-24,AUSTRIAN_BL,Matchday 3
+2023-08-13,SCR Altach,WSG Tirol,1,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 3
+2023-08-13,RB Salzburg,Austria Wien,2,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 3
+2023-08-19,WSG Tirol,LASK,1,1,D,1,0,H,2023-24,AUSTRIAN_BL,Matchday 4
+2023-08-19,Austria Lustenau,Sturm Graz,0,1,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 4
+2023-08-19,SK Austria Klagenfurt,SCR Altach,1,1,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 4
+2023-08-20,FC Blau Weiß Linz,Rapid Wien,0,5,A,0,2,A,2023-24,AUSTRIAN_BL,Matchday 4
+2023-08-20,TSV Hartberg,RB Salzburg,1,5,A,1,1,D,2023-24,AUSTRIAN_BL,Matchday 4
+2023-08-20,Austria Wien,Wolfsberger,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 4
+2023-08-26,Sturm Graz,FC Blau Weiß Linz,4,1,H,2,0,H,2023-24,AUSTRIAN_BL,Matchday 5
+2023-08-26,Wolfsberger,RB Salzburg,1,2,A,1,0,H,2023-24,AUSTRIAN_BL,Matchday 5
+2023-08-26,Austria Lustenau,SCR Altach,0,3,A,0,2,A,2023-24,AUSTRIAN_BL,Matchday 5
+2023-08-27,Rapid Wien,WSG Tirol,1,1,D,0,1,A,2023-24,AUSTRIAN_BL,Matchday 5
+2023-08-27,TSV Hartberg,SK Austria Klagenfurt,0,3,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 5
+2023-08-27,LASK,Austria Wien,2,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 5
+2023-09-02,Wolfsberger,TSV Hartberg,0,3,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 6
+2023-09-02,WSG Tirol,FC Blau Weiß Linz,2,4,A,1,2,A,2023-24,AUSTRIAN_BL,Matchday 6
+2023-09-02,SCR Altach,Sturm Graz,1,2,A,0,0,D,2023-24,AUSTRIAN_BL,Matchday 6
+2023-09-03,LASK,Austria Lustenau,2,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 6
+2023-09-03,Austria Wien,SK Austria Klagenfurt,2,2,D,1,1,D,2023-24,AUSTRIAN_BL,Matchday 6
+2023-09-03,RB Salzburg,Rapid Wien,2,0,H,2,0,H,2023-24,AUSTRIAN_BL,Matchday 6
+2023-09-16,SK Austria Klagenfurt,LASK,1,3,A,0,3,A,2023-24,AUSTRIAN_BL,Matchday 7
+2023-09-16,FC Blau Weiß Linz,SCR Altach,1,1,D,1,1,D,2023-24,AUSTRIAN_BL,Matchday 7
+2023-09-16,Sturm Graz,RB Salzburg,2,2,D,0,1,A,2023-24,AUSTRIAN_BL,Matchday 7
+2023-09-17,TSV Hartberg,Austria Wien,2,1,H,1,1,D,2023-24,AUSTRIAN_BL,Matchday 7
+2023-09-17,Rapid Wien,Wolfsberger,3,3,D,2,0,H,2023-24,AUSTRIAN_BL,Matchday 7
+2023-09-17,Austria Lustenau,WSG Tirol,2,3,A,0,2,A,2023-24,AUSTRIAN_BL,Matchday 7
+2023-09-23,RB Salzburg,FC Blau Weiß Linz,0,1,A,0,0,D,2023-24,AUSTRIAN_BL,Matchday 8
+2023-09-23,SK Austria Klagenfurt,Austria Lustenau,1,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 8
+2023-09-23,WSG Tirol,Wolfsberger,2,3,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 8
+2023-09-24,SCR Altach,Austria Wien,2,1,H,2,1,H,2023-24,AUSTRIAN_BL,Matchday 8
+2023-09-24,Rapid Wien,Sturm Graz,1,1,D,1,1,D,2023-24,AUSTRIAN_BL,Matchday 8
+2023-09-24,LASK,TSV Hartberg,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 8
+2023-09-30,Wolfsberger,LASK,2,1,H,2,0,H,2023-24,AUSTRIAN_BL,Matchday 9
+2023-09-30,FC Blau Weiß Linz,SK Austria Klagenfurt,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 9
+2023-09-30,Austria Lustenau,RB Salzburg,0,4,A,0,3,A,2023-24,AUSTRIAN_BL,Matchday 9
+2023-10-01,TSV Hartberg,SCR Altach,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 9
+2023-10-01,Austria Wien,Rapid Wien,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 9
+2023-10-01,Sturm Graz,WSG Tirol,1,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 9
+2023-10-07,Austria Wien,FC Blau Weiß Linz,4,0,H,2,0,H,2023-24,AUSTRIAN_BL,Matchday 10
+2023-10-07,Austria Lustenau,Rapid Wien,0,5,A,0,3,A,2023-24,AUSTRIAN_BL,Matchday 10
+2023-10-07,TSV Hartberg,WSG Tirol,3,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 10
+2023-10-08,Wolfsberger,Sturm Graz,1,2,A,1,0,H,2023-24,AUSTRIAN_BL,Matchday 10
+2023-10-08,SK Austria Klagenfurt,RB Salzburg,2,2,D,1,2,A,2023-24,AUSTRIAN_BL,Matchday 10
+2023-10-08,LASK,SCR Altach,1,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 10
+2023-10-21,RB Salzburg,LASK,0,1,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 11
+2023-10-21,Sturm Graz,TSV Hartberg,2,1,H,2,1,H,2023-24,AUSTRIAN_BL,Matchday 11
+2023-10-21,FC Blau Weiß Linz,Austria Lustenau,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 11
+2023-10-22,WSG Tirol,Austria Wien,0,2,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 11
+2023-10-22,Rapid Wien,SK Austria Klagenfurt,2,3,A,1,0,H,2023-24,AUSTRIAN_BL,Matchday 11
+2023-10-22,SCR Altach,Wolfsberger,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 11
+2023-10-28,FC Blau Weiß Linz,Wolfsberger,2,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 12
+2023-10-28,SK Austria Klagenfurt,WSG Tirol,1,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 12
+2023-10-28,RB Salzburg,SCR Altach,3,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 12
+2023-10-29,Sturm Graz,Austria Wien,0,1,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 12
+2023-10-29,Rapid Wien,LASK,3,3,D,1,1,D,2023-24,AUSTRIAN_BL,Matchday 12
+2023-10-29,Austria Lustenau,TSV Hartberg,0,4,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 12
+2023-11-04,Wolfsberger,SK Austria Klagenfurt,4,0,H,2,0,H,2023-24,AUSTRIAN_BL,Matchday 13
+2023-11-04,Austria Wien,Austria Lustenau,1,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 13
+2023-11-04,WSG Tirol,RB Salzburg,0,2,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 13
+2023-11-05,TSV Hartberg,FC Blau Weiß Linz,3,2,H,1,2,A,2023-24,AUSTRIAN_BL,Matchday 13
+2023-11-05,LASK,Sturm Graz,3,1,H,2,0,H,2023-24,AUSTRIAN_BL,Matchday 13
+2023-11-05,SCR Altach,Rapid Wien,0,2,A,0,0,D,2023-24,AUSTRIAN_BL,Matchday 13
+2023-11-11,Austria Lustenau,Wolfsberger,2,3,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 14
+2023-11-11,TSV Hartberg,Rapid Wien,1,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 14
+2023-11-11,WSG Tirol,SCR Altach,5,1,H,3,0,H,2023-24,AUSTRIAN_BL,Matchday 14
+2023-11-12,FC Blau Weiß Linz,LASK,2,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 14
+2023-11-12,Austria Wien,RB Salzburg,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 14
+2023-11-12,SK Austria Klagenfurt,Sturm Graz,0,3,A,0,2,A,2023-24,AUSTRIAN_BL,Matchday 14
+2023-11-25,LASK,WSG Tirol,1,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 15
+2023-11-25,Sturm Graz,Austria Lustenau,2,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 15
+2023-11-25,RB Salzburg,TSV Hartberg,3,2,H,1,1,D,2023-24,AUSTRIAN_BL,Matchday 15
+2023-11-26,Wolfsberger,Austria Wien,1,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 15
+2023-11-26,Rapid Wien,FC Blau Weiß Linz,1,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 15
+2023-11-26,SCR Altach,SK Austria Klagenfurt,0,1,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 15
+2023-12-03,FC Blau Weiß Linz,Sturm Graz,1,1,D,1,0,H,2023-24,AUSTRIAN_BL,Matchday 16
+2023-12-03,RB Salzburg,Wolfsberger,1,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 16
+2023-12-03,Austria Wien,LASK,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 16
+2023-12-04,SK Austria Klagenfurt,TSV Hartberg,1,1,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 16
+2023-12-05,WSG Tirol,Rapid Wien,1,2,A,0,0,D,2023-24,AUSTRIAN_BL,Matchday 16
+2023-12-05,SCR Altach,Austria Lustenau,3,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 16
+2023-12-09,Rapid Wien,RB Salzburg,0,1,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 17
+2023-12-09,Austria Lustenau,LASK,1,3,A,1,0,H,2023-24,AUSTRIAN_BL,Matchday 17
+2023-12-09,SK Austria Klagenfurt,Austria Wien,2,2,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 17
+2023-12-10,FC Blau Weiß Linz,WSG Tirol,1,2,A,1,1,D,2023-24,AUSTRIAN_BL,Matchday 17
+2023-12-10,Sturm Graz,SCR Altach,1,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 17
+2023-12-10,TSV Hartberg,Wolfsberger,2,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 17
+2024-02-09,RB Salzburg,Sturm Graz,1,1,D,1,0,H,2023-24,AUSTRIAN_BL,Matchday 18
+2024-02-10,Austria Wien,TSV Hartberg,3,1,H,1,1,D,2023-24,AUSTRIAN_BL,Matchday 18
+2024-02-10,SCR Altach,FC Blau Weiß Linz,1,1,D,0,1,A,2023-24,AUSTRIAN_BL,Matchday 18
+2024-02-11,Wolfsberger,Rapid Wien,0,2,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 18
+2024-02-11,WSG Tirol,Austria Lustenau,0,2,A,0,0,D,2023-24,AUSTRIAN_BL,Matchday 18
+2024-02-11,LASK,SK Austria Klagenfurt,2,2,D,1,1,D,2023-24,AUSTRIAN_BL,Matchday 18
+2024-02-17,Austria Wien,SCR Altach,2,1,H,2,0,H,2023-24,AUSTRIAN_BL,Matchday 19
+2024-02-17,Wolfsberger,WSG Tirol,4,1,H,2,0,H,2023-24,AUSTRIAN_BL,Matchday 19
+2024-02-17,FC Blau Weiß Linz,RB Salzburg,1,1,D,1,1,D,2023-24,AUSTRIAN_BL,Matchday 19
+2024-02-18,Austria Lustenau,SK Austria Klagenfurt,0,1,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 19
+2024-02-18,Sturm Graz,Rapid Wien,1,1,D,1,1,D,2023-24,AUSTRIAN_BL,Matchday 19
+2024-02-18,TSV Hartberg,LASK,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 19
+2024-02-24,LASK,Wolfsberger,0,1,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 20
+2024-02-24,RB Salzburg,Austria Lustenau,7,0,H,4,0,H,2023-24,AUSTRIAN_BL,Matchday 20
+2024-02-24,SCR Altach,TSV Hartberg,1,2,A,1,0,H,2023-24,AUSTRIAN_BL,Matchday 20
+2024-02-25,SK Austria Klagenfurt,FC Blau Weiß Linz,2,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 20
+2024-02-25,Rapid Wien,Austria Wien,3,0,H,3,0,H,2023-24,AUSTRIAN_BL,Matchday 20
+2024-02-25,WSG Tirol,Sturm Graz,0,2,A,0,2,A,2023-24,AUSTRIAN_BL,Matchday 20
+2024-03-03,SCR Altach,LASK,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 21
+2024-03-03,Sturm Graz,Wolfsberger,4,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 21
+2024-03-03,FC Blau Weiß Linz,Austria Wien,1,2,A,1,2,A,2023-24,AUSTRIAN_BL,Matchday 21
+2024-03-03,RB Salzburg,SK Austria Klagenfurt,1,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 21
+2024-03-03,Rapid Wien,Austria Lustenau,1,1,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 21
+2024-03-03,WSG Tirol,TSV Hartberg,1,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 21
+2024-03-09,LASK,RB Salzburg,0,1,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 22
+2024-03-10,SK Austria Klagenfurt,Rapid Wien,1,1,D,0,1,A,2023-24,AUSTRIAN_BL,Matchday 22
+2024-03-10,Austria Lustenau,FC Blau Weiß Linz,2,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 22
+2024-03-10,Wolfsberger,SCR Altach,1,1,D,1,1,D,2023-24,AUSTRIAN_BL,Matchday 22
+2024-03-10,Austria Wien,WSG Tirol,2,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 22
+2024-03-10,TSV Hartberg,Sturm Graz,1,1,D,0,1,A,2023-24,AUSTRIAN_BL,Matchday 22
+2024-03-15,Rapid Wien,LASK,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 23
+2024-03-17,RB Salzburg,TSV Hartberg,5,1,H,2,0,H,2023-24,AUSTRIAN_BL,Matchday 23
+2024-03-17,SK Austria Klagenfurt,Sturm Graz,0,4,A,0,4,A,2023-24,AUSTRIAN_BL,Matchday 23
+2024-03-31,LASK,SK Austria Klagenfurt,1,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 24
+2024-03-31,Sturm Graz,RB Salzburg,0,1,A,0,0,D,2023-24,AUSTRIAN_BL,Matchday 24
+2024-03-31,TSV Hartberg,Rapid Wien,0,3,A,0,2,A,2023-24,AUSTRIAN_BL,Matchday 24
+2024-04-07,SK Austria Klagenfurt,TSV Hartberg,2,2,D,1,2,A,2023-24,AUSTRIAN_BL,Matchday 25
+2024-04-07,Sturm Graz,LASK,1,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 25
+2024-04-07,RB Salzburg,Rapid Wien,1,1,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 25
+2024-04-12,LASK,RB Salzburg,3,1,H,2,0,H,2023-24,AUSTRIAN_BL,Matchday 26
+2024-04-14,TSV Hartberg,Sturm Graz,1,3,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 26
+2024-04-14,Rapid Wien,SK Austria Klagenfurt,1,1,D,1,0,H,2023-24,AUSTRIAN_BL,Matchday 26
+2024-04-19,Sturm Graz,Rapid Wien,1,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 27
+2024-04-21,LASK,TSV Hartberg,1,3,A,0,2,A,2023-24,AUSTRIAN_BL,Matchday 27
+2024-04-21,RB Salzburg,SK Austria Klagenfurt,4,2,H,4,1,H,2023-24,AUSTRIAN_BL,Matchday 27
+2024-04-24,SK Austria Klagenfurt,RB Salzburg,4,3,H,0,2,A,2023-24,AUSTRIAN_BL,Matchday 28
+2024-04-24,Rapid Wien,Sturm Graz,1,3,A,1,3,A,2023-24,AUSTRIAN_BL,Matchday 28
+2024-04-24,TSV Hartberg,LASK,1,2,A,1,1,D,2023-24,AUSTRIAN_BL,Matchday 28
+2024-04-28,LASK,Rapid Wien,5,0,H,3,0,H,2023-24,AUSTRIAN_BL,Matchday 29
+2024-04-28,RB Salzburg,Sturm Graz,2,2,D,0,2,A,2023-24,AUSTRIAN_BL,Matchday 29
+2024-04-28,TSV Hartberg,SK Austria Klagenfurt,3,2,H,3,0,H,2023-24,AUSTRIAN_BL,Matchday 29
+2024-05-05,Rapid Wien,RB Salzburg,2,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 30
+2024-05-05,Sturm Graz,TSV Hartberg,1,1,D,0,1,A,2023-24,AUSTRIAN_BL,Matchday 30
+2024-05-05,SK Austria Klagenfurt,LASK,0,2,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 30
+2024-05-12,SK Austria Klagenfurt,Rapid Wien,0,1,A,0,0,D,2023-24,AUSTRIAN_BL,Matchday 31
+2024-05-12,LASK,Sturm Graz,2,2,D,1,1,D,2023-24,AUSTRIAN_BL,Matchday 31
+2024-05-12,TSV Hartberg,RB Salzburg,1,5,A,1,3,A,2023-24,AUSTRIAN_BL,Matchday 31
+2024-05-19,Rapid Wien,TSV Hartberg,0,3,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 32
+2024-05-19,RB Salzburg,LASK,7,1,H,3,1,H,2023-24,AUSTRIAN_BL,Matchday 32
+2024-05-19,Sturm Graz,SK Austria Klagenfurt,2,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 32
+2024-03-16,WSG Tirol,Wolfsberger,1,1,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 23
+2024-03-16,SCR Altach,Austria Wien,1,1,D,0,1,A,2023-24,AUSTRIAN_BL,Matchday 23
+2024-03-16,FC Blau Weiß Linz,Austria Lustenau,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 23
+2024-03-29,Austria Wien,FC Blau Weiß Linz,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 24
+2024-03-30,Wolfsberger,SCR Altach,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 24
+2024-03-30,Austria Lustenau,WSG Tirol,1,2,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 24
+2024-04-05,SCR Altach,WSG Tirol,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 25
+2024-04-06,Austria Wien,Austria Lustenau,1,1,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 25
+2024-04-06,FC Blau Weiß Linz,Wolfsberger,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 25
+2024-04-13,WSG Tirol,FC Blau Weiß Linz,2,1,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 26
+2024-04-13,Austria Lustenau,SCR Altach,0,1,A,0,0,D,2023-24,AUSTRIAN_BL,Matchday 26
+2024-04-13,Wolfsberger,Austria Wien,0,1,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 26
+2024-04-20,Austria Wien,WSG Tirol,3,0,H,2,0,H,2023-24,AUSTRIAN_BL,Matchday 27
+2024-04-20,SCR Altach,FC Blau Weiß Linz,2,2,D,1,1,D,2023-24,AUSTRIAN_BL,Matchday 27
+2024-04-20,Wolfsberger,Austria Lustenau,1,1,D,1,1,D,2023-24,AUSTRIAN_BL,Matchday 27
+2024-04-23,Austria Lustenau,Wolfsberger,1,2,A,0,0,D,2023-24,AUSTRIAN_BL,Matchday 28
+2024-04-23,FC Blau Weiß Linz,SCR Altach,2,1,H,0,1,A,2023-24,AUSTRIAN_BL,Matchday 28
+2024-04-23,WSG Tirol,Austria Wien,1,0,H,0,0,D,2023-24,AUSTRIAN_BL,Matchday 28
+2024-04-26,Austria Wien,SCR Altach,2,2,D,1,1,D,2023-24,AUSTRIAN_BL,Matchday 29
+2024-04-27,Wolfsberger,FC Blau Weiß Linz,0,2,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 29
+2024-04-27,WSG Tirol,Austria Lustenau,0,0,D,0,0,D,2023-24,AUSTRIAN_BL,Matchday 29
+2024-05-03,Austria Lustenau,Austria Wien,2,0,H,2,0,H,2023-24,AUSTRIAN_BL,Matchday 30
+2024-05-04,SCR Altach,Wolfsberger,0,1,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 30
+2024-05-04,FC Blau Weiß Linz,WSG Tirol,3,2,H,2,1,H,2023-24,AUSTRIAN_BL,Matchday 30
+2024-05-11,WSG Tirol,SCR Altach,0,1,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 31
+2024-05-11,Austria Wien,Wolfsberger,0,4,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 31
+2024-05-11,Austria Lustenau,FC Blau Weiß Linz,1,0,H,1,0,H,2023-24,AUSTRIAN_BL,Matchday 31
+2024-05-18,FC Blau Weiß Linz,Austria Wien,1,2,A,0,1,A,2023-24,AUSTRIAN_BL,Matchday 32
+2024-05-18,Wolfsberger,WSG Tirol,3,1,H,0,1,A,2023-24,AUSTRIAN_BL,Matchday 32
+2024-05-18,SCR Altach,Austria Lustenau,2,2,D,1,1,D,2023-24,AUSTRIAN_BL,Matchday 32
+2024-05-21,Wolfsberger,Austria Wien,1,2,A,0,1,A,2023-24,AUSTRIAN_BL,Semifinals
+2024-05-24,Austria Wien,TSV Hartberg,2,1,H,0,0,D,2023-24,AUSTRIAN_BL,Final
+2024-05-28,TSV Hartberg,Austria Wien,0,1,A,0,1,A,2023-24,AUSTRIAN_BL,Final

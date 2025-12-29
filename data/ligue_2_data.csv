@@ -1,0 +1,423 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,Season,League,Round
+2025-08-09,EA Guingamp,Le Mans,3,3,D,0,2,A,2025-26,LIGUE_2,1. Round
+2025-08-09,ESTAC Troyes,Grenoble Foot 38,2,1,H,1,1,D,2025-26,LIGUE_2,1. Round
+2025-08-09,Pau,FC Annecy,2,0,H,1,0,H,2025-26,LIGUE_2,1. Round
+2025-08-09,Montpellier HSC,Red Star,1,1,D,1,1,D,2025-26,LIGUE_2,1. Round
+2025-08-09,Rodez AF,AS Nancy Lorraine,0,0,D,0,0,D,2025-26,LIGUE_2,1. Round
+2025-08-09,Stade Lavallois,AS Saint-Étienne,3,3,D,2,2,D,2025-26,LIGUE_2,1. Round
+2025-08-09,USL Dunkerque,Clermont Foot 63,2,2,D,1,2,A,2025-26,LIGUE_2,1. Round
+2025-08-11,Amiens,Stade de Reims,2,2,D,1,1,D,2025-26,LIGUE_2,1. Round
+2025-09-16,US Boulogne,SC Bastia,1,0,H,0,0,D,2025-26,LIGUE_2,1. Round
+2025-08-15,AS Nancy Lorraine,US Boulogne,1,0,H,1,0,H,2025-26,LIGUE_2,2. Round
+2025-08-15,Clermont Foot 63,ESTAC Troyes,0,0,D,0,0,D,2025-26,LIGUE_2,2. Round
+2025-08-15,Red Star,Amiens,1,3,A,0,1,A,2025-26,LIGUE_2,2. Round
+2025-08-15,Grenoble Foot 38,Stade Lavallois,1,1,D,0,0,D,2025-26,LIGUE_2,2. Round
+2025-08-15,SC Bastia,Pau,1,1,D,1,0,H,2025-26,LIGUE_2,2. Round
+2025-08-16,FC Annecy,USL Dunkerque,2,2,D,2,1,H,2025-26,LIGUE_2,2. Round
+2025-08-16,Stade de Reims,EA Guingamp,1,0,H,1,0,H,2025-26,LIGUE_2,2. Round
+2025-08-16,AS Saint-Étienne,Rodez AF,4,0,H,1,0,H,2025-26,LIGUE_2,2. Round
+2025-08-18,Le Mans,Montpellier HSC,1,2,A,0,0,D,2025-26,LIGUE_2,2. Round
+2025-08-22,Clermont Foot 63,Grenoble Foot 38,2,1,H,0,0,D,2025-26,LIGUE_2,3. Round
+2025-08-22,Le Mans,SC Bastia,1,0,H,0,0,D,2025-26,LIGUE_2,3. Round
+2025-08-22,Rodez AF,Stade Lavallois,1,1,D,1,0,H,2025-26,LIGUE_2,3. Round
+2025-08-22,Amiens,FC Annecy,0,1,A,0,1,A,2025-26,LIGUE_2,3. Round
+2025-08-22,USL Dunkerque,AS Nancy Lorraine,1,3,A,1,2,A,2025-26,LIGUE_2,3. Round
+2025-08-23,EA Guingamp,Red Star,0,4,A,0,1,A,2025-26,LIGUE_2,3. Round
+2025-08-23,ESTAC Troyes,Montpellier HSC,1,0,H,1,0,H,2025-26,LIGUE_2,3. Round
+2025-08-23,US Boulogne,AS Saint-Étienne,0,1,A,0,0,D,2025-26,LIGUE_2,3. Round
+2025-08-25,Pau,Stade de Reims,2,0,H,2,0,H,2025-26,LIGUE_2,3. Round
+2025-08-29,AS Nancy Lorraine,Pau,2,2,D,2,1,H,2025-26,LIGUE_2,4. Round
+2025-08-29,Red Star,FC Annecy,1,0,H,1,0,H,2025-26,LIGUE_2,4. Round
+2025-08-29,Montpellier HSC,Amiens,1,1,D,0,1,A,2025-26,LIGUE_2,4. Round
+2025-08-29,Rodez AF,US Boulogne,1,0,H,1,0,H,2025-26,LIGUE_2,4. Round
+2025-08-29,Stade Lavallois,Clermont Foot 63,0,0,D,0,0,D,2025-26,LIGUE_2,4. Round
+2025-08-29,USL Dunkerque,ESTAC Troyes,2,0,H,0,0,D,2025-26,LIGUE_2,4. Round
+2025-08-30,SC Bastia,EA Guingamp,1,3,A,0,2,A,2025-26,LIGUE_2,4. Round
+2025-08-30,Stade de Reims,Le Mans,1,0,H,0,0,D,2025-26,LIGUE_2,4. Round
+2025-08-30,AS Saint-Étienne,Grenoble Foot 38,1,1,D,1,0,H,2025-26,LIGUE_2,4. Round
+2025-09-12,US Boulogne,Stade Lavallois,1,2,A,0,2,A,2025-26,LIGUE_2,5. Round
+2025-09-12,ESTAC Troyes,AS Nancy Lorraine,3,0,H,1,0,H,2025-26,LIGUE_2,5. Round
+2025-09-12,Pau,Red Star,0,3,A,0,2,A,2025-26,LIGUE_2,5. Round
+2025-09-12,Le Mans,Rodez AF,0,1,A,0,0,D,2025-26,LIGUE_2,5. Round
+2025-09-12,Amiens,SC Bastia,0,0,D,0,0,D,2025-26,LIGUE_2,5. Round
+2025-09-13,FC Annecy,Stade de Reims,1,1,D,1,0,H,2025-26,LIGUE_2,5. Round
+2025-09-13,Grenoble Foot 38,USL Dunkerque,1,0,H,1,0,H,2025-26,LIGUE_2,5. Round
+2025-09-13,Clermont Foot 63,AS Saint-Étienne,1,2,A,1,0,H,2025-26,LIGUE_2,5. Round
+2025-09-15,EA Guingamp,Montpellier HSC,1,0,H,1,0,H,2025-26,LIGUE_2,5. Round
+2025-09-19,US Boulogne,Pau,0,3,A,0,3,A,2025-26,LIGUE_2,6. Round
+2025-09-19,AS Nancy Lorraine,Red Star,0,1,A,0,0,D,2025-26,LIGUE_2,6. Round
+2025-09-19,Grenoble Foot 38,FC Annecy,1,3,A,0,0,D,2025-26,LIGUE_2,6. Round
+2025-09-19,Rodez AF,Clermont Foot 63,0,1,A,0,0,D,2025-26,LIGUE_2,6. Round
+2025-09-19,Stade Lavallois,Amiens,0,3,A,0,1,A,2025-26,LIGUE_2,6. Round
+2025-09-19,USL Dunkerque,Le Mans,2,2,D,1,1,D,2025-26,LIGUE_2,6. Round
+2025-09-20,ESTAC Troyes,EA Guingamp,5,2,H,3,1,H,2025-26,LIGUE_2,6. Round
+2025-09-20,Montpellier HSC,SC Bastia,2,0,H,2,0,H,2025-26,LIGUE_2,6. Round
+2025-09-20,AS Saint-Étienne,Stade de Reims,3,2,H,2,1,H,2025-26,LIGUE_2,6. Round
+2025-09-23,EA Guingamp,USL Dunkerque,2,1,H,2,1,H,2025-26,LIGUE_2,7. Round
+2025-09-23,FC Annecy,AS Nancy Lorraine,1,2,A,1,1,D,2025-26,LIGUE_2,7. Round
+2025-09-23,Pau,Stade Lavallois,1,0,H,0,0,D,2025-26,LIGUE_2,7. Round
+2025-09-23,Red Star,ESTAC Troyes,1,3,A,1,2,A,2025-26,LIGUE_2,7. Round
+2025-09-23,Montpellier HSC,US Boulogne,1,3,A,0,1,A,2025-26,LIGUE_2,7. Round
+2025-09-23,Le Mans,Grenoble Foot 38,1,0,H,1,0,H,2025-26,LIGUE_2,7. Round
+2025-09-23,Amiens,AS Saint-Étienne,0,1,A,0,0,D,2025-26,LIGUE_2,7. Round
+2025-09-23,SC Bastia,Rodez AF,2,3,A,1,0,H,2025-26,LIGUE_2,7. Round
+2025-09-23,Stade de Reims,Clermont Foot 63,4,1,H,2,0,H,2025-26,LIGUE_2,7. Round
+2025-09-26,AS Nancy Lorraine,Stade de Reims,0,1,A,0,0,D,2025-26,LIGUE_2,8. Round
+2025-09-26,Clermont Foot 63,Le Mans,1,1,D,1,0,H,2025-26,LIGUE_2,8. Round
+2025-09-26,ESTAC Troyes,FC Annecy,3,1,H,1,0,H,2025-26,LIGUE_2,8. Round
+2025-09-26,Grenoble Foot 38,SC Bastia,0,0,D,0,0,D,2025-26,LIGUE_2,8. Round
+2025-09-26,Rodez AF,Pau,1,2,A,1,1,D,2025-26,LIGUE_2,8. Round
+2025-09-27,Stade Lavallois,Montpellier HSC,0,1,A,0,1,A,2025-26,LIGUE_2,8. Round
+2025-09-27,USL Dunkerque,Amiens,6,2,H,4,0,H,2025-26,LIGUE_2,8. Round
+2025-09-27,AS Saint-Étienne,EA Guingamp,2,3,A,1,1,D,2025-26,LIGUE_2,8. Round
+2025-09-29,US Boulogne,Red Star,1,2,A,1,1,D,2025-26,LIGUE_2,8. Round
+2025-10-03,EA Guingamp,AS Nancy Lorraine,2,2,D,0,0,D,2025-26,LIGUE_2,9. Round
+2025-10-03,FC Annecy,Stade Lavallois,0,0,D,0,0,D,2025-26,LIGUE_2,9. Round
+2025-10-03,Pau,Clermont Foot 63,3,1,H,3,0,H,2025-26,LIGUE_2,9. Round
+2025-10-03,Le Mans,ESTAC Troyes,2,2,D,0,0,D,2025-26,LIGUE_2,9. Round
+2025-10-03,Amiens,US Boulogne,0,1,A,0,0,D,2025-26,LIGUE_2,9. Round
+2025-10-03,SC Bastia,USL Dunkerque,0,0,D,0,0,D,2025-26,LIGUE_2,9. Round
+2025-10-04,Red Star,Rodez AF,1,1,D,0,0,D,2025-26,LIGUE_2,9. Round
+2025-10-04,Stade de Reims,Grenoble Foot 38,2,4,A,1,2,A,2025-26,LIGUE_2,9. Round
+2025-10-04,Montpellier HSC,AS Saint-Étienne,0,2,A,0,2,A,2025-26,LIGUE_2,9. Round
+2025-10-17,US Boulogne,EA Guingamp,2,2,D,0,1,A,2025-26,LIGUE_2,10. Round
+2025-10-17,Clermont Foot 63,FC Annecy,0,1,A,0,1,A,2025-26,LIGUE_2,10. Round
+2025-10-17,ESTAC Troyes,SC Bastia,1,0,H,1,0,H,2025-26,LIGUE_2,10. Round
+2025-10-17,Grenoble Foot 38,Pau,1,1,D,0,0,D,2025-26,LIGUE_2,10. Round
+2025-10-17,Rodez AF,Stade de Reims,2,2,D,1,1,D,2025-26,LIGUE_2,10. Round
+2025-10-18,Stade Lavallois,Red Star,0,1,A,0,0,D,2025-26,LIGUE_2,10. Round
+2025-10-18,USL Dunkerque,Montpellier HSC,0,1,A,0,0,D,2025-26,LIGUE_2,10. Round
+2025-10-18,AS Saint-Étienne,Le Mans,2,3,A,1,1,D,2025-26,LIGUE_2,10. Round
+2025-10-20,AS Nancy Lorraine,Amiens,0,1,A,0,1,A,2025-26,LIGUE_2,10. Round
+2025-10-24,EA Guingamp,Clermont Foot 63,0,1,A,0,0,D,2025-26,LIGUE_2,11. Round
+2025-10-24,Pau,USL Dunkerque,0,3,A,0,2,A,2025-26,LIGUE_2,11. Round
+2025-10-24,Red Star,Grenoble Foot 38,1,0,H,0,0,D,2025-26,LIGUE_2,11. Round
+2025-10-24,Le Mans,US Boulogne,1,0,H,0,0,D,2025-26,LIGUE_2,11. Round
+2025-10-24,Stade de Reims,ESTAC Troyes,0,0,D,0,0,D,2025-26,LIGUE_2,11. Round
+2025-10-25,Montpellier HSC,AS Nancy Lorraine,4,1,H,1,1,D,2025-26,LIGUE_2,11. Round
+2025-10-25,Amiens,Rodez AF,2,1,H,0,1,A,2025-26,LIGUE_2,11. Round
+2025-10-25,FC Annecy,AS Saint-Étienne,4,0,H,1,0,H,2025-26,LIGUE_2,11. Round
+2025-10-28,US Boulogne,Stade de Reims,2,6,A,2,4,A,2025-26,LIGUE_2,12. Round
+2025-10-28,AS Nancy Lorraine,SC Bastia,2,0,H,1,0,H,2025-26,LIGUE_2,12. Round
+2025-10-28,AS Saint-Étienne,Pau,6,0,H,4,0,H,2025-26,LIGUE_2,12. Round
+2025-10-28,Clermont Foot 63,Montpellier HSC,1,1,D,1,1,D,2025-26,LIGUE_2,12. Round
+2025-10-28,ESTAC Troyes,Amiens,3,1,H,0,1,A,2025-26,LIGUE_2,12. Round
+2025-10-28,Grenoble Foot 38,EA Guingamp,0,0,D,0,0,D,2025-26,LIGUE_2,12. Round
+2025-10-28,Rodez AF,FC Annecy,2,1,H,0,0,D,2025-26,LIGUE_2,12. Round
+2025-10-28,Stade Lavallois,Le Mans,1,1,D,0,1,A,2025-26,LIGUE_2,12. Round
+2025-10-28,USL Dunkerque,Red Star,3,0,H,1,0,H,2025-26,LIGUE_2,12. Round
+2025-10-31,EA Guingamp,Stade Lavallois,2,0,H,2,0,H,2025-26,LIGUE_2,13. Round
+2025-10-31,FC Annecy,US Boulogne,1,1,D,1,0,H,2025-26,LIGUE_2,13. Round
+2025-10-31,Montpellier HSC,Rodez AF,2,0,H,0,0,D,2025-26,LIGUE_2,13. Round
+2025-10-31,Le Mans,AS Nancy Lorraine,1,0,H,0,0,D,2025-26,LIGUE_2,13. Round
+2025-10-31,SC Bastia,Clermont Foot 63,1,0,H,0,0,D,2025-26,LIGUE_2,13. Round
+2025-11-01,Amiens,Grenoble Foot 38,2,3,A,0,2,A,2025-26,LIGUE_2,13. Round
+2025-11-01,Stade de Reims,USL Dunkerque,1,2,A,1,1,D,2025-26,LIGUE_2,13. Round
+2025-11-01,Red Star,AS Saint-Étienne,2,1,H,2,0,H,2025-26,LIGUE_2,13. Round
+2025-11-03,Pau,ESTAC Troyes,1,1,D,1,0,H,2025-26,LIGUE_2,13. Round
+2024-08-16,AC Ajaccio,Rodez AF,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 1
+2024-08-16,Clermont Foot 63,Pau,2,2,D,1,2,A,2024-25,LIGUE_2,Matchday 1
+2024-08-16,EA Guingamp,ESTAC Troyes,4,0,H,2,0,H,2024-25,LIGUE_2,Matchday 1
+2024-08-16,Grenoble Foot 38,Stade Lavallois,2,1,H,0,0,D,2024-25,LIGUE_2,Matchday 1
+2024-08-16,Amiens,Red Star,3,0,H,1,0,H,2024-25,LIGUE_2,Matchday 1
+2024-08-16,USL Dunkerque,FC Annecy,0,2,A,0,0,D,2024-25,LIGUE_2,Matchday 1
+2024-08-17,SM Caen,Paris,0,2,A,0,0,D,2024-25,LIGUE_2,Matchday 1
+2024-08-19,FC Martigues,FC Lorient,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 1
+2024-08-19,FC Metz,SC Bastia,1,1,D,0,1,A,2024-25,LIGUE_2,Matchday 1
+2024-08-23,FC Annecy,FC Martigues,2,4,A,1,2,A,2024-25,LIGUE_2,Matchday 2
+2024-08-23,Paris,USL Dunkerque,3,2,H,0,1,A,2024-25,LIGUE_2,Matchday 2
+2024-08-23,Pau,SM Caen,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 2
+2024-08-23,ESTAC Troyes,Clermont Foot 63,0,1,A,0,1,A,2024-25,LIGUE_2,Matchday 2
+2024-08-23,Rodez AF,FC Metz,1,3,A,0,3,A,2024-25,LIGUE_2,Matchday 2
+2024-08-23,SC Bastia,Amiens,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 2
+2024-08-23,Stade Lavallois,EA Guingamp,0,1,A,0,1,A,2024-25,LIGUE_2,Matchday 2
+2024-08-24,FC Lorient,Grenoble Foot 38,2,0,H,0,0,D,2024-25,LIGUE_2,Matchday 2
+2024-08-26,Red Star,AC Ajaccio,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 2
+2024-08-30,AC Ajaccio,ESTAC Troyes,2,1,H,0,1,A,2024-25,LIGUE_2,Matchday 3
+2024-08-30,Clermont Foot 63,Paris,0,1,A,0,1,A,2024-25,LIGUE_2,Matchday 3
+2024-08-30,EA Guingamp,Red Star,3,4,A,2,2,D,2024-25,LIGUE_2,Matchday 3
+2024-08-30,FC Martigues,SC Bastia,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 3
+2024-08-30,Grenoble Foot 38,Pau,1,1,D,0,0,D,2024-25,LIGUE_2,Matchday 3
+2024-08-30,SM Caen,FC Annecy,1,1,D,0,0,D,2024-25,LIGUE_2,Matchday 3
+2024-08-30,USL Dunkerque,Rodez AF,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 3
+2024-08-31,FC Metz,Stade Lavallois,1,1,D,0,1,A,2024-25,LIGUE_2,Matchday 3
+2024-08-31,Amiens,FC Lorient,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 3
+2024-09-13,Clermont Foot 63,USL Dunkerque,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 4
+2024-09-13,FC Annecy,Amiens,3,0,H,1,0,H,2024-25,LIGUE_2,Matchday 4
+2024-09-13,FC Lorient,Red Star,2,1,H,1,0,H,2024-25,LIGUE_2,Matchday 4
+2024-09-13,Pau,FC Martigues,3,0,H,1,0,H,2024-25,LIGUE_2,Matchday 4
+2024-09-13,Rodez AF,EA Guingamp,1,2,A,0,1,A,2024-25,LIGUE_2,Matchday 4
+2024-09-13,SC Bastia,ESTAC Troyes,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 4
+2024-09-13,Stade Lavallois,AC Ajaccio,1,1,D,1,1,D,2024-25,LIGUE_2,Matchday 4
+2024-09-14,Paris,FC Metz,1,2,A,1,2,A,2024-25,LIGUE_2,Matchday 4
+2024-09-16,Grenoble Foot 38,SM Caen,3,1,H,2,1,H,2024-25,LIGUE_2,Matchday 4
+2024-09-20,EA Guingamp,FC Annecy,2,2,D,1,1,D,2024-25,LIGUE_2,Matchday 5
+2024-09-20,FC Martigues,Grenoble Foot 38,0,4,A,0,0,D,2024-25,LIGUE_2,Matchday 5
+2024-09-20,Red Star,Stade Lavallois,0,3,A,0,2,A,2024-25,LIGUE_2,Matchday 5
+2024-09-20,ESTAC Troyes,Rodez AF,0,3,A,0,1,A,2024-25,LIGUE_2,Matchday 5
+2024-09-20,Amiens,Clermont Foot 63,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 5
+2024-09-20,SC Bastia,Paris,2,1,H,2,1,H,2024-25,LIGUE_2,Matchday 5
+2024-09-20,SM Caen,AC Ajaccio,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 5
+2024-09-20,USL Dunkerque,Pau,3,2,H,2,1,H,2024-25,LIGUE_2,Matchday 5
+2024-09-21,FC Metz,FC Lorient,1,1,D,1,0,H,2024-25,LIGUE_2,Matchday 5
+2024-09-24,AC Ajaccio,Grenoble Foot 38,2,0,H,0,0,D,2024-25,LIGUE_2,Matchday 6
+2024-09-24,Clermont Foot 63,Red Star,1,1,D,1,0,H,2024-25,LIGUE_2,Matchday 6
+2024-09-24,FC Annecy,ESTAC Troyes,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 6
+2024-09-24,FC Metz,FC Martigues,6,0,H,3,0,H,2024-25,LIGUE_2,Matchday 6
+2024-09-24,Paris,EA Guingamp,2,0,H,1,0,H,2024-25,LIGUE_2,Matchday 6
+2024-09-24,Pau,FC Lorient,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 6
+2024-09-24,Rodez AF,Stade Lavallois,1,3,A,1,0,H,2024-25,LIGUE_2,Matchday 6
+2024-09-24,SM Caen,Amiens,2,1,H,1,1,D,2024-25,LIGUE_2,Matchday 6
+2024-09-24,USL Dunkerque,SC Bastia,2,1,H,0,1,A,2024-25,LIGUE_2,Matchday 6
+2024-09-27,FC Lorient,AC Ajaccio,3,0,H,0,0,D,2024-25,LIGUE_2,Matchday 7
+2024-09-27,FC Martigues,USL Dunkerque,1,1,D,1,0,H,2024-25,LIGUE_2,Matchday 7
+2024-09-27,Grenoble Foot 38,Clermont Foot 63,3,0,H,1,0,H,2024-25,LIGUE_2,Matchday 7
+2024-09-27,Amiens,Rodez AF,2,1,H,0,1,A,2024-25,LIGUE_2,Matchday 7
+2024-09-27,SC Bastia,FC Annecy,2,2,D,1,1,D,2024-25,LIGUE_2,Matchday 7
+2024-09-27,Stade Lavallois,Pau,3,1,H,2,0,H,2024-25,LIGUE_2,Matchday 7
+2024-09-28,Red Star,Paris,1,3,A,1,2,A,2024-25,LIGUE_2,Matchday 7
+2024-09-28,ESTAC Troyes,FC Metz,2,1,H,1,0,H,2024-25,LIGUE_2,Matchday 7
+2024-09-30,EA Guingamp,SM Caen,3,1,H,1,0,H,2024-25,LIGUE_2,Matchday 7
+2024-10-04,FC Annecy,Red Star,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 8
+2024-10-04,Paris,Stade Lavallois,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 8
+2024-10-04,Rodez AF,Grenoble Foot 38,2,1,H,0,1,A,2024-25,LIGUE_2,Matchday 8
+2024-10-04,USL Dunkerque,ESTAC Troyes,2,1,H,0,1,A,2024-25,LIGUE_2,Matchday 8
+2024-10-05,AC Ajaccio,FC Martigues,1,1,D,1,1,D,2024-25,LIGUE_2,Matchday 8
+2024-10-05,Clermont Foot 63,EA Guingamp,4,1,H,2,0,H,2024-25,LIGUE_2,Matchday 8
+2024-10-05,SM Caen,FC Lorient,1,2,A,1,1,D,2024-25,LIGUE_2,Matchday 8
+2024-10-05,FC Metz,Amiens,3,2,H,3,1,H,2024-25,LIGUE_2,Matchday 8
+2024-10-22,Pau,SC Bastia,1,1,D,1,0,H,2024-25,LIGUE_2,Matchday 8
+2024-10-18,EA Guingamp,Pau,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 9
+2024-10-18,FC Martigues,Rodez AF,0,2,A,0,2,A,2024-25,LIGUE_2,Matchday 9
+2024-10-18,Red Star,SM Caen,2,2,D,0,1,A,2024-25,LIGUE_2,Matchday 9
+2024-10-18,Grenoble Foot 38,FC Metz,2,0,H,1,0,H,2024-25,LIGUE_2,Matchday 9
+2024-10-18,SC Bastia,Clermont Foot 63,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 9
+2024-10-18,Stade Lavallois,USL Dunkerque,3,2,H,3,0,H,2024-25,LIGUE_2,Matchday 9
+2024-10-19,Amiens,AC Ajaccio,3,1,H,2,1,H,2024-25,LIGUE_2,Matchday 9
+2024-10-19,FC Lorient,FC Annecy,4,2,H,0,1,A,2024-25,LIGUE_2,Matchday 9
+2024-10-21,ESTAC Troyes,Paris,0,3,A,0,2,A,2024-25,LIGUE_2,Matchday 9
+2024-10-25,Clermont Foot 63,FC Martigues,0,1,A,0,1,A,2024-25,LIGUE_2,Matchday 10
+2024-10-25,FC Annecy,Stade Lavallois,2,0,H,1,0,H,2024-25,LIGUE_2,Matchday 10
+2024-10-25,FC Metz,EA Guingamp,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 10
+2024-10-25,Pau,Amiens,0,2,A,0,2,A,2024-25,LIGUE_2,Matchday 10
+2024-10-25,Rodez AF,FC Lorient,3,3,D,0,1,A,2024-25,LIGUE_2,Matchday 10
+2024-10-25,USL Dunkerque,Red Star,2,0,H,1,0,H,2024-25,LIGUE_2,Matchday 10
+2024-10-26,Paris,Grenoble Foot 38,2,1,H,2,0,H,2024-25,LIGUE_2,Matchday 10
+2024-10-26,SM Caen,ESTAC Troyes,0,1,A,0,1,A,2024-25,LIGUE_2,Matchday 10
+2024-12-03,AC Ajaccio,SC Bastia,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 10
+2024-10-29,EA Guingamp,AC Ajaccio,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 11
+2024-10-29,FC Lorient,USL Dunkerque,4,2,H,1,2,A,2024-25,LIGUE_2,Matchday 11
+2024-10-29,FC Martigues,SM Caen,0,3,A,0,0,D,2024-25,LIGUE_2,Matchday 11
+2024-10-29,Red Star,FC Metz,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 11
+2024-10-29,ESTAC Troyes,Pau,3,0,H,0,0,D,2024-25,LIGUE_2,Matchday 11
+2024-10-29,Grenoble Foot 38,FC Annecy,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 11
+2024-10-29,Amiens,Paris,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 11
+2024-10-29,SC Bastia,Rodez AF,2,2,D,1,2,A,2024-25,LIGUE_2,Matchday 11
+2024-10-29,Stade Lavallois,Clermont Foot 63,1,2,A,1,0,H,2024-25,LIGUE_2,Matchday 11
+2024-11-01,Clermont Foot 63,FC Lorient,2,1,H,1,0,H,2024-25,LIGUE_2,Matchday 12
+2024-11-01,FC Annecy,Pau,2,0,H,1,0,H,2024-25,LIGUE_2,Matchday 12
+2024-11-01,FC Martigues,Red Star,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 12
+2024-11-01,Paris,Rodez AF,3,3,D,1,2,A,2024-25,LIGUE_2,Matchday 12
+2024-11-01,ESTAC Troyes,Stade Lavallois,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 12
+2024-11-01,USL Dunkerque,Amiens,3,1,H,2,0,H,2024-25,LIGUE_2,Matchday 12
+2024-11-02,SM Caen,SC Bastia,2,0,H,1,0,H,2024-25,LIGUE_2,Matchday 12
+2024-11-02,EA Guingamp,Grenoble Foot 38,3,0,H,1,0,H,2024-25,LIGUE_2,Matchday 12
+2024-11-04,AC Ajaccio,FC Metz,0,1,A,0,1,A,2024-25,LIGUE_2,Matchday 12
+2024-11-08,AC Ajaccio,Clermont Foot 63,2,0,H,0,0,D,2024-25,LIGUE_2,Matchday 13
+2024-11-08,Red Star,ESTAC Troyes,0,3,A,0,1,A,2024-25,LIGUE_2,Matchday 13
+2024-11-08,Grenoble Foot 38,USL Dunkerque,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 13
+2024-11-08,Rodez AF,FC Annecy,5,1,H,2,1,H,2024-25,LIGUE_2,Matchday 13
+2024-11-08,Amiens,FC Martigues,1,1,D,0,1,A,2024-25,LIGUE_2,Matchday 13
+2024-11-08,Stade Lavallois,SC Bastia,2,2,D,1,1,D,2024-25,LIGUE_2,Matchday 13
+2024-11-09,FC Lorient,EA Guingamp,3,1,H,2,0,H,2024-25,LIGUE_2,Matchday 13
+2024-11-09,Pau,Paris,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 13
+2024-11-09,FC Metz,SM Caen,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 13
+2024-11-22,Clermont Foot 63,FC Metz,1,1,D,1,1,D,2024-25,LIGUE_2,Matchday 14
+2024-11-22,EA Guingamp,Amiens,3,0,H,2,0,H,2024-25,LIGUE_2,Matchday 14
+2024-11-22,FC Martigues,Stade Lavallois,0,3,A,0,1,A,2024-25,LIGUE_2,Matchday 14
+2024-11-22,Pau,Red Star,4,1,H,1,1,D,2024-25,LIGUE_2,Matchday 14
+2024-11-22,ESTAC Troyes,Grenoble Foot 38,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 14
+2024-11-22,SM Caen,Rodez AF,3,3,D,1,2,A,2024-25,LIGUE_2,Matchday 14
+2024-11-23,Paris,FC Annecy,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 14
+2024-11-23,SC Bastia,FC Lorient,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 14
+2024-11-25,USL Dunkerque,AC Ajaccio,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 14
+2024-12-06,FC Annecy,Clermont Foot 63,2,0,H,1,0,H,2024-25,LIGUE_2,Matchday 15
+2024-12-06,FC Lorient,ESTAC Troyes,2,0,H,1,0,H,2024-25,LIGUE_2,Matchday 15
+2024-12-06,FC Martigues,EA Guingamp,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 15
+2024-12-06,Red Star,SC Bastia,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 15
+2024-12-06,Rodez AF,Pau,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 15
+2024-12-06,Stade Lavallois,SM Caen,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 15
+2024-12-07,Grenoble Foot 38,Amiens,0,2,A,0,0,D,2024-25,LIGUE_2,Matchday 15
+2024-12-07,AC Ajaccio,Paris,0,2,A,0,0,D,2024-25,LIGUE_2,Matchday 15
+2024-12-09,FC Metz,USL Dunkerque,2,0,H,0,0,D,2024-25,LIGUE_2,Matchday 15
+2024-12-13,Clermont Foot 63,Rodez AF,1,1,D,0,1,A,2024-25,LIGUE_2,Matchday 16
+2024-12-13,Pau,AC Ajaccio,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 16
+2024-12-13,ESTAC Troyes,FC Martigues,4,0,H,1,0,H,2024-25,LIGUE_2,Matchday 16
+2024-12-13,Amiens,Stade Lavallois,1,3,A,0,1,A,2024-25,LIGUE_2,Matchday 16
+2024-12-13,SC Bastia,EA Guingamp,3,1,H,0,1,A,2024-25,LIGUE_2,Matchday 16
+2024-12-14,FC Lorient,Paris,2,0,H,1,0,H,2024-25,LIGUE_2,Matchday 16
+2024-12-14,Red Star,Grenoble Foot 38,3,1,H,3,0,H,2024-25,LIGUE_2,Matchday 16
+2024-12-14,FC Annecy,FC Metz,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 16
+2024-12-16,USL Dunkerque,SM Caen,3,1,H,0,0,D,2024-25,LIGUE_2,Matchday 16
+2025-01-03,AC Ajaccio,FC Annecy,1,2,A,1,1,D,2024-25,LIGUE_2,Matchday 17
+2025-01-03,Paris,FC Martigues,1,2,A,1,0,H,2024-25,LIGUE_2,Matchday 17
+2025-01-03,Grenoble Foot 38,SC Bastia,3,2,H,1,1,D,2024-25,LIGUE_2,Matchday 17
+2025-01-03,Rodez AF,Red Star,0,2,A,0,1,A,2024-25,LIGUE_2,Matchday 17
+2025-01-03,Amiens,ESTAC Troyes,0,3,A,0,2,A,2024-25,LIGUE_2,Matchday 17
+2025-01-03,SM Caen,Clermont Foot 63,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 17
+2025-01-04,EA Guingamp,USL Dunkerque,1,1,D,0,0,D,2024-25,LIGUE_2,Matchday 17
+2025-01-04,FC Metz,Pau,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 17
+2025-01-04,Stade Lavallois,FC Lorient,2,0,H,0,0,D,2024-25,LIGUE_2,Matchday 17
+2025-01-10,FC Annecy,EA Guingamp,1,4,A,0,1,A,2024-25,LIGUE_2,Matchday 18
+2025-01-10,FC Martigues,Clermont Foot 63,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 18
+2025-01-10,Pau,USL Dunkerque,1,1,D,0,1,A,2024-25,LIGUE_2,Matchday 18
+2025-01-10,Rodez AF,ESTAC Troyes,2,1,H,1,0,H,2024-25,LIGUE_2,Matchday 18
+2025-01-10,Stade Lavallois,Red Star,1,1,D,1,1,D,2024-25,LIGUE_2,Matchday 18
+2025-01-11,Paris,Amiens,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 18
+2025-01-11,SC Bastia,AC Ajaccio,4,0,H,3,0,H,2024-25,LIGUE_2,Matchday 18
+2025-01-11,SM Caen,Grenoble Foot 38,0,1,A,0,1,A,2024-25,LIGUE_2,Matchday 18
+2025-01-11,FC Lorient,FC Metz,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 18
+2025-01-17,AC Ajaccio,SM Caen,2,1,H,0,0,D,2024-25,LIGUE_2,Matchday 19
+2025-01-17,EA Guingamp,Rodez AF,3,0,H,1,0,H,2024-25,LIGUE_2,Matchday 19
+2025-01-17,Red Star,Pau,1,3,A,1,1,D,2024-25,LIGUE_2,Matchday 19
+2025-01-17,Grenoble Foot 38,FC Martigues,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 19
+2025-01-17,Amiens,SC Bastia,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 19
+2025-01-18,Clermont Foot 63,Stade Lavallois,1,1,D,0,0,D,2024-25,LIGUE_2,Matchday 19
+2025-01-18,FC Metz,Paris,3,1,H,1,1,D,2024-25,LIGUE_2,Matchday 19
+2025-01-18,USL Dunkerque,FC Lorient,0,1,A,0,1,A,2024-25,LIGUE_2,Matchday 19
+2025-01-20,ESTAC Troyes,FC Annecy,0,1,A,0,1,A,2024-25,LIGUE_2,Matchday 19
+2025-01-24,FC Martigues,Amiens,3,0,H,3,0,H,2024-25,LIGUE_2,Matchday 20
+2025-01-24,FC Metz,Grenoble Foot 38,3,0,H,1,0,H,2024-25,LIGUE_2,Matchday 20
+2025-01-24,Rodez AF,AC Ajaccio,1,2,A,0,2,A,2024-25,LIGUE_2,Matchday 20
+2025-01-24,SC Bastia,Pau,1,1,D,0,0,D,2024-25,LIGUE_2,Matchday 20
+2025-01-24,SM Caen,EA Guingamp,0,1,A,0,1,A,2024-25,LIGUE_2,Matchday 20
+2025-01-24,Stade Lavallois,ESTAC Troyes,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 20
+2025-01-25,Paris,Red Star,4,1,H,1,0,H,2024-25,LIGUE_2,Matchday 20
+2025-01-25,FC Lorient,Clermont Foot 63,3,2,H,2,1,H,2024-25,LIGUE_2,Matchday 20
+2025-01-27,FC Annecy,USL Dunkerque,0,2,A,0,1,A,2024-25,LIGUE_2,Matchday 20
+2025-01-31,Clermont Foot 63,AC Ajaccio,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 21
+2025-01-31,Pau,Stade Lavallois,1,1,D,0,0,D,2024-25,LIGUE_2,Matchday 21
+2025-01-31,Grenoble Foot 38,Rodez AF,2,1,H,1,1,D,2024-25,LIGUE_2,Matchday 21
+2025-01-31,Amiens,FC Annecy,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 21
+2025-01-31,SC Bastia,FC Metz,1,1,D,1,0,H,2024-25,LIGUE_2,Matchday 21
+2025-01-31,USL Dunkerque,FC Martigues,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 21
+2025-02-01,Red Star,FC Lorient,1,2,A,0,1,A,2024-25,LIGUE_2,Matchday 21
+2025-02-01,ESTAC Troyes,SM Caen,3,0,H,0,0,D,2024-25,LIGUE_2,Matchday 21
+2025-02-01,EA Guingamp,Paris,0,1,A,0,1,A,2024-25,LIGUE_2,Matchday 21
+2025-02-07,FC Martigues,ESTAC Troyes,1,2,A,0,2,A,2024-25,LIGUE_2,Matchday 22
+2025-02-07,Paris,Pau,3,1,H,1,1,D,2024-25,LIGUE_2,Matchday 22
+2025-02-07,Grenoble Foot 38,Red Star,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 22
+2025-02-07,Rodez AF,SC Bastia,0,2,A,0,1,A,2024-25,LIGUE_2,Matchday 22
+2025-02-07,Stade Lavallois,FC Annecy,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 22
+2025-02-08,AC Ajaccio,EA Guingamp,0,3,A,0,2,A,2024-25,LIGUE_2,Matchday 22
+2025-02-08,FC Lorient,Amiens,3,1,H,1,1,D,2024-25,LIGUE_2,Matchday 22
+2025-02-08,FC Metz,Clermont Foot 63,3,1,H,2,0,H,2024-25,LIGUE_2,Matchday 22
+2025-02-10,SM Caen,USL Dunkerque,0,2,A,0,1,A,2024-25,LIGUE_2,Matchday 22
+2025-02-14,AC Ajaccio,Stade Lavallois,3,0,H,2,0,H,2024-25,LIGUE_2,Matchday 23
+2025-02-14,Clermont Foot 63,SC Bastia,1,1,D,0,1,A,2024-25,LIGUE_2,Matchday 23
+2025-02-14,Pau,Rodez AF,0,5,A,0,2,A,2024-25,LIGUE_2,Matchday 23
+2025-02-14,Red Star,FC Martigues,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 23
+2025-02-14,ESTAC Troyes,FC Lorient,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 23
+2025-02-14,Amiens,Grenoble Foot 38,1,4,A,1,3,A,2024-25,LIGUE_2,Matchday 23
+2025-02-15,USL Dunkerque,Paris,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 23
+2025-02-15,EA Guingamp,FC Metz,0,3,A,0,1,A,2024-25,LIGUE_2,Matchday 23
+2025-02-17,FC Annecy,SM Caen,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 23
+2025-02-21,FC Martigues,FC Annecy,2,0,H,1,0,H,2024-25,LIGUE_2,Matchday 24
+2025-02-21,Paris,ESTAC Troyes,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 24
+2025-02-21,Grenoble Foot 38,EA Guingamp,1,1,D,1,0,H,2024-25,LIGUE_2,Matchday 24
+2025-02-21,Rodez AF,Amiens,1,1,D,1,0,H,2024-25,LIGUE_2,Matchday 24
+2025-02-21,SC Bastia,Red Star,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 24
+2025-02-21,USL Dunkerque,Clermont Foot 63,3,0,H,2,0,H,2024-25,LIGUE_2,Matchday 24
+2025-02-22,FC Lorient,Stade Lavallois,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 24
+2025-02-22,SM Caen,Pau,2,2,D,1,1,D,2024-25,LIGUE_2,Matchday 24
+2025-02-22,FC Metz,AC Ajaccio,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 24
+2025-02-28,Clermont Foot 63,SM Caen,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 25
+2025-02-28,FC Annecy,Paris,2,3,A,1,1,D,2024-25,LIGUE_2,Matchday 25
+2025-02-28,Pau,Grenoble Foot 38,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 25
+2025-02-28,ESTAC Troyes,SC Bastia,2,0,H,1,0,H,2024-25,LIGUE_2,Matchday 25
+2025-02-28,Stade Lavallois,FC Martigues,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 25
+2025-03-01,Red Star,EA Guingamp,3,1,H,1,1,D,2024-25,LIGUE_2,Matchday 25
+2025-03-01,Amiens,FC Metz,1,2,A,1,0,H,2024-25,LIGUE_2,Matchday 25
+2025-03-01,FC Lorient,Rodez AF,3,1,H,1,1,D,2024-25,LIGUE_2,Matchday 25
+2025-03-03,AC Ajaccio,USL Dunkerque,1,2,A,0,1,A,2024-25,LIGUE_2,Matchday 25
+2025-03-07,EA Guingamp,Clermont Foot 63,3,1,H,0,1,A,2024-25,LIGUE_2,Matchday 26
+2025-03-07,Pau,ESTAC Troyes,0,2,A,0,0,D,2024-25,LIGUE_2,Matchday 26
+2025-03-07,Red Star,Amiens,2,0,H,1,0,H,2024-25,LIGUE_2,Matchday 26
+2025-03-07,Grenoble Foot 38,AC Ajaccio,2,2,D,1,1,D,2024-25,LIGUE_2,Matchday 26
+2025-03-07,SC Bastia,FC Martigues,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 26
+2025-03-07,SM Caen,Stade Lavallois,0,1,A,0,1,A,2024-25,LIGUE_2,Matchday 26
+2025-03-08,Paris,FC Lorient,3,2,H,3,1,H,2024-25,LIGUE_2,Matchday 26
+2025-03-08,FC Metz,FC Annecy,5,1,H,2,0,H,2024-25,LIGUE_2,Matchday 26
+2025-03-10,Rodez AF,USL Dunkerque,5,1,H,0,1,A,2024-25,LIGUE_2,Matchday 26
+2025-03-14,AC Ajaccio,Red Star,2,1,H,0,1,A,2024-25,LIGUE_2,Matchday 27
+2025-03-14,Clermont Foot 63,Grenoble Foot 38,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 27
+2025-03-14,FC Annecy,Rodez AF,1,1,D,0,0,D,2024-25,LIGUE_2,Matchday 27
+2025-03-14,FC Martigues,Pau,2,2,D,1,0,H,2024-25,LIGUE_2,Matchday 27
+2025-03-14,ESTAC Troyes,EA Guingamp,0,1,A,0,0,D,2024-25,LIGUE_2,Matchday 27
+2025-03-14,Amiens,SM Caen,2,1,H,0,0,D,2024-25,LIGUE_2,Matchday 27
+2025-03-15,Stade Lavallois,Paris,3,0,H,1,0,H,2024-25,LIGUE_2,Matchday 27
+2025-03-15,USL Dunkerque,FC Metz,2,3,A,0,1,A,2024-25,LIGUE_2,Matchday 27
+2025-03-15,FC Lorient,SC Bastia,4,0,H,2,0,H,2024-25,LIGUE_2,Matchday 27
+2025-03-28,Clermont Foot 63,Amiens,1,1,D,1,0,H,2024-25,LIGUE_2,Matchday 28
+2025-03-28,FC Martigues,AC Ajaccio,2,0,H,2,0,H,2024-25,LIGUE_2,Matchday 28
+2025-03-28,FC Metz,ESTAC Troyes,2,1,H,1,0,H,2024-25,LIGUE_2,Matchday 28
+2025-03-28,Pau,FC Annecy,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 28
+2025-03-28,Red Star,Rodez AF,1,1,D,1,1,D,2024-25,LIGUE_2,Matchday 28
+2025-03-28,SC Bastia,USL Dunkerque,2,0,H,1,0,H,2024-25,LIGUE_2,Matchday 28
+2025-03-29,Grenoble Foot 38,FC Lorient,1,2,A,1,2,A,2024-25,LIGUE_2,Matchday 28
+2025-03-29,EA Guingamp,Stade Lavallois,2,0,H,2,0,H,2024-25,LIGUE_2,Matchday 28
+2025-03-31,Paris,SM Caen,4,2,H,3,0,H,2024-25,LIGUE_2,Matchday 28
+2025-04-04,AC Ajaccio,Amiens,2,1,H,1,1,D,2024-25,LIGUE_2,Matchday 29
+2025-04-04,FC Annecy,SC Bastia,1,1,D,1,0,H,2024-25,LIGUE_2,Matchday 29
+2025-04-04,Paris,Clermont Foot 63,2,0,H,1,0,H,2024-25,LIGUE_2,Matchday 29
+2025-04-04,Rodez AF,FC Martigues,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 29
+2025-04-04,Stade Lavallois,Grenoble Foot 38,1,2,A,1,2,A,2024-25,LIGUE_2,Matchday 29
+2025-04-05,SM Caen,FC Metz,2,2,D,0,1,A,2024-25,LIGUE_2,Matchday 29
+2025-04-05,FC Lorient,Pau,5,0,H,1,0,H,2024-25,LIGUE_2,Matchday 29
+2025-04-05,ESTAC Troyes,Red Star,2,2,D,2,2,D,2024-25,LIGUE_2,Matchday 29
+2025-04-07,USL Dunkerque,EA Guingamp,3,1,H,0,0,D,2024-25,LIGUE_2,Matchday 29
+2025-04-11,FC Martigues,FC Metz,1,4,A,1,3,A,2024-25,LIGUE_2,Matchday 30
+2025-04-11,Pau,Clermont Foot 63,2,2,D,1,1,D,2024-25,LIGUE_2,Matchday 30
+2025-04-11,Red Star,FC Annecy,0,1,A,0,1,A,2024-25,LIGUE_2,Matchday 30
+2025-04-11,ESTAC Troyes,AC Ajaccio,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 30
+2025-04-11,Rodez AF,SM Caen,2,2,D,0,0,D,2024-25,LIGUE_2,Matchday 30
+2025-04-11,Amiens,USL Dunkerque,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 30
+2025-04-12,EA Guingamp,FC Lorient,1,2,A,0,0,D,2024-25,LIGUE_2,Matchday 30
+2025-04-12,Grenoble Foot 38,Paris,1,2,A,0,1,A,2024-25,LIGUE_2,Matchday 30
+2025-04-14,SC Bastia,Stade Lavallois,5,2,H,2,1,H,2024-25,LIGUE_2,Matchday 30
+2025-04-18,AC Ajaccio,Pau,1,1,D,0,1,A,2024-25,LIGUE_2,Matchday 31
+2025-04-18,Clermont Foot 63,ESTAC Troyes,0,2,A,0,1,A,2024-25,LIGUE_2,Matchday 31
+2025-04-18,Amiens,EA Guingamp,3,2,H,2,1,H,2024-25,LIGUE_2,Matchday 31
+2025-04-18,SM Caen,FC Martigues,0,3,A,0,2,A,2024-25,LIGUE_2,Matchday 31
+2025-04-18,Stade Lavallois,Rodez AF,2,1,H,1,0,H,2024-25,LIGUE_2,Matchday 31
+2025-04-18,USL Dunkerque,Grenoble Foot 38,2,0,H,0,0,D,2024-25,LIGUE_2,Matchday 31
+2025-04-19,Paris,SC Bastia,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 31
+2025-04-19,FC Metz,Red Star,2,2,D,1,1,D,2024-25,LIGUE_2,Matchday 31
+2025-04-21,FC Annecy,FC Lorient,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 31
+2025-04-25,EA Guingamp,FC Martigues,2,1,H,1,0,H,2024-25,LIGUE_2,Matchday 32
+2025-04-25,FC Annecy,AC Ajaccio,2,0,H,0,0,D,2024-25,LIGUE_2,Matchday 32
+2025-04-25,Red Star,Clermont Foot 63,1,1,D,1,0,H,2024-25,LIGUE_2,Matchday 32
+2025-04-25,ESTAC Troyes,USL Dunkerque,1,0,H,1,0,H,2024-25,LIGUE_2,Matchday 32
+2025-04-25,SC Bastia,Grenoble Foot 38,2,3,A,1,1,D,2024-25,LIGUE_2,Matchday 32
+2025-04-25,Stade Lavallois,Amiens,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 32
+2025-04-26,Rodez AF,Paris,1,1,D,0,1,A,2024-25,LIGUE_2,Matchday 32
+2025-04-26,FC Lorient,SM Caen,4,0,H,2,0,H,2024-25,LIGUE_2,Matchday 32
+2025-04-26,Pau,FC Metz,2,1,H,0,0,D,2024-25,LIGUE_2,Matchday 32
+2025-05-02,AC Ajaccio,FC Lorient,2,1,H,1,0,H,2024-25,LIGUE_2,Matchday 33
+2025-05-02,Clermont Foot 63,FC Annecy,3,2,H,2,0,H,2024-25,LIGUE_2,Matchday 33
+2025-05-02,EA Guingamp,SC Bastia,2,2,D,1,1,D,2024-25,LIGUE_2,Matchday 33
+2025-05-02,FC Martigues,Paris,1,1,D,0,0,D,2024-25,LIGUE_2,Matchday 33
+2025-05-02,FC Metz,Rodez AF,3,3,D,0,0,D,2024-25,LIGUE_2,Matchday 33
+2025-05-02,Grenoble Foot 38,ESTAC Troyes,3,1,H,2,0,H,2024-25,LIGUE_2,Matchday 33
+2025-05-02,Amiens,Pau,4,2,H,3,1,H,2024-25,LIGUE_2,Matchday 33
+2025-05-02,SM Caen,Red Star,1,1,D,0,1,A,2024-25,LIGUE_2,Matchday 33
+2025-05-02,USL Dunkerque,Stade Lavallois,0,0,D,0,0,D,2024-25,LIGUE_2,Matchday 33
+2025-05-10,FC Annecy,Grenoble Foot 38,3,1,H,1,1,D,2024-25,LIGUE_2,Matchday 34
+2025-05-10,FC Lorient,FC Martigues,5,1,H,1,0,H,2024-25,LIGUE_2,Matchday 34
+2025-05-10,Paris,AC Ajaccio,2,0,H,0,0,D,2024-25,LIGUE_2,Matchday 34
+2025-05-10,Pau,EA Guingamp,1,3,A,1,1,D,2024-25,LIGUE_2,Matchday 34
+2025-05-10,Red Star,USL Dunkerque,1,1,D,1,1,D,2024-25,LIGUE_2,Matchday 34
+2025-05-10,ESTAC Troyes,Amiens,1,0,H,0,0,D,2024-25,LIGUE_2,Matchday 34
+2025-05-10,Rodez AF,Clermont Foot 63,1,1,D,1,1,D,2024-25,LIGUE_2,Matchday 34
+2025-05-10,SC Bastia,SM Caen,2,1,H,1,1,D,2024-25,LIGUE_2,Matchday 34
+2025-05-10,Stade Lavallois,FC Metz,2,3,A,0,1,A,2024-25,LIGUE_2,Matchday 34
