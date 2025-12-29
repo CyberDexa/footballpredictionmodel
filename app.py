@@ -299,7 +299,7 @@ class FootballPredictorApp:
             
             col1, col2 = st.columns(2)
             with col1:
-                if st.button("🔄 Refresh", use_container_width=True):
+                if st.button("🔄 Refresh", width='stretch'):
                     with st.spinner("Fetching latest data..."):
                         try:
                             df = self.fetcher.get_or_fetch_league_data(selected_league, force_refresh=True)
@@ -309,7 +309,7 @@ class FootballPredictorApp:
                             st.error(f"Error: {e}")
             
             with col2:
-                if st.button("🔄 All Leagues", use_container_width=True):
+                if st.button("🔄 All Leagues", width='stretch'):
                     with st.spinner("Refreshing all leagues..."):
                         for league_code in leagues.keys():
                             try:
@@ -324,7 +324,7 @@ class FootballPredictorApp:
             # Training options
             st.markdown("### 🤖 Model Training")
             
-            if st.button("🔄 Retrain Model", use_container_width=True):
+            if st.button("🔄 Retrain Model", width='stretch'):
                 self.load_or_train_model(selected_league, force_retrain=True)
                 st.success("✅ Model retrained!")
             
@@ -492,7 +492,7 @@ class FootballPredictorApp:
         with col2:
             predict_clicked = st.button(
                 "🔮 Get Prediction",
-                use_container_width=True,
+                width='stretch',
                 type="primary"
             )
         
@@ -786,7 +786,7 @@ class FootballPredictorApp:
             recent = df.sort_values('Date', ascending=False).head(10)
             recent_display = recent[['Date', 'HomeTeam', 'FTHG', 'FTAG', 'AwayTeam', 'FTR']].copy()
             recent_display.columns = ['Date', 'Home', 'HG', 'AG', 'Away', 'Result']
-            st.dataframe(recent_display, use_container_width=True, hide_index=True)
+            st.dataframe(recent_display, width='stretch', hide_index=True)
             
         except Exception as e:
             st.warning(f"Could not load statistics: {e}")
