@@ -1421,7 +1421,7 @@ class FootballPredictorApp:
                     "avg_confidence": st.column_config.NumberColumn("Avg Confidence %", format="%.1f%%")
                 },
                 hide_index=True,
-                use_container_width=True
+                width="stretch"
             )
         else:
             st.info("No league performance data yet")
@@ -1491,7 +1491,7 @@ class FootballPredictorApp:
                     lambda x: "✅" if x == True else "❌" if x == False else "⏳"
                 )
             
-            st.dataframe(display_df, hide_index=True, use_container_width=True)
+            st.dataframe(display_df, hide_index=True, width="stretch")
         else:
             st.info("No predictions made yet. Start predicting matches to build your track record!")
         
@@ -1743,7 +1743,7 @@ class FootballPredictorApp:
                     "Avg Confidence %": st.column_config.NumberColumn(format="%.1f%%")
                 },
                 hide_index=True,
-                use_container_width=True
+                width="stretch"
             )
             
             # Your stats if not on leaderboard
@@ -2195,12 +2195,12 @@ class FootballPredictorApp:
         col1, col2 = st.columns(2)
         
         with col1:
-            if st.button("🗑️ Clear All Selections", type="secondary", use_container_width=True):
+            if st.button("🗑️ Clear All Selections", type="secondary", width="stretch"):
                 st.session_state.accumulator = []
                 st.rerun()
         
         with col2:
-            if st.button("📋 Copy Accumulator", use_container_width=True):
+            if st.button("📋 Copy Accumulator", width="stretch"):
                 # Format accumulator as text
                 acca_text = "🎰 Accumulator:\n"
                 for sel in accumulator:
@@ -2345,7 +2345,7 @@ class FootballPredictorApp:
                 
                 if odds_table:
                     df = pd.DataFrame(odds_table)
-                    st.dataframe(df, hide_index=True, use_container_width=True)
+                    st.dataframe(df, hide_index=True, width="stretch")
                     
                     if market == 'h2h' and best_home > 0:
                         st.markdown(f"""
@@ -2582,7 +2582,7 @@ class FootballPredictorApp:
                                 "Status": inj.get('player', {}).get('type', 'Unknown')
                             })
                         
-                        st.dataframe(pd.DataFrame(injury_data), hide_index=True, use_container_width=True)
+                        st.dataframe(pd.DataFrame(injury_data), hide_index=True, width="stretch")
                         
                         st.warning(f"⚠️ {len(injuries)} player(s) currently unavailable")
                     else:
@@ -2613,7 +2613,7 @@ class FootballPredictorApp:
                 login_email = st.text_input("Email", key="login_email", placeholder="your@email.com")
                 login_password = st.text_input("Password", type="password", key="login_password")
                 
-                if st.button("🔐 Login", type="primary", use_container_width=True):
+                if st.button("🔐 Login", type="primary", width="stretch"):
                     if login_email and login_password:
                         success, message, token = self.auth.login(login_email, login_password)
                         if success:
@@ -2630,7 +2630,7 @@ class FootballPredictorApp:
                 st.markdown("---")
                 st.markdown("**Or continue as guest** (limited to 3 predictions/day, EPL only)")
                 
-                if st.button("👤 Continue as Guest", use_container_width=True):
+                if st.button("👤 Continue as Guest", width="stretch"):
                     # Create a guest session
                     st.session_state.user = {
                         'id': None,
@@ -2652,7 +2652,7 @@ class FootballPredictorApp:
                                             help="Min 8 chars, 1 uppercase, 1 lowercase, 1 number")
                 reg_password2 = st.text_input("Confirm Password", type="password", key="reg_password2")
                 
-                if st.button("📝 Create Account", type="primary", use_container_width=True):
+                if st.button("📝 Create Account", type="primary", width="stretch"):
                     if not reg_email or not reg_password:
                         st.warning("Please fill in all fields")
                     elif reg_password != reg_password2:
@@ -2704,7 +2704,7 @@ class FootballPredictorApp:
             if user.get('is_guest'):
                 st.info("👤 Guest Mode")
                 st.caption("Limited features")
-                if st.button("🔐 Login / Register", use_container_width=True):
+                if st.button("🔐 Login / Register", width="stretch"):
                     st.session_state.user = None
                     st.rerun()
             else:
@@ -2726,12 +2726,12 @@ class FootballPredictorApp:
                 
                 # Upgrade button (if not unlimited)
                 if tier != 'unlimited':
-                    if st.button("💎 Upgrade Plan", use_container_width=True):
+                    if st.button("💎 Upgrade Plan", width="stretch"):
                         st.session_state.show_pricing = True
                 
                 st.divider()
                 
-                if st.button("🚪 Logout", use_container_width=True):
+                if st.button("🚪 Logout", width="stretch"):
                     if st.session_state.session_token:
                         self.auth.logout(st.session_state.session_token)
                     st.session_state.session_token = None
