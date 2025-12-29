@@ -150,12 +150,8 @@ class FootballPredictorApp:
         self.fetcher = OpenFootballFetcher(data_dir="data")
         self.engineer = FeatureEngineer(n_last_matches=5)
         self.predictor = EPLPredictor(models_dir="models")
-        self.fixtures_fetcher = UpcomingFixturesFetcher(data_dir="data")
-        self.fixtures_manager = FixturesManager(
-            fixtures_fetcher=self.fixtures_fetcher,
-            predictor=self.predictor,
-            feature_engineer=self.engineer
-        )
+        self.fixtures_fetcher = UpcomingFixturesFetcher()
+        self.fixtures_manager = FixturesManager()
     
     def check_auto_refresh(self, league: str, max_age_days: int = 7):
         """Check if data needs auto-refresh and refresh if needed."""
