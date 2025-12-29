@@ -19,6 +19,10 @@ from typing import Tuple, List, Dict
 from scipy.stats import poisson
 import math
 
+# Load environment variables from .env file
+from dotenv import load_dotenv
+load_dotenv()
+
 # Add src to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
