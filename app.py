@@ -15,7 +15,9 @@ import numpy as np
 import sys
 import os
 from datetime import datetime, timedelta
-from typing import Tuple
+from typing import Tuple, List, Dict
+from scipy.stats import poisson
+import math
 
 # Add src to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
@@ -151,6 +153,10 @@ class FootballPredictorApp:
         if 'active_tab' not in st.session_state:
             st.session_state.active_tab = "predict"
         
+        # Accumulator session state
+        if 'accumulator' not in st.session_state:
+            st.session_state.accumulator = []  # List of {match, selection, odds}
+        
         # Auth session state
         if 'session_token' not in st.session_state:
             st.session_state.session_token = None
@@ -259,6 +265,142 @@ class FootballPredictorApp:
         predictions = self.predictor.predict(features)
         
         return predictions
+    
+    def get_team_form(self, league: str, team: str, n_matches: int = 5) -> List[Dict]:
+        """Get team's recent form (last N matches with results)"""
+        try:
+            df = self.fetcher.load_league_data(league)
+            if df is None or df.empty:
+                return []
+            
+            df['Date'] = pd.to_datetime(df['Date'])
+            df = df.sort_values('Date', ascending=False)
+            
+            # Get matches where team played
+            team_matches = df[(df['HomeTeam'] == team) | (df['AwayTeam'] == team)].head(n_matches)
+            
+            form = []
+            for _, match in team_matches.iterrows():
+                is_home = match['HomeTeam'] == team
+                goals_scored = match['FTHG'] if is_home else match['FTAG']
+                goals_conceded = match['FTAG'] if is_home else match['FTHG']
+                opponent = match['AwayTeam'] if is_home else match['HomeTeam']
+                
+                if goals_scored > goals_conceded:
+                    result = 'W'
+                elif goals_scored < goals_conceded:
+                    result = 'L'
+                else:
+                    result = 'D'
+                
+                form.append({
+                    'result': result,
+                    'goals_scored': goals_scored,
+                    'goals_conceded': goals_conceded,
+                    'opponent': opponent,
+                    'is_home': is_home,
+                    'date': match['Date'].strftime('%Y-%m-%d') if pd.notna(match['Date']) else ''
+                })
+            
+            return form
+        except:
+            return []
+    
+    def get_correct_score_predictions(self, home_expected_goals: float, away_expected_goals: float, top_n: int = 10) -> List[Dict]:
+        """Calculate correct score probabilities using Poisson distribution"""
+        scores = []
+        
+        # Limit expected goals to reasonable range
+        home_xg = max(0.5, min(4.0, home_expected_goals))
+        away_xg = max(0.3, min(3.5, away_expected_goals))
+        
+        for home_goals in range(6):
+            for away_goals in range(6):
+                # Poisson probability for each scoreline
+                home_prob = poisson.pmf(home_goals, home_xg)
+                away_prob = poisson.pmf(away_goals, away_xg)
+                score_prob = home_prob * away_prob
+                
+                scores.append({
+                    'score': f"{home_goals}-{away_goals}",
+                    'home_goals': home_goals,
+                    'away_goals': away_goals,
+                    'probability': score_prob * 100,
+                    'odds': 1 / score_prob if score_prob > 0 else 100
+                })
+        
+        # Sort by probability and return top N
+        scores.sort(key=lambda x: x['probability'], reverse=True)
+        return scores[:top_n]
+    
+    def get_prediction_explanation(self, league: str, home_team: str, away_team: str) -> Dict:
+        """Get explanation for why the model made its prediction"""
+        try:
+            # Get feature importance
+            importance_df = self.predictor.get_feature_importance('match_result')
+            if importance_df.empty:
+                return {'factors': [], 'summary': 'Feature importance not available'}
+            
+            # Get the current features for context
+            if league in st.session_state.features_cache:
+                df = st.session_state.features_cache[league]
+                
+                home_data = df[(df['HomeTeam'] == home_team) | (df['AwayTeam'] == home_team)].iloc[-1] if len(df[(df['HomeTeam'] == home_team) | (df['AwayTeam'] == home_team)]) > 0 else None
+                away_data = df[(df['HomeTeam'] == away_team) | (df['AwayTeam'] == away_team)].iloc[-1] if len(df[(df['HomeTeam'] == away_team) | (df['AwayTeam'] == away_team)]) > 0 else None
+                
+                if home_data is not None and away_data is not None:
+                    # Top factors with their values
+                    top_features = importance_df.head(8)
+                    factors = []
+                    
+                    feature_explanations = {
+                        'form_diff': ('Form Difference', 'Higher = Home team in better form'),
+                        'home_form_points': ('Home Team Form', 'Avg points per game recently'),
+                        'away_form_points': ('Away Team Form', 'Avg points per game recently'),
+                        'position_diff': ('Table Position Gap', 'Positive = Home team higher'),
+                        'home_form_goals_scored': ('Home Scoring Form', 'Avg goals scored recently'),
+                        'away_form_goals_scored': ('Away Scoring Form', 'Avg goals scored recently'),
+                        'home_form_goals_conceded': ('Home Defensive Form', 'Avg goals conceded'),
+                        'away_form_goals_conceded': ('Away Defensive Form', 'Avg goals conceded'),
+                        'h2h_home_wins': ('H2H Home Advantage', 'Historical home wins %'),
+                        'home_season_points_per_game': ('Home Season PPG', 'Season points per game'),
+                        'away_season_points_per_game': ('Away Season PPG', 'Season points per game'),
+                        'attack_strength_diff': ('Attack Strength Gap', 'Scoring ability difference'),
+                        'defense_strength_diff': ('Defense Strength Gap', 'Defensive ability difference'),
+                    }
+                    
+                    for _, row in top_features.iterrows():
+                        feat_name = row['feature']
+                        importance = row['importance']
+                        
+                        # Get value
+                        value = home_data.get(feat_name, away_data.get(feat_name, 0))
+                        
+                        exp = feature_explanations.get(feat_name, (feat_name, ''))
+                        factors.append({
+                            'name': exp[0],
+                            'feature': feat_name,
+                            'importance': importance * 100,
+                            'value': value,
+                            'explanation': exp[1]
+                        })
+                    
+                    return {'factors': factors, 'summary': 'Key factors influencing this prediction'}
+            
+            return {'factors': [], 'summary': 'Could not generate explanation'}
+        except Exception as e:
+            return {'factors': [], 'summary': f'Error: {str(e)}'}
+    
+    def get_confidence_level(self, probability: float) -> Tuple[str, str, str]:
+        """Get confidence level label, color, and emoji based on probability"""
+        if probability >= 0.65:
+            return "HIGH", "#28a745", "🟢"
+        elif probability >= 0.50:
+            return "MEDIUM", "#ffc107", "🟡"
+        elif probability >= 0.40:
+            return "LOW", "#fd7e14", "🟠"
+        else:
+            return "VERY LOW", "#dc3545", "🔴"
     
     def render_sidebar(self):
         """Render the sidebar"""
@@ -444,14 +586,16 @@ class FootballPredictorApp:
             st.info("📥 Click 'Refresh Data' in the sidebar to fetch match data.")
         
         # Tabs for different functionality
-        tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
+        tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs([
             "🔮 Predict Match", 
             "📅 Upcoming Matches", 
-            "📊 Stats", 
+            "📊 Team Form",
+            "🎰 Accumulator",
             "📈 Track Record",
             "📋 My Predictions",
             "🏆 Leaderboard",
-            "⚔️ Head-to-Head"
+            "⚔️ Head-to-Head",
+            "📊 Stats"
         ])
         
         with tab1:
@@ -461,19 +605,25 @@ class FootballPredictorApp:
             self.render_upcoming_matches_tab(league)
         
         with tab3:
-            self.render_stats_tab(league)
+            self.render_team_form_tab(league)
         
         with tab4:
-            self.render_accuracy_tab(league)
+            self.render_accumulator_tab(league)
         
         with tab5:
-            self.render_my_predictions_tab(league)
+            self.render_accuracy_tab(league)
         
         with tab6:
-            self.render_leaderboard_tab()
+            self.render_my_predictions_tab(league)
         
         with tab7:
+            self.render_leaderboard_tab()
+        
+        with tab8:
             self.render_head_to_head_tab(league)
+        
+        with tab9:
+            self.render_stats_tab(league)
     
     def render_prediction_tab(self, league: str):
         """Render the prediction selection tab"""
@@ -776,6 +926,187 @@ class FootballPredictorApp:
                     """, unsafe_allow_html=True)
         else:
             st.info("📊 No significant value detected vs typical market odds for this match.")
+        
+        # ========== TEAM FORM ==========
+        st.markdown("### 📈 Team Form (Last 5 Games)")
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.markdown(f"**🏠 {home_team}**")
+            home_form = self.get_team_form(league, home_team, 5)
+            if home_form:
+                form_str = ""
+                for match in home_form:
+                    if match['result'] == 'W':
+                        form_str += "🟢 "
+                    elif match['result'] == 'D':
+                        form_str += "🟡 "
+                    else:
+                        form_str += "🔴 "
+                st.markdown(f"Form: {form_str}")
+                
+                # Recent results details
+                for match in home_form[:3]:
+                    venue = "🏠" if match['is_home'] else "✈️"
+                    result_color = "green" if match['result'] == 'W' else "orange" if match['result'] == 'D' else "red"
+                    st.markdown(f"{venue} vs {match['opponent']}: **{match['goals_scored']}-{match['goals_conceded']}** :{result_color}[{match['result']}]")
+            else:
+                st.caption("Form data not available")
+        
+        with col2:
+            st.markdown(f"**✈️ {away_team}**")
+            away_form = self.get_team_form(league, away_team, 5)
+            if away_form:
+                form_str = ""
+                for match in away_form:
+                    if match['result'] == 'W':
+                        form_str += "🟢 "
+                    elif match['result'] == 'D':
+                        form_str += "🟡 "
+                    else:
+                        form_str += "🔴 "
+                st.markdown(f"Form: {form_str}")
+                
+                # Recent results details
+                for match in away_form[:3]:
+                    venue = "🏠" if match['is_home'] else "✈️"
+                    result_color = "green" if match['result'] == 'W' else "orange" if match['result'] == 'D' else "red"
+                    st.markdown(f"{venue} vs {match['opponent']}: **{match['goals_scored']}-{match['goals_conceded']}** :{result_color}[{match['result']}]")
+            else:
+                st.caption("Form data not available")
+        
+        # ========== CORRECT SCORE PREDICTIONS ==========
+        st.markdown("### 🎯 Correct Score Predictions")
+        
+        # Estimate expected goals from the model
+        home_xg = 1.5 + (home_prob - 0.33) * 2  # Rough estimate
+        away_xg = 1.2 + (away_prob - 0.33) * 2
+        
+        # Adjust based on over 2.5 probability
+        if over25_prob > 60:
+            home_xg *= 1.1
+            away_xg *= 1.1
+        elif over25_prob < 40:
+            home_xg *= 0.9
+            away_xg *= 0.9
+        
+        correct_scores = self.get_correct_score_predictions(home_xg, away_xg, top_n=9)
+        
+        # Display in 3 columns
+        score_cols = st.columns(3)
+        for i, score in enumerate(correct_scores[:9]):
+            with score_cols[i % 3]:
+                bg_color = "#e8f5e9" if i == 0 else "#f8f9fa"
+                border = "2px solid #28a745" if i == 0 else "1px solid #dee2e6"
+                st.markdown(f"""
+                <div style="background: {bg_color}; padding: 0.75rem; border-radius: 8px; 
+                            text-align: center; margin-bottom: 0.5rem; border: {border};">
+                    <h3 style="margin:0; color: #333;">{score['score']}</h3>
+                    <p style="margin:0; color: #666; font-size: 0.9rem;">{score['probability']:.1f}%</p>
+                    <small style="color: #999;">Odds: {score['odds']:.1f}</small>
+                </div>
+                """, unsafe_allow_html=True)
+        
+        st.caption("📊 Based on Poisson distribution model using team scoring patterns")
+        
+        # ========== PREDICTION EXPLANATION ==========
+        st.markdown("### 🧠 Why This Prediction?")
+        
+        explanation = self.get_prediction_explanation(league, home_team, away_team)
+        
+        if explanation['factors']:
+            st.markdown("**Key factors influencing this prediction:**")
+            
+            for factor in explanation['factors'][:6]:
+                importance_bar = "█" * int(factor['importance'] / 3) + "░" * (10 - int(factor['importance'] / 3))
+                
+                # Determine if factor favors home or away
+                if 'home' in factor['feature'].lower() and factor['value'] > 0:
+                    favor_emoji = "🏠"
+                elif 'away' in factor['feature'].lower() and factor['value'] > 0:
+                    favor_emoji = "✈️"
+                elif 'diff' in factor['feature'].lower():
+                    favor_emoji = "🏠" if factor['value'] > 0 else "✈️" if factor['value'] < 0 else "⚖️"
+                else:
+                    favor_emoji = "📊"
+                
+                st.markdown(f"""
+                {favor_emoji} **{factor['name']}** `{importance_bar}` {factor['importance']:.1f}%  
+                <small style="color: #666;">Value: {factor['value']:.2f} • {factor['explanation']}</small>
+                """, unsafe_allow_html=True)
+        else:
+            st.caption("Prediction explanation not available")
+        
+        # ========== ADD TO ACCUMULATOR ==========
+        st.markdown("### 🎰 Add to Accumulator")
+        
+        acca_col1, acca_col2, acca_col3 = st.columns(3)
+        
+        with acca_col1:
+            if st.button(f"➕ {home_team} Win ({home_prob*100:.0f}%)", key=f"acca_home_{home_team}_{away_team}"):
+                selection = {
+                    'match': f"{home_team} vs {away_team}",
+                    'selection': f"{home_team} Win",
+                    'odds': round(1 / home_prob, 2) if home_prob > 0 else 1.01,
+                    'probability': home_prob * 100
+                }
+                if selection not in st.session_state.accumulator:
+                    st.session_state.accumulator.append(selection)
+                    st.success(f"✅ Added to accumulator!")
+        
+        with acca_col2:
+            if st.button(f"➕ Draw ({draw_prob*100:.0f}%)", key=f"acca_draw_{home_team}_{away_team}"):
+                selection = {
+                    'match': f"{home_team} vs {away_team}",
+                    'selection': "Draw",
+                    'odds': round(1 / draw_prob, 2) if draw_prob > 0 else 1.01,
+                    'probability': draw_prob * 100
+                }
+                if selection not in st.session_state.accumulator:
+                    st.session_state.accumulator.append(selection)
+                    st.success(f"✅ Added to accumulator!")
+        
+        with acca_col3:
+            if st.button(f"➕ {away_team} Win ({away_prob*100:.0f}%)", key=f"acca_away_{home_team}_{away_team}"):
+                selection = {
+                    'match': f"{home_team} vs {away_team}",
+                    'selection': f"{away_team} Win",
+                    'odds': round(1 / away_prob, 2) if away_prob > 0 else 1.01,
+                    'probability': away_prob * 100
+                }
+                if selection not in st.session_state.accumulator:
+                    st.session_state.accumulator.append(selection)
+                    st.success(f"✅ Added to accumulator!")
+        
+        # Goals markets
+        goals_col1, goals_col2 = st.columns(2)
+        with goals_col1:
+            if st.button(f"➕ Over 2.5 Goals ({over25_prob:.0f}%)", key=f"acca_o25_{home_team}_{away_team}"):
+                selection = {
+                    'match': f"{home_team} vs {away_team}",
+                    'selection': "Over 2.5 Goals",
+                    'odds': round(100 / over25_prob, 2) if over25_prob > 0 else 1.01,
+                    'probability': over25_prob
+                }
+                if selection not in st.session_state.accumulator:
+                    st.session_state.accumulator.append(selection)
+                    st.success(f"✅ Added to accumulator!")
+        
+        with goals_col2:
+            if st.button(f"➕ BTTS Yes ({btts_yes:.0f}%)", key=f"acca_btts_{home_team}_{away_team}"):
+                selection = {
+                    'match': f"{home_team} vs {away_team}",
+                    'selection': "BTTS Yes",
+                    'odds': round(100 / btts_yes, 2) if btts_yes > 0 else 1.01,
+                    'probability': btts_yes
+                }
+                if selection not in st.session_state.accumulator:
+                    st.session_state.accumulator.append(selection)
+                    st.success(f"✅ Added to accumulator!")
+        
+        if st.session_state.accumulator:
+            st.info(f"🎰 You have {len(st.session_state.accumulator)} selection(s) in your accumulator. Go to the Accumulator tab to view.")
         
         # ========== SUMMARY ==========
         st.markdown("### 💡 Prediction Summary")
@@ -1606,6 +1937,267 @@ class FootballPredictorApp:
             
             *For more accurate predictions, use the Predict Match tab which considers recent form and full statistics.*
             """)
+
+    def render_team_form_tab(self, league: str):
+        """Render the team form analysis tab"""
+        st.markdown("### 📊 Team Form Analysis")
+        st.markdown("View recent performance and trends for any team")
+        
+        try:
+            df = self.fetcher.load_league_data(league)
+            if df is None or df.empty:
+                st.warning("No match data available. Please refresh data first.")
+                return
+            
+            teams = sorted(set(df['HomeTeam'].unique()) | set(df['AwayTeam'].unique()))
+        except Exception as e:
+            st.error(f"Could not load team data: {e}")
+            return
+        
+        # Team selection
+        selected_team = st.selectbox("🏟️ Select Team", teams, key="form_team")
+        n_matches = st.slider("Number of matches to analyze", 5, 20, 10)
+        
+        if st.button("📈 Analyze Form", type="primary"):
+            form = self.get_team_form(league, selected_team, n_matches)
+            
+            if not form:
+                st.warning("No recent matches found for this team.")
+                return
+            
+            st.divider()
+            
+            # Form summary
+            wins = sum(1 for m in form if m['result'] == 'W')
+            draws = sum(1 for m in form if m['result'] == 'D')
+            losses = sum(1 for m in form if m['result'] == 'L')
+            goals_scored = sum(m['goals_scored'] for m in form)
+            goals_conceded = sum(m['goals_conceded'] for m in form)
+            
+            st.markdown(f"#### 📊 {selected_team} - Last {len(form)} Games")
+            
+            # Form string
+            form_str = ""
+            for match in form:
+                if match['result'] == 'W':
+                    form_str += "🟢 "
+                elif match['result'] == 'D':
+                    form_str += "🟡 "
+                else:
+                    form_str += "🔴 "
+            
+            st.markdown(f"**Form:** {form_str}")
+            
+            # Stats
+            col1, col2, col3, col4, col5 = st.columns(5)
+            
+            with col1:
+                st.metric("🏆 Wins", wins, f"{wins/len(form)*100:.0f}%")
+            with col2:
+                st.metric("🤝 Draws", draws, f"{draws/len(form)*100:.0f}%")
+            with col3:
+                st.metric("❌ Losses", losses, f"{losses/len(form)*100:.0f}%")
+            with col4:
+                st.metric("⚽ Goals For", goals_scored, f"{goals_scored/len(form):.1f}/game")
+            with col5:
+                st.metric("🥅 Goals Against", goals_conceded, f"{goals_conceded/len(form):.1f}/game")
+            
+            # Points per game
+            points = wins * 3 + draws
+            ppg = points / len(form)
+            
+            st.markdown(f"**Points per game:** {ppg:.2f}")
+            
+            # Form chart
+            st.markdown("#### 📈 Recent Results")
+            
+            # Create form chart data
+            form_data = []
+            for i, match in enumerate(reversed(form)):
+                pts = 3 if match['result'] == 'W' else 1 if match['result'] == 'D' else 0
+                form_data.append({
+                    'Match': len(form) - i,
+                    'Points': pts,
+                    'Goals Scored': match['goals_scored'],
+                    'Goals Conceded': match['goals_conceded']
+                })
+            
+            form_df = pd.DataFrame(form_data)
+            st.line_chart(form_df.set_index('Match')[['Points', 'Goals Scored', 'Goals Conceded']])
+            
+            # Recent matches list
+            st.markdown("#### 📜 Match Details")
+            
+            for match in form:
+                venue = "🏠 Home" if match['is_home'] else "✈️ Away"
+                result_emoji = "🟢" if match['result'] == 'W' else "🟡" if match['result'] == 'D' else "🔴"
+                
+                st.markdown(f"""
+                <div style="background: #f8f9fa; padding: 0.75rem; border-radius: 8px; margin-bottom: 0.5rem;">
+                    {result_emoji} <strong>{match['result']}</strong> - {venue} vs {match['opponent']}
+                    <span style="float: right;">{match['goals_scored']} - {match['goals_conceded']}</span>
+                    <br><small style="color: #666;">{match['date']}</small>
+                </div>
+                """, unsafe_allow_html=True)
+            
+            # Trend analysis
+            st.markdown("#### 📊 Trend Analysis")
+            
+            recent_3 = form[:3]
+            older_3 = form[3:6] if len(form) >= 6 else form[3:]
+            
+            if older_3:
+                recent_ppg = sum(3 if m['result'] == 'W' else 1 if m['result'] == 'D' else 0 for m in recent_3) / len(recent_3)
+                older_ppg = sum(3 if m['result'] == 'W' else 1 if m['result'] == 'D' else 0 for m in older_3) / len(older_3)
+                
+                ppg_diff = recent_ppg - older_ppg
+                
+                if ppg_diff > 0.3:
+                    st.success(f"📈 **Improving Form!** Recent PPG: {recent_ppg:.2f} vs Earlier: {older_ppg:.2f} (+{ppg_diff:.2f})")
+                elif ppg_diff < -0.3:
+                    st.error(f"📉 **Declining Form!** Recent PPG: {recent_ppg:.2f} vs Earlier: {older_ppg:.2f} ({ppg_diff:.2f})")
+                else:
+                    st.info(f"📊 **Stable Form** - Recent PPG: {recent_ppg:.2f} vs Earlier: {older_ppg:.2f}")
+    
+    def render_accumulator_tab(self, league: str):
+        """Render the accumulator builder tab"""
+        st.markdown("### 🎰 Accumulator Builder")
+        st.markdown("Build your accumulator by adding selections from predictions")
+        
+        accumulator = st.session_state.accumulator
+        
+        if not accumulator:
+            st.info("📭 Your accumulator is empty. Add selections from the Predict Match tab!")
+            st.markdown("""
+            **How to use:**
+            1. Go to the **Predict Match** tab
+            2. Select a match and get predictions
+            3. Click the **➕ Add to Accumulator** buttons
+            4. Come back here to view your accumulator
+            """)
+            return
+        
+        # Display accumulator
+        st.markdown(f"#### 📋 Your Selections ({len(accumulator)})")
+        
+        total_odds = 1.0
+        combined_probability = 1.0
+        
+        for i, selection in enumerate(accumulator):
+            total_odds *= selection['odds']
+            combined_probability *= (selection['probability'] / 100)
+            
+            col1, col2, col3, col4 = st.columns([3, 2, 1, 1])
+            
+            with col1:
+                st.markdown(f"**{selection['match']}**")
+            with col2:
+                st.markdown(f"{selection['selection']}")
+            with col3:
+                st.markdown(f"@{selection['odds']:.2f}")
+            with col4:
+                if st.button("❌", key=f"remove_{i}"):
+                    st.session_state.accumulator.pop(i)
+                    st.rerun()
+        
+        st.divider()
+        
+        # Accumulator summary
+        st.markdown("#### 📊 Accumulator Summary")
+        
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            st.metric("📈 Total Odds", f"{total_odds:.2f}")
+        with col2:
+            st.metric("🎯 Combined Probability", f"{combined_probability*100:.2f}%")
+        with col3:
+            # Confidence level
+            if combined_probability >= 0.20:
+                conf_level = "🟢 HIGH"
+            elif combined_probability >= 0.10:
+                conf_level = "🟡 MEDIUM"
+            elif combined_probability >= 0.05:
+                conf_level = "🟠 LOW"
+            else:
+                conf_level = "🔴 VERY LOW"
+            st.metric("💪 Confidence", conf_level)
+        
+        # Potential returns calculator
+        st.markdown("#### 💰 Potential Returns Calculator")
+        
+        stake = st.number_input("Enter stake amount", min_value=1.0, max_value=10000.0, value=10.0, step=1.0)
+        
+        potential_return = stake * total_odds
+        potential_profit = potential_return - stake
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.markdown(f"""
+            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+                        padding: 1.5rem; border-radius: 10px; color: white; text-align: center;">
+                <h4 style="margin:0;">Potential Return</h4>
+                <h2 style="margin:0.5rem 0;">${potential_return:.2f}</h2>
+                <small>on ${stake:.2f} stake</small>
+            </div>
+            """, unsafe_allow_html=True)
+        
+        with col2:
+            st.markdown(f"""
+            <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); 
+                        padding: 1.5rem; border-radius: 10px; color: white; text-align: center;">
+                <h4 style="margin:0;">Potential Profit</h4>
+                <h2 style="margin:0.5rem 0;">${potential_profit:.2f}</h2>
+                <small>{total_odds:.2f}x multiplier</small>
+            </div>
+            """, unsafe_allow_html=True)
+        
+        st.divider()
+        
+        # Expected value analysis
+        st.markdown("#### 📉 Expected Value Analysis")
+        
+        ev = (combined_probability * potential_return) - stake
+        
+        if ev > 0:
+            st.success(f"✅ **Positive Expected Value:** ${ev:.2f}")
+            st.markdown("This accumulator has positive expected value based on our model probabilities.")
+        else:
+            st.warning(f"⚠️ **Negative Expected Value:** ${ev:.2f}")
+            st.markdown("This accumulator has negative expected value. Consider removing low-probability selections.")
+        
+        # Actions
+        st.divider()
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            if st.button("🗑️ Clear All Selections", type="secondary", use_container_width=True):
+                st.session_state.accumulator = []
+                st.rerun()
+        
+        with col2:
+            if st.button("📋 Copy Accumulator", use_container_width=True):
+                # Format accumulator as text
+                acca_text = "🎰 Accumulator:\n"
+                for sel in accumulator:
+                    acca_text += f"- {sel['match']}: {sel['selection']} @{sel['odds']:.2f}\n"
+                acca_text += f"\nTotal Odds: {total_odds:.2f}"
+                acca_text += f"\nStake: ${stake:.2f} → Returns: ${potential_return:.2f}"
+                
+                st.code(acca_text, language=None)
+                st.success("Accumulator formatted above - copy and share!")
+        
+        # Tips
+        st.divider()
+        st.markdown("#### 💡 Tips for Better Accumulators")
+        st.markdown("""
+        - 🎯 **Fewer selections = Higher chance of winning** - Keep it to 3-5 selections
+        - 📊 **Focus on high-confidence picks** - Look for 60%+ probability selections
+        - 🔍 **Diversify your markets** - Mix results with goals/BTTS predictions
+        - ⚠️ **Avoid long shots** - Low probability selections tank your EV
+        """)
 
     def render_auth_page(self):
         """Render the authentication page (login/register)"""
