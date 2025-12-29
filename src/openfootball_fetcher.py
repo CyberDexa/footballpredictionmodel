@@ -25,12 +25,32 @@ class OpenFootballFetcher:
     
     # League file mappings
     LEAGUE_FILES = {
-        'EPL': 'en.1.json',           # English Premier League
-        'CHAMPIONSHIP': 'en.2.json',   # English Championship
-        'LA_LIGA': 'es.1.json',        # Spanish La Liga
-        'SERIE_A': 'it.1.json',        # Italian Serie A
-        'BUNDESLIGA': 'de.1.json',     # German Bundesliga
-        'LIGUE_1': 'fr.1.json',        # French Ligue 1
+        # England
+        'EPL': 'en.1.json',              # English Premier League
+        'CHAMPIONSHIP': 'en.2.json',      # English Championship
+        'LEAGUE_ONE': 'en.3.json',        # English League One
+        'LEAGUE_TWO': 'en.4.json',        # English League Two
+        # Scotland
+        'SCOTTISH_PREM': 'sco.1.json',    # Scottish Premiership
+        # Spain
+        'LA_LIGA': 'es.1.json',           # Spanish La Liga
+        'LA_LIGA_2': 'es.2.json',         # Spanish Segunda División
+        # Italy
+        'SERIE_A': 'it.1.json',           # Italian Serie A
+        'SERIE_B': 'it.2.json',           # Italian Serie B
+        # Germany
+        'BUNDESLIGA': 'de.1.json',        # German Bundesliga
+        'BUNDESLIGA_2': 'de.2.json',      # German 2. Bundesliga
+        # France
+        'LIGUE_1': 'fr.1.json',           # French Ligue 1
+        'LIGUE_2': 'fr.2.json',           # French Ligue 2
+        # Other top leagues
+        'EREDIVISIE': 'nl.1.json',        # Dutch Eredivisie
+        'PRIMEIRA_LIGA': 'pt.1.json',     # Portuguese Primeira Liga
+        'BELGIAN_PRO': 'be.1.json',       # Belgian Pro League
+        'AUSTRIAN_BL': 'at.1.json',       # Austrian Bundesliga
+        'SUPER_LIG': 'tr.1.json',         # Turkish Süper Lig
+        'GREEK_SL': 'gr.1.json',          # Greek Super League
     }
     
     # Available seasons (most recent first)
@@ -42,41 +62,150 @@ class OpenFootballFetcher:
     
     # League metadata
     LEAGUES = {
+        # England
         'EPL': {
             'name': 'English Premier League',
             'country': 'England',
             'flag': '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-            'file': 'en.1.json'
+            'file': 'en.1.json',
+            'tier': 1
         },
         'CHAMPIONSHIP': {
             'name': 'English Championship',
             'country': 'England', 
             'flag': '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-            'file': 'en.2.json'
+            'file': 'en.2.json',
+            'tier': 2
         },
+        'LEAGUE_ONE': {
+            'name': 'English League One',
+            'country': 'England',
+            'flag': '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+            'file': 'en.3.json',
+            'tier': 3
+        },
+        'LEAGUE_TWO': {
+            'name': 'English League Two',
+            'country': 'England',
+            'flag': '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+            'file': 'en.4.json',
+            'tier': 4
+        },
+        # Scotland
+        'SCOTTISH_PREM': {
+            'name': 'Scottish Premiership',
+            'country': 'Scotland',
+            'flag': '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+            'file': 'sco.1.json',
+            'tier': 1
+        },
+        # Spain
         'LA_LIGA': {
             'name': 'La Liga',
             'country': 'Spain',
             'flag': '🇪🇸',
-            'file': 'es.1.json'
+            'file': 'es.1.json',
+            'tier': 1
         },
+        'LA_LIGA_2': {
+            'name': 'La Liga 2',
+            'country': 'Spain',
+            'flag': '🇪🇸',
+            'file': 'es.2.json',
+            'tier': 2
+        },
+        # Italy
         'SERIE_A': {
             'name': 'Serie A',
             'country': 'Italy',
             'flag': '🇮🇹',
-            'file': 'it.1.json'
+            'file': 'it.1.json',
+            'tier': 1
         },
+        'SERIE_B': {
+            'name': 'Serie B',
+            'country': 'Italy',
+            'flag': '🇮🇹',
+            'file': 'it.2.json',
+            'tier': 2
+        },
+        # Germany
         'BUNDESLIGA': {
             'name': 'Bundesliga',
             'country': 'Germany',
             'flag': '🇩🇪',
-            'file': 'de.1.json'
+            'file': 'de.1.json',
+            'tier': 1
         },
+        'BUNDESLIGA_2': {
+            'name': '2. Bundesliga',
+            'country': 'Germany',
+            'flag': '🇩🇪',
+            'file': 'de.2.json',
+            'tier': 2
+        },
+        # France
         'LIGUE_1': {
             'name': 'Ligue 1',
             'country': 'France',
             'flag': '🇫🇷',
-            'file': 'fr.1.json'
+            'file': 'fr.1.json',
+            'tier': 1
+        },
+        'LIGUE_2': {
+            'name': 'Ligue 2',
+            'country': 'France',
+            'flag': '🇫🇷',
+            'file': 'fr.2.json',
+            'tier': 2
+        },
+        # Netherlands
+        'EREDIVISIE': {
+            'name': 'Eredivisie',
+            'country': 'Netherlands',
+            'flag': '🇳🇱',
+            'file': 'nl.1.json',
+            'tier': 1
+        },
+        # Portugal
+        'PRIMEIRA_LIGA': {
+            'name': 'Primeira Liga',
+            'country': 'Portugal',
+            'flag': '🇵🇹',
+            'file': 'pt.1.json',
+            'tier': 1
+        },
+        # Belgium
+        'BELGIAN_PRO': {
+            'name': 'Belgian Pro League',
+            'country': 'Belgium',
+            'flag': '🇧🇪',
+            'file': 'be.1.json',
+            'tier': 1
+        },
+        # Austria
+        'AUSTRIAN_BL': {
+            'name': 'Austrian Bundesliga',
+            'country': 'Austria',
+            'flag': '🇦🇹',
+            'file': 'at.1.json',
+            'tier': 1
+        },
+        # Turkey
+        'SUPER_LIG': {
+            'name': 'Süper Lig',
+            'country': 'Turkey',
+            'flag': '🇹🇷',
+            'file': 'tr.1.json',
+            'tier': 1
+        },
+        # Greece
+        'GREEK_SL': {
+            'name': 'Super League',
+            'country': 'Greece',
+            'flag': '🇬🇷',
+            'file': 'gr.1.json',
+            'tier': 1
         },
     }
     

@@ -1,0 +1,716 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,Season,League,Round
+2025-08-01,Luton Town,AFC Wimbledon,1,0,H,0,0,D,2025-26,LEAGUE_ONE,1. Round
+2025-08-02,Cardiff City,Peterborough United,2,1,H,0,1,A,2025-26,LEAGUE_ONE,1. Round
+2025-08-02,Blackpool,Stevenage,2,3,A,1,2,A,2025-26,LEAGUE_ONE,1. Round
+2025-08-02,Bradford City,Wycombe Wanderers,2,1,H,2,0,H,2025-26,LEAGUE_ONE,1. Round
+2025-08-02,Burton Albion,Mansfield Town,2,1,H,1,0,H,2025-26,LEAGUE_ONE,1. Round
+2025-08-02,Doncaster Rovers,Exeter City,1,0,H,0,0,D,2025-26,LEAGUE_ONE,1. Round
+2025-08-02,Huddersfield Town,Leyton Orient,3,0,H,1,0,H,2025-26,LEAGUE_ONE,1. Round
+2025-08-02,Lincoln City,Reading,2,0,H,1,0,H,2025-26,LEAGUE_ONE,1. Round
+2025-08-02,Plymouth Argyle,Barnsley,1,3,A,0,2,A,2025-26,LEAGUE_ONE,1. Round
+2025-08-02,Rotherham United,Port Vale,2,1,H,2,0,H,2025-26,LEAGUE_ONE,1. Round
+2025-08-02,Wigan Athletic,Northampton Town,3,1,H,2,0,H,2025-26,LEAGUE_ONE,1. Round
+2025-08-03,Stockport County,Bolton Wanderers,2,0,H,1,0,H,2025-26,LEAGUE_ONE,1. Round
+2025-08-07,Port Vale,Cardiff City,0,0,D,0,0,D,2025-26,LEAGUE_ONE,2. Round
+2025-08-09,Peterborough United,Luton Town,0,2,A,0,0,D,2025-26,LEAGUE_ONE,2. Round
+2025-08-09,Reading,Huddersfield Town,0,2,A,0,0,D,2025-26,LEAGUE_ONE,2. Round
+2025-08-09,AFC Wimbledon,Lincoln City,2,0,H,1,0,H,2025-26,LEAGUE_ONE,2. Round
+2025-08-09,Barnsley,Burton Albion,3,2,H,0,2,A,2025-26,LEAGUE_ONE,2. Round
+2025-08-09,Bolton Wanderers,Plymouth Argyle,2,0,H,1,0,H,2025-26,LEAGUE_ONE,2. Round
+2025-08-09,Exeter City,Blackpool,4,1,H,2,1,H,2025-26,LEAGUE_ONE,2. Round
+2025-08-09,Leyton Orient,Wigan Athletic,2,0,H,1,0,H,2025-26,LEAGUE_ONE,2. Round
+2025-08-09,Mansfield Town,Doncaster Rovers,1,2,A,0,0,D,2025-26,LEAGUE_ONE,2. Round
+2025-08-09,Northampton Town,Bradford City,0,0,D,0,0,D,2025-26,LEAGUE_ONE,2. Round
+2025-08-09,Stevenage,Rotherham United,1,0,H,1,0,H,2025-26,LEAGUE_ONE,2. Round
+2025-08-09,Wycombe Wanderers,Stockport County,1,2,A,0,1,A,2025-26,LEAGUE_ONE,2. Round
+2025-08-16,Burton Albion,Port Vale,0,0,D,0,0,D,2025-26,LEAGUE_ONE,3. Round
+2025-08-16,Exeter City,Mansfield Town,1,2,A,0,1,A,2025-26,LEAGUE_ONE,3. Round
+2025-08-16,Barnsley,Bolton Wanderers,1,1,D,0,0,D,2025-26,LEAGUE_ONE,3. Round
+2025-08-16,Blackpool,Huddersfield Town,3,2,H,3,2,H,2025-26,LEAGUE_ONE,3. Round
+2025-08-16,Bradford City,Luton Town,2,1,H,1,0,H,2025-26,LEAGUE_ONE,3. Round
+2025-08-16,Cardiff City,Rotherham United,3,0,H,1,0,H,2025-26,LEAGUE_ONE,3. Round
+2025-08-16,Doncaster Rovers,Wycombe Wanderers,1,1,D,0,0,D,2025-26,LEAGUE_ONE,3. Round
+2025-08-16,Leyton Orient,Stockport County,2,2,D,0,2,A,2025-26,LEAGUE_ONE,3. Round
+2025-08-16,Lincoln City,Plymouth Argyle,3,2,H,1,0,H,2025-26,LEAGUE_ONE,3. Round
+2025-08-16,Reading,AFC Wimbledon,1,2,A,0,1,A,2025-26,LEAGUE_ONE,3. Round
+2025-08-16,Stevenage,Northampton Town,2,0,H,0,0,D,2025-26,LEAGUE_ONE,3. Round
+2025-08-16,Wigan Athletic,Peterborough United,2,0,H,2,0,H,2025-26,LEAGUE_ONE,3. Round
+2025-08-19,AFC Wimbledon,Cardiff City,0,1,A,0,0,D,2025-26,LEAGUE_ONE,4. Round
+2025-08-19,Huddersfield Town,Doncaster Rovers,2,0,H,0,0,D,2025-26,LEAGUE_ONE,4. Round
+2025-08-19,Luton Town,Wigan Athletic,1,0,H,1,0,H,2025-26,LEAGUE_ONE,4. Round
+2025-08-19,Mansfield Town,Blackpool,2,0,H,0,0,D,2025-26,LEAGUE_ONE,4. Round
+2025-08-19,Northampton Town,Lincoln City,0,1,A,0,1,A,2025-26,LEAGUE_ONE,4. Round
+2025-08-19,Peterborough United,Barnsley,0,1,A,0,1,A,2025-26,LEAGUE_ONE,4. Round
+2025-08-19,Plymouth Argyle,Leyton Orient,0,1,A,0,0,D,2025-26,LEAGUE_ONE,4. Round
+2025-08-19,Port Vale,Stevenage,1,2,A,1,0,H,2025-26,LEAGUE_ONE,4. Round
+2025-08-19,Stockport County,Bradford City,1,2,A,1,0,H,2025-26,LEAGUE_ONE,4. Round
+2025-08-19,Wycombe Wanderers,Exeter City,0,1,A,0,0,D,2025-26,LEAGUE_ONE,4. Round
+2025-08-20,Bolton Wanderers,Reading,1,1,D,0,0,D,2025-26,LEAGUE_ONE,4. Round
+2025-08-23,Luton Town,Cardiff City,0,1,A,0,0,D,2025-26,LEAGUE_ONE,5. Round
+2025-08-23,Rotherham United,Wigan Athletic,2,2,D,0,1,A,2025-26,LEAGUE_ONE,5. Round
+2025-08-23,AFC Wimbledon,Barnsley,2,0,H,1,0,H,2025-26,LEAGUE_ONE,5. Round
+2025-08-23,Bolton Wanderers,Lincoln City,1,1,D,0,1,A,2025-26,LEAGUE_ONE,5. Round
+2025-08-23,Huddersfield Town,Stevenage,1,0,H,0,0,D,2025-26,LEAGUE_ONE,5. Round
+2025-08-23,Mansfield Town,Leyton Orient,4,1,H,2,1,H,2025-26,LEAGUE_ONE,5. Round
+2025-08-23,Northampton Town,Exeter City,2,0,H,2,0,H,2025-26,LEAGUE_ONE,5. Round
+2025-08-23,Peterborough United,Bradford City,1,1,D,0,0,D,2025-26,LEAGUE_ONE,5. Round
+2025-08-23,Plymouth Argyle,Blackpool,1,0,H,0,0,D,2025-26,LEAGUE_ONE,5. Round
+2025-08-23,Port Vale,Doncaster Rovers,0,1,A,0,0,D,2025-26,LEAGUE_ONE,5. Round
+2025-08-23,Stockport County,Burton Albion,2,1,H,0,1,A,2025-26,LEAGUE_ONE,5. Round
+2025-08-23,Wycombe Wanderers,Reading,2,2,D,1,2,A,2025-26,LEAGUE_ONE,5. Round
+2025-08-30,Cardiff City,Plymouth Argyle,4,0,H,2,0,H,2025-26,LEAGUE_ONE,6. Round
+2025-08-30,Doncaster Rovers,Rotherham United,1,0,H,1,0,H,2025-26,LEAGUE_ONE,6. Round
+2025-08-30,Barnsley,Huddersfield Town,3,1,H,2,0,H,2025-26,LEAGUE_ONE,6. Round
+2025-08-30,Blackpool,Bolton Wanderers,1,1,D,1,0,H,2025-26,LEAGUE_ONE,6. Round
+2025-08-30,Bradford City,AFC Wimbledon,3,2,H,1,1,D,2025-26,LEAGUE_ONE,6. Round
+2025-08-30,Burton Albion,Luton Town,0,3,A,0,2,A,2025-26,LEAGUE_ONE,6. Round
+2025-08-30,Exeter City,Peterborough United,3,0,H,1,0,H,2025-26,LEAGUE_ONE,6. Round
+2025-08-30,Leyton Orient,Northampton Town,0,1,A,0,0,D,2025-26,LEAGUE_ONE,6. Round
+2025-08-30,Reading,Port Vale,1,0,H,0,0,D,2025-26,LEAGUE_ONE,6. Round
+2025-08-30,Stevenage,Wycombe Wanderers,1,0,H,1,0,H,2025-26,LEAGUE_ONE,6. Round
+2025-08-30,Wigan Athletic,Stockport County,1,1,D,0,1,A,2025-26,LEAGUE_ONE,6. Round
+2025-08-30,Lincoln City,Mansfield Town,1,1,D,1,0,H,2025-26,LEAGUE_ONE,6. Round
+2025-09-06,Bolton Wanderers,AFC Wimbledon,3,0,H,1,0,H,2025-26,LEAGUE_ONE,7. Round
+2025-09-06,Doncaster Rovers,Bradford City,3,1,H,3,1,H,2025-26,LEAGUE_ONE,7. Round
+2025-09-06,Huddersfield Town,Peterborough United,3,2,H,0,0,D,2025-26,LEAGUE_ONE,7. Round
+2025-09-06,Lincoln City,Wigan Athletic,2,2,D,2,1,H,2025-26,LEAGUE_ONE,7. Round
+2025-09-06,Plymouth Argyle,Stockport County,4,2,H,2,1,H,2025-26,LEAGUE_ONE,7. Round
+2025-09-06,Port Vale,Leyton Orient,2,3,A,1,2,A,2025-26,LEAGUE_ONE,7. Round
+2025-09-06,Rotherham United,Exeter City,1,0,H,1,0,H,2025-26,LEAGUE_ONE,7. Round
+2025-09-06,Wycombe Wanderers,Mansfield Town,2,0,H,1,0,H,2025-26,LEAGUE_ONE,7. Round
+2025-09-30,Blackpool,Luton Town,2,2,D,1,0,H,2025-26,LEAGUE_ONE,7. Round
+2025-09-30,Cardiff City,Burton Albion,0,1,A,0,0,D,2025-26,LEAGUE_ONE,7. Round
+2025-10-21,Reading,Northampton Town,1,0,H,0,0,D,2025-26,LEAGUE_ONE,7. Round
+2025-09-13,Bradford City,Huddersfield Town,3,1,H,3,0,H,2025-26,LEAGUE_ONE,8. Round
+2025-09-13,Northampton Town,Blackpool,1,0,H,0,0,D,2025-26,LEAGUE_ONE,8. Round
+2025-09-13,AFC Wimbledon,Rotherham United,2,1,H,0,1,A,2025-26,LEAGUE_ONE,8. Round
+2025-09-13,Barnsley,Reading,3,2,H,1,1,D,2025-26,LEAGUE_ONE,8. Round
+2025-09-13,Burton Albion,Lincoln City,0,1,A,0,1,A,2025-26,LEAGUE_ONE,8. Round
+2025-09-13,Exeter City,Port Vale,0,2,A,0,2,A,2025-26,LEAGUE_ONE,8. Round
+2025-09-13,Leyton Orient,Bolton Wanderers,1,1,D,0,0,D,2025-26,LEAGUE_ONE,8. Round
+2025-09-13,Luton Town,Plymouth Argyle,2,3,A,1,2,A,2025-26,LEAGUE_ONE,8. Round
+2025-09-13,Mansfield Town,Stevenage,1,1,D,0,0,D,2025-26,LEAGUE_ONE,8. Round
+2025-09-13,Peterborough United,Wycombe Wanderers,2,1,H,2,0,H,2025-26,LEAGUE_ONE,8. Round
+2025-09-13,Stockport County,Cardiff City,1,1,D,1,0,H,2025-26,LEAGUE_ONE,8. Round
+2025-09-13,Wigan Athletic,Doncaster Rovers,3,0,H,2,0,H,2025-26,LEAGUE_ONE,8. Round
+2025-09-20,Blackpool,Barnsley,1,0,H,0,0,D,2025-26,LEAGUE_ONE,9. Round
+2025-09-20,Bolton Wanderers,Wigan Athletic,4,1,H,3,0,H,2025-26,LEAGUE_ONE,9. Round
+2025-09-20,Lincoln City,Luton Town,3,1,H,1,0,H,2025-26,LEAGUE_ONE,9. Round
+2025-09-20,Cardiff City,Bradford City,1,3,A,0,2,A,2025-26,LEAGUE_ONE,9. Round
+2025-09-20,Doncaster Rovers,AFC Wimbledon,1,2,A,0,0,D,2025-26,LEAGUE_ONE,9. Round
+2025-09-20,Huddersfield Town,Burton Albion,0,0,D,0,0,D,2025-26,LEAGUE_ONE,9. Round
+2025-09-20,Plymouth Argyle,Peterborough United,0,1,A,0,1,A,2025-26,LEAGUE_ONE,9. Round
+2025-09-20,Port Vale,Mansfield Town,2,1,H,0,0,D,2025-26,LEAGUE_ONE,9. Round
+2025-09-20,Reading,Leyton Orient,2,1,H,1,0,H,2025-26,LEAGUE_ONE,9. Round
+2025-09-20,Rotherham United,Stockport County,0,1,A,0,0,D,2025-26,LEAGUE_ONE,9. Round
+2025-09-20,Stevenage,Exeter City,2,1,H,1,1,D,2025-26,LEAGUE_ONE,9. Round
+2025-09-20,Wycombe Wanderers,Northampton Town,2,0,H,1,0,H,2025-26,LEAGUE_ONE,9. Round
+2025-09-27,AFC Wimbledon,Wycombe Wanderers,2,1,H,2,0,H,2025-26,LEAGUE_ONE,10. Round
+2025-09-27,Leyton Orient,Stevenage,2,3,A,1,1,D,2025-26,LEAGUE_ONE,10. Round
+2025-09-27,Barnsley,Port Vale,0,2,A,0,0,D,2025-26,LEAGUE_ONE,10. Round
+2025-09-27,Bradford City,Blackpool,1,0,H,0,0,D,2025-26,LEAGUE_ONE,10. Round
+2025-09-27,Burton Albion,Plymouth Argyle,0,4,A,0,2,A,2025-26,LEAGUE_ONE,10. Round
+2025-09-27,Exeter City,Huddersfield Town,0,1,A,0,1,A,2025-26,LEAGUE_ONE,10. Round
+2025-09-27,Luton Town,Doncaster Rovers,1,0,H,1,0,H,2025-26,LEAGUE_ONE,10. Round
+2025-09-27,Mansfield Town,Rotherham United,2,1,H,0,1,A,2025-26,LEAGUE_ONE,10. Round
+2025-09-27,Northampton Town,Bolton Wanderers,2,0,H,0,0,D,2025-26,LEAGUE_ONE,10. Round
+2025-09-27,Peterborough United,Lincoln City,0,3,A,0,1,A,2025-26,LEAGUE_ONE,10. Round
+2025-09-27,Stockport County,Reading,1,1,D,1,0,H,2025-26,LEAGUE_ONE,10. Round
+2025-09-27,Wigan Athletic,Cardiff City,0,2,A,0,1,A,2025-26,LEAGUE_ONE,10. Round
+2025-10-02,Rotherham United,Bradford City,2,2,D,1,0,H,2025-26,LEAGUE_ONE,11. Round
+2025-10-04,Doncaster Rovers,Burton Albion,1,1,D,1,0,H,2025-26,LEAGUE_ONE,11. Round
+2025-10-04,Wycombe Wanderers,Barnsley,2,2,D,0,1,A,2025-26,LEAGUE_ONE,11. Round
+2025-10-04,Blackpool,AFC Wimbledon,0,2,A,0,1,A,2025-26,LEAGUE_ONE,11. Round
+2025-10-04,Bolton Wanderers,Peterborough United,2,1,H,2,1,H,2025-26,LEAGUE_ONE,11. Round
+2025-10-04,Cardiff City,Leyton Orient,4,3,H,1,1,D,2025-26,LEAGUE_ONE,11. Round
+2025-10-04,Huddersfield Town,Stockport County,1,2,A,0,1,A,2025-26,LEAGUE_ONE,11. Round
+2025-10-04,Lincoln City,Exeter City,0,1,A,0,0,D,2025-26,LEAGUE_ONE,11. Round
+2025-10-04,Plymouth Argyle,Wigan Athletic,1,1,D,0,0,D,2025-26,LEAGUE_ONE,11. Round
+2025-10-04,Port Vale,Northampton Town,0,0,D,0,0,D,2025-26,LEAGUE_ONE,11. Round
+2025-10-04,Reading,Mansfield Town,1,1,D,0,1,A,2025-26,LEAGUE_ONE,11. Round
+2025-10-04,Stevenage,Luton Town,2,0,H,0,0,D,2025-26,LEAGUE_ONE,11. Round
+2025-10-11,Northampton Town,Rotherham United,1,2,A,1,0,H,2025-26,LEAGUE_ONE,12. Round
+2025-10-11,AFC Wimbledon,Port Vale,1,1,D,0,0,D,2025-26,LEAGUE_ONE,12. Round
+2025-10-11,Burton Albion,Bolton Wanderers,3,0,H,1,0,H,2025-26,LEAGUE_ONE,12. Round
+2025-10-11,Exeter City,Reading,1,1,D,1,1,D,2025-26,LEAGUE_ONE,12. Round
+2025-10-11,Leyton Orient,Doncaster Rovers,4,0,H,2,0,H,2025-26,LEAGUE_ONE,12. Round
+2025-10-11,Stockport County,Blackpool,1,0,H,0,0,D,2025-26,LEAGUE_ONE,12. Round
+2025-10-11,Wigan Athletic,Wycombe Wanderers,0,1,A,0,1,A,2025-26,LEAGUE_ONE,12. Round
+2025-10-28,Bradford City,Lincoln City,0,0,D,0,0,D,2025-26,LEAGUE_ONE,12. Round
+2025-10-28,Mansfield Town,Plymouth Argyle,2,0,H,1,0,H,2025-26,LEAGUE_ONE,12. Round
+2025-10-16,Huddersfield Town,Bolton Wanderers,1,2,A,1,0,H,2025-26,LEAGUE_ONE,13. Round
+2025-10-18,Burton Albion,Peterborough United,0,1,A,0,0,D,2025-26,LEAGUE_ONE,13. Round
+2025-10-18,Lincoln City,Stevenage,1,0,H,0,0,D,2025-26,LEAGUE_ONE,13. Round
+2025-10-18,Blackpool,Wycombe Wanderers,1,1,D,1,0,H,2025-26,LEAGUE_ONE,13. Round
+2025-10-18,Bradford City,Barnsley,2,2,D,2,1,H,2025-26,LEAGUE_ONE,13. Round
+2025-10-18,Cardiff City,Reading,2,1,H,0,1,A,2025-26,LEAGUE_ONE,13. Round
+2025-10-18,Doncaster Rovers,Northampton Town,1,2,A,1,0,H,2025-26,LEAGUE_ONE,13. Round
+2025-10-18,Luton Town,Mansfield Town,0,2,A,0,1,A,2025-26,LEAGUE_ONE,13. Round
+2025-10-18,Plymouth Argyle,AFC Wimbledon,1,2,A,1,1,D,2025-26,LEAGUE_ONE,13. Round
+2025-10-18,Rotherham United,Leyton Orient,1,0,H,0,0,D,2025-26,LEAGUE_ONE,13. Round
+2025-10-18,Stockport County,Exeter City,1,0,H,1,0,H,2025-26,LEAGUE_ONE,13. Round
+2025-10-18,Wigan Athletic,Port Vale,1,0,H,0,0,D,2025-26,LEAGUE_ONE,13. Round
+2025-10-23,Exeter City,Plymouth Argyle,2,0,H,1,0,H,2025-26,LEAGUE_ONE,14. Round
+2025-10-25,Bolton Wanderers,Cardiff City,1,0,H,0,0,D,2025-26,LEAGUE_ONE,14. Round
+2025-10-25,Mansfield Town,Wigan Athletic,1,1,D,1,0,H,2025-26,LEAGUE_ONE,14. Round
+2025-10-25,AFC Wimbledon,Burton Albion,0,1,A,0,0,D,2025-26,LEAGUE_ONE,14. Round
+2025-10-25,Barnsley,Rotherham United,0,1,A,0,0,D,2025-26,LEAGUE_ONE,14. Round
+2025-10-25,Leyton Orient,Lincoln City,1,0,H,0,0,D,2025-26,LEAGUE_ONE,14. Round
+2025-10-25,Northampton Town,Luton Town,0,1,A,0,0,D,2025-26,LEAGUE_ONE,14. Round
+2025-10-25,Peterborough United,Blackpool,1,2,A,1,1,D,2025-26,LEAGUE_ONE,14. Round
+2025-10-25,Reading,Doncaster Rovers,1,1,D,0,0,D,2025-26,LEAGUE_ONE,14. Round
+2025-10-25,Stevenage,Bradford City,1,1,D,1,1,D,2025-26,LEAGUE_ONE,14. Round
+2025-10-25,Wycombe Wanderers,Huddersfield Town,3,0,H,1,0,H,2025-26,LEAGUE_ONE,14. Round
+2025-10-27,Port Vale,Stockport County,0,3,A,0,3,A,2025-26,LEAGUE_ONE,14. Round
+2024-08-09,Barnsley,Mansfield Town,1,2,A,1,2,A,2024-25,LEAGUE_ONE,Matchday 1
+2024-08-10,Birmingham City,Reading,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 1
+2024-08-10,Bristol Rovers,Northampton Town,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 1
+2024-08-10,Burton Albion,Lincoln City,2,3,A,2,2,D,2024-25,LEAGUE_ONE,Matchday 1
+2024-08-10,Crawley Town,Blackpool,2,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 1
+2024-08-10,Exeter City,Rotherham United,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 1
+2024-08-10,Leyton Orient,Bolton Wanderers,1,2,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 1
+2024-08-10,Peterborough United,Huddersfield Town,0,2,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 1
+2024-08-10,Stevenage,Shrewsbury Town,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 1
+2024-08-10,Stockport County,Cambridge United,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 1
+2024-08-10,Wigan Athletic,Charlton Athletic,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 1
+2024-08-10,Wrexham,Wycombe Wanderers,3,2,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 1
+2024-08-17,Charlton Athletic,Leyton Orient,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 2
+2024-08-17,Shrewsbury Town,Peterborough United,1,4,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 2
+2024-08-17,Blackpool,Stockport County,0,3,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 2
+2024-08-17,Cambridge United,Crawley Town,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 2
+2024-08-17,Huddersfield Town,Stevenage,2,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 2
+2024-08-17,Lincoln City,Barnsley,1,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 2
+2024-08-17,Mansfield Town,Burton Albion,3,3,D,2,1,H,2024-25,LEAGUE_ONE,Matchday 2
+2024-08-17,Northampton Town,Exeter City,2,1,H,0,1,A,2024-25,LEAGUE_ONE,Matchday 2
+2024-08-17,Reading,Wigan Athletic,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 2
+2024-08-17,Rotherham United,Bristol Rovers,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 2
+2024-08-17,Wycombe Wanderers,Birmingham City,2,3,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 2
+2024-08-18,Bolton Wanderers,Wrexham,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 2
+2024-08-24,Burton Albion,Stevenage,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 3
+2024-08-24,Stockport County,Bristol Rovers,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 3
+2024-08-24,Barnsley,Northampton Town,2,2,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 3
+2024-08-24,Cambridge United,Blackpool,4,4,D,1,3,A,2024-25,LEAGUE_ONE,Matchday 3
+2024-08-24,Charlton Athletic,Bolton Wanderers,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 3
+2024-08-24,Exeter City,Peterborough United,1,2,A,1,2,A,2024-25,LEAGUE_ONE,Matchday 3
+2024-08-24,Huddersfield Town,Shrewsbury Town,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 3
+2024-08-24,Leyton Orient,Birmingham City,1,2,A,1,2,A,2024-25,LEAGUE_ONE,Matchday 3
+2024-08-24,Lincoln City,Mansfield Town,4,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 3
+2024-08-24,Wigan Athletic,Crawley Town,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 3
+2024-08-24,Wrexham,Reading,3,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 3
+2024-08-24,Wycombe Wanderers,Rotherham United,2,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 3
+2024-08-31,Blackpool,Wycombe Wanderers,2,2,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 4
+2024-08-31,Rotherham United,Huddersfield Town,2,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 4
+2024-08-31,Birmingham City,Wigan Athletic,2,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 4
+2024-08-31,Bolton Wanderers,Exeter City,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 4
+2024-08-31,Bristol Rovers,Cambridge United,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 4
+2024-08-31,Crawley Town,Barnsley,0,3,A,0,3,A,2024-25,LEAGUE_ONE,Matchday 4
+2024-08-31,Mansfield Town,Stockport County,1,1,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 4
+2024-08-31,Northampton Town,Burton Albion,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 4
+2024-08-31,Peterborough United,Wrexham,0,2,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 4
+2024-08-31,Reading,Charlton Athletic,2,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 4
+2024-08-31,Shrewsbury Town,Leyton Orient,3,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 4
+2024-08-31,Stevenage,Lincoln City,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 4
+2024-09-07,Barnsley,Bristol Rovers,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 5
+2024-09-07,Charlton Athletic,Rotherham United,1,1,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 5
+2024-09-07,Wrexham,Shrewsbury Town,3,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 5
+2024-09-24,Huddersfield Town,Blackpool,0,2,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 5
+2024-09-24,Leyton Orient,Peterborough United,2,2,D,1,2,A,2024-25,LEAGUE_ONE,Matchday 5
+2024-09-24,Wigan Athletic,Stevenage,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 5
+2024-10-29,Lincoln City,Northampton Town,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 5
+2024-10-29,Stockport County,Reading,4,1,H,3,1,H,2024-25,LEAGUE_ONE,Matchday 5
+2024-11-05,Burton Albion,Crawley Town,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 5
+2024-11-26,Cambridge United,Bolton Wanderers,1,1,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 5
+2024-11-26,Exeter City,Birmingham City,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 5
+2024-11-26,Wycombe Wanderers,Mansfield Town,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 5
+2024-09-14,Mansfield Town,Cambridge United,2,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 6
+2024-09-14,Northampton Town,Wycombe Wanderers,1,2,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 6
+2024-09-14,Blackpool,Exeter City,2,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 6
+2024-09-14,Bolton Wanderers,Huddersfield Town,0,4,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 6
+2024-09-14,Bristol Rovers,Wigan Athletic,0,4,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 6
+2024-09-14,Crawley Town,Stockport County,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 6
+2024-09-14,Peterborough United,Lincoln City,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 6
+2024-09-14,Reading,Leyton Orient,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 6
+2024-09-14,Rotherham United,Burton Albion,2,2,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 6
+2024-09-14,Shrewsbury Town,Charlton Athletic,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 6
+2024-09-14,Stevenage,Barnsley,3,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 6
+2024-09-16,Birmingham City,Wrexham,3,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 6
+2024-09-21,Exeter City,Stevenage,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 7
+2024-09-21,Lincoln City,Wigan Athletic,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 7
+2024-09-21,Bolton Wanderers,Reading,5,2,H,4,1,H,2024-25,LEAGUE_ONE,Matchday 7
+2024-09-21,Burton Albion,Barnsley,1,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 7
+2024-09-21,Charlton Athletic,Blackpool,1,2,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 7
+2024-09-21,Huddersfield Town,Northampton Town,1,3,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 7
+2024-09-21,Mansfield Town,Shrewsbury Town,2,1,H,0,1,A,2024-25,LEAGUE_ONE,Matchday 7
+2024-09-21,Peterborough United,Bristol Rovers,3,2,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 7
+2024-09-21,Rotherham United,Birmingham City,0,2,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 7
+2024-09-21,Stockport County,Leyton Orient,1,4,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 7
+2024-09-21,Wrexham,Crawley Town,2,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 7
+2024-09-21,Wycombe Wanderers,Cambridge United,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 7
+2024-09-28,Crawley Town,Bolton Wanderers,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 8
+2024-09-28,Reading,Huddersfield Town,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 8
+2024-09-28,Birmingham City,Peterborough United,3,2,H,1,2,A,2024-25,LEAGUE_ONE,Matchday 8
+2024-09-28,Blackpool,Burton Albion,3,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 8
+2024-09-28,Bristol Rovers,Wycombe Wanderers,1,2,A,1,0,H,2024-25,LEAGUE_ONE,Matchday 8
+2024-09-28,Cambridge United,Lincoln City,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 8
+2024-09-28,Leyton Orient,Wrexham,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 8
+2024-09-28,Northampton Town,Mansfield Town,0,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 8
+2024-09-28,Shrewsbury Town,Rotherham United,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 8
+2024-09-28,Stevenage,Charlton Athletic,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 8
+2024-09-28,Wigan Athletic,Exeter City,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 8
+2024-09-28,Barnsley,Stockport County,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 8
+2024-10-01,Barnsley,Wycombe Wanderers,2,2,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 9
+2024-10-01,Birmingham City,Huddersfield Town,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 9
+2024-10-01,Blackpool,Lincoln City,1,1,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 9
+2024-10-01,Bristol Rovers,Charlton Athletic,3,2,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 9
+2024-10-01,Cambridge United,Rotherham United,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 9
+2024-10-01,Crawley Town,Mansfield Town,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 9
+2024-10-01,Leyton Orient,Exeter City,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 9
+2024-10-01,Northampton Town,Bolton Wanderers,2,4,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 9
+2024-10-01,Shrewsbury Town,Stockport County,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 9
+2024-10-01,Stevenage,Wrexham,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 9
+2024-10-01,Wigan Athletic,Peterborough United,3,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 9
+2024-10-01,Reading,Burton Albion,3,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 9
+2024-10-05,Huddersfield Town,Barnsley,2,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 10
+2024-10-05,Peterborough United,Stevenage,2,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 10
+2024-10-05,Bolton Wanderers,Shrewsbury Town,2,2,D,0,2,A,2024-25,LEAGUE_ONE,Matchday 10
+2024-10-05,Burton Albion,Bristol Rovers,1,3,A,1,0,H,2024-25,LEAGUE_ONE,Matchday 10
+2024-10-05,Charlton Athletic,Birmingham City,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 10
+2024-10-05,Exeter City,Cambridge United,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 10
+2024-10-05,Lincoln City,Leyton Orient,2,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 10
+2024-10-05,Mansfield Town,Blackpool,2,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 10
+2024-10-05,Rotherham United,Reading,2,1,H,0,1,A,2024-25,LEAGUE_ONE,Matchday 10
+2024-10-05,Stockport County,Wigan Athletic,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 10
+2024-10-05,Wrexham,Northampton Town,4,1,H,2,1,H,2024-25,LEAGUE_ONE,Matchday 10
+2024-10-05,Wycombe Wanderers,Crawley Town,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 10
+2024-10-12,Crawley Town,Shrewsbury Town,3,5,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 11
+2024-10-12,Peterborough United,Rotherham United,3,3,D,1,3,A,2024-25,LEAGUE_ONE,Matchday 11
+2024-10-29,Stevenage,Bolton Wanderers,1,4,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 11
+2024-11-05,Stockport County,Wycombe Wanderers,0,5,A,0,3,A,2024-25,LEAGUE_ONE,Matchday 11
+2024-11-26,Barnsley,Reading,2,2,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 11
+2024-11-26,Bristol Rovers,Blackpool,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 11
+2024-11-26,Burton Albion,Charlton Athletic,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 11
+2024-11-26,Leyton Orient,Huddersfield Town,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 11
+2024-11-26,Wigan Athletic,Northampton Town,2,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 11
+2024-11-26,Wrexham,Lincoln City,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 11
+2025-02-11,Birmingham City,Cambridge United,4,0,H,3,0,H,2024-25,LEAGUE_ONE,Matchday 11
+2025-03-11,Exeter City,Mansfield Town,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 11
+2024-10-17,Shrewsbury Town,Exeter City,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 12
+2024-10-19,Reading,Crawley Town,4,1,H,2,1,H,2024-25,LEAGUE_ONE,Matchday 12
+2024-10-19,Wycombe Wanderers,Peterborough United,3,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 12
+2024-10-19,Blackpool,Barnsley,1,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 12
+2024-10-19,Bolton Wanderers,Burton Albion,2,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 12
+2024-10-19,Cambridge United,Wigan Athletic,2,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 12
+2024-10-19,Charlton Athletic,Stockport County,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 12
+2024-10-19,Huddersfield Town,Bristol Rovers,3,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 12
+2024-10-19,Lincoln City,Birmingham City,1,3,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 12
+2024-10-19,Mansfield Town,Stevenage,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 12
+2024-10-19,Northampton Town,Leyton Orient,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 12
+2024-10-19,Rotherham United,Wrexham,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 12
+2024-10-22,Barnsley,Charlton Athletic,2,2,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 13
+2024-10-22,Birmingham City,Bolton Wanderers,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 13
+2024-10-22,Bristol Rovers,Shrewsbury Town,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 13
+2024-10-22,Burton Albion,Wycombe Wanderers,2,3,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 13
+2024-10-22,Crawley Town,Lincoln City,3,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 13
+2024-10-22,Exeter City,Reading,1,2,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 13
+2024-10-22,Leyton Orient,Rotherham United,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 13
+2024-10-22,Peterborough United,Blackpool,5,1,H,3,1,H,2024-25,LEAGUE_ONE,Matchday 13
+2024-10-22,Stevenage,Cambridge United,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 13
+2024-10-22,Stockport County,Northampton Town,1,1,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 13
+2024-10-22,Wigan Athletic,Mansfield Town,1,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 13
+2024-10-22,Wrexham,Huddersfield Town,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 13
+2024-10-26,Mansfield Town,Birmingham City,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 14
+2024-10-26,Reading,Bristol Rovers,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 14
+2024-10-26,Bolton Wanderers,Peterborough United,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 14
+2024-10-26,Cambridge United,Burton Albion,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 14
+2024-10-26,Charlton Athletic,Wrexham,2,2,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 14
+2024-10-26,Huddersfield Town,Exeter City,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 14
+2024-10-26,Lincoln City,Stockport County,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 14
+2024-10-26,Northampton Town,Crawley Town,3,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 14
+2024-10-26,Rotherham United,Stevenage,2,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 14
+2024-10-26,Shrewsbury Town,Barnsley,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 14
+2024-10-26,Wycombe Wanderers,Leyton Orient,3,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 14
+2024-10-28,Blackpool,Wigan Athletic,2,2,D,1,2,A,2024-25,LEAGUE_ONE,Matchday 14
+2024-11-08,Barnsley,Rotherham United,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 15
+2024-11-09,Burton Albion,Shrewsbury Town,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 15
+2024-11-09,Wrexham,Mansfield Town,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 15
+2024-11-09,Birmingham City,Northampton Town,1,1,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 15
+2024-11-09,Bristol Rovers,Lincoln City,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 15
+2024-11-09,Crawley Town,Huddersfield Town,2,2,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 15
+2024-11-09,Exeter City,Charlton Athletic,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 15
+2024-11-09,Leyton Orient,Blackpool,3,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 15
+2024-11-09,Peterborough United,Cambridge United,6,1,H,4,0,H,2024-25,LEAGUE_ONE,Matchday 15
+2024-11-09,Stevenage,Reading,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 15
+2024-11-09,Stockport County,Bolton Wanderers,5,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 15
+2024-11-09,Wigan Athletic,Wycombe Wanderers,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 15
+2024-11-16,Exeter City,Lincoln City,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 16
+2024-11-16,Blackpool,Northampton Town,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 16
+2024-11-16,Bristol Rovers,Crawley Town,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 16
+2024-11-16,Cambridge United,Barnsley,1,1,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 16
+2024-11-16,Stockport County,Wrexham,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 16
+2025-01-07,Wycombe Wanderers,Huddersfield Town,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 16
+2025-01-11,Rotherham United,Bolton Wanderers,3,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 16
+2025-01-21,Wigan Athletic,Burton Albion,1,2,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 16
+2025-02-11,Charlton Athletic,Peterborough United,2,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 16
+2025-02-11,Leyton Orient,Mansfield Town,3,0,H,3,0,H,2024-25,LEAGUE_ONE,Matchday 16
+2025-02-11,Reading,Shrewsbury Town,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 16
+2025-03-11,Birmingham City,Stevenage,2,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 16
+2024-11-23,Bolton Wanderers,Blackpool,2,1,H,0,1,A,2024-25,LEAGUE_ONE,Matchday 17
+2024-11-23,Shrewsbury Town,Birmingham City,3,2,H,2,1,H,2024-25,LEAGUE_ONE,Matchday 17
+2024-11-23,Stevenage,Leyton Orient,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 17
+2024-11-23,Barnsley,Wigan Athletic,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 17
+2024-11-23,Burton Albion,Stockport County,0,3,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 17
+2024-11-23,Crawley Town,Rotherham United,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 17
+2024-11-23,Huddersfield Town,Charlton Athletic,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 17
+2024-11-23,Lincoln City,Wycombe Wanderers,2,3,A,1,2,A,2024-25,LEAGUE_ONE,Matchday 17
+2024-11-23,Mansfield Town,Bristol Rovers,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 17
+2024-11-23,Northampton Town,Cambridge United,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 17
+2024-11-23,Peterborough United,Reading,1,2,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 17
+2024-11-23,Wrexham,Exeter City,3,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 17
+2024-12-03,Bolton Wanderers,Mansfield Town,3,1,H,0,1,A,2024-25,LEAGUE_ONE,Matchday 18
+2024-12-03,Charlton Athletic,Crawley Town,1,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 18
+2024-12-03,Exeter City,Wycombe Wanderers,2,2,D,2,1,H,2024-25,LEAGUE_ONE,Matchday 18
+2024-12-03,Leyton Orient,Bristol Rovers,3,0,H,3,0,H,2024-25,LEAGUE_ONE,Matchday 18
+2024-12-03,Rotherham United,Lincoln City,2,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 18
+2024-12-03,Stevenage,Northampton Town,2,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 18
+2024-12-03,Wrexham,Barnsley,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 18
+2024-12-03,Huddersfield Town,Wigan Athletic,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 18
+2024-12-03,Reading,Cambridge United,3,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 18
+2024-12-04,Birmingham City,Stockport County,2,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 18
+2024-12-04,Peterborough United,Burton Albion,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 18
+2024-12-04,Shrewsbury Town,Blackpool,1,2,A,1,0,H,2024-25,LEAGUE_ONE,Matchday 18
+2024-12-07,Lincoln City,Charlton Athletic,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 19
+2024-12-07,Wigan Athletic,Leyton Orient,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 19
+2024-12-07,Barnsley,Birmingham City,1,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 19
+2024-12-07,Burton Albion,Wrexham,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 19
+2024-12-07,Cambridge United,Shrewsbury Town,4,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 19
+2024-12-07,Mansfield Town,Huddersfield Town,1,2,A,1,2,A,2024-25,LEAGUE_ONE,Matchday 19
+2024-12-07,Stockport County,Exeter City,2,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 19
+2024-12-07,Wycombe Wanderers,Reading,1,1,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 19
+2024-12-09,Northampton Town,Peterborough United,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 19
+2025-02-11,Blackpool,Rotherham United,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 19
+2025-02-11,Crawley Town,Stevenage,3,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 19
+2025-03-11,Bristol Rovers,Bolton Wanderers,3,2,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 19
+2024-12-14,Bolton Wanderers,Wigan Athletic,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 20
+2024-12-14,Leyton Orient,Burton Albion,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 20
+2024-12-14,Birmingham City,Bristol Rovers,2,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 20
+2024-12-14,Charlton Athletic,Mansfield Town,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 20
+2024-12-14,Exeter City,Barnsley,1,2,A,1,0,H,2024-25,LEAGUE_ONE,Matchday 20
+2024-12-14,Huddersfield Town,Lincoln City,2,2,D,0,2,A,2024-25,LEAGUE_ONE,Matchday 20
+2024-12-14,Peterborough United,Crawley Town,4,3,H,2,1,H,2024-25,LEAGUE_ONE,Matchday 20
+2024-12-14,Reading,Blackpool,0,3,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 20
+2024-12-14,Rotherham United,Northampton Town,3,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 20
+2024-12-14,Shrewsbury Town,Wycombe Wanderers,1,4,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 20
+2024-12-14,Stevenage,Stockport County,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 20
+2024-12-14,Wrexham,Cambridge United,2,2,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 20
+2024-12-20,Cambridge United,Huddersfield Town,0,4,A,0,3,A,2024-25,LEAGUE_ONE,Matchday 21
+2024-12-20,Stockport County,Peterborough United,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 21
+2024-12-20,Wycombe Wanderers,Bolton Wanderers,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 21
+2024-12-21,Bristol Rovers,Wrexham,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 21
+2024-12-21,Lincoln City,Reading,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 21
+2024-12-21,Barnsley,Leyton Orient,0,4,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 21
+2024-12-21,Blackpool,Stevenage,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 21
+2024-12-21,Burton Albion,Exeter City,1,2,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 21
+2024-12-21,Mansfield Town,Rotherham United,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 21
+2024-12-21,Northampton Town,Charlton Athletic,0,5,A,0,3,A,2024-25,LEAGUE_ONE,Matchday 21
+2024-12-21,Wigan Athletic,Shrewsbury Town,2,2,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 21
+2024-12-23,Crawley Town,Birmingham City,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 21
+2024-12-26,Leyton Orient,Crawley Town,3,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 22
+2024-12-26,Birmingham City,Burton Albion,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 22
+2024-12-26,Bolton Wanderers,Barnsley,1,2,A,1,0,H,2024-25,LEAGUE_ONE,Matchday 22
+2024-12-26,Charlton Athletic,Cambridge United,2,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 22
+2024-12-26,Exeter City,Bristol Rovers,3,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 22
+2024-12-26,Huddersfield Town,Stockport County,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 22
+2024-12-26,Peterborough United,Mansfield Town,0,3,A,0,3,A,2024-25,LEAGUE_ONE,Matchday 22
+2024-12-26,Reading,Northampton Town,4,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 22
+2024-12-26,Rotherham United,Wigan Athletic,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 22
+2024-12-26,Shrewsbury Town,Lincoln City,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 22
+2024-12-26,Stevenage,Wycombe Wanderers,0,3,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 22
+2024-12-26,Wrexham,Blackpool,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 22
+2024-12-29,Charlton Athletic,Wycombe Wanderers,2,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 23
+2024-12-29,Rotherham United,Stockport County,1,1,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 23
+2024-12-29,Birmingham City,Blackpool,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 23
+2024-12-29,Bolton Wanderers,Lincoln City,3,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 23
+2024-12-29,Exeter City,Crawley Town,4,4,D,1,4,A,2024-25,LEAGUE_ONE,Matchday 23
+2024-12-29,Huddersfield Town,Burton Albion,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 23
+2024-12-29,Leyton Orient,Cambridge United,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 23
+2024-12-29,Peterborough United,Barnsley,1,3,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 23
+2024-12-29,Reading,Mansfield Town,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 23
+2024-12-29,Shrewsbury Town,Northampton Town,1,1,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 23
+2024-12-29,Stevenage,Bristol Rovers,3,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 23
+2024-12-29,Wrexham,Wigan Athletic,2,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 23
+2025-01-01,Barnsley,Wrexham,2,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 24
+2025-01-01,Blackpool,Shrewsbury Town,1,1,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 24
+2025-01-01,Bristol Rovers,Leyton Orient,2,3,A,1,2,A,2024-25,LEAGUE_ONE,Matchday 24
+2025-01-01,Burton Albion,Peterborough United,2,2,D,2,1,H,2024-25,LEAGUE_ONE,Matchday 24
+2025-01-01,Cambridge United,Reading,1,3,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 24
+2025-01-01,Lincoln City,Rotherham United,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 24
+2025-01-01,Mansfield Town,Bolton Wanderers,2,1,H,2,1,H,2024-25,LEAGUE_ONE,Matchday 24
+2025-01-01,Northampton Town,Stevenage,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 24
+2025-01-01,Stockport County,Birmingham City,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 24
+2025-01-01,Wycombe Wanderers,Exeter City,2,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 24
+2025-02-25,Wigan Athletic,Huddersfield Town,2,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 24
+2025-03-11,Crawley Town,Charlton Athletic,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 24
+2025-01-04,Burton Albion,Northampton Town,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 25
+2025-01-04,Cambridge United,Bristol Rovers,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 25
+2025-01-04,Barnsley,Crawley Town,3,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 25
+2025-01-04,Charlton Athletic,Reading,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 25
+2025-01-04,Exeter City,Bolton Wanderers,1,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 25
+2025-01-04,Huddersfield Town,Rotherham United,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 25
+2025-01-04,Leyton Orient,Shrewsbury Town,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 25
+2025-01-04,Lincoln City,Stevenage,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 25
+2025-01-04,Stockport County,Mansfield Town,1,2,A,1,2,A,2024-25,LEAGUE_ONE,Matchday 25
+2025-01-04,Wigan Athletic,Birmingham City,0,3,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 25
+2025-01-04,Wrexham,Peterborough United,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 25
+2025-01-04,Wycombe Wanderers,Blackpool,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 25
+2025-01-21,Bolton Wanderers,Charlton Athletic,1,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 26
+2025-01-21,Peterborough United,Exeter City,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 26
+2025-02-11,Bristol Rovers,Stockport County,1,1,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 26
+2025-02-18,Crawley Town,Wigan Athletic,1,1,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 26
+2025-02-18,Mansfield Town,Lincoln City,0,3,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 26
+2025-02-18,Shrewsbury Town,Huddersfield Town,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 26
+2025-02-18,Stevenage,Burton Albion,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 26
+2025-02-25,Birmingham City,Leyton Orient,2,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 26
+2025-02-25,Northampton Town,Barnsley,1,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 26
+2025-03-11,Blackpool,Cambridge United,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 26
+2025-03-11,Reading,Wrexham,2,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 26
+2025-03-18,Rotherham United,Wycombe Wanderers,2,3,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 26
+2025-01-16,Shrewsbury Town,Wrexham,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 27
+2025-01-18,Blackpool,Huddersfield Town,2,2,D,2,0,H,2024-25,LEAGUE_ONE,Matchday 27
+2025-01-18,Peterborough United,Leyton Orient,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 27
+2025-01-18,Northampton Town,Lincoln City,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 27
+2025-01-18,Birmingham City,Exeter City,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 27
+2025-01-18,Bolton Wanderers,Cambridge United,2,2,D,1,2,A,2024-25,LEAGUE_ONE,Matchday 27
+2025-01-18,Bristol Rovers,Barnsley,3,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 27
+2025-01-18,Crawley Town,Burton Albion,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 27
+2025-01-18,Mansfield Town,Wycombe Wanderers,1,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 27
+2025-01-18,Reading,Stockport County,1,3,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 27
+2025-01-18,Rotherham United,Charlton Athletic,4,2,H,3,1,H,2024-25,LEAGUE_ONE,Matchday 27
+2025-01-18,Stevenage,Wigan Athletic,1,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 27
+2025-01-23,Wrexham,Birmingham City,1,1,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 28
+2025-01-25,Cambridge United,Mansfield Town,3,2,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 28
+2025-01-25,Huddersfield Town,Bolton Wanderers,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 28
+2025-01-25,Barnsley,Stevenage,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 28
+2025-01-25,Burton Albion,Rotherham United,4,2,H,3,1,H,2024-25,LEAGUE_ONE,Matchday 28
+2025-01-25,Charlton Athletic,Shrewsbury Town,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 28
+2025-01-25,Exeter City,Blackpool,1,3,A,0,3,A,2024-25,LEAGUE_ONE,Matchday 28
+2025-01-25,Leyton Orient,Reading,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 28
+2025-01-25,Lincoln City,Peterborough United,5,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 28
+2025-01-25,Stockport County,Crawley Town,2,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 28
+2025-01-25,Wigan Athletic,Bristol Rovers,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 28
+2025-01-25,Wycombe Wanderers,Northampton Town,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 28
+2025-01-28,Bolton Wanderers,Northampton Town,3,1,H,2,1,H,2024-25,LEAGUE_ONE,Matchday 29
+2025-01-28,Burton Albion,Reading,3,2,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 29
+2025-01-28,Charlton Athletic,Bristol Rovers,2,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 29
+2025-01-28,Exeter City,Leyton Orient,2,6,A,0,4,A,2024-25,LEAGUE_ONE,Matchday 29
+2025-01-28,Lincoln City,Blackpool,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 29
+2025-01-28,Mansfield Town,Crawley Town,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 29
+2025-01-28,Peterborough United,Wigan Athletic,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 29
+2025-01-28,Rotherham United,Cambridge United,2,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 29
+2025-01-28,Stockport County,Shrewsbury Town,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 29
+2025-01-28,Wrexham,Stevenage,2,3,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 29
+2025-01-28,Wycombe Wanderers,Barnsley,2,1,H,0,1,A,2024-25,LEAGUE_ONE,Matchday 29
+2025-01-28,Huddersfield Town,Birmingham City,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 29
+2025-02-01,Barnsley,Burton Albion,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 30
+2025-02-01,Stevenage,Exeter City,4,1,H,2,1,H,2024-25,LEAGUE_ONE,Matchday 30
+2025-02-01,Birmingham City,Rotherham United,2,1,H,0,1,A,2024-25,LEAGUE_ONE,Matchday 30
+2025-02-01,Blackpool,Charlton Athletic,2,2,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 30
+2025-02-01,Cambridge United,Wycombe Wanderers,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 30
+2025-02-01,Crawley Town,Wrexham,1,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 30
+2025-02-01,Leyton Orient,Stockport County,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 30
+2025-02-01,Northampton Town,Huddersfield Town,3,2,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 30
+2025-02-01,Reading,Bolton Wanderers,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 30
+2025-02-01,Shrewsbury Town,Mansfield Town,2,1,H,0,1,A,2024-25,LEAGUE_ONE,Matchday 30
+2025-02-01,Wigan Athletic,Lincoln City,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 30
+2025-02-02,Bristol Rovers,Peterborough United,3,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 30
+2025-02-07,Mansfield Town,Northampton Town,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 31
+2025-02-08,Charlton Athletic,Stevenage,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 31
+2025-02-08,Stockport County,Barnsley,2,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 31
+2025-02-08,Bolton Wanderers,Crawley Town,4,3,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 31
+2025-02-08,Burton Albion,Blackpool,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 31
+2025-02-08,Huddersfield Town,Reading,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 31
+2025-02-08,Lincoln City,Cambridge United,1,1,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 31
+2025-02-08,Rotherham United,Shrewsbury Town,1,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 31
+2025-02-18,Wrexham,Leyton Orient,1,2,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 31
+2025-02-18,Wycombe Wanderers,Bristol Rovers,2,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 31
+2025-04-08,Exeter City,Wigan Athletic,1,1,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 31
+2025-04-08,Peterborough United,Birmingham City,1,2,A,1,2,A,2024-25,LEAGUE_ONE,Matchday 31
+2025-02-15,Cambridge United,Exeter City,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 32
+2025-02-15,Northampton Town,Wrexham,0,2,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 32
+2025-02-15,Barnsley,Huddersfield Town,1,2,A,1,0,H,2024-25,LEAGUE_ONE,Matchday 32
+2025-02-15,Birmingham City,Charlton Athletic,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 32
+2025-02-15,Blackpool,Mansfield Town,3,3,D,1,2,A,2024-25,LEAGUE_ONE,Matchday 32
+2025-02-15,Bristol Rovers,Burton Albion,3,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 32
+2025-02-15,Crawley Town,Wycombe Wanderers,1,1,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 32
+2025-02-15,Leyton Orient,Lincoln City,3,2,H,2,1,H,2024-25,LEAGUE_ONE,Matchday 32
+2025-02-15,Reading,Rotherham United,2,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 32
+2025-02-15,Shrewsbury Town,Bolton Wanderers,2,3,A,1,0,H,2024-25,LEAGUE_ONE,Matchday 32
+2025-02-15,Stevenage,Peterborough United,1,1,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 32
+2025-02-15,Wigan Athletic,Stockport County,0,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 32
+2025-02-22,Reading,Birmingham City,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 33
+2025-02-22,Rotherham United,Barnsley,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 33
+2025-02-22,Blackpool,Crawley Town,3,1,H,2,1,H,2024-25,LEAGUE_ONE,Matchday 33
+2025-02-22,Bolton Wanderers,Leyton Orient,2,1,H,0,1,A,2024-25,LEAGUE_ONE,Matchday 33
+2025-02-22,Cambridge United,Stockport County,2,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 33
+2025-02-22,Charlton Athletic,Exeter City,3,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 33
+2025-02-22,Huddersfield Town,Peterborough United,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 33
+2025-02-22,Lincoln City,Burton Albion,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 33
+2025-02-22,Northampton Town,Bristol Rovers,2,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 33
+2025-02-22,Shrewsbury Town,Stevenage,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 33
+2025-02-22,Wycombe Wanderers,Wigan Athletic,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 33
+2025-02-23,Mansfield Town,Wrexham,1,2,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 33
+2025-03-01,Birmingham City,Wycombe Wanderers,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 34
+2025-03-01,Wrexham,Bolton Wanderers,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 34
+2025-03-01,Barnsley,Lincoln City,4,3,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 34
+2025-03-01,Bristol Rovers,Rotherham United,2,3,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 34
+2025-03-01,Burton Albion,Mansfield Town,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 34
+2025-03-01,Crawley Town,Cambridge United,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 34
+2025-03-01,Exeter City,Northampton Town,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 34
+2025-03-01,Leyton Orient,Charlton Athletic,1,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 34
+2025-03-01,Peterborough United,Shrewsbury Town,3,1,H,2,1,H,2024-25,LEAGUE_ONE,Matchday 34
+2025-03-01,Stevenage,Huddersfield Town,1,2,A,1,2,A,2024-25,LEAGUE_ONE,Matchday 34
+2025-03-01,Stockport County,Blackpool,2,1,H,0,1,A,2024-25,LEAGUE_ONE,Matchday 34
+2025-03-01,Wigan Athletic,Reading,1,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 34
+2025-03-04,Blackpool,Peterborough United,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 35
+2025-03-04,Bolton Wanderers,Birmingham City,3,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 35
+2025-03-04,Cambridge United,Stevenage,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 35
+2025-03-04,Charlton Athletic,Barnsley,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 35
+2025-03-04,Huddersfield Town,Wrexham,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 35
+2025-03-04,Lincoln City,Crawley Town,4,1,H,3,1,H,2024-25,LEAGUE_ONE,Matchday 35
+2025-03-04,Mansfield Town,Wigan Athletic,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 35
+2025-03-04,Northampton Town,Stockport County,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 35
+2025-03-04,Rotherham United,Leyton Orient,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 35
+2025-03-04,Shrewsbury Town,Bristol Rovers,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 35
+2025-03-04,Wycombe Wanderers,Burton Albion,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 35
+2025-03-04,Reading,Exeter City,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 35
+2025-03-08,Crawley Town,Reading,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 36
+2025-03-08,Stockport County,Charlton Athletic,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 36
+2025-03-08,Barnsley,Blackpool,0,3,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 36
+2025-03-08,Birmingham City,Lincoln City,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 36
+2025-03-08,Bristol Rovers,Huddersfield Town,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 36
+2025-03-08,Burton Albion,Bolton Wanderers,1,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 36
+2025-03-08,Exeter City,Shrewsbury Town,2,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 36
+2025-03-08,Leyton Orient,Northampton Town,1,2,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 36
+2025-03-08,Peterborough United,Wycombe Wanderers,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 36
+2025-03-08,Stevenage,Mansfield Town,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 36
+2025-03-08,Wigan Athletic,Cambridge United,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 36
+2025-03-08,Wrexham,Rotherham United,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 36
+2025-03-15,Bolton Wanderers,Stockport County,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 37
+2025-03-15,Cambridge United,Peterborough United,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 37
+2025-03-15,Blackpool,Leyton Orient,1,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 37
+2025-03-15,Charlton Athletic,Wigan Athletic,2,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 37
+2025-03-15,Huddersfield Town,Crawley Town,5,1,H,4,0,H,2024-25,LEAGUE_ONE,Matchday 37
+2025-03-15,Lincoln City,Bristol Rovers,5,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 37
+2025-03-15,Mansfield Town,Barnsley,2,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 37
+2025-03-15,Northampton Town,Birmingham City,1,1,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 37
+2025-03-15,Reading,Stevenage,1,1,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 37
+2025-03-15,Rotherham United,Exeter City,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 37
+2025-03-15,Shrewsbury Town,Burton Albion,0,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 37
+2025-03-15,Wycombe Wanderers,Wrexham,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 37
+2025-03-22,Barnsley,Cambridge United,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 38
+2025-03-22,Crawley Town,Bristol Rovers,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 38
+2025-03-22,Lincoln City,Exeter City,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 38
+2025-03-22,Northampton Town,Blackpool,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 38
+2025-03-22,Peterborough United,Charlton Athletic,3,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 38
+2025-03-22,Wrexham,Stockport County,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 38
+2025-04-08,Bolton Wanderers,Rotherham United,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 38
+2025-04-08,Huddersfield Town,Wycombe Wanderers,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 38
+2025-04-08,Mansfield Town,Leyton Orient,2,3,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 38
+2025-04-08,Shrewsbury Town,Reading,1,3,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 38
+2025-04-24,Stevenage,Birmingham City,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 38
+2025-04-29,Burton Albion,Wigan Athletic,1,1,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 38
+2025-03-27,Leyton Orient,Stevenage,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 39
+2025-03-29,Charlton Athletic,Huddersfield Town,4,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 39
+2025-03-29,Stockport County,Burton Albion,2,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 39
+2025-03-29,Birmingham City,Shrewsbury Town,4,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 39
+2025-03-29,Blackpool,Bolton Wanderers,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 39
+2025-03-29,Bristol Rovers,Mansfield Town,1,2,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 39
+2025-03-29,Cambridge United,Northampton Town,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 39
+2025-03-29,Exeter City,Wrexham,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 39
+2025-03-29,Reading,Peterborough United,3,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 39
+2025-03-29,Rotherham United,Crawley Town,0,4,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 39
+2025-03-29,Wigan Athletic,Barnsley,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 39
+2025-03-29,Wycombe Wanderers,Lincoln City,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 39
+2025-04-01,Barnsley,Exeter City,1,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 40
+2025-04-01,Blackpool,Reading,3,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 40
+2025-04-01,Burton Albion,Leyton Orient,2,1,H,0,1,A,2024-25,LEAGUE_ONE,Matchday 40
+2025-04-01,Cambridge United,Wrexham,2,2,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 40
+2025-04-01,Crawley Town,Peterborough United,3,4,A,2,3,A,2024-25,LEAGUE_ONE,Matchday 40
+2025-04-01,Lincoln City,Huddersfield Town,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 40
+2025-04-01,Mansfield Town,Charlton Athletic,1,2,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 40
+2025-04-01,Northampton Town,Rotherham United,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 40
+2025-04-01,Stockport County,Stevenage,3,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 40
+2025-04-01,Wigan Athletic,Bolton Wanderers,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 40
+2025-04-01,Wycombe Wanderers,Shrewsbury Town,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 40
+2025-04-01,Bristol Rovers,Birmingham City,1,2,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 40
+2025-04-05,Reading,Wycombe Wanderers,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 41
+2025-04-05,Wrexham,Burton Albion,3,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 41
+2025-04-05,Birmingham City,Barnsley,6,2,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 41
+2025-04-05,Bolton Wanderers,Bristol Rovers,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 41
+2025-04-05,Charlton Athletic,Lincoln City,2,2,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 41
+2025-04-05,Exeter City,Stockport County,0,2,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 41
+2025-04-05,Huddersfield Town,Mansfield Town,2,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 41
+2025-04-05,Leyton Orient,Wigan Athletic,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 41
+2025-04-05,Peterborough United,Northampton Town,0,4,A,0,3,A,2024-25,LEAGUE_ONE,Matchday 41
+2025-04-05,Rotherham United,Blackpool,2,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 41
+2025-04-05,Shrewsbury Town,Cambridge United,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 41
+2025-04-05,Stevenage,Crawley Town,3,1,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 41
+2025-04-12,Wigan Athletic,Wrexham,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 42
+2025-04-12,Wycombe Wanderers,Stevenage,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 42
+2025-04-12,Barnsley,Bolton Wanderers,4,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 42
+2025-04-12,Bristol Rovers,Exeter City,1,2,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 42
+2025-04-12,Burton Albion,Huddersfield Town,3,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 42
+2025-04-12,Cambridge United,Charlton Athletic,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 42
+2025-04-12,Crawley Town,Leyton Orient,1,3,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 42
+2025-04-12,Lincoln City,Shrewsbury Town,1,1,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 42
+2025-04-12,Northampton Town,Reading,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 42
+2025-04-12,Stockport County,Rotherham United,3,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 42
+2025-04-30,Blackpool,Birmingham City,0,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 42
+2025-04-30,Mansfield Town,Peterborough United,4,2,H,3,0,H,2024-25,LEAGUE_ONE,Matchday 42
+2025-04-18,Exeter City,Burton Albion,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 43
+2025-04-18,Birmingham City,Crawley Town,0,0,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 43
+2025-04-18,Bolton Wanderers,Wycombe Wanderers,0,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 43
+2025-04-18,Charlton Athletic,Northampton Town,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 43
+2025-04-18,Huddersfield Town,Cambridge United,1,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 43
+2025-04-18,Leyton Orient,Barnsley,4,3,H,0,2,A,2024-25,LEAGUE_ONE,Matchday 43
+2025-04-18,Peterborough United,Stockport County,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 43
+2025-04-18,Reading,Lincoln City,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 43
+2025-04-18,Rotherham United,Mansfield Town,3,3,D,2,1,H,2024-25,LEAGUE_ONE,Matchday 43
+2025-04-18,Shrewsbury Town,Wigan Athletic,0,1,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 43
+2025-04-18,Stevenage,Blackpool,1,3,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 43
+2025-04-18,Wrexham,Bristol Rovers,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 43
+2025-04-21,Barnsley,Peterborough United,1,1,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 44
+2025-04-21,Blackpool,Wrexham,1,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 44
+2025-04-21,Bristol Rovers,Stevenage,0,1,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 44
+2025-04-21,Burton Albion,Birmingham City,1,2,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 44
+2025-04-21,Cambridge United,Leyton Orient,1,2,A,1,0,H,2024-25,LEAGUE_ONE,Matchday 44
+2025-04-21,Crawley Town,Exeter City,3,1,H,3,1,H,2024-25,LEAGUE_ONE,Matchday 44
+2025-04-21,Lincoln City,Bolton Wanderers,4,2,H,2,2,D,2024-25,LEAGUE_ONE,Matchday 44
+2025-04-21,Mansfield Town,Reading,1,5,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 44
+2025-04-21,Northampton Town,Shrewsbury Town,4,1,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 44
+2025-04-21,Stockport County,Huddersfield Town,2,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 44
+2025-04-21,Wigan Athletic,Rotherham United,1,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 44
+2025-04-21,Wycombe Wanderers,Charlton Athletic,0,4,A,0,2,A,2024-25,LEAGUE_ONE,Matchday 44
+2025-04-26,Bristol Rovers,Reading,0,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 45
+2025-04-26,Leyton Orient,Wycombe Wanderers,1,0,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 45
+2025-04-26,Barnsley,Shrewsbury Town,1,2,A,0,1,A,2024-25,LEAGUE_ONE,Matchday 45
+2025-04-26,Burton Albion,Cambridge United,2,1,H,0,0,D,2024-25,LEAGUE_ONE,Matchday 45
+2025-04-26,Crawley Town,Northampton Town,3,0,H,1,0,H,2024-25,LEAGUE_ONE,Matchday 45
+2025-04-26,Exeter City,Huddersfield Town,3,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 45
+2025-04-26,Peterborough United,Bolton Wanderers,1,1,D,1,1,D,2024-25,LEAGUE_ONE,Matchday 45
+2025-04-26,Stockport County,Lincoln City,3,2,H,0,2,A,2024-25,LEAGUE_ONE,Matchday 45
+2025-04-26,Wigan Athletic,Blackpool,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 45
+2025-04-26,Wrexham,Charlton Athletic,3,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 45
+2025-04-27,Stevenage,Rotherham United,1,1,D,0,1,A,2024-25,LEAGUE_ONE,Matchday 45
+2025-04-27,Birmingham City,Mansfield Town,4,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 45
+2025-05-03,Blackpool,Bristol Rovers,4,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 46
+2025-05-03,Bolton Wanderers,Stevenage,1,1,D,0,0,D,2024-25,LEAGUE_ONE,Matchday 46
+2025-05-03,Cambridge United,Birmingham City,1,2,A,1,1,D,2024-25,LEAGUE_ONE,Matchday 46
+2025-05-03,Charlton Athletic,Burton Albion,3,1,H,2,1,H,2024-25,LEAGUE_ONE,Matchday 46
+2025-05-03,Huddersfield Town,Leyton Orient,1,4,A,1,2,A,2024-25,LEAGUE_ONE,Matchday 46
+2025-05-03,Lincoln City,Wrexham,0,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 46
+2025-05-03,Mansfield Town,Exeter City,3,0,H,2,0,H,2024-25,LEAGUE_ONE,Matchday 46
+2025-05-03,Northampton Town,Wigan Athletic,1,1,D,1,0,H,2024-25,LEAGUE_ONE,Matchday 46
+2025-05-03,Reading,Barnsley,2,4,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 46
+2025-05-03,Rotherham United,Peterborough United,2,1,H,1,1,D,2024-25,LEAGUE_ONE,Matchday 46
+2025-05-03,Shrewsbury Town,Crawley Town,1,2,A,0,0,D,2024-25,LEAGUE_ONE,Matchday 46
+2025-05-03,Wycombe Wanderers,Stockport County,1,3,A,1,0,H,2024-25,LEAGUE_ONE,Matchday 46

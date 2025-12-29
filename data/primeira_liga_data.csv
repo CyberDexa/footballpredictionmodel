@@ -1,0 +1,406 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,Season,League,Round
+2025-08-08,Casa Pia,Sporting Clube de Portugal,0,2,A,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 1
+2025-08-09,CD Nacional,Gil Vicente,0,2,A,0,2,A,2025-26,PRIMEIRA_LIGA,Matchday 1
+2025-08-09,FC Arouca,AVS,3,1,H,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 1
+2025-08-10,FC Famalicão,CD Santa Clara,3,0,H,2,0,H,2025-26,PRIMEIRA_LIGA,Matchday 1
+2025-08-10,Sporting Clube de Braga,CD Tondela,3,0,H,2,0,H,2025-26,PRIMEIRA_LIGA,Matchday 1
+2025-08-10,Moreirense,FC Alverca,2,1,H,1,1,D,2025-26,PRIMEIRA_LIGA,Matchday 1
+2025-08-11,GD Estoril Praia,CF Estrela da Amadora,1,1,D,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 1
+2025-08-11,FC Porto,Vitória Guimarães,3,0,H,2,0,H,2025-26,PRIMEIRA_LIGA,Matchday 1
+2025-08-15,AVS,Casa Pia,0,2,A,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 2
+2025-08-16,CD Tondela,FC Famalicão,0,1,A,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 2
+2025-08-16,Vitória Guimarães,GD Estoril Praia,3,2,H,1,1,D,2025-26,PRIMEIRA_LIGA,Matchday 2
+2025-08-16,CF Estrela da Amadora,Sport Lisboa e Benfica,0,1,A,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 2
+2025-08-17,Rio Ave,CD Nacional,1,1,D,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 2
+2025-08-17,FC Alverca,Sporting Clube de Braga,0,3,A,0,3,A,2025-26,PRIMEIRA_LIGA,Matchday 2
+2025-08-17,CD Santa Clara,Moreirense,0,1,A,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 2
+2025-08-17,Sporting Clube de Portugal,FC Arouca,6,0,H,3,0,H,2025-26,PRIMEIRA_LIGA,Matchday 2
+2025-08-18,Gil Vicente,FC Porto,0,2,A,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 2
+2025-08-23,Moreirense,Vitória Guimarães,2,0,H,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 3
+2025-08-23,CD Nacional,Sporting Clube de Portugal,1,4,A,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 3
+2025-08-23,FC Arouca,Rio Ave,3,3,D,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 3
+2025-08-23,Sport Lisboa e Benfica,CD Tondela,3,0,H,2,0,H,2025-26,PRIMEIRA_LIGA,Matchday 3
+2025-08-24,FC Famalicão,Gil Vicente,0,0,D,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 3
+2025-08-24,FC Porto,Casa Pia,4,0,H,3,0,H,2025-26,PRIMEIRA_LIGA,Matchday 3
+2025-08-24,Sporting Clube de Braga,AVS,2,2,D,1,2,A,2025-26,PRIMEIRA_LIGA,Matchday 3
+2025-08-25,CF Estrela da Amadora,FC Alverca,2,2,D,1,2,A,2025-26,PRIMEIRA_LIGA,Matchday 3
+2025-08-29,Gil Vicente,Moreirense,2,0,H,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 4
+2025-08-30,Casa Pia,CD Nacional,0,2,A,0,2,A,2025-26,PRIMEIRA_LIGA,Matchday 4
+2025-08-30,AVS,FC Famalicão,0,1,A,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 4
+2025-08-30,Vitória Guimarães,FC Arouca,1,1,D,1,1,D,2025-26,PRIMEIRA_LIGA,Matchday 4
+2025-08-30,Sporting Clube de Portugal,FC Porto,1,2,A,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 4
+2025-08-31,CD Tondela,GD Estoril Praia,2,2,D,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 4
+2025-08-31,FC Alverca,Sport Lisboa e Benfica,1,2,A,0,2,A,2025-26,PRIMEIRA_LIGA,Matchday 4
+2025-08-31,CD Santa Clara,CF Estrela da Amadora,0,0,D,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 4
+2025-08-31,Rio Ave,Sporting Clube de Braga,2,2,D,2,1,H,2025-26,PRIMEIRA_LIGA,Matchday 4
+2025-09-06,GD Estoril Praia,CD Santa Clara,0,1,A,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 3
+2025-09-12,FC Alverca,CD Tondela,1,0,H,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 5
+2025-09-12,Sport Lisboa e Benfica,CD Santa Clara,1,1,D,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 5
+2025-09-13,Moreirense,Rio Ave,3,1,H,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 5
+2025-09-13,GD Estoril Praia,AVS,3,1,H,2,0,H,2025-26,PRIMEIRA_LIGA,Matchday 5
+2025-09-13,FC Porto,CD Nacional,1,0,H,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 5
+2025-09-13,FC Famalicão,Sporting Clube de Portugal,1,2,A,1,1,D,2025-26,PRIMEIRA_LIGA,Matchday 5
+2025-09-14,CF Estrela da Amadora,Vitória Guimarães,0,2,A,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 5
+2025-09-14,FC Arouca,Casa Pia,0,2,A,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 5
+2025-09-14,Sporting Clube de Braga,Gil Vicente,0,1,A,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 5
+2025-09-19,Rio Ave,FC Porto,0,3,A,0,2,A,2025-26,PRIMEIRA_LIGA,Matchday 6
+2025-09-20,CD Santa Clara,FC Alverca,2,1,H,1,1,D,2025-26,PRIMEIRA_LIGA,Matchday 6
+2025-09-20,CD Nacional,FC Arouca,1,2,A,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 6
+2025-09-20,AVS,Sport Lisboa e Benfica,0,3,A,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 6
+2025-09-20,Vitória Guimarães,Sporting Clube de Braga,1,1,D,1,1,D,2025-26,PRIMEIRA_LIGA,Matchday 6
+2025-09-21,CD Tondela,CF Estrela da Amadora,0,0,D,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 6
+2025-09-21,Gil Vicente,GD Estoril Praia,2,0,H,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 6
+2025-09-21,Casa Pia,FC Famalicão,1,1,D,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 6
+2025-09-22,Sporting Clube de Portugal,Moreirense,3,0,H,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 6
+2025-09-23,Sport Lisboa e Benfica,Rio Ave,1,1,D,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 1
+2025-09-26,Sport Lisboa e Benfica,Gil Vicente,2,1,H,2,1,H,2025-26,PRIMEIRA_LIGA,Matchday 7
+2025-09-27,CD Santa Clara,CD Tondela,1,2,A,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 7
+2025-09-27,Moreirense,Casa Pia,2,1,H,1,1,D,2025-26,PRIMEIRA_LIGA,Matchday 7
+2025-09-27,CF Estrela da Amadora,AVS,3,0,H,3,0,H,2025-26,PRIMEIRA_LIGA,Matchday 7
+2025-09-27,GD Estoril Praia,Sporting Clube de Portugal,0,1,A,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 7
+2025-09-28,FC Alverca,Vitória Guimarães,2,0,H,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 7
+2025-09-28,Sporting Clube de Braga,CD Nacional,0,1,A,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 7
+2025-09-28,FC Famalicão,Rio Ave,0,0,D,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 7
+2025-09-29,FC Arouca,FC Porto,0,4,A,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 7
+2025-10-03,Casa Pia,GD Estoril Praia,2,2,D,2,1,H,2025-26,PRIMEIRA_LIGA,Matchday 8
+2025-10-04,Gil Vicente,CF Estrela da Amadora,2,0,H,2,0,H,2025-26,PRIMEIRA_LIGA,Matchday 8
+2025-10-04,CD Nacional,Moreirense,3,2,H,1,1,D,2025-26,PRIMEIRA_LIGA,Matchday 8
+2025-10-04,AVS,FC Alverca,1,3,A,1,1,D,2025-26,PRIMEIRA_LIGA,Matchday 8
+2025-10-04,Vitória Guimarães,CD Santa Clara,2,1,H,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 8
+2025-10-05,FC Arouca,FC Famalicão,1,1,D,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 8
+2025-10-05,Rio Ave,CD Tondela,3,0,H,2,0,H,2025-26,PRIMEIRA_LIGA,Matchday 8
+2025-10-05,Sporting Clube de Portugal,Sporting Clube de Braga,1,1,D,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 8
+2025-10-05,FC Porto,Sport Lisboa e Benfica,0,0,D,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 8
+2025-10-24,FC Alverca,Gil Vicente,0,4,A,0,2,A,2025-26,PRIMEIRA_LIGA,Matchday 9
+2025-10-25,CD Santa Clara,AVS,2,0,H,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 9
+2025-10-25,CF Estrela da Amadora,Rio Ave,1,2,A,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 9
+2025-10-25,Sport Lisboa e Benfica,FC Arouca,5,0,H,3,0,H,2025-26,PRIMEIRA_LIGA,Matchday 9
+2025-10-26,GD Estoril Praia,CD Nacional,1,1,D,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 9
+2025-10-26,FC Famalicão,Vitória Guimarães,2,0,H,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 9
+2025-10-26,CD Tondela,Sporting Clube de Portugal,0,3,A,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 9
+2025-10-26,Sporting Clube de Braga,Casa Pia,4,0,H,2,0,H,2025-26,PRIMEIRA_LIGA,Matchday 9
+2025-10-27,Moreirense,FC Porto,1,2,A,1,1,D,2025-26,PRIMEIRA_LIGA,Matchday 9
+2025-10-31,Sporting Clube de Portugal,FC Alverca,2,0,H,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 10
+2025-11-01,CD Nacional,FC Famalicão,0,1,A,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 10
+2025-11-01,Casa Pia,CF Estrela da Amadora,3,5,A,1,2,A,2025-26,PRIMEIRA_LIGA,Matchday 10
+2025-11-01,Rio Ave,GD Estoril Praia,0,4,A,0,2,A,2025-26,PRIMEIRA_LIGA,Matchday 10
+2025-11-01,Vitória Guimarães,Sport Lisboa e Benfica,0,3,A,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 10
+2025-11-02,AVS,CD Tondela,2,2,D,1,1,D,2025-26,PRIMEIRA_LIGA,Matchday 10
+2025-11-02,FC Arouca,Moreirense,0,2,A,0,2,A,2025-26,PRIMEIRA_LIGA,Matchday 10
+2025-11-02,FC Porto,Sporting Clube de Braga,2,1,H,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 10
+2025-11-03,Gil Vicente,CD Santa Clara,1,0,H,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 10
+2025-11-07,GD Estoril Praia,FC Arouca,4,3,H,2,2,D,2025-26,PRIMEIRA_LIGA,Matchday 11
+2025-11-08,FC Alverca,Rio Ave,1,1,D,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 11
+2025-11-08,CD Tondela,Vitória Guimarães,0,1,A,0,0,D,2025-26,PRIMEIRA_LIGA,Matchday 11
+2025-11-08,CD Santa Clara,Sporting Clube de Portugal,1,2,A,1,1,D,2025-26,PRIMEIRA_LIGA,Matchday 11
+2025-11-09,AVS,Gil Vicente,1,1,D,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 11
+2025-11-09,CF Estrela da Amadora,CD Nacional,1,1,D,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 11
+2025-11-09,FC Famalicão,FC Porto,0,1,A,0,1,A,2025-26,PRIMEIRA_LIGA,Matchday 11
+2025-11-09,Sporting Clube de Braga,Moreirense,2,1,H,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 11
+2025-11-09,Sport Lisboa e Benfica,Casa Pia,2,2,D,1,0,H,2025-26,PRIMEIRA_LIGA,Matchday 11
+2024-08-09,Sporting Clube de Portugal,Rio Ave,3,1,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 1
+2024-08-10,AVS,CD Nacional,1,1,D,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 1
+2024-08-10,Casa Pia,Boavista,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 1
+2024-08-10,FC Porto,Gil Vicente,3,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 1
+2024-08-11,GD Estoril Praia,CD Santa Clara,1,4,A,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 1
+2024-08-11,SC Farense,Moreirense,1,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 1
+2024-08-11,FC Famalicão,Sport Lisboa e Benfica,2,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 1
+2024-08-11,Sporting Clube de Braga,CF Estrela da Amadora,1,1,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 1
+2024-08-12,FC Arouca,Vitória Guimarães,0,1,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 1
+2024-08-16,CD Santa Clara,FC Porto,0,2,A,0,2,A,2024-25,PRIMEIRA_LIGA,Matchday 2
+2024-08-16,Gil Vicente,AVS,4,2,H,2,2,D,2024-25,PRIMEIRA_LIGA,Matchday 2
+2024-08-17,Rio Ave,SC Farense,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 2
+2024-08-17,CD Nacional,Sporting Clube de Portugal,1,6,A,1,2,A,2024-25,PRIMEIRA_LIGA,Matchday 2
+2024-08-17,Sport Lisboa e Benfica,Casa Pia,3,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 2
+2024-08-18,Moreirense,FC Arouca,3,1,H,2,1,H,2024-25,PRIMEIRA_LIGA,Matchday 2
+2024-08-18,Vitória Guimarães,GD Estoril Praia,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 2
+2024-08-18,Boavista,Sporting Clube de Braga,0,1,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 2
+2024-08-19,CF Estrela da Amadora,FC Famalicão,0,3,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 2
+2024-08-23,SC Farense,Sporting Clube de Portugal,0,5,A,0,2,A,2024-25,PRIMEIRA_LIGA,Matchday 3
+2024-08-24,Casa Pia,CD Santa Clara,0,2,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 3
+2024-08-24,FC Porto,Rio Ave,2,0,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 3
+2024-08-24,Sport Lisboa e Benfica,CF Estrela da Amadora,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 3
+2024-08-24,FC Famalicão,Boavista,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 3
+2024-08-25,FC Arouca,CD Nacional,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 3
+2024-08-25,GD Estoril Praia,Gil Vicente,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 3
+2024-08-25,Sporting Clube de Braga,Moreirense,3,1,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 3
+2024-08-25,AVS,Vitória Guimarães,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 3
+2024-08-30,Moreirense,Sport Lisboa e Benfica,1,1,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 4
+2024-08-31,CD Santa Clara,AVS,2,1,H,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 4
+2024-08-31,Boavista,GD Estoril Praia,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 4
+2024-08-31,CF Estrela da Amadora,Casa Pia,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 4
+2024-08-31,Sporting Clube de Portugal,FC Porto,2,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 4
+2024-09-01,CD Nacional,SC Farense,2,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 4
+2024-09-01,Rio Ave,FC Arouca,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 4
+2024-09-01,Gil Vicente,Sporting Clube de Braga,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 4
+2024-09-01,Vitória Guimarães,FC Famalicão,2,1,H,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 4
+2024-09-13,FC Arouca,Sporting Clube de Portugal,0,3,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 5
+2024-09-14,Casa Pia,Moreirense,3,1,H,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 5
+2024-09-14,AVS,Rio Ave,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 5
+2024-09-14,Sport Lisboa e Benfica,CD Santa Clara,4,1,H,2,1,H,2024-25,PRIMEIRA_LIGA,Matchday 5
+2024-09-14,FC Famalicão,Gil Vicente,1,1,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 5
+2024-09-15,FC Porto,SC Farense,2,1,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 5
+2024-09-15,GD Estoril Praia,CD Nacional,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 5
+2024-09-15,Sporting Clube de Braga,Vitória Guimarães,0,2,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 5
+2024-09-16,CF Estrela da Amadora,Boavista,2,2,D,1,2,A,2024-25,PRIMEIRA_LIGA,Matchday 5
+2024-09-20,CD Nacional,Sporting Clube de Braga,0,3,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 6
+2024-09-21,CD Santa Clara,CF Estrela da Amadora,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 6
+2024-09-21,Rio Ave,GD Estoril Praia,2,2,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 6
+2024-09-21,Vitória Guimarães,FC Porto,0,3,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 6
+2024-09-21,Moreirense,FC Famalicão,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 6
+2024-09-22,Gil Vicente,Casa Pia,1,1,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 6
+2024-09-22,SC Farense,FC Arouca,0,1,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 6
+2024-09-22,Sporting Clube de Portugal,AVS,3,0,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 6
+2024-09-23,Boavista,Sport Lisboa e Benfica,0,3,A,0,2,A,2024-25,PRIMEIRA_LIGA,Matchday 6
+2024-09-27,GD Estoril Praia,Sporting Clube de Portugal,0,3,A,0,2,A,2024-25,PRIMEIRA_LIGA,Matchday 7
+2024-09-28,CF Estrela da Amadora,Moreirense,2,1,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 7
+2024-09-28,Casa Pia,Vitória Guimarães,1,1,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 7
+2024-09-28,Sport Lisboa e Benfica,Gil Vicente,5,1,H,2,1,H,2024-25,PRIMEIRA_LIGA,Matchday 7
+2024-09-29,FC Famalicão,CD Nacional,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 7
+2024-09-29,FC Porto,FC Arouca,4,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 7
+2024-09-29,Sporting Clube de Braga,Rio Ave,4,0,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 7
+2024-09-29,CD Santa Clara,Boavista,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 7
+2024-09-30,AVS,SC Farense,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 7
+2024-10-04,Rio Ave,FC Famalicão,1,1,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 8
+2024-10-05,Moreirense,CD Santa Clara,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 8
+2024-10-05,Gil Vicente,CF Estrela da Amadora,3,0,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 8
+2024-10-05,FC Arouca,AVS,1,1,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 8
+2024-10-05,Sporting Clube de Portugal,Casa Pia,2,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 8
+2024-10-06,Vitória Guimarães,Boavista,2,2,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 8
+2024-10-06,SC Farense,GD Estoril Praia,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 8
+2024-10-06,FC Porto,Sporting Clube de Braga,2,1,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 8
+2024-10-25,Casa Pia,CD Nacional,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 9
+2024-10-25,CD Santa Clara,Gil Vicente,2,1,H,2,1,H,2024-25,PRIMEIRA_LIGA,Matchday 9
+2024-10-26,GD Estoril Praia,FC Arouca,4,1,H,2,1,H,2024-25,PRIMEIRA_LIGA,Matchday 9
+2024-10-26,Boavista,Moreirense,0,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 9
+2024-10-26,FC Famalicão,Sporting Clube de Portugal,0,3,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 9
+2024-10-27,Sporting Clube de Braga,SC Farense,2,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 9
+2024-10-27,Sport Lisboa e Benfica,Rio Ave,5,0,H,3,0,H,2024-25,PRIMEIRA_LIGA,Matchday 9
+2024-10-27,CF Estrela da Amadora,Vitória Guimarães,2,2,D,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 9
+2024-10-28,AVS,FC Porto,0,5,A,0,4,A,2024-25,PRIMEIRA_LIGA,Matchday 9
+2024-11-01,Sporting Clube de Portugal,CF Estrela da Amadora,5,1,H,3,1,H,2024-25,PRIMEIRA_LIGA,Matchday 10
+2024-11-02,Rio Ave,Casa Pia,2,2,D,2,2,D,2024-25,PRIMEIRA_LIGA,Matchday 10
+2024-11-02,SC Farense,Sport Lisboa e Benfica,1,2,A,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 10
+2024-11-02,Gil Vicente,Boavista,1,2,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 10
+2024-11-03,AVS,FC Famalicão,2,3,A,2,2,D,2024-25,PRIMEIRA_LIGA,Matchday 10
+2024-11-03,FC Arouca,Sporting Clube de Braga,1,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 10
+2024-11-03,Vitória Guimarães,Moreirense,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 10
+2024-11-03,FC Porto,GD Estoril Praia,4,0,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 10
+2024-11-04,CD Nacional,CD Santa Clara,2,0,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 10
+2024-11-08,Moreirense,Gil Vicente,3,2,H,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 11
+2024-11-09,Casa Pia,SC Farense,1,1,D,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 11
+2024-11-09,GD Estoril Praia,AVS,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 11
+2024-11-09,FC Famalicão,FC Arouca,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 11
+2024-11-09,Boavista,Rio Ave,0,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 11
+2024-11-10,CF Estrela da Amadora,CD Nacional,2,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 11
+2024-11-10,CD Santa Clara,Vitória Guimarães,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 11
+2024-11-10,Sporting Clube de Braga,Sporting Clube de Portugal,2,4,A,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 11
+2024-11-10,Sport Lisboa e Benfica,FC Porto,4,1,H,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 11
+2024-11-29,SC Farense,CF Estrela da Amadora,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 12
+2024-11-30,Rio Ave,Moreirense,3,2,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 12
+2024-11-30,CD Nacional,Boavista,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 12
+2024-11-30,Sporting Clube de Portugal,CD Santa Clara,0,1,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 12
+2024-12-01,GD Estoril Praia,FC Famalicão,2,1,H,2,1,H,2024-25,PRIMEIRA_LIGA,Matchday 12
+2024-12-01,FC Arouca,Sport Lisboa e Benfica,0,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 12
+2024-12-01,AVS,Sporting Clube de Braga,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 12
+2024-12-02,Vitória Guimarães,Gil Vicente,4,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 12
+2024-12-02,FC Porto,Casa Pia,2,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 12
+2024-12-05,Moreirense,Sporting Clube de Portugal,2,1,H,2,1,H,2024-25,PRIMEIRA_LIGA,Matchday 13
+2024-12-06,Sporting Clube de Braga,GD Estoril Praia,2,2,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 13
+2024-12-07,Gil Vicente,CD Nacional,2,1,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 13
+2024-12-07,Sport Lisboa e Benfica,Vitória Guimarães,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 13
+2024-12-07,CD Santa Clara,Rio Ave,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 13
+2024-12-07,FC Famalicão,FC Porto,1,1,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 13
+2024-12-08,Boavista,SC Farense,1,1,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 13
+2024-12-08,Casa Pia,AVS,1,1,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 13
+2024-12-09,CF Estrela da Amadora,FC Arouca,2,1,H,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 13
+2024-12-14,SC Farense,Gil Vicente,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 14
+2024-12-14,CD Nacional,Moreirense,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 14
+2024-12-14,Sporting Clube de Portugal,Boavista,3,2,H,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 14
+2024-12-15,FC Arouca,CD Santa Clara,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 14
+2024-12-15,AVS,Sport Lisboa e Benfica,1,1,D,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 14
+2024-12-15,GD Estoril Praia,Casa Pia,0,2,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 14
+2024-12-16,Sporting Clube de Braga,FC Famalicão,3,3,D,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 14
+2024-12-16,FC Porto,CF Estrela da Amadora,2,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 14
+2024-12-16,Rio Ave,Vitória Guimarães,2,2,D,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 14
+2024-12-19,CD Nacional,Sport Lisboa e Benfica,0,2,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 8
+2024-12-20,Casa Pia,FC Arouca,3,1,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 15
+2024-12-21,FC Famalicão,SC Farense,1,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 15
+2024-12-21,Boavista,AVS,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 15
+2024-12-21,Moreirense,FC Porto,0,3,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 15
+2024-12-22,CD Santa Clara,Sporting Clube de Braga,0,2,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 15
+2024-12-22,Gil Vicente,Sporting Clube de Portugal,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 15
+2024-12-23,Sport Lisboa e Benfica,GD Estoril Praia,3,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 15
+2024-12-23,Vitória Guimarães,CD Nacional,2,2,D,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 15
+2024-12-23,CF Estrela da Amadora,Rio Ave,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 15
+2024-12-27,FC Arouca,Gil Vicente,1,1,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 16
+2024-12-28,AVS,CF Estrela da Amadora,1,1,D,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 16
+2024-12-28,GD Estoril Praia,Moreirense,2,2,D,2,1,H,2024-25,PRIMEIRA_LIGA,Matchday 16
+2024-12-28,FC Porto,Boavista,4,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 16
+2024-12-29,SC Farense,Vitória Guimarães,2,2,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 16
+2024-12-29,Rio Ave,CD Nacional,2,1,H,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 16
+2024-12-29,Sporting Clube de Braga,Casa Pia,1,2,A,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 16
+2024-12-29,Sporting Clube de Portugal,Sport Lisboa e Benfica,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 16
+2024-12-30,FC Famalicão,CD Santa Clara,1,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 16
+2025-01-03,Vitória Guimarães,Sporting Clube de Portugal,4,4,D,1,2,A,2024-25,PRIMEIRA_LIGA,Matchday 17
+2025-01-04,Moreirense,AVS,1,1,D,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 17
+2025-01-04,Sport Lisboa e Benfica,Sporting Clube de Braga,1,2,A,0,2,A,2024-25,PRIMEIRA_LIGA,Matchday 17
+2025-01-04,Boavista,FC Arouca,1,3,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 17
+2025-01-05,CD Santa Clara,SC Farense,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 17
+2025-01-05,Casa Pia,FC Famalicão,1,1,D,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 17
+2025-01-05,CF Estrela da Amadora,GD Estoril Praia,2,4,A,0,3,A,2024-25,PRIMEIRA_LIGA,Matchday 17
+2025-01-06,Gil Vicente,Rio Ave,1,1,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 17
+2025-01-12,CD Nacional,FC Porto,2,0,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 17
+2025-01-17,Sport Lisboa e Benfica,FC Famalicão,4,0,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 18
+2025-01-18,CD Santa Clara,GD Estoril Praia,2,3,A,1,2,A,2024-25,PRIMEIRA_LIGA,Matchday 18
+2025-01-18,Rio Ave,Sporting Clube de Portugal,0,3,A,0,2,A,2024-25,PRIMEIRA_LIGA,Matchday 18
+2025-01-18,Vitória Guimarães,FC Arouca,2,2,D,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 18
+2025-01-19,CD Nacional,AVS,3,1,H,3,1,H,2024-25,PRIMEIRA_LIGA,Matchday 18
+2025-01-19,Moreirense,SC Farense,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 18
+2025-01-19,CF Estrela da Amadora,Sporting Clube de Braga,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 18
+2025-01-19,Gil Vicente,FC Porto,3,1,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 18
+2025-01-20,Boavista,Casa Pia,2,3,A,1,2,A,2024-25,PRIMEIRA_LIGA,Matchday 18
+2025-01-24,FC Arouca,Moreirense,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 19
+2025-01-25,FC Famalicão,CF Estrela da Amadora,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 19
+2025-01-25,SC Farense,Rio Ave,1,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 19
+2025-01-25,Casa Pia,Sport Lisboa e Benfica,3,1,H,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 19
+2025-01-25,Sporting Clube de Portugal,CD Nacional,2,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 19
+2025-01-26,GD Estoril Praia,Vitória Guimarães,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 19
+2025-01-26,FC Porto,CD Santa Clara,1,1,D,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 19
+2025-01-26,Sporting Clube de Braga,Boavista,3,0,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 19
+2025-01-27,AVS,Gil Vicente,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 19
+2025-01-31,Boavista,FC Famalicão,0,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 20
+2025-02-01,CD Nacional,FC Arouca,1,2,A,1,2,A,2024-25,PRIMEIRA_LIGA,Matchday 20
+2025-02-01,CD Santa Clara,Casa Pia,2,1,H,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 20
+2025-02-01,Gil Vicente,GD Estoril Praia,1,2,A,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 20
+2025-02-01,Vitória Guimarães,AVS,2,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 20
+2025-02-02,Sporting Clube de Portugal,SC Farense,3,1,H,2,1,H,2024-25,PRIMEIRA_LIGA,Matchday 20
+2025-02-02,CF Estrela da Amadora,Sport Lisboa e Benfica,2,3,A,1,3,A,2024-25,PRIMEIRA_LIGA,Matchday 20
+2025-02-03,Moreirense,Sporting Clube de Braga,1,2,A,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 20
+2025-02-03,Rio Ave,FC Porto,2,2,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 20
+2025-02-07,FC Porto,Sporting Clube de Portugal,1,1,D,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 21
+2025-02-08,AVS,CD Santa Clara,1,2,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 21
+2025-02-08,Sport Lisboa e Benfica,Moreirense,3,2,H,3,1,H,2024-25,PRIMEIRA_LIGA,Matchday 21
+2025-02-08,FC Famalicão,Vitória Guimarães,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 21
+2025-02-09,GD Estoril Praia,Boavista,2,1,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 21
+2025-02-09,SC Farense,CD Nacional,0,2,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 21
+2025-02-09,Sporting Clube de Braga,Gil Vicente,2,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 21
+2025-02-09,Casa Pia,CF Estrela da Amadora,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 21
+2025-02-10,FC Arouca,Rio Ave,1,1,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 21
+2025-02-14,Boavista,CF Estrela da Amadora,0,1,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 22
+2025-02-15,Moreirense,Casa Pia,3,2,H,3,0,H,2024-25,PRIMEIRA_LIGA,Matchday 22
+2025-02-15,CD Nacional,GD Estoril Praia,2,2,D,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 22
+2025-02-15,CD Santa Clara,Sport Lisboa e Benfica,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 22
+2025-02-15,Sporting Clube de Portugal,FC Arouca,2,2,D,1,2,A,2024-25,PRIMEIRA_LIGA,Matchday 22
+2025-02-16,Rio Ave,AVS,1,1,D,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 22
+2025-02-16,SC Farense,FC Porto,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 22
+2025-02-16,Vitória Guimarães,Sporting Clube de Braga,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 22
+2025-02-17,Gil Vicente,FC Famalicão,0,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 22
+2025-02-21,Sporting Clube de Braga,CD Nacional,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 23
+2025-02-22,Casa Pia,Gil Vicente,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 23
+2025-02-22,Sport Lisboa e Benfica,Boavista,3,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 23
+2025-02-22,GD Estoril Praia,Rio Ave,2,1,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 23
+2025-02-23,CF Estrela da Amadora,CD Santa Clara,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 23
+2025-02-23,FC Arouca,SC Farense,2,2,D,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 23
+2025-02-23,AVS,Sporting Clube de Portugal,2,2,D,0,2,A,2024-25,PRIMEIRA_LIGA,Matchday 23
+2025-02-23,FC Famalicão,Moreirense,2,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 23
+2025-02-24,FC Porto,Vitória Guimarães,1,1,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 23
+2025-03-01,CD Nacional,FC Famalicão,2,1,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 24
+2025-03-01,FC Arouca,FC Porto,0,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 24
+2025-03-01,Vitória Guimarães,Casa Pia,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 24
+2025-03-02,Boavista,CD Santa Clara,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 24
+2025-03-02,Moreirense,CF Estrela da Amadora,1,1,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 24
+2025-03-02,SC Farense,AVS,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 24
+2025-03-02,Rio Ave,Sporting Clube de Braga,2,1,H,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 24
+2025-03-03,Sporting Clube de Portugal,GD Estoril Praia,3,1,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 24
+2025-03-07,CF Estrela da Amadora,Gil Vicente,1,1,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 25
+2025-03-08,AVS,FC Arouca,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 25
+2025-03-08,GD Estoril Praia,SC Farense,2,2,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 25
+2025-03-08,Sport Lisboa e Benfica,CD Nacional,3,0,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 25
+2025-03-08,Sporting Clube de Braga,FC Porto,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 25
+2025-03-09,CD Santa Clara,Moreirense,1,1,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 25
+2025-03-09,Casa Pia,Sporting Clube de Portugal,1,3,A,1,2,A,2024-25,PRIMEIRA_LIGA,Matchday 25
+2025-03-09,Boavista,Vitória Guimarães,1,2,A,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 25
+2025-03-10,FC Famalicão,Rio Ave,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 25
+2025-03-15,SC Farense,Sporting Clube de Braga,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 26
+2025-03-15,Gil Vicente,CD Santa Clara,0,1,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 26
+2025-03-15,FC Porto,AVS,2,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 26
+2025-03-15,Sporting Clube de Portugal,FC Famalicão,3,1,H,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 26
+2025-03-16,CD Nacional,Casa Pia,3,1,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 26
+2025-03-16,FC Arouca,GD Estoril Praia,1,1,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 26
+2025-03-16,Rio Ave,Sport Lisboa e Benfica,2,3,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 26
+2025-03-16,Vitória Guimarães,CF Estrela da Amadora,2,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 26
+2025-03-16,Moreirense,Boavista,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 26
+2025-03-28,Gil Vicente,Sport Lisboa e Benfica,0,3,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 24
+2025-03-29,Casa Pia,Rio Ave,2,1,H,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 27
+2025-03-29,CF Estrela da Amadora,Sporting Clube de Portugal,0,3,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 27
+2025-03-29,Sporting Clube de Braga,FC Arouca,2,1,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 27
+2025-03-30,FC Famalicão,AVS,4,1,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 27
+2025-03-30,CD Santa Clara,CD Nacional,1,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 27
+2025-03-30,GD Estoril Praia,FC Porto,1,2,A,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 27
+2025-03-30,Moreirense,Vitória Guimarães,2,2,D,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 27
+2025-04-01,Boavista,Gil Vicente,1,3,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 27
+2025-04-02,Sport Lisboa e Benfica,SC Farense,3,2,H,2,1,H,2024-25,PRIMEIRA_LIGA,Matchday 27
+2025-04-04,AVS,GD Estoril Praia,0,3,A,0,2,A,2024-25,PRIMEIRA_LIGA,Matchday 28
+2025-04-05,FC Arouca,FC Famalicão,1,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 28
+2025-04-05,Vitória Guimarães,CD Santa Clara,2,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 28
+2025-04-06,Gil Vicente,Moreirense,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 28
+2025-04-06,CD Nacional,CF Estrela da Amadora,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 28
+2025-04-06,FC Porto,Sport Lisboa e Benfica,1,4,A,0,2,A,2024-25,PRIMEIRA_LIGA,Matchday 28
+2025-04-07,SC Farense,Casa Pia,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 28
+2025-04-07,Rio Ave,Boavista,0,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 28
+2025-04-07,Sporting Clube de Portugal,Sporting Clube de Braga,1,1,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 28
+2025-04-11,Gil Vicente,Vitória Guimarães,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 29
+2025-04-12,FC Famalicão,GD Estoril Praia,3,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 29
+2025-04-12,Boavista,CD Nacional,0,1,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 29
+2025-04-12,CD Santa Clara,Sporting Clube de Portugal,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 29
+2025-04-12,Casa Pia,FC Porto,0,1,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 29
+2025-04-13,CF Estrela da Amadora,SC Farense,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 29
+2025-04-13,Sporting Clube de Braga,AVS,4,1,H,3,1,H,2024-25,PRIMEIRA_LIGA,Matchday 29
+2025-04-13,Sport Lisboa e Benfica,FC Arouca,2,2,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 29
+2025-04-13,Moreirense,Rio Ave,0,2,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 29
+2025-04-18,SC Farense,Boavista,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 30
+2025-04-18,Rio Ave,CD Santa Clara,1,1,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 30
+2025-04-18,FC Porto,FC Famalicão,2,1,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 30
+2025-04-18,Sporting Clube de Portugal,Moreirense,3,1,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 30
+2025-04-19,CD Nacional,Gil Vicente,0,3,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 30
+2025-04-19,AVS,Casa Pia,1,1,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 30
+2025-04-19,GD Estoril Praia,Sporting Clube de Braga,0,2,A,0,2,A,2024-25,PRIMEIRA_LIGA,Matchday 30
+2025-04-19,FC Arouca,CF Estrela da Amadora,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 30
+2025-04-19,Vitória Guimarães,Sport Lisboa e Benfica,0,3,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 30
+2025-04-25,FC Famalicão,Sporting Clube de Braga,1,1,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 31
+2025-04-26,CD Santa Clara,FC Arouca,2,0,H,2,0,H,2024-25,PRIMEIRA_LIGA,Matchday 31
+2025-04-26,Gil Vicente,SC Farense,1,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 31
+2025-04-26,CF Estrela da Amadora,FC Porto,2,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 31
+2025-04-27,Moreirense,CD Nacional,1,1,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 31
+2025-04-27,Sport Lisboa e Benfica,AVS,6,0,H,4,0,H,2024-25,PRIMEIRA_LIGA,Matchday 31
+2025-04-27,Vitória Guimarães,Rio Ave,3,0,H,3,0,H,2024-25,PRIMEIRA_LIGA,Matchday 31
+2025-04-27,Boavista,Sporting Clube de Portugal,0,5,A,0,2,A,2024-25,PRIMEIRA_LIGA,Matchday 31
+2025-04-29,Casa Pia,GD Estoril Praia,1,3,A,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 31
+2025-05-02,FC Porto,Moreirense,3,1,H,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 32
+2025-05-03,CD Nacional,Vitória Guimarães,1,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 32
+2025-05-03,SC Farense,FC Famalicão,2,1,H,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 32
+2025-05-03,Sporting Clube de Braga,CD Santa Clara,1,1,D,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 32
+2025-05-03,GD Estoril Praia,Sport Lisboa e Benfica,1,2,A,0,2,A,2024-25,PRIMEIRA_LIGA,Matchday 32
+2025-05-04,FC Arouca,Casa Pia,0,0,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 32
+2025-05-04,Sporting Clube de Portugal,Gil Vicente,2,1,H,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 32
+2025-05-05,Rio Ave,CF Estrela da Amadora,2,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 32
+2025-05-05,AVS,Boavista,1,2,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 32
+2025-05-10,CD Santa Clara,FC Famalicão,2,1,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 33
+2025-05-10,CD Nacional,Rio Ave,3,3,D,0,3,A,2024-25,PRIMEIRA_LIGA,Matchday 33
+2025-05-10,Sport Lisboa e Benfica,Sporting Clube de Portugal,1,1,D,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 33
+2025-05-10,Casa Pia,Sporting Clube de Braga,2,1,H,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 33
+2025-05-10,Gil Vicente,FC Arouca,1,1,D,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 33
+2025-05-11,CF Estrela da Amadora,AVS,0,1,A,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 33
+2025-05-11,Moreirense,GD Estoril Praia,2,2,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 33
+2025-05-11,Vitória Guimarães,SC Farense,1,2,A,0,1,A,2024-25,PRIMEIRA_LIGA,Matchday 33
+2025-05-11,Boavista,FC Porto,1,2,A,1,2,A,2024-25,PRIMEIRA_LIGA,Matchday 33
+2025-05-16,Rio Ave,Gil Vicente,1,1,D,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 34
+2025-05-16,FC Famalicão,Casa Pia,2,1,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 34
+2025-05-17,GD Estoril Praia,CF Estrela da Amadora,4,0,H,4,0,H,2024-25,PRIMEIRA_LIGA,Matchday 34
+2025-05-17,Sporting Clube de Portugal,Vitória Guimarães,2,0,H,0,0,D,2024-25,PRIMEIRA_LIGA,Matchday 34
+2025-05-17,Sporting Clube de Braga,Sport Lisboa e Benfica,1,1,D,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 34
+2025-05-17,FC Porto,CD Nacional,3,0,H,1,0,H,2024-25,PRIMEIRA_LIGA,Matchday 34
+2025-05-17,AVS,Moreirense,0,3,A,0,2,A,2024-25,PRIMEIRA_LIGA,Matchday 34
+2025-05-17,FC Arouca,Boavista,4,1,H,3,1,H,2024-25,PRIMEIRA_LIGA,Matchday 34
+2025-05-17,SC Farense,CD Santa Clara,1,2,A,1,1,D,2024-25,PRIMEIRA_LIGA,Matchday 34
