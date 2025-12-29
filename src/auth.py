@@ -8,7 +8,7 @@ import hashlib
 import secrets
 import os
 from datetime import datetime, timedelta
-from typing import Dict, Optional, Tuple
+from typing import Dict, List, Optional, Tuple
 import re
 
 
@@ -72,6 +72,7 @@ class AuthManager:
             CREATE TABLE IF NOT EXISTS users (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 email TEXT UNIQUE NOT NULL,
+                username TEXT,
                 password_hash TEXT NOT NULL,
                 salt TEXT NOT NULL,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -161,7 +162,7 @@ class AuthManager:
             return False, "Password must contain at least one number"
         return True, "Password is valid"
     
-    def register(self, email: str, password: str) -> Tuple[bool, str, Optional[int]]:
+    def register(self, email: str, password: str, username: str = None) -> Tuple[bool, str, Optional[int]]:
         """
         Register a new user
         
@@ -177,6 +178,10 @@ class AuthManager:
         if not is_valid:
             return False, msg, None
         
+        # Generate username from email if not provided
+        if not username:
+            username = email.split('@')[0]
+        
         # Hash password
         password_hash, salt = self._hash_password(password)
         
@@ -188,9 +193,9 @@ class AuthManager:
         
         try:
             cursor.execute('''
-                INSERT INTO users (email, password_hash, salt, verification_token)
-                VALUES (?, ?, ?, ?)
-            ''', (email.lower(), password_hash, salt, verification_token))
+                INSERT INTO users (email, username, password_hash, salt, verification_token)
+                VALUES (?, ?, ?, ?, ?)
+            ''', (email.lower(), username, password_hash, salt, verification_token))
             
             user_id = cursor.lastrowid
             conn.commit()
@@ -305,6 +310,53 @@ class AuthManager:
             }
         
         return None
+    
+    def get_username(self, user_id: int) -> str:
+        """Get username by user ID"""
+        conn = self._get_connection()
+        cursor = conn.cursor()
+        
+        cursor.execute('''
+            SELECT username, email FROM users WHERE id = ?
+        ''', (user_id,))
+        
+        row = cursor.fetchone()
+        conn.close()
+        
+        if row:
+            if row['username']:
+                return row['username']
+            elif row['email']:
+                return row['email'].split('@')[0]
+        
+        return f"User #{user_id}"
+    
+    def get_usernames_batch(self, user_ids: List[int]) -> Dict[int, str]:
+        """Get usernames for multiple user IDs"""
+        if not user_ids:
+            return {}
+        
+        conn = self._get_connection()
+        cursor = conn.cursor()
+        
+        placeholders = ','.join('?' * len(user_ids))
+        cursor.execute(f'''
+            SELECT id, username, email FROM users WHERE id IN ({placeholders})
+        ''', user_ids)
+        
+        rows = cursor.fetchall()
+        conn.close()
+        
+        result = {}
+        for row in rows:
+            if row['username']:
+                result[row['id']] = row['username']
+            elif row['email']:
+                result[row['id']] = row['email'].split('@')[0]
+            else:
+                result[row['id']] = f"User #{row['id']}"
+        
+        return result
     
     def logout(self, session_token: str) -> bool:
         """Invalidate a session"""

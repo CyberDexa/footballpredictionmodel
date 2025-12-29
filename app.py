@@ -444,7 +444,15 @@ class FootballPredictorApp:
             st.info("📥 Click 'Refresh Data' in the sidebar to fetch match data.")
         
         # Tabs for different functionality
-        tab1, tab2, tab3, tab4 = st.tabs(["🔮 Predict Match", "📅 Upcoming Matches", "📊 Stats", "📈 Track Record"])
+        tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
+            "🔮 Predict Match", 
+            "📅 Upcoming Matches", 
+            "📊 Stats", 
+            "📈 Track Record",
+            "📋 My Predictions",
+            "🏆 Leaderboard",
+            "⚔️ Head-to-Head"
+        ])
         
         with tab1:
             self.render_prediction_tab(league)
@@ -457,6 +465,15 @@ class FootballPredictorApp:
         
         with tab4:
             self.render_accuracy_tab(league)
+        
+        with tab5:
+            self.render_my_predictions_tab(league)
+        
+        with tab6:
+            self.render_leaderboard_tab()
+        
+        with tab7:
+            self.render_head_to_head_tab(league)
     
     def render_prediction_tab(self, league: str):
         """Render the prediction selection tab"""
@@ -1135,6 +1152,461 @@ class FootballPredictorApp:
         - **Multiple markets**: Don't rely on just match result - check goals and BTTS too
         """)
     
+    def render_my_predictions_tab(self, league: str):
+        """Render the user's prediction history tab"""
+        st.markdown("### 📋 My Predictions")
+        
+        user = st.session_state.user
+        
+        if not user or user.get('is_guest'):
+            st.info("🔐 Please login or register to view your prediction history")
+            if st.button("🔐 Login / Register"):
+                st.session_state.user = None
+                st.rerun()
+            return
+        
+        # Get user stats
+        user_stats = self.db.get_user_stats(user['id'])
+        
+        # User performance header
+        col1, col2, col3, col4 = st.columns(4)
+        
+        with col1:
+            st.metric("📊 Total Predictions", user_stats['total_predictions'])
+        with col2:
+            st.metric("✅ Verified", user_stats['verified'])
+        with col3:
+            accuracy_delta = user_stats['result_accuracy'] - 33.3 if user_stats['verified'] > 0 else 0
+            st.metric("🎯 Accuracy", f"{user_stats['result_accuracy']}%", 
+                     f"{accuracy_delta:+.1f}% vs random" if user_stats['verified'] > 0 else None)
+        with col4:
+            st.metric("💪 Avg Confidence", f"{user_stats['avg_confidence']}%")
+        
+        st.divider()
+        
+        # Accuracy breakdown by market
+        if user_stats['verified'] > 0:
+            st.markdown("#### 🎯 Your Accuracy by Market")
+            
+            col1, col2, col3 = st.columns(3)
+            
+            with col1:
+                result_color = "🟢" if user_stats['result_accuracy'] >= 50 else "🟡" if user_stats['result_accuracy'] >= 40 else "🔴"
+                st.markdown(f"""
+                <div style="background: #f8f9fa; padding: 1rem; border-radius: 10px; text-align: center;">
+                    <h4>{result_color} Match Results</h4>
+                    <h2>{user_stats['result_accuracy']}%</h2>
+                    <small>{user_stats['result_correct']}/{user_stats['verified']} correct</small>
+                </div>
+                """, unsafe_allow_html=True)
+            
+            with col2:
+                goals_color = "🟢" if user_stats['over_2_5_accuracy'] >= 55 else "🟡" if user_stats['over_2_5_accuracy'] >= 45 else "🔴"
+                st.markdown(f"""
+                <div style="background: #f8f9fa; padding: 1rem; border-radius: 10px; text-align: center;">
+                    <h4>{goals_color} Over 2.5 Goals</h4>
+                    <h2>{user_stats['over_2_5_accuracy']}%</h2>
+                    <small>{user_stats['over_2_5_correct']}/{user_stats['verified']} correct</small>
+                </div>
+                """, unsafe_allow_html=True)
+            
+            with col3:
+                btts_color = "🟢" if user_stats['btts_accuracy'] >= 55 else "🟡" if user_stats['btts_accuracy'] >= 45 else "🔴"
+                st.markdown(f"""
+                <div style="background: #f8f9fa; padding: 1rem; border-radius: 10px; text-align: center;">
+                    <h4>{btts_color} BTTS</h4>
+                    <h2>{user_stats['btts_accuracy']}%</h2>
+                    <small>{user_stats['btts_correct']}/{user_stats['verified']} correct</small>
+                </div>
+                """, unsafe_allow_html=True)
+        
+        st.divider()
+        
+        # Prediction history
+        st.markdown("#### 📜 Prediction History")
+        
+        predictions = self.db.get_user_predictions(user['id'], limit=50)
+        
+        if predictions:
+            # Filter options
+            col1, col2 = st.columns(2)
+            with col1:
+                filter_status = st.selectbox("Filter by", ["All", "Verified Only", "Pending"])
+            with col2:
+                filter_result = st.selectbox("Result", ["All", "Correct ✅", "Incorrect ❌"])
+            
+            # Apply filters
+            filtered = predictions
+            if filter_status == "Verified Only":
+                filtered = [p for p in filtered if p.get('match_played')]
+            elif filter_status == "Pending":
+                filtered = [p for p in filtered if not p.get('match_played')]
+            
+            if filter_result == "Correct ✅":
+                filtered = [p for p in filtered if p.get('result_correct') == True]
+            elif filter_result == "Incorrect ❌":
+                filtered = [p for p in filtered if p.get('result_correct') == False]
+            
+            # Display predictions
+            for pred in filtered:
+                status_icon = "✅" if pred.get('result_correct') else "❌" if pred.get('result_correct') == False else "⏳"
+                confidence = pred.get('result_confidence', 0) * 100
+                
+                conf_color = "🟢" if confidence >= 60 else "🟡" if confidence >= 50 else "🔴"
+                
+                with st.expander(f"{status_icon} {pred['home_team']} vs {pred['away_team']} - {pred.get('created_at', '')[:10]}"):
+                    col1, col2 = st.columns(2)
+                    
+                    with col1:
+                        st.markdown(f"**League:** {pred.get('league', 'Unknown')}")
+                        st.markdown(f"**Predicted:** {pred.get('predicted_result', 'Unknown')}")
+                        st.markdown(f"**Confidence:** {conf_color} {confidence:.1f}%")
+                    
+                    with col2:
+                        if pred.get('match_played'):
+                            st.markdown(f"**Actual Result:** {pred.get('actual_result', 'Unknown')}")
+                            st.markdown(f"**Score:** {pred.get('actual_home_goals', '?')} - {pred.get('actual_away_goals', '?')}")
+                            st.markdown(f"**Status:** {status_icon} {'Correct!' if pred.get('result_correct') else 'Incorrect'}")
+                        else:
+                            st.markdown("**Status:** ⏳ Pending result")
+                    
+                    # Additional markets
+                    st.markdown("---")
+                    goals_cols = st.columns(4)
+                    with goals_cols[0]:
+                        over_25 = pred.get('over_2_5_prob', 0.5) * 100
+                        st.markdown(f"**O2.5:** {'Over' if over_25 > 50 else 'Under'} ({over_25:.0f}%)")
+                    with goals_cols[1]:
+                        btts = pred.get('btts_prob', 0.5) * 100
+                        st.markdown(f"**BTTS:** {'Yes' if btts > 50 else 'No'} ({btts:.0f}%)")
+                    with goals_cols[2]:
+                        over_15 = pred.get('over_1_5_prob', 0.5) * 100
+                        st.markdown(f"**O1.5:** {'Over' if over_15 > 50 else 'Under'} ({over_15:.0f}%)")
+                    with goals_cols[3]:
+                        over_35 = pred.get('over_3_5_prob', 0.5) * 100
+                        st.markdown(f"**O3.5:** {'Over' if over_35 > 50 else 'Under'} ({over_35:.0f}%)")
+            
+            if not filtered:
+                st.info("No predictions match your filter criteria")
+        else:
+            st.info("📭 You haven't made any predictions yet. Go to the Predict Match tab to get started!")
+    
+    def render_leaderboard_tab(self):
+        """Render the user leaderboard tab"""
+        st.markdown("### 🏆 Leaderboard")
+        st.markdown("See how you rank against other predictors!")
+        
+        # Get leaderboard data
+        min_predictions = st.slider("Minimum predictions to qualify", 1, 20, 5)
+        leaderboard = self.db.get_leaderboard(min_predictions=min_predictions)
+        
+        if leaderboard:
+            # Get usernames from auth module
+            user_ids = [entry['user_id'] for entry in leaderboard if entry['user_id']]
+            usernames = self.auth.get_usernames_batch(user_ids) if user_ids else {}
+            
+            # Update leaderboard entries with usernames
+            for entry in leaderboard:
+                if entry['user_id'] in usernames:
+                    entry['username'] = usernames[entry['user_id']]
+                    entry['display_name'] = entry['username'][:10] + '...' if len(entry['username']) > 10 else entry['username']
+            
+            # Current user's rank
+            user = st.session_state.user
+            user_rank = None
+            
+            if user and not user.get('is_guest'):
+                for entry in leaderboard:
+                    if entry['user_id'] == user['id']:
+                        user_rank = entry
+                        break
+            
+            if user_rank:
+                st.success(f"🎉 Your Rank: **#{user_rank['rank']}** with {user_rank['accuracy']}% accuracy ({user_rank['correct']}/{user_rank['verified']} correct)")
+            
+            st.divider()
+            
+            # Top 3 podium
+            if len(leaderboard) >= 3:
+                st.markdown("#### 🥇🥈🥉 Top Performers")
+                
+                cols = st.columns(3)
+                medals = ["🥇", "🥈", "🥉"]
+                podium_order = [1, 0, 2]  # 2nd, 1st, 3rd for visual effect
+                
+                for i, pos in enumerate(podium_order):
+                    if pos < len(leaderboard):
+                        entry = leaderboard[pos]
+                        with cols[i]:
+                            height = "150px" if pos == 0 else "120px" if pos == 1 else "100px"
+                            st.markdown(f"""
+                            <div style="background: linear-gradient(135deg, {'#FFD700' if pos == 0 else '#C0C0C0' if pos == 1 else '#CD7F32'} 0%, 
+                                        {'#FFA500' if pos == 0 else '#A9A9A9' if pos == 1 else '#8B4513'} 100%);
+                                        padding: 1rem; border-radius: 10px; text-align: center; height: {height};
+                                        display: flex; flex-direction: column; justify-content: center;">
+                                <h2 style="margin:0;">{medals[pos]}</h2>
+                                <h4 style="margin:0.5rem 0;">{entry['username']}</h4>
+                                <p style="margin:0;"><strong>{entry['accuracy']}%</strong></p>
+                                <small>{entry['correct']}/{entry['verified']} correct</small>
+                            </div>
+                            """, unsafe_allow_html=True)
+            
+            st.divider()
+            
+            # Full leaderboard table
+            st.markdown("#### 📊 Full Rankings")
+            
+            # Convert to DataFrame for display
+            df = pd.DataFrame(leaderboard)
+            
+            # Add rank emoji
+            def rank_emoji(rank):
+                if rank == 1:
+                    return "🥇"
+                elif rank == 2:
+                    return "🥈"
+                elif rank == 3:
+                    return "🥉"
+                elif rank <= 10:
+                    return "⭐"
+                return ""
+            
+            df['rank_display'] = df['rank'].apply(lambda x: f"{rank_emoji(x)} #{x}")
+            
+            # Highlight current user
+            if user and not user.get('is_guest'):
+                df['is_you'] = df['user_id'] == user['id']
+            else:
+                df['is_you'] = False
+            
+            # Display columns
+            display_df = df[['rank_display', 'username', 'accuracy', 'correct', 'verified', 'total_predictions', 'avg_confidence']].copy()
+            display_df.columns = ['Rank', 'User', 'Accuracy %', 'Correct', 'Verified', 'Total', 'Avg Confidence %']
+            
+            st.dataframe(
+                display_df,
+                column_config={
+                    "Accuracy %": st.column_config.NumberColumn(format="%.1f%%"),
+                    "Avg Confidence %": st.column_config.NumberColumn(format="%.1f%%")
+                },
+                hide_index=True,
+                use_container_width=True
+            )
+            
+            # Your stats if not on leaderboard
+            if user and not user.get('is_guest') and not user_rank:
+                user_stats = self.db.get_user_stats(user['id'])
+                if user_stats['verified'] < min_predictions:
+                    st.info(f"📊 You need {min_predictions - user_stats['verified']} more verified predictions to appear on the leaderboard!")
+        else:
+            st.info("📭 No users have enough verified predictions yet. Be the first to make the leaderboard!")
+            st.markdown(f"**Requirement:** At least {min_predictions} verified predictions")
+    
+    def render_head_to_head_tab(self, league: str):
+        """Render the head-to-head analysis tab"""
+        st.markdown("### ⚔️ Head-to-Head Analysis")
+        st.markdown("Analyze historical matchups between two teams")
+        
+        # Get teams for the league
+        try:
+            data = self.fetcher.load_league_data(league)
+            if data is None or data.empty:
+                st.warning("No match data available. Please refresh data first.")
+                return
+            
+            # Handle column name variations
+            home_col = 'HomeTeam' if 'HomeTeam' in data.columns else 'home_team'
+            away_col = 'AwayTeam' if 'AwayTeam' in data.columns else 'away_team'
+            home_goals_col = 'FTHG' if 'FTHG' in data.columns else 'home_goals'
+            away_goals_col = 'FTAG' if 'FTAG' in data.columns else 'away_goals'
+            date_col = 'Date' if 'Date' in data.columns else 'date'
+            
+            teams = sorted(set(data[home_col].unique()) | set(data[away_col].unique()))
+        except Exception as e:
+            st.error(f"Could not load team data: {e}")
+            return
+        
+        # Team selection
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            team1 = st.selectbox("🏠 Select Team 1", teams, key="h2h_team1")
+        with col2:
+            team2_options = [t for t in teams if t != team1]
+            team2 = st.selectbox("✈️ Select Team 2", team2_options, key="h2h_team2")
+        
+        if st.button("⚔️ Analyze Head-to-Head", type="primary"):
+            # Get H2H matches from data
+            h2h_matches = data[
+                ((data[home_col] == team1) & (data[away_col] == team2)) |
+                ((data[home_col] == team2) & (data[away_col] == team1))
+            ].sort_values(date_col, ascending=False)
+            
+            if len(h2h_matches) == 0:
+                st.info(f"No historical matches found between {team1} and {team2}")
+                return
+            
+            st.divider()
+            
+            # Calculate H2H stats
+            team1_wins = 0
+            team2_wins = 0
+            draws = 0
+            team1_goals = 0
+            team2_goals = 0
+            
+            for _, match in h2h_matches.iterrows():
+                home = match[home_col]
+                home_goals = match.get(home_goals_col, 0) or 0
+                away_goals = match.get(away_goals_col, 0) or 0
+                
+                if home == team1:
+                    team1_goals += home_goals
+                    team2_goals += away_goals
+                    if home_goals > away_goals:
+                        team1_wins += 1
+                    elif away_goals > home_goals:
+                        team2_wins += 1
+                    else:
+                        draws += 1
+                else:
+                    team1_goals += away_goals
+                    team2_goals += home_goals
+                    if away_goals > home_goals:
+                        team1_wins += 1
+                    elif home_goals > away_goals:
+                        team2_wins += 1
+                    else:
+                        draws += 1
+            
+            total_matches = len(h2h_matches)
+            total_goals = team1_goals + team2_goals
+            
+            # H2H Summary
+            st.markdown(f"#### 📊 {team1} vs {team2} - Last {total_matches} Meetings")
+            
+            col1, col2, col3 = st.columns(3)
+            
+            with col1:
+                win_pct = team1_wins / total_matches * 100
+                st.markdown(f"""
+                <div style="background: #e8f5e9; padding: 1rem; border-radius: 10px; text-align: center;">
+                    <h4>🏆 {team1} Wins</h4>
+                    <h2>{team1_wins}</h2>
+                    <small>{win_pct:.1f}% of matches</small>
+                </div>
+                """, unsafe_allow_html=True)
+            
+            with col2:
+                draw_pct = draws / total_matches * 100
+                st.markdown(f"""
+                <div style="background: #fff3e0; padding: 1rem; border-radius: 10px; text-align: center;">
+                    <h4>🤝 Draws</h4>
+                    <h2>{draws}</h2>
+                    <small>{draw_pct:.1f}% of matches</small>
+                </div>
+                """, unsafe_allow_html=True)
+            
+            with col3:
+                win_pct2 = team2_wins / total_matches * 100
+                st.markdown(f"""
+                <div style="background: #e3f2fd; padding: 1rem; border-radius: 10px; text-align: center;">
+                    <h4>🏆 {team2} Wins</h4>
+                    <h2>{team2_wins}</h2>
+                    <small>{win_pct2:.1f}% of matches</small>
+                </div>
+                """, unsafe_allow_html=True)
+            
+            st.divider()
+            
+            # Goals analysis
+            st.markdown("#### ⚽ Goals Analysis")
+            
+            col1, col2, col3, col4 = st.columns(4)
+            
+            with col1:
+                st.metric(f"{team1} Goals", team1_goals, f"{team1_goals/total_matches:.1f} per game")
+            with col2:
+                st.metric(f"{team2} Goals", team2_goals, f"{team2_goals/total_matches:.1f} per game")
+            with col3:
+                st.metric("Total Goals", total_goals, f"{total_goals/total_matches:.1f} per game")
+            with col4:
+                over_25 = sum(1 for _, m in h2h_matches.iterrows() 
+                             if (m.get(home_goals_col, 0) or 0) + (m.get(away_goals_col, 0) or 0) > 2.5)
+                st.metric("Over 2.5 Goals", f"{over_25}/{total_matches}", f"{over_25/total_matches*100:.0f}%")
+            
+            st.divider()
+            
+            # BTTS analysis
+            btts_yes = sum(1 for _, m in h2h_matches.iterrows() 
+                          if (m.get(home_goals_col, 0) or 0) > 0 and (m.get(away_goals_col, 0) or 0) > 0)
+            
+            st.markdown("#### 🔄 Both Teams to Score")
+            col1, col2 = st.columns(2)
+            with col1:
+                st.metric("BTTS Yes", btts_yes, f"{btts_yes/total_matches*100:.0f}%")
+            with col2:
+                st.metric("BTTS No", total_matches - btts_yes, f"{(total_matches-btts_yes)/total_matches*100:.0f}%")
+            
+            st.divider()
+            
+            # Recent matches
+            st.markdown("#### 📜 Recent Matches")
+            
+            for idx, match in h2h_matches.head(10).iterrows():
+                home = match[home_col]
+                away = match[away_col]
+                hg = match.get(home_goals_col, '?')
+                ag = match.get(away_goals_col, '?')
+                dt = match.get(date_col, 'Unknown')
+                
+                # Determine winner emoji
+                try:
+                    if hg > ag:
+                        result_emoji = "🏠" if home == team1 else "✈️"
+                    elif ag > hg:
+                        result_emoji = "✈️" if away == team1 else "🏠"
+                    else:
+                        result_emoji = "🤝"
+                except:
+                    result_emoji = "⚽"
+                
+                st.markdown(f"""
+                <div style="background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 5px; margin-bottom: 0.5rem;">
+                    {result_emoji} <strong>{home}</strong> {hg} - {ag} <strong>{away}</strong>
+                    <span style="float: right; color: #666;">{str(dt)[:10]}</span>
+                </div>
+                """, unsafe_allow_html=True)
+            
+            st.divider()
+            
+            # Prediction recommendation
+            st.markdown("#### 🔮 AI Recommendation")
+            
+            # Simple recommendation based on H2H
+            if team1_wins > team2_wins:
+                rec = f"{team1} has the edge in H2H ({team1_wins} wins vs {team2_wins})"
+                rec_result = "Home Win" if team1 == teams[0] else "Away Win"
+            elif team2_wins > team1_wins:
+                rec = f"{team2} has the edge in H2H ({team2_wins} wins vs {team1_wins})"
+                rec_result = "Away Win" if team2 == teams[0] else "Home Win"
+            else:
+                rec = f"Evenly matched ({draws} draws in {total_matches} matches)"
+                rec_result = "Draw"
+            
+            avg_goals = total_goals / total_matches
+            goals_rec = "Over 2.5 Goals" if avg_goals > 2.5 else "Under 2.5 Goals"
+            btts_rec = "BTTS Yes" if btts_yes / total_matches > 0.5 else "BTTS No"
+            
+            st.info(f"""
+            **Based on H2H history:**
+            - 🏆 **Result:** {rec}
+            - ⚽ **Goals:** {goals_rec} (avg: {avg_goals:.1f} per game)
+            - 🔄 **BTTS:** {btts_rec} ({btts_yes/total_matches*100:.0f}% of matches)
+            
+            *For more accurate predictions, use the Predict Match tab which considers recent form and full statistics.*
+            """)
+
     def render_auth_page(self):
         """Render the authentication page (login/register)"""
         st.markdown('<h1 class="main-header">⚽ Football Match Predictor</h1>', unsafe_allow_html=True)
@@ -1185,6 +1657,7 @@ class FootballPredictorApp:
                 st.markdown("### Create Your Account")
                 st.markdown("Get started with **3 free predictions per day**!")
                 
+                reg_username = st.text_input("Username", key="reg_username", placeholder="Your display name")
                 reg_email = st.text_input("Email", key="reg_email", placeholder="your@email.com")
                 reg_password = st.text_input("Password", type="password", key="reg_password", 
                                             help="Min 8 chars, 1 uppercase, 1 lowercase, 1 number")
@@ -1196,7 +1669,7 @@ class FootballPredictorApp:
                     elif reg_password != reg_password2:
                         st.error("Passwords do not match")
                     else:
-                        success, message, user_id = self.auth.register(reg_email, reg_password)
+                        success, message, user_id = self.auth.register(reg_email, reg_password, reg_username or None)
                         if success:
                             st.success(message)
                             # Auto-login after registration

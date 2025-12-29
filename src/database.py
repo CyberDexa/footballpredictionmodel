@@ -35,6 +35,7 @@ class Database:
             CREATE TABLE IF NOT EXISTS predictions (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 prediction_id TEXT UNIQUE,
+                user_id INTEGER,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                 league TEXT NOT NULL,
                 home_team TEXT NOT NULL,
@@ -132,7 +133,7 @@ class Database:
         conn.commit()
         conn.close()
     
-    def save_prediction(self, prediction_data: Dict) -> str:
+    def save_prediction(self, prediction_data: Dict, user_id: int = None) -> str:
         """Save a new prediction to the database"""
         import uuid
         prediction_id = str(uuid.uuid4())[:8]
@@ -158,7 +159,7 @@ class Database:
         
         cursor.execute('''
             INSERT INTO predictions (
-                prediction_id, league, home_team, away_team, match_date,
+                prediction_id, user_id, league, home_team, away_team, match_date,
                 home_win_prob, draw_prob, away_win_prob, predicted_result,
                 over_1_5_prob, over_2_5_prob, over_3_5_prob,
                 btts_prob,
@@ -167,9 +168,10 @@ class Database:
                 ht_over_0_5_prob, ht_over_1_5_prob,
                 goals_0_1_prob, goals_2_3_prob, goals_4_plus_prob,
                 result_confidence, overall_confidence
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ''', (
             prediction_id,
+            user_id,
             prediction_data.get('league', 'Unknown'),
             prediction_data.get('home_team', ''),
             prediction_data.get('away_team', ''),
@@ -494,6 +496,130 @@ class Database:
             }
         
         return {'total_predictions': 0, 'verified': 0, 'correct': 0, 'accuracy': 0}
+    
+    def get_user_predictions(self, user_id: int, limit: int = 100) -> List[Dict]:
+        """Get predictions for a specific user"""
+        conn = self._get_connection()
+        cursor = conn.cursor()
+        
+        cursor.execute('''
+            SELECT * FROM predictions
+            WHERE user_id = ?
+            ORDER BY created_at DESC
+            LIMIT ?
+        ''', (user_id, limit))
+        
+        rows = cursor.fetchall()
+        conn.close()
+        
+        return [dict(row) for row in rows]
+    
+    def get_user_stats(self, user_id: int) -> Dict:
+        """Get statistics for a specific user"""
+        conn = self._get_connection()
+        cursor = conn.cursor()
+        
+        cursor.execute('''
+            SELECT 
+                COUNT(*) as total_predictions,
+                SUM(CASE WHEN match_played THEN 1 ELSE 0 END) as verified,
+                SUM(CASE WHEN result_correct THEN 1 ELSE 0 END) as result_correct,
+                SUM(CASE WHEN over_2_5_correct THEN 1 ELSE 0 END) as over_2_5_correct,
+                SUM(CASE WHEN btts_correct THEN 1 ELSE 0 END) as btts_correct,
+                AVG(result_confidence) as avg_confidence
+            FROM predictions
+            WHERE user_id = ?
+        ''', (user_id,))
+        
+        row = cursor.fetchone()
+        conn.close()
+        
+        if row and row['total_predictions'] > 0:
+            verified = row['verified'] or 1
+            return {
+                'total_predictions': row['total_predictions'],
+                'verified': row['verified'] or 0,
+                'result_correct': row['result_correct'] or 0,
+                'result_accuracy': round((row['result_correct'] or 0) / verified * 100, 1),
+                'over_2_5_correct': row['over_2_5_correct'] or 0,
+                'over_2_5_accuracy': round((row['over_2_5_correct'] or 0) / verified * 100, 1),
+                'btts_correct': row['btts_correct'] or 0,
+                'btts_accuracy': round((row['btts_correct'] or 0) / verified * 100, 1),
+                'avg_confidence': round((row['avg_confidence'] or 0) * 100, 1)
+            }
+        
+        return {
+            'total_predictions': 0, 'verified': 0, 'result_correct': 0,
+            'result_accuracy': 0, 'over_2_5_correct': 0, 'over_2_5_accuracy': 0,
+            'btts_correct': 0, 'btts_accuracy': 0, 'avg_confidence': 0
+        }
+    
+    def get_leaderboard(self, min_predictions: int = 5) -> List[Dict]:
+        """Get user leaderboard ranked by accuracy"""
+        conn = self._get_connection()
+        cursor = conn.cursor()
+        
+        # Get leaderboard from predictions only (no join across databases)
+        cursor.execute('''
+            SELECT 
+                user_id,
+                COUNT(*) as total_predictions,
+                SUM(CASE WHEN match_played THEN 1 ELSE 0 END) as verified,
+                SUM(CASE WHEN result_correct THEN 1 ELSE 0 END) as correct,
+                AVG(result_confidence) as avg_confidence
+            FROM predictions
+            WHERE user_id IS NOT NULL
+            GROUP BY user_id
+            HAVING verified >= ?
+            ORDER BY (correct * 1.0 / verified) DESC, verified DESC
+            LIMIT 50
+        ''', (min_predictions,))
+        
+        rows = cursor.fetchall()
+        conn.close()
+        
+        results = []
+        for i, row in enumerate(rows):
+            verified = row['verified'] or 1
+            user_id = row['user_id']
+            
+            # Generate anonymous display name
+            display_name = f"Predictor #{user_id}"
+            username = display_name
+            
+            results.append({
+                'rank': i + 1,
+                'user_id': user_id,
+                'display_name': display_name,
+                'username': username,
+                'total_predictions': row['total_predictions'],
+                'verified': row['verified'] or 0,
+                'correct': row['correct'] or 0,
+                'accuracy': round((row['correct'] or 0) / verified * 100, 1),
+                'avg_confidence': round((row['avg_confidence'] or 0) * 100, 1)
+            })
+        
+        return results
+    
+    def get_head_to_head(self, team1: str, team2: str, league: str = None) -> Dict:
+        """Get head-to-head statistics between two teams from historical data"""
+        # This will be called from the main app using the match data
+        # Returns structure for H2H analysis
+        return {
+            'team1': team1,
+            'team2': team2,
+            'matches': [],
+            'team1_wins': 0,
+            'team2_wins': 0,
+            'draws': 0,
+            'team1_goals': 0,
+            'team2_goals': 0,
+            'avg_goals': 0
+        }
+    
+    def get_team_form(self, team: str, league: str, matches: int = 5) -> List[Dict]:
+        """Get recent form for a team - placeholder for match data lookup"""
+        return []
 
 
 # Singleton instance
