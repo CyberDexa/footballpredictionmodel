@@ -15,15 +15,42 @@ class OddsAPI:
     
     BASE_URL = "https://api.the-odds-api.com/v4"
     
-    # Sport keys for football leagues
+    # Sport keys for football leagues (with alternate names)
     SPORT_KEYS = {
+        # English leagues
         'EPL': 'soccer_epl',
+        'CHAMPIONSHIP': 'soccer_efl_champ',
+        'EFL_CHAMPIONSHIP': 'soccer_efl_champ',
+        'LEAGUE_ONE': 'soccer_england_league1',
+        'EFL_LEAGUE1': 'soccer_england_league1',
+        'LEAGUE_TWO': 'soccer_england_league2',
+        'EFL_LEAGUE2': 'soccer_england_league2',
+        'SCOTTISH_PREM': 'soccer_spl',
+        'FA_CUP': 'soccer_fa_cup',
+        'EFL_CUP': 'soccer_england_efl_cup',
+        # Spanish leagues
         'LA_LIGA': 'soccer_spain_la_liga',
+        'LA_LIGA_2': 'soccer_spain_segunda_division',
+        'LA_LIGA2': 'soccer_spain_segunda_division',
+        # Italian leagues
         'SERIE_A': 'soccer_italy_serie_a',
+        # German leagues
         'BUNDESLIGA': 'soccer_germany_bundesliga',
+        'BUNDESLIGA_2': 'soccer_germany_bundesliga2',
+        'BUNDESLIGA2': 'soccer_germany_bundesliga2',
+        # French leagues
         'LIGUE_1': 'soccer_france_ligue_one',
+        'LIGUE_2': 'soccer_france_ligue_two',
+        # Other European
         'EREDIVISIE': 'soccer_netherlands_eredivisie',
         'PRIMEIRA_LIGA': 'soccer_portugal_primeira_liga',
+        'PRIMEIRA': 'soccer_portugal_primeira_liga',
+        'SUPER_LIG': 'soccer_turkey_super_league',
+        'GREEK_SL': 'soccer_greece_super_league',
+        'SUPER_LEAGUE_GR': 'soccer_greece_super_league',
+        # USA
+        'MLS': 'soccer_usa_mls',
+        # European competitions
         'CHAMPIONS_LEAGUE': 'soccer_uefa_champs_league',
         'EUROPA_LEAGUE': 'soccer_uefa_europa_league',
     }

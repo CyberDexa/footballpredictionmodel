@@ -2226,16 +2226,46 @@ class FootballPredictorApp:
         st.markdown("### 💹 Live Odds Comparison")
         st.markdown("Compare real-time odds from multiple bookmakers")
         
-        # League mapping for odds API
+        # League mapping for odds API - use OddsAPI's mapping
+        # Include alternate names for flexibility
         league_mapping = {
+            # English leagues
             'EPL': 'soccer_epl',
+            'CHAMPIONSHIP': 'soccer_efl_champ',
+            'EFL_CHAMPIONSHIP': 'soccer_efl_champ',
+            'LEAGUE_ONE': 'soccer_england_league1',
+            'EFL_LEAGUE1': 'soccer_england_league1',
+            'LEAGUE_TWO': 'soccer_england_league2',
+            'EFL_LEAGUE2': 'soccer_england_league2',
+            'SCOTTISH_PREM': 'soccer_spl',
+            # Spanish leagues
             'LA_LIGA': 'soccer_spain_la_liga',
+            'LA_LIGA_2': 'soccer_spain_segunda_division',
+            'LA_LIGA2': 'soccer_spain_segunda_division',
+            # Italian leagues
             'SERIE_A': 'soccer_italy_serie_a',
+            # German leagues
             'BUNDESLIGA': 'soccer_germany_bundesliga',
-            'LIGUE_1': 'soccer_france_ligue_one'
+            'BUNDESLIGA_2': 'soccer_germany_bundesliga2',
+            'BUNDESLIGA2': 'soccer_germany_bundesliga2',
+            # French leagues
+            'LIGUE_1': 'soccer_france_ligue_one',
+            'LIGUE_2': 'soccer_france_ligue_two',
+            # Other European leagues
+            'EREDIVISIE': 'soccer_netherlands_eredivisie',
+            'PRIMEIRA_LIGA': 'soccer_portugal_primeira_liga',
+            'PRIMEIRA': 'soccer_portugal_primeira_liga',
+            'SUPER_LIG': 'soccer_turkey_super_league',
+            'SUPER_LEAGUE_GR': 'soccer_greece_super_league',
+            'GREEK_SL': 'soccer_greece_super_league',
         }
         
-        sport_key = league_mapping.get(league, 'soccer_epl')
+        sport_key = league_mapping.get(league)
+        
+        if not sport_key:
+            st.info(f"📭 Live odds not available for this league yet")
+            st.caption("Live odds are available for: EPL, Championship, La Liga, Serie A, Bundesliga, Ligue 1, and more.")
+            return
         
         # Check API key
         if not self.odds_api.api_key:
