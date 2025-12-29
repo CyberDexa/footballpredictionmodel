@@ -47,13 +47,30 @@ class EPLPredictor:
         self.models = {}
         self.feature_columns = []
         
-        # Target configurations
+        # Target configurations - Extended predictions
         self.targets = {
+            # Match Result
             'match_result': {
                 'column': 'MatchResult',
                 'type': 'multiclass',
                 'labels': {0: 'Home Win', 1: 'Draw', 2: 'Away Win'}
             },
+            'home_win': {
+                'column': 'HomeWin',
+                'type': 'binary',
+                'labels': {0: 'No', 1: 'Yes'}
+            },
+            'draw': {
+                'column': 'Draw',
+                'type': 'binary',
+                'labels': {0: 'No', 1: 'Yes'}
+            },
+            'away_win': {
+                'column': 'AwayWin',
+                'type': 'binary',
+                'labels': {0: 'No', 1: 'Yes'}
+            },
+            # Full Time Goals
             'over_1.5': {
                 'column': 'Over1.5',
                 'type': 'binary',
@@ -64,15 +81,65 @@ class EPLPredictor:
                 'type': 'binary',
                 'labels': {0: 'Under 2.5', 1: 'Over 2.5'}
             },
-            'home_win': {
-                'column': 'HomeWin',
+            'over_3.5': {
+                'column': 'Over3.5',
                 'type': 'binary',
-                'labels': {0: 'Not Home Win', 1: 'Home Win'}
+                'labels': {0: 'Under 3.5', 1: 'Over 3.5'}
             },
-            'away_win': {
-                'column': 'AwayWin',
+            # Both Teams To Score
+            'btts': {
+                'column': 'BTTS',
                 'type': 'binary',
-                'labels': {0: 'Not Away Win', 1: 'Away Win'}
+                'labels': {0: 'No', 1: 'Yes'}
+            },
+            # Home Team Goals
+            'home_over_0.5': {
+                'column': 'HomeOver0.5',
+                'type': 'binary',
+                'labels': {0: 'Under 0.5', 1: 'Over 0.5'}
+            },
+            'home_over_1.5': {
+                'column': 'HomeOver1.5',
+                'type': 'binary',
+                'labels': {0: 'Under 1.5', 1: 'Over 1.5'}
+            },
+            # Away Team Goals
+            'away_over_0.5': {
+                'column': 'AwayOver0.5',
+                'type': 'binary',
+                'labels': {0: 'Under 0.5', 1: 'Over 0.5'}
+            },
+            'away_over_1.5': {
+                'column': 'AwayOver1.5',
+                'type': 'binary',
+                'labels': {0: 'Under 1.5', 1: 'Over 1.5'}
+            },
+            # Half Time Goals
+            'ht_over_0.5': {
+                'column': 'HTOver0.5',
+                'type': 'binary',
+                'labels': {0: 'Under 0.5', 1: 'Over 0.5'}
+            },
+            'ht_over_1.5': {
+                'column': 'HTOver1.5',
+                'type': 'binary',
+                'labels': {0: 'Under 1.5', 1: 'Over 1.5'}
+            },
+            # Goal Ranges
+            'goals_0_1': {
+                'column': 'Goals0_1',
+                'type': 'binary',
+                'labels': {0: 'No', 1: 'Yes (0-1 Goals)'}
+            },
+            'goals_2_3': {
+                'column': 'Goals2_3',
+                'type': 'binary',
+                'labels': {0: 'No', 1: 'Yes (2-3 Goals)'}
+            },
+            'goals_4_plus': {
+                'column': 'Goals4Plus',
+                'type': 'binary',
+                'labels': {0: 'No', 1: 'Yes (4+ Goals)'}
             }
         }
     

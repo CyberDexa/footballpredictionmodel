@@ -20,25 +20,61 @@ class FeatureEngineer:
         self.team_stats = {}
     
     def create_target_variables(self, df: pd.DataFrame) -> pd.DataFrame:
-        """Create target variables for prediction"""
+        """Create target variables for prediction - Extended targets"""
         df = df.copy()
         
         # Calculate total goals
         df['TotalGoals'] = df['FTHG'] + df['FTAG']
         
-        # Match result (1 = Home Win, 0 = Draw, 2 = Away Win)
+        # Match result targets
         df['HomeWin'] = (df['FTR'] == 'H').astype(int)
         df['Draw'] = (df['FTR'] == 'D').astype(int)
         df['AwayWin'] = (df['FTR'] == 'A').astype(int)
+        df['MatchResult'] = df['FTR'].map({'H': 0, 'D': 1, 'A': 2})
         
-        # Over/Under goals targets
+        # Full Time Total Goals
         df['Over1.5'] = (df['TotalGoals'] > 1.5).astype(int)
         df['Over2.5'] = (df['TotalGoals'] > 2.5).astype(int)
+        df['Over3.5'] = (df['TotalGoals'] > 3.5).astype(int)
         df['Under1.5'] = (df['TotalGoals'] < 1.5).astype(int)
         df['Under2.5'] = (df['TotalGoals'] < 2.5).astype(int)
         
-        # Multi-class result (for classification)
-        df['MatchResult'] = df['FTR'].map({'H': 0, 'D': 1, 'A': 2})
+        # Goal Ranges
+        df['Goals0_1'] = (df['TotalGoals'] <= 1).astype(int)
+        df['Goals2_3'] = ((df['TotalGoals'] >= 2) & (df['TotalGoals'] <= 3)).astype(int)
+        df['Goals4Plus'] = (df['TotalGoals'] >= 4).astype(int)
+        
+        # Both Teams To Score
+        df['BTTS'] = ((df['FTHG'] > 0) & (df['FTAG'] > 0)).astype(int)
+        
+        # Home Team Goals
+        df['HomeOver0.5'] = (df['FTHG'] > 0.5).astype(int)
+        df['HomeOver1.5'] = (df['FTHG'] > 1.5).astype(int)
+        df['HomeOver2.5'] = (df['FTHG'] > 2.5).astype(int)
+        
+        # Away Team Goals
+        df['AwayOver0.5'] = (df['FTAG'] > 0.5).astype(int)
+        df['AwayOver1.5'] = (df['FTAG'] > 1.5).astype(int)
+        df['AwayOver2.5'] = (df['FTAG'] > 2.5).astype(int)
+        
+        # Half Time Goals (if available)
+        if 'HTHG' in df.columns and 'HTAG' in df.columns:
+            df['HTGoals'] = df['HTHG'] + df['HTAG']
+            df['HTOver0.5'] = (df['HTGoals'] > 0.5).astype(int)
+            df['HTOver1.5'] = (df['HTGoals'] > 1.5).astype(int)
+            df['HTOver2.5'] = (df['HTGoals'] > 2.5).astype(int)
+            # Home HT Goals
+            df['HomeHTOver0.5'] = (df['HTHG'] > 0.5).astype(int)
+            # Away HT Goals
+            df['AwayHTOver0.5'] = (df['HTAG'] > 0.5).astype(int)
+        else:
+            # Default values if HT data not available
+            df['HTGoals'] = 0
+            df['HTOver0.5'] = 0
+            df['HTOver1.5'] = 0
+            df['HTOver2.5'] = 0
+            df['HomeHTOver0.5'] = 0
+            df['AwayHTOver0.5'] = 0
         
         return df
     
