@@ -30,6 +30,8 @@ from src.database import get_database
 from src.value_bets import get_value_calculator
 from src.auth import get_auth_manager
 from src.payments import get_payment_manager
+from src.odds_api import get_odds_api
+from src.football_api import get_football_api
 
 # Page configuration
 st.set_page_config(
@@ -175,6 +177,10 @@ class FootballPredictorApp:
         self.value_calculator = get_value_calculator()
         self.auth = get_auth_manager()
         self.payments = get_payment_manager()
+        
+        # External APIs (optional - will work without keys)
+        self.odds_api = get_odds_api(os.getenv('ODDS_API_KEY'))
+        self.football_api = get_football_api(os.getenv('FOOTBALL_API_KEY'))
     
     def check_auto_refresh(self, league: str, max_age_days: int = 7):
         """Check if data needs auto-refresh and refresh if needed."""
@@ -586,11 +592,14 @@ class FootballPredictorApp:
             st.info("📥 Click 'Refresh Data' in the sidebar to fetch match data.")
         
         # Tabs for different functionality
-        tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs([
+        tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11, tab12 = st.tabs([
             "🔮 Predict Match", 
             "📅 Upcoming Matches", 
             "📊 Team Form",
             "🎰 Accumulator",
+            "💹 Live Odds",
+            "⚽ Player Stats",
+            "🏥 Injuries",
             "📈 Track Record",
             "📋 My Predictions",
             "🏆 Leaderboard",
@@ -611,18 +620,27 @@ class FootballPredictorApp:
             self.render_accumulator_tab(league)
         
         with tab5:
-            self.render_accuracy_tab(league)
+            self.render_live_odds_tab(league)
         
         with tab6:
-            self.render_my_predictions_tab(league)
+            self.render_player_stats_tab(league)
         
         with tab7:
-            self.render_leaderboard_tab()
+            self.render_injuries_tab(league)
         
         with tab8:
-            self.render_head_to_head_tab(league)
+            self.render_accuracy_tab(league)
         
         with tab9:
+            self.render_my_predictions_tab(league)
+        
+        with tab10:
+            self.render_leaderboard_tab()
+        
+        with tab11:
+            self.render_head_to_head_tab(league)
+        
+        with tab12:
             self.render_stats_tab(league)
     
     def render_prediction_tab(self, league: str):
@@ -2198,6 +2216,381 @@ class FootballPredictorApp:
         - 🔍 **Diversify your markets** - Mix results with goals/BTTS predictions
         - ⚠️ **Avoid long shots** - Low probability selections tank your EV
         """)
+
+    def render_live_odds_tab(self, league: str):
+        """Render live odds comparison tab"""
+        st.markdown("### 💹 Live Odds Comparison")
+        st.markdown("Compare real-time odds from multiple bookmakers")
+        
+        # League mapping for odds API
+        league_mapping = {
+            'EPL': 'soccer_epl',
+            'LA_LIGA': 'soccer_spain_la_liga',
+            'SERIE_A': 'soccer_italy_serie_a',
+            'BUNDESLIGA': 'soccer_germany_bundesliga',
+            'LIGUE_1': 'soccer_france_ligue_one'
+        }
+        
+        sport_key = league_mapping.get(league, 'soccer_epl')
+        
+        # Check API key
+        if not self.odds_api.api_key:
+            st.warning("⚠️ Odds API not configured")
+            st.markdown("""
+            **To enable live odds:**
+            1. Get a free API key from [The Odds API](https://the-odds-api.com/)
+            2. Set environment variable: `ODDS_API_KEY=your_key`
+            3. Restart the application
+            
+            *Free tier includes 500 requests/month*
+            """)
+            
+            # Demo mode
+            st.divider()
+            st.markdown("#### 📊 Demo Mode - Sample Odds Display")
+            demo_odds = [
+                {"home_team": "Manchester City", "away_team": "Arsenal", "bookmakers": [
+                    {"title": "Bet365", "home": 1.75, "draw": 3.80, "away": 4.20},
+                    {"title": "Unibet", "home": 1.72, "draw": 3.90, "away": 4.30}
+                ]},
+                {"home_team": "Liverpool", "away_team": "Chelsea", "bookmakers": [
+                    {"title": "Bet365", "home": 1.90, "draw": 3.50, "away": 3.80},
+                    {"title": "Unibet", "home": 1.85, "draw": 3.60, "away": 3.90}
+                ]}
+            ]
+            
+            for match in demo_odds:
+                st.markdown(f"**{match['home_team']} vs {match['away_team']}**")
+                odds_data = []
+                for bookie in match['bookmakers']:
+                    odds_data.append({
+                        "Bookmaker": bookie['title'],
+                        "Home": f"{bookie['home']:.2f}",
+                        "Draw": f"{bookie['draw']:.2f}",
+                        "Away": f"{bookie['away']:.2f}"
+                    })
+                st.dataframe(pd.DataFrame(odds_data), hide_index=True)
+                st.divider()
+            return
+        
+        # Fetch live odds
+        with st.spinner("Fetching live odds..."):
+            odds_data = self.odds_api.get_odds(sport_key)
+        
+        if not odds_data:
+            st.info("📭 No upcoming matches with odds available")
+            return
+        
+        # Display usage info
+        st.caption(f"📊 API Requests: {self.odds_api.requests_used}/{500} used this month")
+        
+        # Market selection
+        market = st.selectbox(
+            "Select Market",
+            options=["h2h", "totals", "spreads"],
+            format_func=lambda x: {"h2h": "1X2 (Match Result)", "totals": "Over/Under", "spreads": "Asian Handicap"}[x]
+        )
+        
+        st.divider()
+        
+        # Display odds for each match
+        for match in odds_data[:10]:  # Limit to 10 matches
+            home = match.get('home_team', 'Home')
+            away = match.get('away_team', 'Away')
+            
+            with st.expander(f"⚽ {home} vs {away}", expanded=False):
+                bookmakers = match.get('bookmakers', [])
+                
+                if not bookmakers:
+                    st.info("No odds available for this match")
+                    continue
+                
+                odds_table = []
+                best_home = 0
+                best_draw = 0
+                best_away = 0
+                
+                for bookie in bookmakers:
+                    bookie_name = bookie.get('title', 'Unknown')
+                    markets = bookie.get('markets', [])
+                    
+                    for m in markets:
+                        if m.get('key') == market:
+                            outcomes = m.get('outcomes', [])
+                            row = {"Bookmaker": bookie_name}
+                            
+                            for outcome in outcomes:
+                                name = outcome.get('name', '')
+                                price = outcome.get('price', 0)
+                                
+                                if name == home:
+                                    row['Home'] = price
+                                    best_home = max(best_home, price)
+                                elif name == 'Draw':
+                                    row['Draw'] = price
+                                    best_draw = max(best_draw, price)
+                                elif name == away:
+                                    row['Away'] = price
+                                    best_away = max(best_away, price)
+                                elif 'Over' in name:
+                                    row['Over 2.5'] = price
+                                elif 'Under' in name:
+                                    row['Under 2.5'] = price
+                            
+                            odds_table.append(row)
+                
+                if odds_table:
+                    df = pd.DataFrame(odds_table)
+                    st.dataframe(df, hide_index=True, use_container_width=True)
+                    
+                    if market == 'h2h' and best_home > 0:
+                        st.markdown(f"""
+                        **🏆 Best Odds:** Home: **{best_home:.2f}** | Draw: **{best_draw:.2f}** | Away: **{best_away:.2f}**
+                        """)
+        
+        # Value Bets section
+        st.divider()
+        st.markdown("#### 💎 Value Bets Finder")
+        st.markdown("Find bets where bookmaker odds exceed our predicted fair odds")
+        
+        if st.button("🔍 Find Value Bets", type="primary"):
+            try:
+                df = self.fetcher.load_league_data(league)
+                
+                if df is not None and len(df) > 0:
+                    teams = sorted(set(df['HomeTeam'].unique()) | set(df['AwayTeam'].unique()))
+                    
+                    value_bets = []
+                    for match in odds_data[:5]:
+                        home = match.get('home_team', '')
+                        away = match.get('away_team', '')
+                        
+                        # Try to match team names
+                        home_match = next((t for t in teams if t.lower() in home.lower() or home.lower() in t.lower()), None)
+                        away_match = next((t for t in teams if t.lower() in away.lower() or away.lower() in t.lower()), None)
+                        
+                        if home_match and away_match:
+                            # Get our prediction
+                            prediction = self.predictor.predict_match(df, home_match, away_match)
+                            
+                            if prediction:
+                                our_probs = prediction['probabilities']
+                                
+                                # Get best odds
+                                best = self.odds_api.get_best_odds(match)
+                                
+                                for outcome, prob in [('Home', our_probs['home']), 
+                                                      ('Draw', our_probs['draw']), 
+                                                      ('Away', our_probs['away'])]:
+                                    if outcome in best:
+                                        implied_prob = 1 / best[outcome]
+                                        value = (prob / 100) * best[outcome] - 1
+                                        
+                                        if value > 0.05:  # 5%+ edge
+                                            value_bets.append({
+                                                'Match': f"{home} vs {away}",
+                                                'Bet': outcome,
+                                                'Odds': f"{best[outcome]:.2f}",
+                                                'Our Prob': f"{prob:.1f}%",
+                                                'Implied Prob': f"{implied_prob*100:.1f}%",
+                                                'Value': f"+{value*100:.1f}%"
+                                            })
+                    
+                    if value_bets:
+                        st.success(f"Found {len(value_bets)} value bet(s)!")
+                        st.dataframe(pd.DataFrame(value_bets), hide_index=True)
+                    else:
+                        st.info("No significant value bets found in current odds")
+                else:
+                    st.warning("Load match data first to find value bets")
+            except Exception as e:
+                st.error(f"Error finding value bets: {e}")
+
+    def render_player_stats_tab(self, league: str):
+        """Render player statistics tab"""
+        st.markdown("### ⚽ Player Statistics")
+        st.markdown("Top scorers, assists, and player performance data")
+        
+        # Check API key
+        if not self.football_api.api_key:
+            st.warning("⚠️ Football API not configured")
+            st.markdown("""
+            **To enable player stats:**
+            1. Get a free API key from [API-Football on RapidAPI](https://rapidapi.com/api-sports/api/api-football)
+            2. Set environment variable: `FOOTBALL_API_KEY=your_key`
+            3. Restart the application
+            
+            *Free tier includes 100 requests/day*
+            """)
+            
+            # Demo mode
+            st.divider()
+            st.markdown("#### 📊 Demo Mode - Sample Stats")
+            
+            demo_scorers = [
+                {"Player": "Erling Haaland", "Team": "Manchester City", "Goals": 27, "Penalties": 5},
+                {"Player": "Mohamed Salah", "Team": "Liverpool", "Goals": 19, "Penalties": 3},
+                {"Player": "Cole Palmer", "Team": "Chelsea", "Goals": 18, "Penalties": 4},
+                {"Player": "Alexander Isak", "Team": "Newcastle", "Goals": 17, "Penalties": 0},
+                {"Player": "Ollie Watkins", "Team": "Aston Villa", "Goals": 15, "Penalties": 2}
+            ]
+            
+            demo_assists = [
+                {"Player": "Kevin De Bruyne", "Team": "Manchester City", "Assists": 14},
+                {"Player": "Bukayo Saka", "Team": "Arsenal", "Assists": 12},
+                {"Player": "Bruno Fernandes", "Team": "Man United", "Assists": 11},
+                {"Player": "Cole Palmer", "Team": "Chelsea", "Assists": 10},
+                {"Player": "Jarrod Bowen", "Team": "West Ham", "Assists": 9}
+            ]
+            
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                st.markdown("##### 🥇 Top Scorers")
+                st.dataframe(pd.DataFrame(demo_scorers), hide_index=True)
+            
+            with col2:
+                st.markdown("##### 🎯 Top Assists")
+                st.dataframe(pd.DataFrame(demo_assists), hide_index=True)
+            return
+        
+        # API is configured - fetch real data
+        current_season = datetime.now().year if datetime.now().month >= 8 else datetime.now().year - 1
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.markdown("##### 🥇 Top Scorers")
+            
+            with st.spinner("Fetching top scorers..."):
+                scorers = self.football_api.get_top_scorers(league, current_season)
+            
+            if scorers:
+                scorers_data = []
+                for player in scorers[:10]:
+                    player_info = player.get('player', {})
+                    stats = player.get('statistics', [{}])[0]
+                    goals_data = stats.get('goals', {})
+                    team_info = stats.get('team', {})
+                    
+                    scorers_data.append({
+                        "Player": player_info.get('name', 'Unknown'),
+                        "Team": team_info.get('name', 'Unknown'),
+                        "Goals": goals_data.get('total', 0) or 0,
+                        "Penalties": goals_data.get('penalties', 0) or 0
+                    })
+                
+                st.dataframe(pd.DataFrame(scorers_data), hide_index=True)
+            else:
+                st.info("No scorer data available")
+        
+        with col2:
+            st.markdown("##### 🎯 Top Assists")
+            
+            with st.spinner("Fetching top assists..."):
+                assists = self.football_api.get_top_assists(league, current_season)
+            
+            if assists:
+                assists_data = []
+                for player in assists[:10]:
+                    player_info = player.get('player', {})
+                    stats = player.get('statistics', [{}])[0]
+                    goals_data = stats.get('goals', {})
+                    team_info = stats.get('team', {})
+                    
+                    assists_data.append({
+                        "Player": player_info.get('name', 'Unknown'),
+                        "Team": team_info.get('name', 'Unknown'),
+                        "Assists": goals_data.get('assists', 0) or 0
+                    })
+                
+                st.dataframe(pd.DataFrame(assists_data), hide_index=True)
+            else:
+                st.info("No assist data available")
+        
+        # Usage info
+        st.caption(f"📊 API Requests Today: {self.football_api.requests_today}/100")
+
+    def render_injuries_tab(self, league: str):
+        """Render injuries and suspensions tab"""
+        st.markdown("### 🏥 Injuries & Suspensions")
+        st.markdown("Check team injury news before making predictions")
+        
+        # Check API key
+        if not self.football_api.api_key:
+            st.warning("⚠️ Football API not configured")
+            st.markdown("""
+            **To enable injury news:**
+            1. Get a free API key from [API-Football on RapidAPI](https://rapidapi.com/api-sports/api/api-football)
+            2. Set environment variable: `FOOTBALL_API_KEY=your_key`
+            3. Restart the application
+            
+            *Free tier includes 100 requests/day*
+            """)
+            
+            # Demo mode
+            st.divider()
+            st.markdown("#### 📊 Demo Mode - Sample Injury Report")
+            
+            demo_injuries = {
+                "Manchester City": [
+                    {"Player": "Rodri", "Type": "ACL", "Status": "Out for season"},
+                    {"Player": "Nathan Ake", "Type": "Hamstring", "Status": "2-3 weeks"}
+                ],
+                "Arsenal": [
+                    {"Player": "Bukayo Saka", "Type": "Muscle", "Status": "Doubtful"},
+                    {"Player": "Takehiro Tomiyasu", "Type": "Knee", "Status": "4-6 weeks"}
+                ],
+                "Liverpool": [
+                    {"Player": "Diogo Jota", "Type": "Muscle", "Status": "1-2 weeks"}
+                ]
+            }
+            
+            for team, injuries in demo_injuries.items():
+                with st.expander(f"🏥 {team} ({len(injuries)} injured)"):
+                    st.dataframe(pd.DataFrame(injuries), hide_index=True)
+            return
+        
+        # API is configured
+        try:
+            df = self.fetcher.load_league_data(league)
+            
+            if df is not None and len(df) > 0:
+                teams = sorted(set(df['HomeTeam'].unique()) | set(df['AwayTeam'].unique()))
+                
+                selected_team = st.selectbox("Select Team", options=teams)
+                
+                if selected_team:
+                    with st.spinner(f"Fetching injury report for {selected_team}..."):
+                        injuries = self.football_api.get_team_injuries(selected_team, league)
+                    
+                    if injuries:
+                        st.markdown(f"#### 🏥 {selected_team} Injury Report")
+                        
+                        injury_data = []
+                        for inj in injuries:
+                            player = inj.get('player', {})
+                            injury_info = inj.get('player', {}).get('reason', 'Unknown')
+                            
+                            injury_data.append({
+                                "Player": player.get('name', 'Unknown'),
+                                "Type": injury_info,
+                                "Status": inj.get('player', {}).get('type', 'Unknown')
+                            })
+                        
+                        st.dataframe(pd.DataFrame(injury_data), hide_index=True, use_container_width=True)
+                        
+                        st.warning(f"⚠️ {len(injuries)} player(s) currently unavailable")
+                    else:
+                        st.success(f"✅ No injuries reported for {selected_team}")
+            else:
+                st.info("Load match data first to view team injuries")
+                
+        except Exception as e:
+            st.error(f"Error fetching injuries: {e}")
+        
+        # Usage info
+        st.caption(f"📊 API Requests Today: {self.football_api.requests_today}/100")
 
     def render_auth_page(self):
         """Render the authentication page (login/register)"""
