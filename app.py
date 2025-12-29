@@ -719,9 +719,9 @@ class FootballPredictorApp:
         
         # Try to get upcoming fixtures
         try:
-            fixtures = self.fixtures_fetcher.fetch_upcoming_fixtures(league, days_ahead=14)
+            fixtures_df = self.fixtures_fetcher.fetch_upcoming_fixtures(league, days_ahead=14)
             
-            if not fixtures:
+            if fixtures_df.empty:
                 st.info("📭 No upcoming fixtures found. Try refreshing the data or check back closer to match day.")
                 
                 # Show sample upcoming matches interface
@@ -730,20 +730,24 @@ class FootballPredictorApp:
                 return
             
             # Display fixtures with predictions
-            for fixture in fixtures:
-                with st.expander(f"⚽ {fixture['home_team']} vs {fixture['away_team']} - {fixture.get('date', 'TBD')}"):
+            for idx, fixture in fixtures_df.iterrows():
+                home_team = fixture.get('HomeTeam', fixture.get('home_team', 'Unknown'))
+                away_team = fixture.get('AwayTeam', fixture.get('away_team', 'Unknown'))
+                match_date = fixture.get('Date', fixture.get('date', 'TBD'))
+                
+                with st.expander(f"⚽ {home_team} vs {away_team} - {match_date}"):
                     col1, col2, col3 = st.columns([2, 1, 2])
                     
                     with col1:
-                        st.markdown(f"### 🏠 {fixture['home_team']}")
+                        st.markdown(f"### 🏠 {home_team}")
                     with col2:
                         st.markdown("<div style='text-align:center; font-size:1.5rem;'>VS</div>", unsafe_allow_html=True)
                     with col3:
-                        st.markdown(f"### ✈️ {fixture['away_team']}")
+                        st.markdown(f"### ✈️ {away_team}")
                     
                     # Get prediction for this fixture
-                    if st.button(f"🔮 Predict", key=f"pred_{fixture['home_team']}_{fixture['away_team']}"):
-                        self.render_prediction(league, fixture['home_team'], fixture['away_team'])
+                    if st.button(f"🔮 Predict", key=f"pred_{home_team}_{away_team}_{idx}"):
+                        self.render_prediction(league, home_team, away_team)
         
         except Exception as e:
             st.warning(f"Could not load upcoming fixtures: {e}")
