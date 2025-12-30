@@ -2689,7 +2689,11 @@ class FootballPredictorApp:
                         st.markdown("**🏟️ Stadium**")
                         st.markdown(f"{team_data.get('stadium', 'N/A')}")
                         if team_data.get('stadium_capacity'):
-                            st.caption(f"Capacity: {team_data['stadium_capacity']:,}")
+                            try:
+                                capacity = int(team_data['stadium_capacity'])
+                                st.caption(f"Capacity: {capacity:,}")
+                            except (ValueError, TypeError):
+                                st.caption(f"Capacity: {team_data['stadium_capacity']}")
                     
                     with info_col2:
                         st.markdown("**📍 Location**")

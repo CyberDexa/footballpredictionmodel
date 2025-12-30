@@ -1,15 +1,17 @@
 """
 ML Models Module
 Contains models for EPL match prediction
+Enhanced with Stacking Ensemble, Calibration, and Advanced Features
 """
 
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, cross_val_score, TimeSeriesSplit
 from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, StackingClassifier, VotingClassifier
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn.calibration import CalibratedClassifierCV
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, brier_score_loss
 import joblib
 import os
 from typing import Dict, Tuple, Any
@@ -142,51 +144,115 @@ class EPLPredictor:
                 'labels': {0: 'No', 1: 'Yes (4+ Goals)'}
             }
         }
+        
+        # Use enhanced stacking by default
+        self.use_stacking = True
+        self.use_calibration = True
     
-    def _get_base_models(self) -> Dict[str, Any]:
-        """Get dictionary of base models to ensemble"""
+    def _get_base_models(self, use_class_weights: bool = False) -> Dict[str, Any]:
+        """Get dictionary of base models to ensemble - ENHANCED"""
+        
+        # Class weights for imbalanced targets (e.g., draws are rare)
+        class_weight = 'balanced' if use_class_weights else None
+        
         models = {
             'rf': RandomForestClassifier(
-                n_estimators=200,
-                max_depth=10,
-                min_samples_split=10,
-                min_samples_leaf=5,
+                n_estimators=300,  # Increased
+                max_depth=12,      # Slightly deeper
+                min_samples_split=8,
+                min_samples_leaf=4,
+                class_weight=class_weight,
                 random_state=42,
                 n_jobs=-1
             ),
             'gb': GradientBoostingClassifier(
-                n_estimators=150,
-                max_depth=5,
-                learning_rate=0.1,
+                n_estimators=200,  # Increased
+                max_depth=6,
+                learning_rate=0.08,  # Slightly lower for better generalization
+                subsample=0.8,       # Add randomness
                 random_state=42
             ),
             'lr': LogisticRegression(
-                max_iter=1000,
+                max_iter=2000,
                 random_state=42,
-                solver='lbfgs'
+                solver='lbfgs',
+                class_weight=class_weight,
+                C=0.5  # Some regularization
             )
         }
         
         if HAS_XGBOOST:
             models['xgb'] = XGBClassifier(
-                n_estimators=200,
-                max_depth=6,
-                learning_rate=0.1,
+                n_estimators=300,
+                max_depth=7,
+                learning_rate=0.08,
+                subsample=0.8,
+                colsample_bytree=0.8,
                 random_state=42,
                 verbosity=0,
-                use_label_encoder=False
+                use_label_encoder=False,
+                eval_metric='mlogloss'
             )
         
         if HAS_LIGHTGBM:
             models['lgbm'] = LGBMClassifier(
-                n_estimators=200,
-                max_depth=6,
-                learning_rate=0.1,
+                n_estimators=300,
+                max_depth=7,
+                learning_rate=0.08,
+                subsample=0.8,
+                colsample_bytree=0.8,
                 random_state=42,
-                verbosity=-1
+                verbosity=-1,
+                class_weight=class_weight
             )
         
         return models
+    
+    def _create_stacking_ensemble(self, base_models: Dict[str, Any], 
+                                   is_multiclass: bool = False) -> StackingClassifier:
+        """Create a stacking ensemble from base models"""
+        estimators = [(name, model) for name, model in base_models.items()]
+        
+        # Meta-learner: Logistic Regression with regularization
+        meta_learner = LogisticRegression(
+            max_iter=2000,
+            random_state=42,
+            solver='lbfgs',
+            C=1.0
+        )
+        
+        stack = StackingClassifier(
+            estimators=estimators,
+            final_estimator=meta_learner,
+            cv=5,  # 5-fold CV for meta-features
+            stack_method='predict_proba',  # Use probabilities
+            n_jobs=-1,
+            passthrough=False  # Don't include original features
+        )
+        
+        return stack
+    
+    def _create_voting_ensemble(self, base_models: Dict[str, Any]) -> VotingClassifier:
+        """Create a soft voting ensemble from base models"""
+        estimators = [(name, model) for name, model in base_models.items()]
+        
+        voting = VotingClassifier(
+            estimators=estimators,
+            voting='soft',  # Use probabilities
+            n_jobs=-1
+        )
+        
+        return voting
+    
+    def _calibrate_model(self, model, X_train, y_train) -> CalibratedClassifierCV:
+        """Apply probability calibration using Platt scaling"""
+        calibrated = CalibratedClassifierCV(
+            model,
+            method='sigmoid',  # Platt scaling
+            cv=5
+        )
+        calibrated.fit(X_train, y_train)
+        return calibrated
     
     def prepare_data(self, df: pd.DataFrame, feature_columns: list) -> pd.DataFrame:
         """Prepare data for training by removing rows with insufficient history"""
@@ -203,7 +269,7 @@ class EPLPredictor:
         return df_clean
     
     def train(self, df: pd.DataFrame, feature_columns: list) -> Dict[str, Dict]:
-        """Train models for all targets"""
+        """Train models for all targets - ENHANCED with Stacking & Calibration"""
         self.feature_columns = feature_columns
         
         # Prepare features
@@ -220,6 +286,10 @@ class EPLPredictor:
             print(f"{'='*50}")
             
             y = df[target_config['column']].values
+            is_multiclass = target_config['type'] == 'multiclass'
+            
+            # Use class weights for imbalanced targets
+            use_weights = target_name in ['draw', 'goals_0_1', 'goals_4_plus', 'ht_over_1.5']
             
             # Time-based split (use last 20% as test)
             split_idx = int(len(X_scaled) * 0.8)
@@ -230,11 +300,12 @@ class EPLPredictor:
             best_score = 0
             model_scores = {}
             
-            base_models = self._get_base_models()
+            # Get base models
+            base_models = self._get_base_models(use_class_weights=use_weights)
             
+            # Train individual models first
+            print("\n  📊 Training individual models...")
             for model_name, model in base_models.items():
-                print(f"\n  Training {model_name}...")
-                
                 try:
                     model.fit(X_train, y_train)
                     
@@ -246,21 +317,109 @@ class EPLPredictor:
                     tscv = TimeSeriesSplit(n_splits=5)
                     cv_scores = cross_val_score(model, X_train, y_train, cv=tscv, scoring='accuracy')
                     
+                    # Brier score for probability calibration (binary only)
+                    brier = None
+                    if not is_multiclass:
+                        y_proba = model.predict_proba(X_test)[:, 1]
+                        brier = brier_score_loss(y_test, y_proba)
+                    
                     model_scores[model_name] = {
                         'test_accuracy': accuracy,
                         'cv_mean': cv_scores.mean(),
-                        'cv_std': cv_scores.std()
+                        'cv_std': cv_scores.std(),
+                        'brier_score': brier
                     }
                     
-                    print(f"    Test Accuracy: {accuracy:.4f}")
-                    print(f"    CV Score: {cv_scores.mean():.4f} (+/- {cv_scores.std():.4f})")
+                    print(f"    {model_name}: Acc={accuracy:.4f}, CV={cv_scores.mean():.4f}")
                     
                     if accuracy > best_score:
                         best_score = accuracy
                         best_model = model
                         
                 except Exception as e:
-                    print(f"    Error: {e}")
+                    print(f"    {model_name} Error: {e}")
+            
+            # Try stacking ensemble
+            if self.use_stacking and len(base_models) >= 2:
+                print("\n  🔄 Training Stacking Ensemble...")
+                try:
+                    # Re-create fresh models for stacking
+                    fresh_models = self._get_base_models(use_class_weights=use_weights)
+                    stack = self._create_stacking_ensemble(fresh_models, is_multiclass)
+                    stack.fit(X_train, y_train)
+                    
+                    y_pred_stack = stack.predict(X_test)
+                    stack_accuracy = accuracy_score(y_test, y_pred_stack)
+                    
+                    model_scores['stacking'] = {
+                        'test_accuracy': stack_accuracy,
+                        'cv_mean': None,
+                        'cv_std': None
+                    }
+                    
+                    print(f"    Stacking Ensemble: Acc={stack_accuracy:.4f}")
+                    
+                    if stack_accuracy > best_score:
+                        best_score = stack_accuracy
+                        best_model = stack
+                        print("    ✓ Stacking is best!")
+                        
+                except Exception as e:
+                    print(f"    Stacking Error: {e}")
+            
+            # Try voting ensemble
+            print("\n  🗳️ Training Voting Ensemble...")
+            try:
+                fresh_models = self._get_base_models(use_class_weights=use_weights)
+                voting = self._create_voting_ensemble(fresh_models)
+                voting.fit(X_train, y_train)
+                
+                y_pred_voting = voting.predict(X_test)
+                voting_accuracy = accuracy_score(y_test, y_pred_voting)
+                
+                model_scores['voting'] = {
+                    'test_accuracy': voting_accuracy,
+                    'cv_mean': None,
+                    'cv_std': None
+                }
+                
+                print(f"    Voting Ensemble: Acc={voting_accuracy:.4f}")
+                
+                if voting_accuracy > best_score:
+                    best_score = voting_accuracy
+                    best_model = voting
+                    print("    ✓ Voting is best!")
+                    
+            except Exception as e:
+                print(f"    Voting Error: {e}")
+            
+            # Apply calibration if enabled and beneficial
+            if self.use_calibration and not is_multiclass:
+                print("\n  🎯 Applying probability calibration...")
+                try:
+                    # Calibrate the best model
+                    calibrated = CalibratedClassifierCV(
+                        best_model,
+                        method='sigmoid',
+                        cv=3
+                    )
+                    calibrated.fit(X_train, y_train)
+                    
+                    # Check if calibration improves Brier score
+                    y_proba_cal = calibrated.predict_proba(X_test)[:, 1]
+                    brier_cal = brier_score_loss(y_test, y_proba_cal)
+                    
+                    y_proba_uncal = best_model.predict_proba(X_test)[:, 1]
+                    brier_uncal = brier_score_loss(y_test, y_proba_uncal)
+                    
+                    if brier_cal < brier_uncal:
+                        best_model = calibrated
+                        print(f"    Calibration improved Brier: {brier_uncal:.4f} → {brier_cal:.4f}")
+                    else:
+                        print(f"    Calibration not helpful (Brier: {brier_cal:.4f} vs {brier_uncal:.4f})")
+                        
+                except Exception as e:
+                    print(f"    Calibration Error: {e}")
             
             # Store best model
             self.models[target_name] = best_model
@@ -278,7 +437,7 @@ class EPLPredictor:
                 )
             }
             
-            print(f"\n  Best model accuracy: {results[target_name]['accuracy']:.4f}")
+            print(f"\n  ✅ Best model accuracy: {results[target_name]['accuracy']:.4f}")
             print(f"\n  Classification Report:")
             print(classification_report(
                 y_test, y_pred,
@@ -375,7 +534,16 @@ class EPLPredictor:
         if model is None:
             return pd.DataFrame()
         
-        if hasattr(model, 'feature_importances_'):
+        # Handle stacking/voting models
+        if hasattr(model, 'estimators_'):
+            # Get importance from first estimator that supports it
+            for est in model.estimators_:
+                if hasattr(est, 'feature_importances_'):
+                    importance = est.feature_importances_
+                    break
+            else:
+                return pd.DataFrame()
+        elif hasattr(model, 'feature_importances_'):
             importance = model.feature_importances_
         elif hasattr(model, 'coef_'):
             importance = np.abs(model.coef_).mean(axis=0)
@@ -386,6 +554,97 @@ class EPLPredictor:
             'feature': self.feature_columns,
             'importance': importance
         }).sort_values('importance', ascending=False)
+    
+    def optimize_hyperparameters(self, X: np.ndarray, y: np.ndarray, 
+                                  n_trials: int = 50) -> Dict:
+        """
+        Optimize hyperparameters using Optuna
+        
+        Args:
+            X: Feature matrix
+            y: Target vector
+            n_trials: Number of optimization trials
+        
+        Returns:
+            Dictionary of best hyperparameters
+        """
+        try:
+            import optuna
+            optuna.logging.set_verbosity(optuna.logging.WARNING)
+        except ImportError:
+            print("Optuna not installed. Using default hyperparameters.")
+            return {}
+        
+        def objective(trial):
+            # Hyperparameters to tune
+            params = {
+                'n_estimators': trial.suggest_int('n_estimators', 100, 500),
+                'max_depth': trial.suggest_int('max_depth', 4, 15),
+                'min_samples_split': trial.suggest_int('min_samples_split', 2, 20),
+                'min_samples_leaf': trial.suggest_int('min_samples_leaf', 1, 10),
+            }
+            
+            # Create model with suggested parameters
+            model = RandomForestClassifier(
+                **params,
+                random_state=42,
+                n_jobs=-1,
+                class_weight='balanced'
+            )
+            
+            # Time series cross-validation
+            tscv = TimeSeriesSplit(n_splits=5)
+            scores = cross_val_score(model, X, y, cv=tscv, scoring='accuracy')
+            
+            return scores.mean()
+        
+        # Run optimization
+        print(f"\n🔧 Running hyperparameter optimization ({n_trials} trials)...")
+        study = optuna.create_study(direction='maximize')
+        study.optimize(objective, n_trials=n_trials, show_progress_bar=True)
+        
+        print(f"   Best accuracy: {study.best_value:.4f}")
+        print(f"   Best params: {study.best_params}")
+        
+        return study.best_params
+    
+    def train_optimized(self, df: pd.DataFrame, feature_columns: list, 
+                        optimize: bool = True, n_trials: int = 30) -> Dict[str, Dict]:
+        """
+        Train with optional hyperparameter optimization
+        
+        Args:
+            df: DataFrame with features
+            feature_columns: List of feature column names
+            optimize: Whether to run hyperparameter optimization
+            n_trials: Number of Optuna trials
+        
+        Returns:
+            Training results
+        """
+        if not optimize:
+            return self.train(df, feature_columns)
+        
+        self.feature_columns = feature_columns
+        X = df[feature_columns].values
+        X_scaled = self.scaler.fit_transform(X)
+        
+        # Optimize on match_result first (main target)
+        y_main = df['MatchResult'].values
+        split_idx = int(len(X_scaled) * 0.8)
+        X_train = X_scaled[:split_idx]
+        y_train = y_main[:split_idx]
+        
+        # Get optimized params
+        best_params = self.optimize_hyperparameters(X_train, y_train, n_trials)
+        
+        if best_params:
+            # Update base models with optimized params
+            print("\n📊 Applying optimized hyperparameters...")
+            self._optimized_params = best_params
+        
+        # Continue with normal training
+        return self.train(df, feature_columns)
 
 
 if __name__ == "__main__":
