@@ -19,7 +19,8 @@ import json
 class FootballAPI:
     """Client for API-Football - player stats and injuries"""
     
-    BASE_URL = "https://api-football-v1.p.rapidapi.com/v3"
+    # Use direct API-Football endpoint (not RapidAPI)
+    BASE_URL = "https://v3.football.api-sports.io"
     
     # League IDs for API-Football
     LEAGUE_IDS = {
@@ -36,14 +37,17 @@ class FootballAPI:
         'CHAMPIONSHIP': 40,
     }
     
-    # Current seasons
+    # Free plan only supports seasons 2021-2023
+    # Use 2023 as default for current data
     SEASONS = {
-        2025: '2024',  # 2024-25 season
+        2025: '2023',  # Free plan: use 2023 data
         2024: '2023',
+        2023: '2022',
     }
+    DEFAULT_SEASON = '2023'
     
     def __init__(self, api_key: Optional[str] = None):
-        """Initialize with RapidAPI key"""
+        """Initialize with API-Football key (direct, not RapidAPI)"""
         self.api_key = api_key or os.getenv('FOOTBALL_API_KEY')
         self.cache = {}
         self.cache_expiry = {}
@@ -55,10 +59,9 @@ class FootballAPI:
         return bool(self.api_key)
     
     def _get_headers(self) -> Dict:
-        """Get API request headers"""
+        """Get API request headers for direct API-Football"""
         return {
-            'X-RapidAPI-Key': self.api_key,
-            'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
+            'x-apisports-key': self.api_key
         }
     
     def _make_request(self, endpoint: str, params: Dict) -> Optional[Dict]:
@@ -99,7 +102,7 @@ class FootballAPI:
             print(f"API request error: {e}")
             return None
     
-    def get_top_scorers(self, league: str, season: str = '2024', limit: int = 10) -> List[Dict]:
+    def get_top_scorers(self, league: str, season: str = '2023', limit: int = 10) -> List[Dict]:
         """
         Get top scorers for a league
         
@@ -148,7 +151,7 @@ class FootballAPI:
         self._cache_response(cache_key, scorers, hours=6)
         return scorers[:limit]
     
-    def get_top_assists(self, league: str, season: str = '2024', limit: int = 10) -> List[Dict]:
+    def get_top_assists(self, league: str, season: str = '2023', limit: int = 10) -> List[Dict]:
         """Get top assist providers for a league"""
         league_id = self.LEAGUE_IDS.get(league)
         if not league_id:
@@ -259,7 +262,7 @@ class FootballAPI:
         self._cache_response(cache_key, players, hours=24)
         return players
     
-    def get_standings(self, league: str, season: str = '2024') -> List[Dict]:
+    def get_standings(self, league: str, season: str = '2023') -> List[Dict]:
         """Get league standings/table"""
         league_id = self.LEAGUE_IDS.get(league)
         if not league_id:
