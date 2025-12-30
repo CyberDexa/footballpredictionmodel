@@ -36,6 +36,7 @@ from src.auth import get_auth_manager
 from src.payments import get_payment_manager
 from src.odds_api import get_odds_api
 from src.football_api import get_football_api
+from src.thesportsdb_api import get_sportsdb_api
 
 # Page configuration
 st.set_page_config(
@@ -185,6 +186,7 @@ class FootballPredictorApp:
         # External APIs (optional - will work without keys)
         self.odds_api = get_odds_api(os.getenv('ODDS_API_KEY'))
         self.football_api = get_football_api(os.getenv('FOOTBALL_API_KEY'))
+        self.sportsdb = get_sportsdb_api()  # Free - no API key needed!
     
     def check_auto_refresh(self, league: str, max_age_days: int = 7):
         """Check if data needs auto-refresh and refresh if needed."""
@@ -596,7 +598,7 @@ class FootballPredictorApp:
             st.info("📥 Click 'Refresh Data' in the sidebar to fetch match data.")
         
         # Tabs for different functionality
-        tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11, tab12 = st.tabs([
+        tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11, tab12, tab13 = st.tabs([
             "🔮 Predict Match", 
             "📅 Upcoming Matches", 
             "📊 Team Form",
@@ -604,6 +606,7 @@ class FootballPredictorApp:
             "💹 Live Odds",
             "⚽ Player Stats",
             "🏥 Injuries",
+            "🏟️ Team Explorer",
             "📈 Track Record",
             "📋 My Predictions",
             "🏆 Leaderboard",
@@ -633,18 +636,21 @@ class FootballPredictorApp:
             self.render_injuries_tab(league)
         
         with tab8:
-            self.render_accuracy_tab(league)
+            self.render_team_explorer_tab(league)
         
         with tab9:
-            self.render_my_predictions_tab(league)
+            self.render_accuracy_tab(league)
         
         with tab10:
-            self.render_leaderboard_tab()
+            self.render_my_predictions_tab(league)
         
         with tab11:
-            self.render_head_to_head_tab(league)
+            self.render_leaderboard_tab()
         
         with tab12:
+            self.render_head_to_head_tab(league)
+        
+        with tab13:
             self.render_stats_tab(league)
     
     def render_prediction_tab(self, league: str):
@@ -2625,6 +2631,227 @@ class FootballPredictorApp:
         
         # Usage info
         st.caption(f"📊 API Requests Today: {self.football_api.requests_today}/100")
+
+    def render_team_explorer_tab(self, league: str):
+        """Render Team Explorer tab with TheSportsDB data"""
+        st.markdown("### 🏟️ Team Explorer")
+        st.caption("Explore teams, players, and stadiums • Powered by TheSportsDB (FREE)")
+        
+        # League mapping for TheSportsDB
+        sportsdb_leagues = {
+            'EPL': 'EPL',
+            'CHAMPIONSHIP': 'CHAMPIONSHIP', 
+            'EFL_CHAMPIONSHIP': 'CHAMPIONSHIP',
+            'LA_LIGA': 'LA_LIGA',
+            'SERIE_A': 'SERIE_A',
+            'BUNDESLIGA': 'BUNDESLIGA',
+            'LIGUE_1': 'LIGUE_1',
+            'EREDIVISIE': 'EREDIVISIE',
+            'SCOTTISH_PREM': 'SCOTTISH_PREM',
+        }
+        
+        sdb_league = sportsdb_leagues.get(league, 'EPL')
+        
+        col1, col2 = st.columns([1, 2])
+        
+        with col1:
+            # Get league teams
+            with st.spinner("Loading teams..."):
+                teams = self.sportsdb.get_league_teams(sdb_league)
+            
+            if teams:
+                team_options = [t['name'] for t in teams]
+                selected_team = st.selectbox("🏟️ Select Team", team_options, key="sdb_team")
+                
+                # Find team info
+                selected_info = next((t for t in teams if t['name'] == selected_team), None)
+                
+                if selected_info and selected_info.get('logo'):
+                    st.image(selected_info['logo'], width=150)
+            else:
+                # Fallback: manual search
+                st.info(f"League not in database. Search manually:")
+                selected_team = st.text_input("🔍 Search Team", placeholder="e.g. Arsenal")
+                selected_info = None
+        
+        with col2:
+            if selected_team:
+                with st.spinner(f"Loading {selected_team} details..."):
+                    team_data = self.sportsdb.get_team_info(selected_team)
+                
+                if team_data:
+                    st.markdown(f"## {team_data['name']}")
+                    
+                    # Team info cards
+                    info_col1, info_col2, info_col3 = st.columns(3)
+                    
+                    with info_col1:
+                        st.markdown("**🏟️ Stadium**")
+                        st.markdown(f"{team_data.get('stadium', 'N/A')}")
+                        if team_data.get('stadium_capacity'):
+                            st.caption(f"Capacity: {team_data['stadium_capacity']:,}")
+                    
+                    with info_col2:
+                        st.markdown("**📍 Location**")
+                        st.markdown(f"{team_data.get('location', 'N/A')}")
+                        st.caption(f"{team_data.get('country', '')}")
+                    
+                    with info_col3:
+                        st.markdown("**📅 Founded**")
+                        st.markdown(f"{team_data.get('formed_year', 'N/A')}")
+                    
+                    # Stadium image
+                    if team_data.get('stadium_image'):
+                        st.image(team_data['stadium_image'], caption=f"{team_data.get('stadium', 'Stadium')}", use_container_width=True)
+                    
+                    # Banner
+                    if team_data.get('banner'):
+                        st.image(team_data['banner'], use_container_width=True)
+                    
+                    # Social links
+                    socials = []
+                    if team_data.get('website'):
+                        socials.append(f"[🌐 Website]({team_data['website']})")
+                    if team_data.get('twitter'):
+                        socials.append(f"[🐦 Twitter]({team_data['twitter']})")
+                    if team_data.get('instagram'):
+                        socials.append(f"[📸 Instagram]({team_data['instagram']})")
+                    if team_data.get('facebook'):
+                        socials.append(f"[📘 Facebook]({team_data['facebook']})")
+                    
+                    if socials:
+                        st.markdown(" • ".join(socials))
+                else:
+                    st.warning(f"Could not find details for {selected_team}")
+        
+        st.divider()
+        
+        # Squad section
+        if selected_team:
+            st.markdown("### 👥 Squad")
+            
+            with st.spinner("Loading squad..."):
+                players = self.sportsdb.get_team_players(selected_team)
+            
+            if players:
+                # Group by position
+                positions = {}
+                for p in players:
+                    pos = p.get('position', 'Unknown') or 'Unknown'
+                    if pos not in positions:
+                        positions[pos] = []
+                    positions[pos].append(p)
+                
+                # Display in columns by position
+                position_order = ['Goalkeeper', 'Defender', 'Midfielder', 'Forward', 'Unknown']
+                
+                for pos in position_order:
+                    if pos in positions:
+                        st.markdown(f"**{pos}s**")
+                        cols = st.columns(min(5, len(positions[pos])))
+                        
+                        for i, player in enumerate(positions[pos][:10]):  # Max 10 per position
+                            with cols[i % 5]:
+                                if player.get('cutout') or player.get('photo'):
+                                    st.image(player.get('cutout') or player.get('photo'), width=80)
+                                st.markdown(f"**{player['name']}**")
+                                if player.get('nationality'):
+                                    st.caption(f"🏳️ {player['nationality']}")
+                                if player.get('number'):
+                                    st.caption(f"#{player['number']}")
+            else:
+                st.info("No squad data available")
+        
+        st.divider()
+        
+        # Recent results & next match
+        if selected_team:
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                st.markdown("### 📊 Recent Results")
+                results = self.sportsdb.get_team_last_matches(selected_team, limit=5)
+                
+                if results:
+                    for match in results:
+                        home = match.get('home_team', 'TBD')
+                        away = match.get('away_team', 'TBD')
+                        h_score = match.get('home_score', '-')
+                        a_score = match.get('away_score', '-')
+                        date = match.get('date', '')
+                        
+                        # Determine if selected team won/lost/drew
+                        is_home = home == selected_team
+                        if h_score != '-' and a_score != '-':
+                            h_score, a_score = int(h_score), int(a_score)
+                            if (is_home and h_score > a_score) or (not is_home and a_score > h_score):
+                                result_emoji = "🟢"  # Win
+                            elif h_score == a_score:
+                                result_emoji = "🟡"  # Draw
+                            else:
+                                result_emoji = "🔴"  # Loss
+                        else:
+                            result_emoji = "⚪"
+                        
+                        st.markdown(f"{result_emoji} **{home}** {h_score} - {a_score} **{away}**")
+                        st.caption(f"📅 {date}")
+                else:
+                    st.info("No recent results available")
+            
+            with col2:
+                st.markdown("### ⏭️ Next Match")
+                next_match = self.sportsdb.get_team_next_match(selected_team)
+                
+                if next_match:
+                    st.markdown(f"**{next_match.get('home_team', 'TBD')}** vs **{next_match.get('away_team', 'TBD')}**")
+                    st.markdown(f"📅 {next_match.get('date', 'TBD')} at {next_match.get('time', 'TBD')}")
+                    st.markdown(f"🏟️ {next_match.get('venue', 'TBD')}")
+                    st.caption(f"🏆 {next_match.get('league', '')}")
+                else:
+                    st.info("No upcoming matches scheduled")
+        
+        # Search player
+        st.divider()
+        st.markdown("### 🔍 Search Player")
+        
+        player_search = st.text_input("Search for any player", placeholder="e.g. Salah, Haaland, Mbappe")
+        
+        if player_search:
+            with st.spinner(f"Searching for {player_search}..."):
+                player_info = self.sportsdb.get_player_info(player_search)
+            
+            if player_info:
+                pcol1, pcol2 = st.columns([1, 2])
+                
+                with pcol1:
+                    if player_info.get('cutout'):
+                        st.image(player_info['cutout'], width=200)
+                    elif player_info.get('photo'):
+                        st.image(player_info['photo'], width=200)
+                
+                with pcol2:
+                    st.markdown(f"## {player_info['name']}")
+                    st.markdown(f"**Team:** {player_info.get('team', 'N/A')}")
+                    st.markdown(f"**Position:** {player_info.get('position', 'N/A')}")
+                    st.markdown(f"**Nationality:** {player_info.get('nationality', 'N/A')}")
+                    
+                    if player_info.get('date_of_birth'):
+                        st.markdown(f"**Born:** {player_info['date_of_birth']}")
+                    if player_info.get('height'):
+                        st.markdown(f"**Height:** {player_info['height']}")
+                    
+                    # Social links
+                    psocials = []
+                    if player_info.get('twitter'):
+                        psocials.append(f"[🐦 Twitter]({player_info['twitter']})")
+                    if player_info.get('instagram'):
+                        psocials.append(f"[📸 Instagram]({player_info['instagram']})")
+                    if psocials:
+                        st.markdown(" • ".join(psocials))
+            else:
+                st.warning(f"Could not find player: {player_search}")
+        
+        st.caption("📊 Data from TheSportsDB • Free API • No rate limits")
 
     def render_auth_page(self):
         """Render the authentication page (login/register)"""
