@@ -1291,7 +1291,10 @@ class FootballPredictorApp:
             st.markdown("#### ⚽ Goals Per Match Distribution")
             df['TotalGoals'] = df['FTHG'] + df['FTAG']
             goals_dist = df['TotalGoals'].value_counts().sort_index()
-            st.bar_chart(goals_dist)
+            if len(goals_dist) > 0:
+                st.bar_chart(goals_dist)
+            else:
+                st.info("No goals data available")
             
             # Recent form table
             st.markdown("#### 📈 Recent Results")
@@ -1397,7 +1400,10 @@ class FootballPredictorApp:
             with col1:
                 # Create a simple bar chart
                 chart_data = tier_data[tier_data['total'] > 0][['tier', 'accuracy']].set_index('tier')
-                st.bar_chart(chart_data)
+                if len(chart_data) > 0 and chart_data['accuracy'].notna().any():
+                    st.bar_chart(chart_data)
+                else:
+                    st.info("Not enough data for chart")
             
             with col2:
                 st.markdown("**Performance by Tier**")
@@ -2051,7 +2057,10 @@ class FootballPredictorApp:
                 })
             
             form_df = pd.DataFrame(form_data)
-            st.line_chart(form_df.set_index('Match')[['Points', 'Goals Scored', 'Goals Conceded']])
+            if len(form_df) > 0:
+                st.line_chart(form_df.set_index('Match')[['Points', 'Goals Scored', 'Goals Conceded']])
+            else:
+                st.info("No form data to display")
             
             # Recent matches list
             st.markdown("#### 📜 Match Details")
@@ -2092,17 +2101,59 @@ class FootballPredictorApp:
         st.markdown("### 🎰 Accumulator Builder")
         st.markdown("Build your accumulator by adding selections from predictions")
         
+        # Get accumulator from session state
+        if 'accumulator' not in st.session_state:
+            st.session_state.accumulator = []
+        
         accumulator = st.session_state.accumulator
         
-        if not accumulator:
+        # Debug info (can be removed later)
+        # st.caption(f"Debug: Accumulator has {len(accumulator)} items")
+        
+        if not accumulator or len(accumulator) == 0:
             st.info("📭 Your accumulator is empty. Add selections from the Predict Match tab!")
+            
             st.markdown("""
             **How to use:**
-            1. Go to the **Predict Match** tab
-            2. Select a match and get predictions
-            3. Click the **➕ Add to Accumulator** buttons
-            4. Come back here to view your accumulator
+            1. Go to the **🔮 Predict Match** tab
+            2. Select home and away teams
+            3. Click **🔮 Get Prediction**
+            4. Scroll down to find the **🎰 Add to Accumulator** buttons
+            5. Click any ➕ button to add a selection
+            6. Come back here to view your accumulator
             """)
+            
+            # Quick add section for convenience
+            st.divider()
+            st.markdown("### ⚡ Quick Add (Manual Entry)")
+            st.caption("Add a selection manually if you know the match and odds")
+            
+            qa_col1, qa_col2 = st.columns(2)
+            with qa_col1:
+                qa_match = st.text_input("Match", placeholder="e.g. Arsenal vs Chelsea", key="qa_match")
+            with qa_col2:
+                qa_selection = st.text_input("Selection", placeholder="e.g. Arsenal Win", key="qa_selection")
+            
+            qa_col3, qa_col4 = st.columns(2)
+            with qa_col3:
+                qa_odds = st.number_input("Odds", min_value=1.01, max_value=100.0, value=2.0, step=0.1, key="qa_odds")
+            with qa_col4:
+                qa_prob = st.number_input("Probability %", min_value=1.0, max_value=99.0, value=50.0, step=1.0, key="qa_prob")
+            
+            if st.button("➕ Add to Accumulator", type="primary"):
+                if qa_match and qa_selection:
+                    new_selection = {
+                        'match': qa_match,
+                        'selection': qa_selection,
+                        'odds': qa_odds,
+                        'probability': qa_prob
+                    }
+                    st.session_state.accumulator.append(new_selection)
+                    st.success(f"✅ Added {qa_selection} to accumulator!")
+                    st.rerun()
+                else:
+                    st.warning("Please enter match and selection")
+            
             return
         
         # Display accumulator
