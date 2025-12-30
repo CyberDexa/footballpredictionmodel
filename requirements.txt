@@ -7,3 +7,6 @@ xgboost>=2.0.0
 lightgbm>=4.0.0
 streamlit>=1.29.0
 plotly>=5.18.0
+python-dotenv>=1.0.0
+scipy>=1.11.0
+optuna>=3.4.0
