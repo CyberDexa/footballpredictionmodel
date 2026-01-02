@@ -3207,15 +3207,15 @@ python src/scheduler.py --leagues EPL LA_LIGA
                         st.warning("Please enter email and password")
                 
                 st.markdown("---")
-                st.markdown("**Or continue as guest** (limited to 3 predictions/day, EPL only)")
+                st.markdown("**Or continue as guest** (Unlimited predictions, all leagues!)")
                 
                 if st.button("👤 Continue as Guest", width="stretch"):
-                    # Create a guest session
+                    # Create a guest session with unlimited access
                     st.session_state.user = {
                         'id': None,
                         'email': 'guest',
-                        'subscription_tier': 'free',
-                        'tier_info': self.auth.SUBSCRIPTION_TIERS['free'],
+                        'subscription_tier': 'unlimited',
+                        'tier_info': self.auth.SUBSCRIPTION_TIERS['unlimited'],
                         'predictions_today': 0,
                         'is_guest': True
                     }
@@ -3282,31 +3282,16 @@ python src/scheduler.py --leagues EPL LA_LIGA
             
             if user.get('is_guest'):
                 st.info("👤 Guest Mode")
-                st.caption("Limited features")
+                st.caption("♾️ Unlimited predictions")
                 if st.button("🔐 Login / Register", width="stretch"):
                     st.session_state.user = None
                     st.rerun()
             else:
                 st.markdown(f"**{user['email'][:20]}...**" if len(user.get('email', '')) > 20 else f"**{user.get('email', '')}**")
                 
-                # Tier badge
-                tier_colors = {
-                    'free': '🆓', 'basic': '🥉', 'pro': '🥈', 'unlimited': '🥇'
-                }
-                st.markdown(f"{tier_colors.get(tier, '🆓')} **{tier_info['name']}** Plan")
-                
-                # Usage
-                can_predict, msg, remaining = self.auth.can_make_prediction(user['id'])
-                if remaining == -1:
-                    st.caption("♾️ Unlimited predictions")
-                else:
-                    st.caption(f"📊 {remaining} predictions left today")
-                    st.progress(remaining / tier_info['predictions_per_day'])
-                
-                # Upgrade button (if not unlimited)
-                if tier != 'unlimited':
-                    if st.button("💎 Upgrade Plan", width="stretch"):
-                        st.session_state.show_pricing = True
+                # All users get Unlimited Plan display
+                st.markdown(f"🥇 **Unlimited** Plan")
+                st.caption("♾️ Unlimited predictions")
                 
                 st.divider()
                 
@@ -3318,22 +3303,14 @@ python src/scheduler.py --leagues EPL LA_LIGA
                     st.rerun()
     
     def check_prediction_limit(self) -> Tuple[bool, str]:
-        """Check if user can make a prediction"""
+        """Check if user can make a prediction - ALL USERS HAVE UNLIMITED ACCESS"""
         user = st.session_state.user
         
         if not user:
             return False, "Please login to make predictions"
         
-        if user.get('is_guest'):
-            # Track guest predictions in session
-            guest_predictions = st.session_state.get('guest_predictions', 0)
-            if guest_predictions >= 3:
-                return False, "Guest limit reached (3/day). Please register for more!"
-            return True, f"{3 - guest_predictions} predictions remaining"
-        
-        # Logged in user
-        can_predict, msg, remaining = self.auth.can_make_prediction(user['id'])
-        return can_predict, msg
+        # All users get unlimited access
+        return True, "Unlimited predictions"
     
     def record_prediction_usage(self):
         """Record that a prediction was made"""
@@ -3348,16 +3325,9 @@ python src/scheduler.py --leagues EPL LA_LIGA
             self.auth.record_prediction(user['id'])
     
     def check_league_access(self, league: str) -> bool:
-        """Check if user can access a league"""
-        user = st.session_state.user
-        
-        if not user:
-            return league == 'EPL'  # Guests only get EPL
-        
-        if user.get('is_guest'):
-            return league == 'EPL'
-        
-        return self.auth.can_access_league(user['id'], league)
+        """Check if user can access a league - ALL USERS GET ALL LEAGUES"""
+        # All users get access to all leagues
+        return True
     
     def run(self):
         """Run the application"""

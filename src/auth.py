@@ -390,54 +390,13 @@ class AuthManager:
     def can_make_prediction(self, user_id: int) -> Tuple[bool, str, int]:
         """
         Check if user can make a prediction based on their tier limits
+        ALL USERS NOW HAVE UNLIMITED ACCESS
         
         Returns:
             Tuple of (can_predict, message, remaining_predictions)
         """
-        conn = self._get_connection()
-        cursor = conn.cursor()
-        
-        cursor.execute('''
-            SELECT subscription_tier, predictions_today, last_prediction_date
-            FROM users
-            WHERE id = ?
-        ''', (user_id,))
-        
-        user = cursor.fetchone()
-        
-        if not user:
-            conn.close()
-            return False, "User not found", 0
-        
-        tier = user['subscription_tier']
-        tier_info = self.SUBSCRIPTION_TIERS.get(tier, self.SUBSCRIPTION_TIERS['free'])
-        limit = tier_info['predictions_per_day']
-        
-        # Unlimited tier
-        if limit == -1:
-            conn.close()
-            return True, "Unlimited predictions", -1
-        
-        # Check if it's a new day
-        today = datetime.now().date().isoformat()
-        last_date = user['last_prediction_date']
-        
-        if last_date != today:
-            # Reset counter for new day
-            cursor.execute('''
-                UPDATE users
-                SET predictions_today = 0,
-                    last_prediction_date = ?
-                WHERE id = ?
-            ''', (today, user_id))
-            conn.commit()
-            predictions_today = 0
-        else:
-            predictions_today = user['predictions_today']
-        
-        conn.close()
-        
-        remaining = limit - predictions_today
+        # All users get unlimited access
+        return True, "Unlimited predictions", -1
         
         if remaining <= 0:
             return False, f"Daily limit reached ({limit} predictions). Upgrade for more!", 0
