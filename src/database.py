@@ -306,7 +306,7 @@ class Database:
         }
     
     def get_recent_predictions(self, limit: int = 50, league: str = None) -> List[Dict]:
-        """Get recent predictions"""
+        """Get recent predictions sorted by match date"""
         conn = self._get_connection()
         cursor = conn.cursor()
         
@@ -314,13 +314,15 @@ class Database:
             cursor.execute('''
                 SELECT * FROM predictions
                 WHERE league = ?
-                ORDER BY created_at DESC
+                AND home_team != away_team
+                ORDER BY match_date DESC, created_at DESC
                 LIMIT ?
             ''', (league, limit))
         else:
             cursor.execute('''
                 SELECT * FROM predictions
-                ORDER BY created_at DESC
+                WHERE home_team != away_team
+                ORDER BY match_date DESC, created_at DESC
                 LIMIT ?
             ''', (limit,))
         
@@ -620,6 +622,262 @@ class Database:
     def get_team_form(self, team: str, league: str, matches: int = 5) -> List[Dict]:
         """Get recent form for a team - placeholder for match data lookup"""
         return []
+    
+    def verify_predictions_with_odds_api(self, odds_api, leagues: List[str] = None) -> Dict:
+        """
+        Verify pending predictions using The Odds API scores endpoint.
+        
+        Args:
+            odds_api: OddsAPI instance
+            leagues: List of league codes to check (default: top leagues)
+            
+        Returns:
+            Dict with verification statistics
+        """
+        if leagues is None:
+            leagues = ['EPL', 'CHAMPIONSHIP', 'LA_LIGA', 'SERIE_A', 'BUNDESLIGA', 'LIGUE_1']
+        
+        conn = self._get_connection()
+        cursor = conn.cursor()
+        
+        # Get all unverified predictions
+        cursor.execute('''
+            SELECT * FROM predictions
+            WHERE match_played = FALSE
+            AND (match_date IS NULL OR match_date <= date('now'))
+            ORDER BY created_at ASC
+        ''')
+        
+        pending = cursor.fetchall()
+        
+        if not pending:
+            conn.close()
+            return {'pending': 0, 'verified': 0, 'correct': 0, 'failed_lookups': []}
+        
+        # Fetch recent results from all leagues (max 3 days - API limit)
+        all_results = []
+        for league in leagues:
+            try:
+                results = odds_api.get_recent_results(league, days=3)
+                for r in results:
+                    r['league'] = league
+                all_results.extend(results)
+            except Exception as e:
+                print(f"Error fetching {league} results: {e}")
+        
+        verified_count = 0
+        correct_count = 0
+        failed_lookups = []
+        
+        for pred in pending:
+            home_team = pred['home_team']
+            away_team = pred['away_team']
+            pred_league = pred['league']
+            
+            # Normalize team names
+            home_normalized = home_team.lower().strip()
+            away_normalized = away_team.lower().strip()
+            
+            # Find matching result
+            match_found = None
+            for result in all_results:
+                result_home = result['home_team'].lower().strip()
+                result_away = result['away_team'].lower().strip()
+                
+                # Fuzzy match
+                if (home_normalized in result_home or result_home in home_normalized) and \
+                   (away_normalized in result_away or result_away in away_normalized):
+                    match_found = result
+                    break
+            
+            if match_found:
+                home_goals = match_found['home_score']
+                away_goals = match_found['away_score']
+                total_goals = home_goals + away_goals
+                
+                # Determine actual result
+                if home_goals > away_goals:
+                    actual_result = 'Home Win'
+                elif away_goals > home_goals:
+                    actual_result = 'Away Win'
+                else:
+                    actual_result = 'Draw'
+                
+                # Calculate correctness
+                result_correct = pred['predicted_result'] == actual_result
+                over_1_5_correct = ((pred['over_1_5_prob'] or 0) > 50) == (total_goals > 1.5)
+                over_2_5_correct = ((pred['over_2_5_prob'] or 0) > 50) == (total_goals > 2.5)
+                over_3_5_correct = ((pred['over_3_5_prob'] or 0) > 50) == (total_goals > 3.5)
+                btts_correct = ((pred['btts_prob'] or 0) > 50) == (home_goals > 0 and away_goals > 0)
+                
+                # Update prediction
+                cursor.execute('''
+                    UPDATE predictions SET
+                        actual_home_goals = ?,
+                        actual_away_goals = ?,
+                        actual_result = ?,
+                        match_played = TRUE,
+                        result_correct = ?,
+                        over_1_5_correct = ?,
+                        over_2_5_correct = ?,
+                        over_3_5_correct = ?,
+                        btts_correct = ?
+                    WHERE prediction_id = ?
+                ''', (
+                    home_goals, away_goals, actual_result,
+                    result_correct, over_1_5_correct, over_2_5_correct,
+                    over_3_5_correct, btts_correct,
+                    pred['prediction_id']
+                ))
+                
+                verified_count += 1
+                if result_correct:
+                    correct_count += 1
+            else:
+                failed_lookups.append({
+                    'home': home_team,
+                    'away': away_team,
+                    'league': pred_league
+                })
+        
+        conn.commit()
+        conn.close()
+        
+        return {
+            'pending': len(pending),
+            'verified': verified_count,
+            'correct': correct_count,
+            'failed_lookups': failed_lookups,
+            'source': 'The Odds API'
+        }
+    
+    def verify_predictions_with_results(self, match_data: pd.DataFrame) -> Dict:
+        """
+        Verify pending predictions against actual match results.
+        
+        Args:
+            match_data: DataFrame with columns: HomeTeam, AwayTeam, FTHG, FTAG, Date
+            
+        Returns:
+            Dict with verification statistics
+        """
+        conn = self._get_connection()
+        cursor = conn.cursor()
+        
+        # Get all unverified predictions (include NULL dates for older predictions)
+        cursor.execute('''
+            SELECT * FROM predictions
+            WHERE match_played = FALSE
+            AND (match_date IS NULL OR match_date <= date('now'))
+            ORDER BY created_at ASC
+        ''')
+        
+        pending = cursor.fetchall()
+        
+        verified_count = 0
+        correct_count = 0
+        failed_lookups = []
+        
+        for pred in pending:
+            home_team = pred['home_team']
+            away_team = pred['away_team']
+            match_date = pred['match_date']
+            
+            # Try to find the match in the data
+            # Normalize team names for matching
+            home_normalized = home_team.lower().strip()
+            away_normalized = away_team.lower().strip()
+            
+            # Look for matching games
+            match_found = None
+            for _, row in match_data.iterrows():
+                data_home = str(row.get('HomeTeam', '')).lower().strip()
+                data_away = str(row.get('AwayTeam', '')).lower().strip()
+                
+                # Check for exact or partial match
+                if (home_normalized in data_home or data_home in home_normalized) and \
+                   (away_normalized in data_away or data_away in away_normalized):
+                    # Check if match has actual goals (was played)
+                    if pd.notna(row.get('FTHG')) and pd.notna(row.get('FTAG')):
+                        match_found = row
+                        break
+            
+            if match_found is not None:
+                home_goals = int(match_found['FTHG'])
+                away_goals = int(match_found['FTAG'])
+                total_goals = home_goals + away_goals
+                
+                # Determine actual result
+                if home_goals > away_goals:
+                    actual_result = 'Home Win'
+                elif away_goals > home_goals:
+                    actual_result = 'Away Win'
+                else:
+                    actual_result = 'Draw'
+                
+                # Calculate correctness for each market
+                result_correct = pred['predicted_result'] == actual_result
+                over_1_5_correct = ((pred['over_1_5_prob'] or 0) > 50) == (total_goals > 1.5)
+                over_2_5_correct = ((pred['over_2_5_prob'] or 0) > 50) == (total_goals > 2.5)
+                over_3_5_correct = ((pred['over_3_5_prob'] or 0) > 50) == (total_goals > 3.5)
+                btts_correct = ((pred['btts_prob'] or 0) > 50) == (home_goals > 0 and away_goals > 0)
+                
+                # Update the prediction
+                cursor.execute('''
+                    UPDATE predictions SET
+                        actual_home_goals = ?,
+                        actual_away_goals = ?,
+                        actual_result = ?,
+                        match_played = TRUE,
+                        result_correct = ?,
+                        over_1_5_correct = ?,
+                        over_2_5_correct = ?,
+                        over_3_5_correct = ?,
+                        btts_correct = ?
+                    WHERE prediction_id = ?
+                ''', (
+                    home_goals, away_goals, actual_result,
+                    result_correct, over_1_5_correct, over_2_5_correct,
+                    over_3_5_correct, btts_correct,
+                    pred['prediction_id']
+                ))
+                
+                verified_count += 1
+                if result_correct:
+                    correct_count += 1
+            else:
+                failed_lookups.append({
+                    'home': home_team,
+                    'away': away_team,
+                    'date': match_date
+                })
+        
+        conn.commit()
+        conn.close()
+        
+        return {
+            'pending': len(pending),
+            'verified': verified_count,
+            'correct': correct_count,
+            'failed_lookups': failed_lookups
+        }
+    
+    def get_unverified_count(self) -> int:
+        """Get count of predictions awaiting verification"""
+        conn = self._get_connection()
+        cursor = conn.cursor()
+        
+        # Include predictions with NULL dates (older predictions without date tracking)
+        cursor.execute('''
+            SELECT COUNT(*) as count FROM predictions
+            WHERE match_played = FALSE
+            AND (match_date IS NULL OR match_date <= date('now'))
+        ''')
+        
+        row = cursor.fetchone()
+        conn.close()
+        
+        return row['count'] if row else 0
 
 
 # Singleton instance

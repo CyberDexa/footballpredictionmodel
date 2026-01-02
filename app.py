@@ -18,6 +18,8 @@ from datetime import datetime, timedelta
 from typing import Tuple, List, Dict
 from scipy.stats import poisson
 import math
+import plotly.express as px
+import plotly.graph_objects as go
 
 # Load environment variables from .env file
 from dotenv import load_dotenv
@@ -518,6 +520,55 @@ class FootballPredictorApp:
             if st.button("🔄 Retrain Model", width='stretch'):
                 self.load_or_train_model(selected_league, force_retrain=True)
                 st.success("✅ Model retrained!")
+            
+            st.divider()
+            
+            # Automation Settings
+            st.markdown("### 🤖 Auto-Predictions")
+            st.caption("Generate predictions automatically 2 days before matches")
+            
+            # Manual trigger for auto-predictions
+            auto_cols = st.columns(2)
+            with auto_cols[0]:
+                if st.button("🚀 Run Now", key="run_scheduler_now", help="Generate predictions for upcoming matches"):
+                    with st.spinner("Generating predictions..."):
+                        try:
+                            from src.scheduler import PredictionScheduler
+                            scheduler = PredictionScheduler(days_ahead=2)
+                            results = scheduler.run_predictions_for_league(selected_league)
+                            if results['predictions_made'] > 0:
+                                st.success(f"✅ {results['predictions_made']} new predictions!")
+                            else:
+                                st.info("No upcoming matches found in next 2 days")
+                            if results['errors']:
+                                st.warning(f"⚠️ {len(results['errors'])} errors")
+                        except Exception as e:
+                            st.error(f"Error: {e}")
+            
+            with auto_cols[1]:
+                if st.button("✅ Verify", key="run_verification", help="Check prediction accuracy against real results"):
+                    with st.spinner("Verifying predictions..."):
+                        try:
+                            from src.scheduler import PredictionScheduler
+                            scheduler = PredictionScheduler()
+                            verified = scheduler.run_verification()
+                            st.success(f"✅ {verified} predictions verified!")
+                        except Exception as e:
+                            st.error(f"Error: {e}")
+            
+            # Show scheduler status/info
+            with st.expander("ℹ️ How to run in background"):
+                st.code("""
+# Run once (predictions for next 2 days):
+python src/scheduler.py
+
+# Run as daemon (checks every 6 hours):
+python src/scheduler.py --daemon
+
+# Specific leagues only:
+python src/scheduler.py --leagues EPL LA_LIGA
+                """, language="bash")
+                st.caption("💡 Set up a cron job for fully automated predictions")
             
             st.divider()
             
@@ -1291,8 +1342,16 @@ class FootballPredictorApp:
             st.markdown("#### ⚽ Goals Per Match Distribution")
             df['TotalGoals'] = df['FTHG'] + df['FTAG']
             goals_dist = df['TotalGoals'].value_counts().sort_index()
-            if len(goals_dist) > 0:
-                st.bar_chart(goals_dist)
+            # Use Plotly to avoid Vega-Lite warnings
+            if len(goals_dist) > 0 and goals_dist.notna().any():
+                fig = px.bar(
+                    x=goals_dist.index.astype(str), 
+                    y=goals_dist.values,
+                    labels={'x': 'Total Goals', 'y': 'Matches'},
+                    color_discrete_sequence=['#1f77b4']
+                )
+                fig.update_layout(showlegend=False, height=300, margin=dict(l=20, r=20, t=20, b=20))
+                st.plotly_chart(fig, use_container_width=True)
             else:
                 st.info("No goals data available")
             
@@ -1307,10 +1366,70 @@ class FootballPredictorApp:
             st.warning(f"Could not load statistics: {e}")
             st.info("Click 'Refresh Data' in the sidebar to fetch match data.")
     
+    def verify_pending_predictions(self, league: str = None, use_odds_api: bool = True) -> Dict:
+        """Verify pending predictions against actual match results"""
+        try:
+            # Try The Odds API first (more up-to-date)
+            if use_odds_api and self.odds_api.is_configured():
+                leagues = [league] if league else ['EPL', 'CHAMPIONSHIP', 'LA_LIGA', 'SERIE_A', 'BUNDESLIGA', 'LIGUE_1']
+                result = self.db.verify_predictions_with_odds_api(self.odds_api, leagues)
+                if result.get('verified', 0) > 0:
+                    return result
+            
+            # Fallback to OpenFootball data
+            if league:
+                df = self.fetcher.get_or_fetch_league_data(league)
+            else:
+                # Get data from all leagues for verification
+                all_data = []
+                for league_code in list(self.fetcher.get_available_leagues().keys())[:5]:  # Top 5 leagues
+                    try:
+                        league_df = self.fetcher.get_or_fetch_league_data(league_code)
+                        if league_df is not None:
+                            all_data.append(league_df)
+                    except:
+                        pass
+                df = pd.concat(all_data, ignore_index=True) if all_data else pd.DataFrame()
+            
+            if df is None or len(df) == 0:
+                return {'pending': 0, 'verified': 0, 'correct': 0, 'failed_lookups': []}
+            
+            # Verify predictions
+            result = self.db.verify_predictions_with_results(df)
+            result['source'] = 'OpenFootball'
+            return result
+        except Exception as e:
+            return {'pending': 0, 'verified': 0, 'correct': 0, 'error': str(e)}
+    
     def render_accuracy_tab(self, league: str):
         """Render the prediction accuracy tracking tab"""
         st.markdown("### 📈 Prediction Track Record")
         st.markdown("View our prediction accuracy and performance metrics")
+        
+        # Auto-verify pending predictions
+        unverified_count = self.db.get_unverified_count()
+        if unverified_count > 0:
+            st.info(f"🔄 {unverified_count} prediction(s) pending verification")
+            
+            col1, col2, col3 = st.columns([1, 1, 3])
+            with col1:
+                if st.button("🔍 Verify Now", help="Check recent match results from The Odds API"):
+                    with st.spinner("Fetching results from The Odds API..."):
+                        result = self.verify_pending_predictions(league, use_odds_api=True)
+                        if result.get('verified', 0) > 0:
+                            source = result.get('source', 'API')
+                            st.success(f"✅ Verified {result['verified']} predictions via {source}! ({result['correct']} correct)")
+                            st.rerun()
+                        elif result.get('error'):
+                            st.error(f"Error: {result['error']}")
+                        else:
+                            st.warning("No matches could be verified. Results may not be available yet.")
+            
+            with col2:
+                # Show API usage
+                if self.odds_api.is_configured():
+                    usage = self.odds_api.get_usage_stats()
+                    st.caption(f"📊 API: {usage['requests_used']}/{usage['limit']}")
         
         # Get overall stats
         total_stats = self.db.get_total_stats()
@@ -1398,10 +1517,18 @@ class FootballPredictorApp:
             col1, col2 = st.columns([2, 1])
             
             with col1:
-                # Create a simple bar chart
-                chart_data = tier_data[tier_data['total'] > 0][['tier', 'accuracy']].set_index('tier')
+                # Create a simple bar chart using Plotly
+                chart_data = tier_data[tier_data['total'] > 0][['tier', 'accuracy']]
+                # Validate data: check for valid values
                 if len(chart_data) > 0 and chart_data['accuracy'].notna().any():
-                    st.bar_chart(chart_data)
+                    fig = px.bar(
+                        chart_data, x='tier', y='accuracy',
+                        labels={'tier': 'Confidence Tier', 'accuracy': 'Accuracy %'},
+                        color='accuracy',
+                        color_continuous_scale='RdYlGn'
+                    )
+                    fig.update_layout(showlegend=False, height=300, margin=dict(l=20, r=20, t=20, b=20))
+                    st.plotly_chart(fig, use_container_width=True)
                 else:
                     st.info("Not enough data for chart")
             
@@ -1467,43 +1594,177 @@ class FootballPredictorApp:
         # Recent predictions
         st.markdown("#### 📋 Recent Predictions")
         
+        # Market filter for recent predictions
+        market_view = st.radio(
+            "View Market:",
+            ["Match Result", "Goals (Over/Under)", "BTTS", "All Markets"],
+            horizontal=True,
+            key="recent_predictions_market_view"
+        )
+        
         recent = self.db.get_recent_predictions(limit=20, league=league)
         
         if recent:
             recent_df = pd.DataFrame(recent)
             
-            # Format for display
-            display_cols = ['created_at', 'home_team', 'away_team', 'predicted_result', 
-                           'result_confidence', 'actual_result', 'result_correct']
+            # Filter out invalid predictions (same team vs same team)
+            recent_df = recent_df[recent_df['home_team'] != recent_df['away_team']]
             
-            available_cols = [c for c in display_cols if c in recent_df.columns]
-            display_df = recent_df[available_cols].copy()
+            # Use match_date for display (when the match is/was played)
+            # Fall back to created_at if match_date is not available
+            if 'match_date' in recent_df.columns:
+                recent_df['display_date'] = recent_df['match_date']
+            else:
+                recent_df['display_date'] = recent_df['created_at']
             
-            # Rename columns
-            col_names = {
-                'created_at': 'Date',
-                'home_team': 'Home',
-                'away_team': 'Away',
-                'predicted_result': 'Prediction',
-                'result_confidence': 'Confidence',
-                'actual_result': 'Actual',
-                'result_correct': 'Correct'
-            }
-            display_df = display_df.rename(columns=col_names)
+            if market_view == "Match Result":
+                # Original view - just match result
+                display_cols = ['display_date', 'home_team', 'away_team', 'predicted_result', 
+                               'result_confidence', 'actual_result', 'result_correct']
+                
+                available_cols = [c for c in display_cols if c in recent_df.columns]
+                display_df = recent_df[available_cols].copy()
+                
+                col_names = {
+                    'display_date': 'Match Date',
+                    'home_team': 'Home',
+                    'away_team': 'Away',
+                    'predicted_result': 'Prediction',
+                    'result_confidence': 'Confidence',
+                    'actual_result': 'Actual',
+                    'result_correct': 'Correct'
+                }
+                display_df = display_df.rename(columns=col_names)
+                
+                if 'Confidence' in display_df.columns:
+                    display_df['Confidence'] = display_df['Confidence'].apply(
+                        lambda x: f"{x*100:.0f}%" if pd.notna(x) else "-"
+                    )
+                
+                if 'Correct' in display_df.columns:
+                    display_df['Correct'] = display_df['Correct'].apply(
+                        lambda x: "✅" if x == True else "❌" if x == False else "⏳"
+                    )
             
-            # Format confidence as percentage
-            if 'Confidence' in display_df.columns:
-                display_df['Confidence'] = display_df['Confidence'].apply(
-                    lambda x: f"{x*100:.0f}%" if pd.notna(x) else "-"
+            elif market_view == "Goals (Over/Under)":
+                # Goals view - show over/under predictions
+                display_df = recent_df[['display_date', 'home_team', 'away_team']].copy()
+                display_df = display_df.rename(columns={
+                    'display_date': 'Match Date',
+                    'home_team': 'Home',
+                    'away_team': 'Away'
+                })
+                
+                # Add over/under predictions with probabilities
+                def format_over_under(prob, threshold):
+                    if pd.isna(prob):
+                        return "-"
+                    if prob >= 0.5:
+                        return f"Over {threshold} ({prob*100:.0f}%)"
+                    else:
+                        return f"Under {threshold} ({(1-prob)*100:.0f}%)"
+                
+                display_df['Over 1.5'] = recent_df['over_1_5_prob'].apply(lambda x: format_over_under(x, 1.5))
+                display_df['Over 2.5'] = recent_df['over_2_5_prob'].apply(lambda x: format_over_under(x, 2.5))
+                display_df['Over 3.5'] = recent_df['over_3_5_prob'].apply(lambda x: format_over_under(x, 3.5))
+                
+                # Add actual total goals if match played
+                if 'actual_home_goals' in recent_df.columns and 'actual_away_goals' in recent_df.columns:
+                    display_df['Total Goals'] = recent_df.apply(
+                        lambda r: f"{int(r['actual_home_goals']) + int(r['actual_away_goals'])}" 
+                        if pd.notna(r['actual_home_goals']) and pd.notna(r['actual_away_goals']) 
+                        else "⏳", axis=1
+                    )
+                
+                # Add correctness indicators
+                if 'over_2_5_correct' in recent_df.columns:
+                    display_df['O2.5 ✓'] = recent_df['over_2_5_correct'].apply(
+                        lambda x: "✅" if x == True else "❌" if x == False else "⏳"
+                    )
+            
+            elif market_view == "BTTS":
+                # BTTS view
+                display_df = recent_df[['display_date', 'home_team', 'away_team']].copy()
+                display_df = display_df.rename(columns={
+                    'display_date': 'Match Date',
+                    'home_team': 'Home',
+                    'away_team': 'Away'
+                })
+                
+                # Format BTTS prediction
+                def format_btts(prob):
+                    if pd.isna(prob):
+                        return "-"
+                    if prob >= 0.5:
+                        return f"Yes ({prob*100:.0f}%)"
+                    else:
+                        return f"No ({(1-prob)*100:.0f}%)"
+                
+                display_df['BTTS'] = recent_df['btts_prob'].apply(format_btts)
+                
+                # Add actual BTTS result
+                if 'actual_home_goals' in recent_df.columns and 'actual_away_goals' in recent_df.columns:
+                    display_df['Actual'] = recent_df.apply(
+                        lambda r: "Yes" if pd.notna(r['actual_home_goals']) and pd.notna(r['actual_away_goals']) 
+                                  and r['actual_home_goals'] > 0 and r['actual_away_goals'] > 0
+                        else ("No" if pd.notna(r['actual_home_goals']) and pd.notna(r['actual_away_goals']) else "⏳"),
+                        axis=1
+                    )
+                
+                if 'btts_correct' in recent_df.columns:
+                    display_df['Correct'] = recent_df['btts_correct'].apply(
+                        lambda x: "✅" if x == True else "❌" if x == False else "⏳"
+                    )
+            
+            else:  # All Markets
+                # Comprehensive view with all key markets
+                display_df = recent_df[['display_date', 'home_team', 'away_team']].copy()
+                display_df = display_df.rename(columns={
+                    'display_date': 'Match Date',
+                    'home_team': 'Home',
+                    'away_team': 'Away'
+                })
+                
+                # Match result
+                def format_result(row):
+                    probs = [row.get('home_win_prob', 0.33), row.get('draw_prob', 0.33), row.get('away_win_prob', 0.33)]
+                    max_prob = max(probs)
+                    if probs[0] == max_prob:
+                        return f"H ({max_prob*100:.0f}%)"
+                    elif probs[2] == max_prob:
+                        return f"A ({max_prob*100:.0f}%)"
+                    else:
+                        return f"D ({max_prob*100:.0f}%)"
+                
+                display_df['Result'] = recent_df.apply(format_result, axis=1)
+                
+                # Over 2.5
+                display_df['O2.5'] = recent_df['over_2_5_prob'].apply(
+                    lambda x: f"✓ {x*100:.0f}%" if pd.notna(x) and x >= 0.5 
+                    else (f"✗ {(1-x)*100:.0f}%" if pd.notna(x) else "-")
                 )
-            
-            # Format correct column
-            if 'Correct' in display_df.columns:
-                display_df['Correct'] = display_df['Correct'].apply(
-                    lambda x: "✅" if x == True else "❌" if x == False else "⏳"
+                
+                # BTTS
+                display_df['BTTS'] = recent_df['btts_prob'].apply(
+                    lambda x: f"✓ {x*100:.0f}%" if pd.notna(x) and x >= 0.5 
+                    else (f"✗ {(1-x)*100:.0f}%" if pd.notna(x) else "-")
                 )
+                
+                # Actual score
+                if 'actual_home_goals' in recent_df.columns and 'actual_away_goals' in recent_df.columns:
+                    display_df['Score'] = recent_df.apply(
+                        lambda r: f"{int(r['actual_home_goals'])}-{int(r['actual_away_goals'])}" 
+                        if pd.notna(r['actual_home_goals']) and pd.notna(r['actual_away_goals']) 
+                        else "⏳", axis=1
+                    )
+                
+                # Result correct
+                if 'result_correct' in recent_df.columns:
+                    display_df['R✓'] = recent_df['result_correct'].apply(
+                        lambda x: "✅" if x == True else "❌" if x == False else "-"
+                    )
             
-            st.dataframe(display_df, hide_index=True, width="stretch")
+            st.dataframe(display_df, hide_index=True, use_container_width=True)
         else:
             st.info("No predictions made yet. Start predicting matches to build your track record!")
         
@@ -2057,8 +2318,14 @@ class FootballPredictorApp:
                 })
             
             form_df = pd.DataFrame(form_data)
-            if len(form_df) > 0:
-                st.line_chart(form_df.set_index('Match')[['Points', 'Goals Scored', 'Goals Conceded']])
+            # Use Plotly for line chart to avoid Vega-Lite warnings
+            if len(form_df) > 0 and form_df[['Points', 'Goals Scored', 'Goals Conceded']].notna().any().any():
+                fig = go.Figure()
+                fig.add_trace(go.Scatter(x=form_df['Match'], y=form_df['Points'], mode='lines+markers', name='Points'))
+                fig.add_trace(go.Scatter(x=form_df['Match'], y=form_df['Goals Scored'], mode='lines+markers', name='Goals Scored'))
+                fig.add_trace(go.Scatter(x=form_df['Match'], y=form_df['Goals Conceded'], mode='lines+markers', name='Goals Conceded'))
+                fig.update_layout(height=300, margin=dict(l=20, r=20, t=20, b=20), xaxis_title='Match', yaxis_title='Value')
+                st.plotly_chart(fig, use_container_width=True)
             else:
                 st.info("No form data to display")
             

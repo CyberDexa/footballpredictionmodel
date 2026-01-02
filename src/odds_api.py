@@ -9,6 +9,10 @@ import os
 from typing import Dict, List, Optional
 from datetime import datetime, timedelta
 import json
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 class OddsAPI:
     """Client for The Odds API - get live bookmaker odds"""
@@ -322,6 +326,164 @@ class OddsAPI:
             'requests_remaining': self.requests_remaining,
             'limit': 500  # Free tier limit per month
         }
+    
+    def get_upcoming_fixtures(self, league: str, days_ahead: int = 3) -> List[Dict]:
+        """
+        Get upcoming fixtures for a league (uses events endpoint - FREE, no quota cost)
+        
+        Args:
+            league: League code (EPL, LA_LIGA, etc.)
+            days_ahead: Only return matches within this many days
+            
+        Returns:
+            List of upcoming fixtures with home_team, away_team, commence_time, date
+        """
+        if not self.is_configured():
+            return []
+        
+        sport_key = self.SPORT_KEYS.get(league)
+        if not sport_key:
+            return []
+        
+        # Check cache
+        cache_key = f"fixtures_{league}_{days_ahead}"
+        if self._is_cache_valid(cache_key):
+            return self.cache[cache_key]
+        
+        try:
+            response = requests.get(
+                f"{self.BASE_URL}/sports/{sport_key}/events",
+                params={
+                    'apiKey': self.api_key,
+                    'dateFormat': 'iso'
+                }
+            )
+            self._update_usage(response)
+            
+            if response.status_code == 200:
+                data = response.json()
+                
+                # Filter to matches within our window
+                cutoff = datetime.now() + timedelta(days=days_ahead + 1)
+                fixtures = []
+                
+                for match in data:
+                    commence_time = match.get('commence_time', '')
+                    if commence_time:
+                        try:
+                            match_dt = datetime.fromisoformat(commence_time.replace('Z', '+00:00'))
+                            match_local = match_dt.replace(tzinfo=None)
+                            
+                            if datetime.now() < match_local <= cutoff:
+                                fixtures.append({
+                                    'id': match.get('id'),
+                                    'home_team': match.get('home_team'),
+                                    'away_team': match.get('away_team'),
+                                    'commence_time': commence_time,
+                                    'match_date': match_local.strftime('%Y-%m-%d'),
+                                    'league': league
+                                })
+                        except Exception:
+                            pass
+                
+                self._cache_response(cache_key, fixtures)
+                return fixtures
+            return []
+        except Exception as e:
+            print(f"Error fetching fixtures: {e}")
+            return []
+    
+    def get_scores(self, league: str, days_from: int = 3) -> List[Dict]:
+        """
+        Get recent match scores/results from The Odds API
+        
+        Args:
+            league: League code (EPL, LA_LIGA, etc.)
+            days_from: Number of days in the past to fetch (1-3, API limit is 3)
+        
+        Returns:
+            List of completed matches with scores
+        """
+        if not self.is_configured():
+            return []
+        
+        sport_key = self.SPORT_KEYS.get(league)
+        if not sport_key:
+            return []
+        
+        # API only allows 1-3 days
+        days_from = min(max(1, days_from), 3)
+        
+        # Check cache
+        cache_key = f"scores_{league}_{days_from}"
+        if self._is_cache_valid(cache_key):
+            return self.cache[cache_key]
+        
+        try:
+            response = requests.get(
+                f"{self.BASE_URL}/sports/{sport_key}/scores",
+                params={
+                    'apiKey': self.api_key,
+                    'daysFrom': days_from,
+                    'dateFormat': 'iso'
+                }
+            )
+            self._update_usage(response)
+            
+            if response.status_code == 200:
+                data = response.json()
+                # Filter to only completed matches
+                completed = [m for m in data if m.get('completed', False)]
+                self._cache_response(cache_key, completed)
+                return completed
+            elif response.status_code == 401:
+                print("Invalid API key")
+            elif response.status_code == 429:
+                print("Rate limit exceeded")
+            return []
+        except Exception as e:
+            print(f"Error fetching scores: {e}")
+            return []
+    
+    def get_recent_results(self, league: str, days: int = 3) -> List[Dict]:
+        """
+        Get recent match results in a standardized format for verification
+        
+        Args:
+            league: League code
+            days: Number of days to look back
+        
+        Returns:
+            List of dicts with: home_team, away_team, home_score, away_score, date
+        """
+        scores = self.get_scores(league, days)
+        results = []
+        
+        for match in scores:
+            if not match.get('completed'):
+                continue
+            
+            scores_data = match.get('scores', [])
+            home_score = None
+            away_score = None
+            
+            for score in scores_data:
+                if score.get('name') == match.get('home_team'):
+                    home_score = int(score.get('score', 0))
+                elif score.get('name') == match.get('away_team'):
+                    away_score = int(score.get('score', 0))
+            
+            if home_score is not None and away_score is not None:
+                results.append({
+                    'home_team': match.get('home_team'),
+                    'away_team': match.get('away_team'),
+                    'home_score': home_score,
+                    'away_score': away_score,
+                    'date': match.get('commence_time', '')[:10],  # Extract date part
+                    'completed': True
+                })
+        
+        return results
 
 
 # Singleton instance

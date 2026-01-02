@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Unique identifier for this job -->
+    <key>Label</key>
+    <string>com.footballprediction.scheduler</string>
+    
+    <!-- What to run -->
+    <key>ProgramArguments</key>
+    <array>
+        <!-- IMPORTANT: Update this path to your venv Python -->
+        <string>/Users/olaoluwabayomi/Desktop/footballpredictionmodel/.venv/bin/python</string>
+        <string>run_scheduler.py</string>
+    </array>
+    
+    <!-- Working directory -->
+    <key>WorkingDirectory</key>
+    <string>/Users/olaoluwabayomi/Desktop/footballpredictionmodel</string>
+    
+    <!-- Run at these times (9 AM and 9 PM daily) -->
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict>
+            <key>Hour</key>
+            <integer>9</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>21</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+    </array>
+    
+    <!-- Log output -->
+    <key>StandardOutPath</key>
+    <string>/Users/olaoluwabayomi/Desktop/footballpredictionmodel/logs/scheduler.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/olaoluwabayomi/Desktop/footballpredictionmodel/logs/scheduler_error.log</string>
+    
+    <!-- Environment variables -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
+    
+    <!-- Run if we missed a scheduled time (e.g., computer was asleep) -->
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
+
+<!--
+INSTALLATION INSTRUCTIONS:
+
+1. Copy this file to ~/Library/LaunchAgents/:
+   cp docs/launchd_example.plist ~/Library/LaunchAgents/com.footballprediction.scheduler.plist
+
+2. Create logs directory:
+   mkdir -p /Users/olaoluwabayomi/Desktop/footballpredictionmodel/logs
+
+3. Load the agent:
+   launchctl load ~/Library/LaunchAgents/com.footballprediction.scheduler.plist
+
+4. To check status:
+   launchctl list | grep footballprediction
+
+5. To unload:
+   launchctl unload ~/Library/LaunchAgents/com.footballprediction.scheduler.plist
+
+6. To run immediately (for testing):
+   launchctl start com.footballprediction.scheduler
+
+NOTES:
+- This will run twice daily at 9 AM and 9 PM
+- Predictions are generated for matches in the next 2 days
+- Past predictions are verified against real results
+- Logs are saved to the logs/ directory
+-->
