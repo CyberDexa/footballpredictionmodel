@@ -463,6 +463,10 @@ class EPLPredictor:
             pred = model.predict(features_scaled)
             proba = model.predict_proba(features_scaled)
             
+            # Apply probability dampening to prevent overconfidence
+            # This shrinks extreme probabilities toward the center
+            proba = self._apply_probability_dampening(proba, target_name)
+            
             predictions[target_name] = {
                 'prediction': [target_config['labels'][p] for p in pred],
                 'probabilities': proba.tolist(),
@@ -470,6 +474,57 @@ class EPLPredictor:
             }
         
         return predictions
+    
+    def _apply_probability_dampening(self, proba: np.ndarray, target_name: str) -> np.ndarray:
+        """
+        Apply probability dampening to prevent overconfidence.
+        Uses temperature scaling and shrinkage toward base rates.
+        
+        Football is inherently unpredictable - we should never show 100% confidence.
+        """
+        # Base rates for football outcomes (historical averages)
+        base_rates = {
+            'match_result': np.array([0.45, 0.25, 0.30]),  # Home, Draw, Away
+            'home_win': np.array([0.55, 0.45]),
+            'draw': np.array([0.75, 0.25]),
+            'away_win': np.array([0.70, 0.30]),
+            'over_1.5': np.array([0.30, 0.70]),
+            'over_2.5': np.array([0.50, 0.50]),
+            'over_3.5': np.array([0.70, 0.30]),
+            'btts': np.array([0.50, 0.50]),
+        }
+        
+        # Shrinkage factor - how much to pull toward base rates
+        # Higher = more conservative predictions
+        shrinkage = 0.25
+        
+        # Temperature for softmax scaling (higher = more uniform)
+        temperature = 1.2
+        
+        # Get base rate for this target
+        base = base_rates.get(target_name, np.ones(proba.shape[1]) / proba.shape[1])
+        if len(base) != proba.shape[1]:
+            base = np.ones(proba.shape[1]) / proba.shape[1]
+        
+        # Apply temperature scaling (softens extreme probabilities)
+        log_proba = np.log(np.clip(proba, 1e-10, 1.0))
+        scaled_proba = np.exp(log_proba / temperature)
+        scaled_proba = scaled_proba / scaled_proba.sum(axis=1, keepdims=True)
+        
+        # Shrink toward base rates
+        dampened = (1 - shrinkage) * scaled_proba + shrinkage * base
+        
+        # Ensure probabilities sum to 1
+        dampened = dampened / dampened.sum(axis=1, keepdims=True)
+        
+        # Cap maximum confidence at 85% for match result, 90% for others
+        max_conf = 0.85 if target_name == 'match_result' else 0.90
+        dampened = np.clip(dampened, 0.05, max_conf)
+        
+        # Re-normalize
+        dampened = dampened / dampened.sum(axis=1, keepdims=True)
+        
+        return dampened
     
     def predict_match(self, home_features: dict, away_features: dict, 
                       derived_features: dict) -> Dict:

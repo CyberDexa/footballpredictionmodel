@@ -804,6 +804,13 @@ python src/scheduler.py --leagues EPL LA_LIGA
         st.markdown("---")
         st.markdown(f"## 📊 Prediction: {home_team} vs {away_team}")
         
+        # ========== PREDICTION DISCLAIMER ==========
+        st.info("""
+        ⚠️ **Important:** Football predictions are inherently uncertain. Our model provides probability estimates 
+        based on historical data, but upsets happen regularly. Use predictions as one input among many, 
+        and never bet more than you can afford to lose.
+        """)
+        
         # ========== MATCH RESULT ==========
         st.markdown("### 🏆 Match Result Prediction")
         
@@ -813,6 +820,11 @@ python src/scheduler.py --leagues EPL LA_LIGA
             home_prob, draw_prob, away_prob = probs[0], probs[1], probs[2]
         else:
             home_prob, draw_prob, away_prob = 0.33, 0.34, 0.33
+        
+        # Check if this is a close match (no clear favorite)
+        max_prob = max(home_prob, draw_prob, away_prob)
+        if max_prob < 0.45:
+            st.warning("🎲 **Close Match Alert:** No clear favorite - all outcomes are possible. Consider avoiding this match or using smaller stakes.")
         
         col1, col2, col3 = st.columns(3)
         
@@ -1199,22 +1211,27 @@ python src/scheduler.py --leagues EPL LA_LIGA
         goals_pred = "Over 2.5 Goals" if over25_prob > 50 else "Under 2.5 Goals"
         btts_pred_text = "Yes" if btts_yes > 50 else "No"
         
-        # Confidence badge
-        if overall_confidence >= 60:
-            confidence_badge = "🟢 HIGH CONFIDENCE"
+        # Confidence badge - more conservative thresholds
+        # Football is inherently unpredictable, so be realistic
+        if overall_confidence >= 55:
+            confidence_badge = "🟢 HIGHER CONFIDENCE"
             confidence_color = "green"
-        elif overall_confidence >= 50:
-            confidence_badge = "🟡 MEDIUM CONFIDENCE"
+            confidence_desc = "Model shows a clearer favorite, but upsets happen ~40% of the time"
+        elif overall_confidence >= 45:
+            confidence_badge = "🟡 MODERATE CONFIDENCE"
             confidence_color = "orange"
+            confidence_desc = "Competitive match - consider double chance or avoid"
         else:
-            confidence_badge = "🔴 LOW CONFIDENCE"
+            confidence_badge = "🔴 UNCERTAIN"
             confidence_color = "red"
+            confidence_desc = "Very close match - high risk of any outcome"
         
         st.markdown(f"""
         <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
                     padding: 1rem; border-radius: 10px; color: white; margin-bottom: 1rem;">
             <h4 style="margin:0;">Confidence Level: {confidence_badge}</h4>
             <p style="margin:0.5rem 0 0 0; opacity: 0.9;">Model confidence: {overall_confidence:.1f}%</p>
+            <p style="margin:0.3rem 0 0 0; opacity: 0.7; font-size: 0.85rem;">{confidence_desc}</p>
         </div>
         """, unsafe_allow_html=True)
         
